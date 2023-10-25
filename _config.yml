@@ -1,0 +1,6 @@
+title: RISC-V Europe
+email: info@riscv.org
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://riscv-europe.org" # the base hostname & protocol for your site, e.g. http://example.com
+markdown: kramdown
+repo: https://github.com/riscv-europe/riscv-europe.org
