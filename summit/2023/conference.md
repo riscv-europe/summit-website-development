@@ -1,9 +1,15 @@
 ---
-title: RISC-V Summit Europe - Conference
+title: Conference Program
 layout: summit2023
 ---
 
-<img src="media/img/RISC-V-London-2019-09.jpg" width="100%">
+{% include bannerimg.html 
+    img = "media/img/RISC-V-London-2019-09.jpg"
+%}
+
+{% include jumboboxstart.html 
+    title = "Conference Program"
+%}
 
 The core of the conference will be from Tuesday June 6th, 2023 to
 Thursday 8th, with a single track of keynotes, technical and
@@ -17,8 +23,11 @@ for each of the three days:
  - [Wednesday June 7th](#speakers-of-wednesday-june-7th).
  - [Thursday June 8th](#speakers-of-thursday-june-8th).
 
+{% include jumboboxend.html %}
 
-## Schedule
+{% include jumboboxstart.html 
+    title = "Schedule"
+%}
 
 <div class="schedule">
 
@@ -43,13 +52,18 @@ And the videos of the presentations are available in playlists:
  - [Videos from Wednesday June 7th](https://www.youtube.com/watch?v=HaMTbmnhU1g&list=PL85jopFZCnbOqXywTSNOg3_IHozUFIdIK&pp=iAQB).
  - [Videos from Thursday June 8th](https://www.youtube.com/watch?v=Pp7328LADIE&list=PL85jopFZCnbMlDT5WOagUjQnk1ZSgjuRa&pp=iAQB).
 
-<hr align="center" noshade="yes" width="100%">
+{% include jumboboxend.html %}
 
-## Speakers of Tuesday June 6th
+{% include jumboboxstart.html 
+    title = "Speakers of Tuesday June 6th"
+%}
 
 Direct access to all [videos from Tuesday June 6th](https://www.youtube.com/watch?v=T0M9qV_v3Fc&list=PL85jopFZCnbM2M-_QDFh89rdFPl0v44lF&pp=iAQB).
 
 {% include summit23scheduledetails.md day="Tuesday June 6th" day_id="tue" %}
+
+{% include jumboboxend.html %}
+
 
 
 ### Chris Morrison -- An innovative digitally wrapped analog IP subsystem for RISC-V applications

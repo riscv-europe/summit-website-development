@@ -3,6 +3,10 @@ title: Posters
 layout: summit2023
 ---
 
+{% include jumboboxstart.html 
+    title = "Posters"
+%}
+
 This page lists posters accepted for publication.
 
 Quick link to reach posters presented each day:
@@ -50,7 +54,11 @@ But first of all, a few remarks for the poster presenters:
      summary, and the poster PDF, if applicable, shall be sent to
      <europe-slides-posters-final@riscv.org>.
 
-## Posters on Display Tuesday June 6th
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Posters on Display Tuesday June 6th"
+%}
 
 Presenters are expected to be with their poster during the morning break, lunch and afternoon break, as well as during the early evening cocktail on Tuesday 6.
 
@@ -59,7 +67,11 @@ Presenters are expected to be with their poster during the morning break, lunch 
 {% include summit23poster.md poster=poster %}
 {% endfor %}
 
-## Posters on Display Wednesday June 7th
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Posters on Display Wednesday June 7th"
+%}
 
 Presenters are expected to be with their poster during the morning break, lunch and afternoon break.
 
@@ -68,7 +80,11 @@ Presenters are expected to be with their poster during the morning break, lunch 
 {% include summit23poster.md poster=poster %}
 {% endfor %}
 
-## Posters on Display Thursday June 8th
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Posters on Display Thursday June 8th"
+%}
 
 Presenters are expected to be with their poster during the morning break, lunch and afternoon break.
 
@@ -77,3 +93,4 @@ Presenters are expected to be with their poster during the morning break, lunch 
 {% include summit23poster.md poster=poster %}
 {% endfor %}
 
+{% include jumboboxend.html %}

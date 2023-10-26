@@ -3,9 +3,14 @@ title: RISC-V Summit 2023
 layout: summit2023
 ---
 
-<img src="media/banners/banner-start.png" style="width: 100%">
+{% include bannerimg.html 
+    img = "media/banners/banner-start.png"
+%}
 
-The *RISC-V Summit Europe* will be the premier event that connects the European movers and shakers - from industry, government, research, academia and ecosystem support - that are building the future of innovation on RISC-V.
+{% include jumboboxstart.html 
+    title = "Welcome"
+    lead = "The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers - from industry, government, research, academia and ecosystem support - that are building the future of innovation on RISC-V."
+%}
 
 RISC-V, the open standard [instruction set architecture (ISA)](https://en.wikipedia.org/wiki/Instruction_set_architecture), is enabling a range of new applications and research that will define the future of computing in Europe. The region has been central to RISC-V’s success, with one-third of RISC-V’s global community based in Europe.
 
@@ -24,4 +29,5 @@ Speaking slots and exhibition space can be booked via the <a href="sponsoring.ht
 *RISC-V Summit Europe* is an opportunity not to be missed. Come to Barcelona from
 5-9th June 2023 to be part of the new wave of European computing innovation!
 
+{% include jumboboxend.html %}
 

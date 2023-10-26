@@ -1,6 +1,15 @@
-<img src="media/img/RISC-V-Paris-2019-09.jpg" width=100%>
+---
+title: Venue
+layout: summit2023
+---
 
-## Registration
+{% include bannerimg.html 
+    img = "media/img/RISC-V-Paris-2019-09.jpg"
+%}
+
+{% include jumboboxstart.html 
+    title = "Registration"
+%}
 
 ### Online registration form
 
@@ -120,3 +129,5 @@ following conditions will be applied:
 - Cancellations after April 6th, 2023: Refunds will unfortunately no
   longer be possible.
 - All refunds will be processed after the conference.
+
+{% include jumboboxend.html %}

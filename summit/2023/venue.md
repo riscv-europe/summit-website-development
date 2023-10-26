@@ -1,6 +1,15 @@
-<img src="media/img/BarcelonaSants.jpeg" width=100%>
+---
+title: Venue
+layout: summit2023
+---
 
-(For accommodation rates and booking, go to the [accommodation page](accommodation.html).)
+{% include bannerimg.html 
+    img = "media/img/BarcelonaSants.jpeg"
+%}
+
+{% include jumboboxstart.html 
+    title = "Venue"
+%}
 
 ## Barceló Sants
 
@@ -79,3 +88,5 @@ Most popular facilities from Booking.com:
  - [Montjuïc Magic Fountain](https://www.barcelonaturisme.com/wv3/en/page/592/font-magica.html)
  - [MNAC | National Museum of Catalan Art](https://www.barcelonaturisme.com/wv3/en/museu/673/museu-nacional-d-art-de-catalunya.html)
  - [F.C. Barcelona Museum - Spotify Camp Nou](https://www.barcelonaturisme.com/wv3/en/museu/681/fc-barcelona-museu-spotify-camp-nou-tour.html)
+
+{% include jumboboxend.html %}

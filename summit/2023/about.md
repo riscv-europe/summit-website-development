@@ -3,7 +3,14 @@ title: About RISC-V Summit Europe
 layout: summit2023
 ---
 
-<img src="media/img/RISC-V-Embedded-World-2020-02.jpg" width="100%"/>
+{% include bannerimg.html 
+    img = "media/img/RISC-V-Embedded-World-2020-02.jpg"
+%}
+
+{% include jumboboxstart.html 
+    title = "About"
+%}
+
 
 ## The Summit
 
@@ -93,3 +100,6 @@ events, joined by [RISC-V International](https://riscv.org):
     <a href="http://red-riscv.org"><img src="media/logos/Red-RISCV.png" alt="Red RISCV logo" class="organizers__img" style="width:70%"></a>
   </figure>
 </div>
+
+{% include jumboboxend.html %}
+

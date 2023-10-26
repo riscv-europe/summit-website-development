@@ -3,9 +3,13 @@ title: Technical Workgroup Meetings
 layout: summit2023
 ---
 
-<img src="media/img/RISC-V-London-2019-09.jpg" width="100%">
+{% include bannerimg.html 
+    img = "media/img/RISC-V-London-2019-09.jpg"
+%}
 
-## Technical Working Group Meetings
+{% include jumboboxstart.html 
+    title = "Technical Working Group Meetings"
+%}
 
 Monday June 5th afternoon will be dedicated to Technical Working Group
 (TWG) meetings, organized by:
@@ -159,7 +163,12 @@ required**.
 </tbody>
 </table>
 
-## RISC-V International WG Meetings
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html 
+    title = "RISC-V International WG Meetings"
+%}
 
 Reminder: *to attend RISC-V International TWG meetings*, a [personal
 or corporate membership](https://riscv.org/membership) is required.
@@ -348,8 +357,11 @@ Special intersest group on soft CPU.
 
 More info at <https://lists.riscv.org/g/sig-soft-cpu>.
 
+{% include jumboboxend.html %}
 
-## OpenHW Group WG Meetings
+{% include jumboboxstart.html 
+    title = "OpenHW Group WG Meetingss"
+%}
 
 [OpenHW Group](https://www.openhwgroup.org) WG meetings are public.
 
@@ -391,3 +403,5 @@ More info at <https://github.com/openhwgroup/programs/tree/master/TGs/verificati
 E40Pv2 RTL freeze checklist, formal verification.
 
 More info at <https://github.com/openhwgroup/cv32e40p>.
+
+{% include jumboboxend.html %}

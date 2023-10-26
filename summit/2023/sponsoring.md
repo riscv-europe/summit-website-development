@@ -1,4 +1,12 @@
-The RISC-V Summit Europe will be a unique opportunity for members of the ecosystem to engage with the broader community. Becoming a sponsor will enable your organisation to connect with attendees from industry, government, research and academia, developing applications across a range of markets. 
+---
+title: Sponsoring
+layout: summit2023
+---
+
+{% include jumboboxstart.html 
+    title = "Become a Sponsor"
+    lead = "The RISC-V Summit Europe will be a unique opportunity for members of the ecosystem to engage with the broader community. Becoming a sponsor will enable your organisation to connect with attendees from industry, government, research and academia, developing applications across a range of markets."
+%}
 
 There are three levels of sponsorship package, with benefits that include speaking opportunities, promotional opportunities, exhibition space and conference passes. A la carte opportunities are also available
 
@@ -93,3 +101,5 @@ Please contact Andrew Moore (europe-summit-marketing@riscv.org) for questions.
 <div style="text-align: center">
 <a href="/sponsoring.html" class="highlight-button"><s>Secure your sponsorship</s></a>
 </div>
+
+{% include jumboboxend.html %}
