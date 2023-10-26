@@ -1,0 +1,6 @@
+<figure class="figure container">
+    <img src="{{ include.img }}" class="figure-img img-fluid rounded" width="100%"/>
+    {% if include.caption %}
+    <figcaption class="figure-caption text-end" style="font-size: smaller;">{{ include.caption }}</figcaption>
+    {% endif %}
+</figure>
