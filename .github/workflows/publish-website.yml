@@ -12,7 +12,7 @@ jobs:
     - name: Checkout website code
       uses: actions/checkout@v3
       with:
-        repository: git@github.com:riscv-europe/test-publish
+        repository: riscv-europe/test-publish
         path: publish
     - name: Build the site in the jekyll/builder container
       run: |
