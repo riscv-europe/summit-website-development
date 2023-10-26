@@ -1,8 +1,6 @@
 name: Jekyll site CI
 
-on:
-  release:
-    types: [published]
+on: workflow_dispatch
 
 jobs:
   build:
@@ -11,13 +9,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Checkout website code
+      uses: actions/checkout@v3
+      with:
+        repository: git@github.com:riscv-europe/test-publish
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-    - name: Store
-      uses: actions/upload-artifact@v2
-      with: 
-        name: site-for-download
-        path: _site
