@@ -1,5 +1,9 @@
 name: Jekyll site CI
 
+on:
+  release:
+    types: [published]
+
 jobs:
   build:
 
