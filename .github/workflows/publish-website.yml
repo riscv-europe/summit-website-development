@@ -9,14 +9,26 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
     - name: Checkout website code
       uses: actions/checkout@v3
       with:
         repository: riscv-europe/test-publish
-        path: publish
+        path: site.pub
         token: ${{secrets.PUSH_TOKEN}}
-#    - name: Build the site in the jekyll/builder container
-#      run: |
-#        docker run \
-#        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-#        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+    - name: Publish website
+      run: |
+        rsync -avr --delete --exclude='.git' --exclude='CNAME' _site/ site.pub
+        cd site-pub
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add -A
+        git commit -m "Website update"
+        git push https://$USERNAME:$REPO_KEY@github.com/riscv-europe/test-publish.git
+      env:
+        REPO_KEY: ${{secrets.PUSH_TOKEN}}
+        USERNAME: github-actions[bot]
