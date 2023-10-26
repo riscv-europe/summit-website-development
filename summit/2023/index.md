@@ -7,6 +7,12 @@ layout: summit2023
     img = "media/banners/banner-start.png"
 %}
 
+<div class="container">
+<div class="alert alert-primary" role="alert" markdown="1">
+RISC-V Summit 2023 is over. You can find details about this past event here. Please check out the current edition: [RISC-V Summit 2024](/summit/2024/)
+</div>
+</div>
+
 {% include jumboboxstart.html 
     title = "Welcome"
     lead = "The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers - from industry, government, research, academia and ecosystem support - that are building the future of innovation on RISC-V."
