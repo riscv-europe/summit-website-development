@@ -3,7 +3,7 @@ title: Welcome
 layout: summit2024
 ---
 
-<img src="media/banners/banner.png" style="width: 100%">
+<img src="media/banners/banner.png"  class="figure-img img-fluid rounded" width="100%">
 
 The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers - from industry, government, research, academia and ecosystem support - that are building the future of innovation on RISC-V.
 

@@ -3,10 +3,13 @@ title: Venue
 layout: summit2024
 ---
 
-<img src="media/banners/munich.jpg" width="100%"/>
+<figure class="figure">
+  <img src="media/banners/munich.jpg" class="figure-img img-fluid rounded" width="100%"/>
+  <figcaption class="figure-caption text-end">&copy; Allie_Caulfield/Flickr, CC BY 2.0 DEED</figcaption>
+</figure>
 
 <div class="container my-5">
-  <div class="p-5 bg-body-tertiary rounded-3">
+  <div class="p-3 bg-body-tertiary rounded-3">
     <h1 class="text-body-emphasis text-center">Venue</h1>
     <p class="lead text-center">
 RISC-V Summit Europe 2024 will take place the MOC conference in the north of Munich.
@@ -21,7 +24,7 @@ RISC-V Summit Europe 2024 will take place the MOC conference in the north of Mun
 </div>
 
 <div class="container my-5">
-  <div class="p-5 bg-body-tertiary rounded-3">
+  <div class="p-3 bg-body-tertiary rounded-3">
     <h1 class="text-body-emphasis text-center">Accomodation</h1>
     <p class="lead text-center">
         There are plenty of accomodation options in Munich.
