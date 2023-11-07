@@ -17,7 +17,7 @@ jobs:
     - name: Checkout website code
       uses: actions/checkout@v3
       with:
-        repository: riscv-europe/test-publish
+        repository: riscv-europe/summit-website
         path: site.pub
         token: ${{secrets.PUSH_TOKEN}}
     - name: Publish website
