@@ -23,7 +23,7 @@ jobs:
     - name: Publish website
       run: |
         rsync -avr --delete --exclude='.git' --exclude='CNAME' _site/ site.pub
-        cat "riscv-europe.org" > site.pub/CNAME
+        echo "riscv-europe.org" > site.pub/CNAME
         cd site.pub
         git config --local user.name "github-actions[bot]"
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
