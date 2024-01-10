@@ -37,7 +37,7 @@ Several packages with varying features are available.
         <tr>
             <td>Demo Theatre Presentation</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
-            <td class="sponsor-gold"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
