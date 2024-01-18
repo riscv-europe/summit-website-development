@@ -1,7 +1,16 @@
 ---
-title: Conference
+title: Call for Contributions
 layout: summit2024
 ---
+
+{% include bannerimg.html
+    img = "media/banners/posters.jpg"
+%}
+
+{% include jumboboxstart.html
+    title = "Present your work"
+    lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe."
+%}
 
 RISC-V Summit Europe brings together developers, architects, technical decision
 and policy makers from across the European RISC-V ecosystem. Attendees from
@@ -13,11 +22,11 @@ Taking place from June 24-28, 2024, the event will have a single track of
 keynotes, invited and selected talks, alongside an exhibition showcasing the
 latest developments across industry and research, including technology
 demonstrations and poster sessions. Submissions are invited either for the
-**Research and Development** sessions or the **Industry** sessions. Any question
-whether a submission should apply for Research and Development or Industry
-sessions should be asked to the PC chairs at riscv-europe2024_pc@softconf.com
-before submitting. Please note, an abstract may not be submitted to both
-sessions. 
+[**Research and Development**](#research-and-development-rd-sessions) sessions
+or the [**Industry**](#industry-sessions) sessions. Any question whether a
+submission should apply for Research and Development or Industry sessions should
+be asked to the PC chairs at riscv-europe2024_pc@softconf.com before submitting.
+Please note, an abstract may not be submitted to both sessions.
 
 Important dates:
 
@@ -29,13 +38,13 @@ Important dates:
 
 The Steering Committee aims to provide a limited budget for stipends. More
 information will be available on the conference website before the submission
-deadline. 
+deadline.
 
 ## Research and Development (R&D) Sessions
 
 We invite submissions related to RISC-V addressing the following technical topics of interest:
 
-- Security and functional safety 
+- Security and functional safety
 - Energy efficiency and green computing
 - High-performance computing
 - Embedded systems, IoT, edge computing
@@ -58,7 +67,7 @@ for example:
 
 - timely research advances,
 - success stories,
-- technical introduction to new technologies, 
+- technical introduction to new technologies,
 - experiences of contributions to, or adoption of RISC-V hardware and software in commercial, open-source or education environments.
 
 ### Submission Format for R&D sessions (blind):
@@ -68,12 +77,12 @@ template and instructions for submission will be available on the Summit website
 at https://riscv-europe.org.
 
 The committees will accept most contributions as posters and selected
-submissions for short or long presentations. 
+submissions for short or long presentations.
 
 Accepted abstracts, slides, and posters will be published on the event page,
 together with presentations, which will be recorded. The Program Committee will
 ask for the **poster and/or presentation slides three weeks before the event**
-to confirm the acceptance at the according deadlines. 
+to confirm the acceptance and give useful input.
 
 Suitable research & development submissions by industry will also be recommended
 for the talks slots of the industry sessions.
@@ -84,7 +93,7 @@ for the talks slots of the industry sessions.
 We will also reserve a limited number of presentation slots to welcome
 submissions detailing large-scale research efforts, announcements, or commercial
 applications and products based on RISC-V, which are new or have recently become
-ready for real world deployment.  This includes for example the following
+ready for real world deployment. This includes for example the following
 community-interest and trend-oriented topics:
 
 - Technical presentations for new commercial products
@@ -115,14 +124,14 @@ https://riscv-europe.org.
 As it is hard to hide authors for this type of contributions, submissions for
 the Industry sessions are for **non-blind** review by the Industry Session
 Committee. Make sure to name authors and their affiliation and please include a
-short bio of the lead presenter.  
+short bio of the lead presenter.
 
 These submissions should highlight product RISC-V markets, policies, strategies,
 business and industry trends, or present publicly funded projects of interest to
 the RISC-V and open hardware community. Please avoid sales or marketing
-pitches. 
+pitches.
 
 Accepted abstracts, slides, and posters will be published on the event page,
 together with presentations, which will be recorded. The Program Committee will
 ask for the **poster and/or presentation slides three weeks before the event**
-to confirm the acceptance.
+to confirm the acceptance and give useful input.
