@@ -42,6 +42,14 @@ deadline.
 
 ## Research and Development (R&D) Sessions
 
+Submissions for the R&D Sessions must have a strong focus on technical content outlining
+for example:
+
+- timely research advances,
+- success stories,
+- technical introduction to new technologies,
+- experiences of contributions to, or adoption of RISC-V hardware and software in commercial, open-source or education environments.
+
 We invite submissions related to RISC-V addressing the following technical topics of interest:
 
 - Security and functional safety
@@ -60,21 +68,17 @@ We invite submissions related to RISC-V addressing the following technical topic
 - RISC-V related educational activities
 - Any other topic related to RISC-V and open stack (hardware or software)
 
-Submissions for the Research and Development sessions are for *blind review* by
-the Program Committee. Please, do not include any author information in the
-abstract. Submissions must have a strong focus on technical content outlining
-for example:
-
-- timely research advances,
-- success stories,
-- technical introduction to new technologies,
-- experiences of contributions to, or adoption of RISC-V hardware and software in commercial, open-source or education environments.
+ 
 
 ### Submission Format for R&D sessions (blind):
 
 The R&D submissions should be provided as a two page extended abstract. Abstract
 template and instructions for submission will be available on the Summit website
 at https://riscv-europe.org.
+
+Submissions for the Research and Development sessions are for *blind review* by
+the Program Committee. Please, do not include any author information in the
+abstract.
 
 The committees will accept most contributions as posters and selected
 submissions for short or long presentations.
