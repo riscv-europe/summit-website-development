@@ -3,16 +3,20 @@ title: Welcome
 layout: summit2024
 ---
 
-{% include bannerimg.html 
+{% include bannerimg.html
     img = "media/banners/banner-placeholder.svg"
 %}
 
-{% include jumboboxstart.html 
+<div class="alert alert-primary" role="alert">
+  Sponsorship packages are out! Support the community and get recognized by sponsoring the RISC-V Summit Europe. Sponsorship sales starts on Tuesday, January 23, at 14:00 UTC.
+</div>
+
+{% include jumboboxstart.html
     title = "Welcome"
     lead = "The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers - from industry, government, research, academia and ecosystem support - that are building the future of innovation on RISC-V."
 %}
 
-[RISC-V](https://riscv.org), the open standard [instruction set architecture (ISA)](https://en.wikipedia.org/wiki/Instruction_set_architecture), is enabling a range of new applications and research that will define the future of computing in Europe. The region has been central to RISC-V’s success, with one-third of RISC-V’s global community based in Europe.
+[RISC-V](https://riscv.org), the open standard [instruction set architecture (ISA)](https://en.wikipedia.org/wiki/Instruction_set_architecture), is enabling a range of new applications and research that will define the future of computing in Europe. The region has been central to RISC-V's success, with one-third of RISC-V's global community based in Europe.
 
 *RISC-V Summit Europe* takes place from Monday 24th to Friday 28th June, 2024. The combination of strong industrial and academic communities is key to the success of RISC-V in Europe, and for this reason the conference is designed to help attendees to explore both commercial and research applications.
 
