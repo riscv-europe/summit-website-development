@@ -49,9 +49,9 @@ Industry sessions should be asked to the PC chairs at
 riscv-europe2024_pc@softconf.com before submitting. Please note, an abstract may
 not be submitted to both sessions.
 
-Important dates:
+**Important dates**
 
-- Abstract submission deadline: Monday, March 15th, 2024, AoE (Anywhere on Earth).
+- Abstract submission deadline: **Monday, March 15th, 2024**, AoE (Anywhere on Earth).
 - Author notification: Monday, April 29th, 2024.
 - Final abstract PDF and slides deadline: Thursday, May 31st, 2024 AoE.
 - Poster PDF deadline: June 14, 2024 AoE.
@@ -106,8 +106,8 @@ pitches.
 
 Accepted abstracts, slides, and posters will be published on the event page,
 together with presentations, which will be recorded. The Program Committee will
-ask for the **poster and/or presentation slides three weeks before the event**
-to confirm the acceptance and give useful input.
+ask for the **poster and/or presentation slides before the deadline** to confirm
+the acceptance and give useful input.
 
 <div class="row justify-content-md-center my-4">
     <button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submission<br/>(coming soon)</button>
@@ -156,8 +156,8 @@ submissions for short or long presentations.
 
 Accepted abstracts, slides, and posters will be published on the event page,
 together with presentations, which will be recorded. The Program Committee will
-ask for the **poster and/or presentation slides three weeks before the event**
-to confirm the acceptance and give useful input.
+ask for the **poster and/or presentation slides before the deadline** to confirm
+the acceptance and give useful input.
 
 Suitable research & development submissions by industry will also be recommended
 for the talks slots of the industry sessions.
