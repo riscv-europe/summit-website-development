@@ -23,10 +23,31 @@ keynotes, invited and selected talks, alongside an exhibition showcasing the
 latest developments across industry and research, including technology
 demonstrations and poster sessions. Submissions are invited either for the
 [**Research and Development**](#research-and-development-rd-sessions) sessions
-or the [**Industry**](#industry-sessions) sessions. Any question whether a
-submission should apply for Research and Development or Industry sessions should
-be asked to the PC chairs at riscv-europe2024_pc@softconf.com before submitting.
-Please note, an abstract may not be submitted to both sessions.
+or the [**Industry**](#industry-sessions) sessions.
+
+<div class="row justify-content-md-center my-3">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">🚀 Industry Sessions</h5>
+        <p class="card-text">Exciting large-scale research efforts, announcement and success-stories.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">👩‍🔬 R&D Sessions</h5>
+        <p class="card-text">Leading edge academic and industry research & development insights.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+Any question whether a submission should apply for Research and Development or
+Industry sessions should be asked to the PC chairs at
+riscv-europe2024_pc@softconf.com before submitting. Please note, an abstract may
+not be submitted to both sessions.
 
 Important dates:
 
@@ -40,59 +61,7 @@ The Steering Committee aims to provide a limited budget for stipends. More
 information will be available on the conference website before the submission
 deadline.
 
-## Research and Development (R&D) Sessions
-
-Submissions for the R&D Sessions must have a strong focus on technical content outlining
-for example:
-
-- timely research advances,
-- success stories,
-- technical introduction to new technologies,
-- experiences of contributions to, or adoption of RISC-V hardware and software in commercial, open-source or education environments.
-
-We invite submissions related to RISC-V addressing the following technical topics of interest:
-
-- Security and functional safety
-- Energy efficiency and green computing
-- High-performance computing
-- Embedded systems, IoT, edge computing
-- Automotive
-- Cloud computing
-- Open-source hardware and open silicon
-- Operating system and software ecosystem
-- Compilation and code optimization
-- Open EDA tools
-- Verification and formal methods
-- Systems-on-Chip, cores, RISC-V ISA extensions, accelerators, peripherals
-- Hardware/software co-design
-- RISC-V related educational activities
-- Any other topic related to RISC-V and open stack (hardware or software)
-
- 
-
-### Submission Format for R&D sessions (blind):
-
-The R&D submissions should be provided as a two page extended abstract. Abstract
-template and instructions for submission will be available on the Summit website
-at https://riscv-europe.org.
-
-Submissions for the Research and Development sessions are for *blind review* by
-the Program Committee. Please, do not include any author information in the
-abstract.
-
-The committees will accept most contributions as posters and selected
-submissions for short or long presentations.
-
-Accepted abstracts, slides, and posters will be published on the event page,
-together with presentations, which will be recorded. The Program Committee will
-ask for the **poster and/or presentation slides three weeks before the event**
-to confirm the acceptance and give useful input.
-
-Suitable research & development submissions by industry will also be recommended
-for the talks slots of the industry sessions.
-
-
-## Industry Session
+## Industry Sessions
 
 We will also reserve a limited number of presentation slots to welcome
 submissions detailing large-scale research efforts, announcements, or commercial
@@ -139,3 +108,60 @@ Accepted abstracts, slides, and posters will be published on the event page,
 together with presentations, which will be recorded. The Program Committee will
 ask for the **poster and/or presentation slides three weeks before the event**
 to confirm the acceptance and give useful input.
+
+<div class="row justify-content-md-center my-4">
+    <button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submission<br/>(coming soon)</button>
+</div>
+
+## Research and Development (R&D) Sessions
+
+Submissions for the R&D Sessions must have a strong focus on technical content outlining
+for example:
+
+- timely research advances,
+- success stories,
+- technical introduction to new technologies,
+- experiences of contributions to, or adoption of RISC-V hardware and software in commercial, open-source or education environments.
+
+We invite submissions related to RISC-V addressing the following technical topics of interest:
+
+- Security and functional safety
+- Energy efficiency and green computing
+- High-performance computing
+- Embedded systems, IoT, edge computing
+- Automotive
+- Cloud computing
+- Open-source hardware and open silicon
+- Operating system and software ecosystem
+- Compilation and code optimization
+- Open EDA tools
+- Verification and formal methods
+- Systems-on-Chip, cores, RISC-V ISA extensions, accelerators, peripherals
+- Hardware/software co-design
+- RISC-V related educational activities
+- Any other topic related to RISC-V and open stack (hardware or software)
+
+### Submission Format for R&D sessions (blind):
+
+The R&D submissions should be provided as a two page extended abstract. Abstract
+template and instructions for submission will be available on the Summit website
+at https://riscv-europe.org.
+
+Submissions for the Research and Development sessions are for *blind review* by
+the Program Committee. Please, do not include any author information in the
+abstract.
+
+The committees will accept most contributions as posters and selected
+submissions for short or long presentations.
+
+Accepted abstracts, slides, and posters will be published on the event page,
+together with presentations, which will be recorded. The Program Committee will
+ask for the **poster and/or presentation slides three weeks before the event**
+to confirm the acceptance and give useful input.
+
+Suitable research & development submissions by industry will also be recommended
+for the talks slots of the industry sessions.
+
+<div class="row justify-content-md-center my-4">
+    <button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submission<br/>(coming soon)</button>
+</div>
