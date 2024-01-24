@@ -133,11 +133,11 @@ Several packages with varying features are available.
 
 Beyond the sponsorship packages, there are extra sponsorships available:
 
-- Lanyard sponsorship (1) - €5k
+- ~~Lanyard sponsorship (1)~~ (sold) - €5k
 - WiFi sponsorship (1) - €5k
 - Collaboration breakfast sponsorship (1) - €6k
 - Lounge area sponsorship (1) - €7k
-- Drinks Reception sponsorship - €7.5k
+- ~~Drinks Reception sponsorship~~ (sold) - €7.5k
 - Bulk buy of 20 tickets with logo on exhibition slide and signage: Contact for further details
 - Demo Theatre naming rights (1) - €6k
 - Contribution to Diversity scholarships - €2.5k
@@ -154,7 +154,7 @@ Below you can find the sponsorship flyer. Contact [Andy Moore](mailto:andy@riscv
             <a href="media/RISC-VSummitEuropeSponsorship2024.pdf" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Download Sponsorship Flyer</a>
         </div>
         <div class="col-lg-6 my-2 d-flex justify-content-center">
-<button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Book Sponsorship<br/>(available Jan 23, 2024 at 14:00 UTC)</button>
+        <a href="https://kit-react.de/portal/init?mnemonic=RISC-V-2024-Industry-Partner-Application" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Book Sponsorship</a>
         </div>
     </div>
 </div>
