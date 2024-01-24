@@ -29,16 +29,16 @@ or the [**Industry**](#industry-sessions) sessions.
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">🚀 <a href="#industry-sessions">Industry Sessions</a></h5>
-        <p class="card-text">Exciting large-scale research efforts, announcement and success-stories.</p>
+        <h5 class="card-title">👩‍🔬 <a href="#research-and-development-rd-sessions">R&D Sessions</a></h5>
+        <p class="card-text">Academic and industry research & development presentations and posters.</p>
       </div>
     </div>
   </div>
   <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">👩‍🔬 <a href="#research-and-development-rd-sessions">R&D Sessions</a></h5>
-        <p class="card-text">Leading edge academic and industry research & development insights.</p>
+        <h5 class="card-title">🚀 <a href="#industry-sessions">Industry Sessions</a></h5>
+        <p class="card-text">Exciting large-scale research efforts, announcement and success-stories.</p>
       </div>
     </div>
   </div>

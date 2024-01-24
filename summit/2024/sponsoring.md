@@ -144,7 +144,11 @@ Beyond the sponsorship packages, there are extra sponsorships available:
 
 ## More Information and Become a Sponsor
 
-Sponsorships go live on Tuesday 23rd January at 6am PT / 3pm CET and will be allocated on a first-come, first-served basis, based on sponsorship form submission time. The priority order is dependent on sponsorship level (including Platinum upgrade) and time of form submission. This will determine the order sponsors can choose from available slots for keynotes and booth location.
+Sponsorships is be allocated on a first-come, first-served basis, based on
+sponsorship form submission time. The priority order is dependent on sponsorship
+level (including Platinum upgrade) and time of form submission. This will
+determine the order sponsors can choose from available slots for keynotes and
+booth location.
 
 Below you can find the sponsorship flyer. Contact [Andy Moore](mailto:andy@riscv.org) for more information.
 
