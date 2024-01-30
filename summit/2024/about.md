@@ -38,7 +38,7 @@ events, joined by [RISC-V International](https://riscv.org):
     <li>Nick Kossifidis (FORTH)</li>
     <li>Marie-Minerve Louerat (LIP6)</li>
     <li>Andreas Mauderer (Bosch)</li>
-    <li>Daniel Müller-Gritschneder (TU Munich), PC Co-Chair</li>
+    <li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
     <li>Jérôme Quévremont (Thales)</li>
     <li>Rihards Novickis (EDI, Latvia)</li>
     <li>Katzalin Olcoz Herrero (UCM)</li>
@@ -57,14 +57,14 @@ events, joined by [RISC-V International](https://riscv.org):
     <li>Roger Espasa (Semidynamics)</li>
     <li>Christian Fabre (CEA), General Chair</li>
     <li>Frank K. Gürkaynak (ETH Zürich)</li>
-    <li>Daniel Müller-Gritschneder (TU Munich)</li>
+    <li>Daniel Mueller-Gritschneder (TU Munich)</li>
     <li>Borja Pérez Pavon (Univ. de Cantabria)</li>
     <li>Jérôme Quévremont (Thales R&amp;T)</li>
     <li>Olivier Sentieys (INRIA)</li>
     <li>Philipp Tomsich (VRULL)</li>
     <li>Stefan Wallentowitz (Hochschule München Univ. of Applied Sciences)</li>
 </ul>
-<h2 style="color: #ffc72c" id="the-core-team">The Core Team</h2>
+<h2 style="color: #ffc72c" id="the-local-team">Local Organizers</h2>
 <ul>
     <li>Paula Bernad (BCO)</li>
     <li>Teresa Cervero (BSC), Local Chair</li>
@@ -72,7 +72,7 @@ events, joined by [RISC-V International](https://riscv.org):
     <li>Christian Fabre (CEA), Co-General Chair</li>
     <li>Frank K. Gürkaynak (ETH Zürich)</li>
     <li>Andy Moore (RISC-V International)</li>
-    <li>Daniel Müller-Gritschneder (TU Munich), PC Co-Chair</li>
+    <li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
     <li>Borja Pérez Pavon (Univ. de Cantabria), Submission Chair</li>
     <li>Jérôme Quévremont (Thales R&amp;T)</li>
     <li>Calista Redmond (RISC-V International), Co-General Chair</li>
