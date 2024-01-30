@@ -25,44 +25,60 @@ events, joined by [RISC-V International](https://riscv.org):
 <h2 style="color: #cb007b" id="the-program-committee">The Program Committee</h2>
 
 <ul>
-    <li>Jan Andersson (Frontgrade Gaisler)</li>
-    <li>Holger Blasum (Sysgo)</li>
-    <li>Alex Bradbury (Igalia)</li>
-    <li>Ramon Canal (UPC)</li>
-    <li>Denis Dutoit (CEA)</li>
-    <li>Angelo Garofalo (ETH Zürich)</li>
-    <li>Benedikt Gierlichs (KU Leuven)</li>
-    <li>Frederic Heitzmann (Tiempo Secure)</li>
-    <li>John Hengeveld (Intel)</li>
-    <li>Eyck Jentzsch (MINRES)</li>
-    <li>Nick Kossifidis (FORTH)</li>
-    <li>Marie-Minerve Louerat (LIP6)</li>
-    <li>Andreas Mauderer (Bosch)</li>
-    <li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
-    <li>Jérôme Quévremont (Thales)</li>
-    <li>Rihards Novickis (EDI, Latvia)</li>
-    <li>Katzalin Olcoz Herrero (UCM)</li>
-    <li>Borja Pérez Pavon (Univ. de Cantabria), Submission Chair</li>
-    <li>Olivier Savry (CEA)</li>
-    <li>Davide Schiavone (OpenHW Group)</li>
-    <li>Georg Sigl (TUM), PC Co-Chair</li>
-    <li>Jonathan Woodruff (Cambridge Univ.)</li>
+<li>Jan Andersson (Frontgrade Gaisler)</li>
+<li>Jeremy Bennett (Embecosm)</li>
+<li>Holger Blasum (Sysgo)</li>
+<li>Alex Bradbury (Igalia)</li>
+<li>Ramon Canal (UPC)</li>
+<li>Gregory Chadwick (LowRISC)</li>
+<li>Samuel Chiang (Andes)</li>
+<li>Fabio De Ambroggi (STMicroelectronics)</li>
+<li>Denis Dutoit (CEA)</li>
+<li>Angelo Garofalo (University of Bologna)</li>
+<li>Michael Gielda (Antmicro)</li>
+<li>Daniel Große (Uni Linz)</li>
+<li>Timo Hämäläinen  (Tampere Uni)</li>
+<li>Frederic Heitzmann (Tiempo Secure)</li>
+<li>Eyck Jentzsch (MINRES)</li>
+<li>Nick Kossifidis (FORTH)</li>
+<li>Nathan Ma (Nuclei)</li>
+<li>Fabrizio Magugliani (E4CE)</li>
+<li>Andreas Mauderer (Bosch)</li>
+<li>Daniel Müller-Gritschneder (TU Munich), PC Co-Chair</li>
+<li>Jérôme Quévremont (Thales)</li>
+<li>Rihards Novickis (EDI)</li>
+<li>Katzalin Olcoz Herrero (UCM)</li>
+<li>Arthur Perais (TIMA, CNRS)</li>
+<li>Borja Pérez Pavon (Univ. de Cantabria), PC Co-Chair</li>
+<li>Sandro Pinto (University of Minho)</li>
+<li>Shawn Prestridge (IAR)</li>
+<li>Thomas Roecker (Infineon)</li>
+<li>Davide Rossi (University of Bologna)</li>
+<li>Olivier Savry (CEA)</li>
+<li>Olivier Sentieys (INRIA), PC Chair</li>
+<li>Davide Schiavone (OpenHW Group)</li>
+<li>Georg Sigl (TU Munich)</li>
+<li>Sharad Sinha (IIT Goa)</li>
+<li>Gabriel L. Somlo (CMU)</li>
+<li>Jonathan Woodruff (Univ. of Cambridge)</li>
+<li>Florian Zaruba (Axelera)</li>
+
 </ul>
 <h2 style="color: #60269e" id="the-steering-committee">The Steering Committee</h2>
 <ul>
-    <li>Teresa Cervero (BSC)
-    <li>Romain Dolbeau (SiPearl)
-    <li>Wolfgang Ecker (Infineon)
-    <li>Roger Espasa (Semidynamics)
-    <li>Christian Fabre (CEA), General Chair
-    <li>Frank K. Gürkaynak (ETH Zürich)
-    <li>Daniel Müller-Gritschneder (TU Munich)
-    <li>Borja Pérez Pavon (Univ. de Cantabria)
-    <li>Jérôme Quévremont (Thales R&T)
-    <li>Anna Riverola (SiPearl)
-    <li>Olivier Sentieys (INRIA)
-    <li>Philipp Tomsich (VRULL)
-    <li>Stefan Wallentowitz (Munich University of Applied Sciences)
+    <li>Teresa Cervero (BSC)</li>
+    <li>Romain Dolbeau (SiPearl)</li>
+    <li>Wolfgang Ecker (Infineon)</li>
+    <li>Roger Espasa (Semidynamics)</li>
+    <li>Christian Fabre (CEA), General Chair</li>
+    <li>Frank K. Gürkaynak (ETH Zürich)</li>
+    <li>Daniel Mueller-Gritschneder (TU Munich)</li>
+    <li>Borja Pérez Pavon (Univ. de Cantabria)</li>
+    <li>Jérôme Quévremont (Thales R&T)</li>
+    <li>Anna Riverola (SiPearl)</li>
+    <li>Olivier Sentieys (INRIA)</li>
+    <li>Philipp Tomsich (VRULL)</li>
+    <li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
 
 </ul>
 <h2 style="color: #ffc72c" id="the-local-team">Local Organizers</h2>
