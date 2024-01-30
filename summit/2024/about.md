@@ -50,19 +50,20 @@ events, joined by [RISC-V International](https://riscv.org):
 </ul>
 <h2 style="color: #60269e" id="the-steering-committee">The Steering Committee</h2>
 <ul>
-    <li>Narcís Avellana (NVision)</li>
-    <li>Teresa Cervero (BSC)</li>
-    <li>Romain Dolbeau (SiPearl)</li>
-    <li>Wolfgang Ecker (Infineon)</li>
-    <li>Roger Espasa (Semidynamics)</li>
-    <li>Christian Fabre (CEA), General Chair</li>
-    <li>Frank K. Gürkaynak (ETH Zürich)</li>
-    <li>Daniel Mueller-Gritschneder (TU Munich)</li>
-    <li>Borja Pérez Pavon (Univ. de Cantabria)</li>
-    <li>Jérôme Quévremont (Thales R&amp;T)</li>
-    <li>Olivier Sentieys (INRIA)</li>
-    <li>Philipp Tomsich (VRULL)</li>
-    <li>Stefan Wallentowitz (Hochschule München Univ. of Applied Sciences)</li>
+    <li>Teresa Cervero (BSC)
+    <li>Romain Dolbeau (SiPearl)
+    <li>Wolfgang Ecker (Infineon)
+    <li>Roger Espasa (Semidynamics)
+    <li>Christian Fabre (CEA), General Chair
+    <li>Frank K. Gürkaynak (ETH Zürich)
+    <li>Daniel Müller-Gritschneder (TU Munich)
+    <li>Borja Pérez Pavon (Univ. de Cantabria)
+    <li>Jérôme Quévremont (Thales R&T)
+    <li>Anna Riverola (SiPearl)
+    <li>Olivier Sentieys (INRIA)
+    <li>Philipp Tomsich (VRULL)
+    <li>Stefan Wallentowitz (Munich University of Applied Sciences)
+
 </ul>
 <h2 style="color: #ffc72c" id="the-local-team">Local Organizers</h2>
 <ul>
