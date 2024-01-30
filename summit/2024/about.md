@@ -1,6 +1,6 @@
 ---
 title: About RISC-V Summit Europe
-layout: summit2023
+layout: summit2024
 ---
 
 {% include bannerimg.html 
@@ -14,7 +14,7 @@ layout: summit2023
 
 ## The Summit
 
-The RISC-V Summit Europe in Barcelona is a merger of three European
+The RISC-V Summit Europe Series is a merger of three European
 events, joined by [RISC-V International](https://riscv.org):
 
  - Red-RISC-V in Spain: [http://red-riscv.org](http://red-riscv.org)
