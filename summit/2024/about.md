@@ -90,15 +90,17 @@ events, joined by [RISC-V International](https://riscv.org):
 </ul>
 <h2 style="color: #ffc72c" id="the-local-team">Local Organization Committee</h2>
 <ul>
+    <li>Teresa Cervero (BSC), 2023 local organizer</li>
     <li>Wolfgang Ecker (Infineon)</li>
-    <li>Christian Fabre (CEA), Co-General Chair</li>
+    <li>Christian Fabre (CEA)</li>
     <li>Frank K. Gürkaynak (ETH Zürich)</li>
+    <li>Christine Kaschuba (KIT)</li>
     <li>Andy Moore (RISC-V International)</li> 
-    <li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
-    <li>Calista Redmond (RISC-V International), Co-General Chair</li>
+    <li>Daniel Mueller-Gritschneder (TU Munich)</li>
+    <li>Calista Redmond (RISC-V International)</li>
     <li>Tiffany Sparks (RISC-V International)</li>
     <li> Anja Schröter (KIT) </li>
-    <li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
+    <li>Stefan Wallentowitz (Munich University of Applied Sciences), local organizer</li>
 	</ul>
 <h2 style="color: #0a6b7c" id="local-organization">Local Organization</h2>
 <p>The event is organized by RISC-V International, Technical University of Munich, Munich University of Applied Sciences and Red RISCV.</p>
