@@ -22,7 +22,7 @@ events, joined by [RISC-V International](https://riscv.org):
  - Workshop on RISC-V activities in Germany: [https://www.edacentrum.de/en/risc-v](https://www.edacentrum.de/en/risc-v) 
 
 <div>
-<h2 style="color: #cb007b" id="the-program-committee">The Program Committee</h2>
+<h2 style="color: #cb007b" id="the-program-committee">The Program Committee (R&D Sessions)</h2>
 
 <ul>
 <li>Jan Andersson (Frontgrade Gaisler)</li>
@@ -41,6 +41,7 @@ events, joined by [RISC-V International](https://riscv.org):
 <li>Frederic Heitzmann (Tiempo Secure)</li>
 <li>Eyck Jentzsch (MINRES)</li>
 <li>Nick Kossifidis (FORTH)</li>
+<li>Larry Lapides (Synopsys)</li>
 <li>Nathan Ma (Nuclei)</li>
 <li>Fabrizio Magugliani (E4CE)</li>
 <li>Andreas Mauderer (Bosch)</li>
@@ -64,6 +65,11 @@ events, joined by [RISC-V International](https://riscv.org):
 <li>Florian Zaruba (Axelera)</li>
 
 </ul>
+<h2 style="color: #60269e" id="the-steering-committee">The Program Committee (Industry Sessions)</h2>
+<ul>
+
+
+</ul>
 <h2 style="color: #60269e" id="the-steering-committee">The Steering Committee</h2>
 <ul>
     <li>Teresa Cervero (BSC)</li>
@@ -81,7 +87,7 @@ events, joined by [RISC-V International](https://riscv.org):
     <li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
 
 </ul>
-<h2 style="color: #ffc72c" id="the-local-team">Local Organizers</h2>
+<h2 style="color: #ffc72c" id="the-local-team">Local Organization Committee</h2>
 <ul>
     <li>Paula Bernad (BCO)</li>
     <li>Teresa Cervero (BSC), Local Chair</li>
