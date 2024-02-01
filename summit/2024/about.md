@@ -62,6 +62,7 @@ events, joined by [RISC-V International](https://riscv.org):
 <li>Sharad Sinha (IIT Goa)</li>
 <li>Gabriel L. Somlo (CMU)</li>
 <li>Jonathan Woodruff (Univ. of Cambridge)</li>
+<li>An Xu (Beijing Institute of Open Source Chip)</li>
 <li>Florian Zaruba (Axelera)</li>
 
 </ul>
