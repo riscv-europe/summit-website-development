@@ -45,7 +45,7 @@ events, joined by [RISC-V International](https://riscv.org):
 <li>Nathan Ma (Nuclei)</li>
 <li>Fabrizio Magugliani (E4CE)</li>
 <li>Andreas Mauderer (Bosch)</li>
-<li>Daniel Müller-Gritschneder (TU Munich), PC Co-Chair</li>
+<li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
 <li>Jérôme Quévremont (Thales)</li>
 <li>Rihards Novickis (EDI)</li>
 <li>Katzalin Olcoz Herrero (UCM)</li>
