@@ -89,25 +89,18 @@ events, joined by [RISC-V International](https://riscv.org):
 </ul>
 <h2 style="color: #ffc72c" id="the-local-team">Local Organization Committee</h2>
 <ul>
-    <li>Paula Bernad (BCO)</li>
-    <li>Teresa Cervero (BSC), Local Chair</li>
-    <li>Romain Dolbeau (SiPearl)</li>
+    <li>Wolfgang Ecker (Infineon)</li>
     <li>Christian Fabre (CEA), Co-General Chair</li>
     <li>Frank K. Gürkaynak (ETH Zürich)</li>
-    <li>Andy Moore (RISC-V International)</li>
+    <li>Andy Moore (RISC-V International)</li> 
     <li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
-    <li>Borja Pérez Pavon (Univ. de Cantabria), Submission Chair</li>
-    <li>Jérôme Quévremont (Thales R&amp;T)</li>
     <li>Calista Redmond (RISC-V International), Co-General Chair</li>
-    <li>Iara Ruibal (BCO)</li>
-    <li>Mirtcho Savov (BCO)</li>
-    <li>Olivier Sentieys (INRIA)</li>
     <li>Tiffany Sparks (RISC-V International)</li>
-    <li>Philipp Tomsich (VRULL)</li>
-    <li>Stefan Wallentowitz (Hochschule München Univ. of Applied Sciences)</li>
+    <li> Anja Schröter (KIT) </li>
+    <li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
 	</ul>
 <h2 style="color: #0a6b7c" id="local-organization">Local Organization</h2>
-<p>The event is organized by RISC-V International, BSC, BCO and Red RISCV.</p>
+<p>The event is organized by RISC-V International, Technical University of Munich, Munich University of Applied Sciences and Red RISCV.</p>
 </div>
 <div class="organizers">
   <figure class="organizers__item organizers__item--1">
