@@ -69,21 +69,20 @@ events, joined by [RISC-V International](https://riscv.org):
 </ul>
 <h2 style="color: #60269e" id="the-steering-committee">The Industry Session Committee</h2>
 <ul>
+<li>Marc Canel (Ventana)</li>
 <li>Christian Fabre (CEA)</li>
+<li>Andy Moore (RISC-V International)</li>
 <li>Daniel Mueller-Gritschneder (TU Munich)</li>
 <li>Borja Pérez Pavon (Univ. de Cantabria)</li>
-<li>Olivier Sentieys (INRIA)</li>
-<li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
 <li>Victoria Rege (Imagination)</li>
-<li>Itai Yarom (MIPS)</li>
-<li>Marc Canel (Ventana)</li>
-<li>Andy Moore (RISC-V International)</li>
-<li>An Xu (Beijing Institute of Open Source Chip)</li>
+<li>Olivier Sentieys (INRIA)</li>
 <li>Tiffany Sparks (RISC-V International)</li>
 <li>Philipp Tomsich (VRULL)</li>
-
-
+<li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
+<li>An Xu (Beijing Institute of Open Source Chip)</li>
+<li>Itai Yarom (MIPS)</li>
 </ul>
+
 <h2 style="color: #60269e" id="the-steering-committee">The Steering Committee</h2>
 <ul>
     <li>Teresa Cervero (BSC)</li>
