@@ -89,7 +89,6 @@ events, joined by [RISC-V International](https://riscv.org):
     <li>Romain Dolbeau (SiPearl)</li>
     <li>Wolfgang Ecker (Infineon)</li>
     <li>Roger Espasa (Semidynamics)</li>
-    <li>Christian Fabre (CEA), General Chair</li>
     <li>Frank K. Gürkaynak (ETH Zürich)</li>
     <li>Daniel Mueller-Gritschneder (TU Munich)</li>
     <li>Borja Pérez Pavon (Univ. de Cantabria)</li>
