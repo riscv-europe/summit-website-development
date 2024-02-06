@@ -70,7 +70,6 @@ events, joined by [RISC-V International](https://riscv.org):
 <h2 style="color: #60269e" id="the-steering-committee">The Industry Session Committee</h2>
 <ul>
 <li>Marc Canel (Ventana)</li>
-<li>Christian Fabre (CEA)</li>
 <li>Andy Moore (RISC-V International)</li>
 <li>Daniel Mueller-Gritschneder (TU Munich)</li>
 <li>Borja Pérez Pavon (Univ. de Cantabria)</li>
@@ -84,8 +83,9 @@ events, joined by [RISC-V International](https://riscv.org):
 </ul>
 
 <h2 style="color: #60269e" id="the-steering-committee">The Steering Committee</h2>
-<ul>
+<ul> 
     <li>Teresa Cervero (BSC)</li>
+    <li>Christian Fabre (CEA), General Chair</li>
     <li>Romain Dolbeau (SiPearl)</li>
     <li>Wolfgang Ecker (Infineon)</li>
     <li>Roger Espasa (Semidynamics)</li>
