@@ -7,8 +7,8 @@ layout: summit2024
     img = "media/banners/banner-placeholder.svg"
 %}
 
-<div class="alert alert-primary" role="alert">
-  Sponsorship packages are out! Support the community and get recognized by sponsoring the RISC-V Summit Europe. Sponsorship sales starts on Tuesday, January 23, at 14:00 UTC.
+<div class="alert alert-primary" role="alert" markdown="1">
+  The [Call for Presentations](cfp) is out! Make sure you get your ideas ready for submission until March 15, 2024. Submissions start soon!
 </div>
 
 {% include jumboboxstart.html

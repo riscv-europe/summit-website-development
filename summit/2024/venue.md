@@ -23,6 +23,9 @@ The venue can be reached by subway U6 and a short walk. The subway crosses the c
     title = "Accomodation"
     lead = "There are plenty of accomodation options in Munich."
 %}
-There is a hotel in the upper price class directly opposite the venue: [Ameron Munich Motorworld](https://ameroncollection.com/de/muenchen-motorworld).
+Munich has plenty of hotels, but due to the football European Championship there might be shortages of cheap rooms. Here are some suggestions:
 
-The majority of hotels are in the city center. Along the subway line there are affordable hotels north of Sendlinger Tor (towards the main station).
+- We have arranged room blocks in a few hotels, which are directly booked [here](https://www.tch-hotels.de/teilnehmermanagement/KIT_RISC-V_280624/).
+- There is a hotel in the upper price class directly opposite the venue: [Ameron Munich Motorworld](https://ameroncollection.com/de/muenchen-motorworld).
+- Use services like [booking.com](https://www.booking.com/searchresults.en-gb.html?ss=Munich&dest_type=city&checkin=2024-06-23&checkout=2024-06-29&group_adults=1&no_rooms=1&group_children=0). Its ideal to book rooms along the U6 subway line, but any other public transport connection works well too. Along the U6 subway line there are affordable hotels north of Sendlinger Tor (towards the main station).
+- Motel One is recommended German hotel chain which is not fully listed on the search portals. Find their affordable options [here](https://www.motel-one.com/en/hotels/munich/).
