@@ -22,7 +22,7 @@ events, joined by [RISC-V International](https://riscv.org):
  - Workshop on RISC-V activities in Germany: [https://www.edacentrum.de/en/risc-v](https://www.edacentrum.de/en/risc-v) 
 
 <div>
-<h2 style="color: #cb007b" id="the-program-committee">The Program Committee (R&D Sessions)</h2>
+<h2 style="color: #cb007b" id="the-program-committee"> The Program Committee - R&D Sessions </h2>
 
 <ul>
 <li>Jan Andersson (Frontgrade Gaisler)</li>
@@ -46,13 +46,13 @@ events, joined by [RISC-V International](https://riscv.org):
 <li>Fabrizio Magugliani (E4CE)</li>
 <li>Andreas Mauderer (Bosch)</li>
 <li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
-<li>Jérôme Quévremont (Thales)</li>
 <li>Rihards Novickis (EDI)</li>
 <li>Katzalin Olcoz Herrero (UCM)</li>
 <li>Arthur Perais (TIMA, CNRS)</li>
 <li>Borja Pérez Pavon (Univ. de Cantabria), PC Co-Chair</li>
 <li>Sandro Pinto (University of Minho)</li>
 <li>Shawn Prestridge (IAR)</li>
+<li>Jérôme Quévremont (Thales)</li>
 <li>Thomas Roecker (Infineon)</li>
 <li>Davide Rossi (University of Bologna)</li>
 <li>Olivier Savry (CEA)</li>
@@ -61,13 +61,26 @@ events, joined by [RISC-V International](https://riscv.org):
 <li>Georg Sigl (TU Munich)</li>
 <li>Sharad Sinha (IIT Goa)</li>
 <li>Gabriel L. Somlo (CMU)</li>
+<li>Philipp Tomsich (VRULL)</li>
 <li>Jonathan Woodruff (Univ. of Cambridge)</li>
 <li>An Xu (Beijing Institute of Open Source Chip)</li>
 <li>Florian Zaruba (Axelera)</li>
 
 </ul>
-<h2 style="color: #60269e" id="the-steering-committee">The Program Committee (Industry Sessions)</h2>
+<h2 style="color: #60269e" id="the-steering-committee">The Industry Session Committee</h2>
 <ul>
+<li>Christian Fabre (CEA)</li>
+<li>Daniel Mueller-Gritschneder (TU Munich)</li>
+<li>Borja Pérez Pavon (Univ. de Cantabria)</li>
+<li>Olivier Sentieys (INRIA)</li>
+<li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
+<li>Victoria Rege (Imagination)</li>
+<li>Itai Yarom (MIPS)</li>
+<li>Marc Canel (Ventana)</li>
+<li>Andy Moore (RISC-V International)</li>
+<li>An Xu (Beijing Institute of Open Source Chip)</li>
+<li>Tiffany Sparks (RISC-V International)</li>
+<li>Philipp Tomsich (VRULL)</li>
 
 
 </ul>
