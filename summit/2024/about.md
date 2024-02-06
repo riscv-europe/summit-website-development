@@ -4,7 +4,7 @@ layout: summit2024
 ---
 
 {% include bannerimg.html 
-    img = "media/img/RISC-V-Embedded-World-2020-02.jpg"
+    img = "media/banners/committee.jpg"
 %}
 
 {% include jumboboxstart.html 
