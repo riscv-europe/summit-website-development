@@ -11,125 +11,107 @@ layout: summit2024
     title = "About"
 %}
 
+Learn more about the people behind the 
+
+{% include jumboboxend.html %}
 
 ## The Summit
 
 The RISC-V Summit Europe Series is a merger of three European
 events, joined by [RISC-V International](https://riscv.org):
 
- - Red-RISC-V in Spain: [http://red-riscv.org](http://red-riscv.org)
- - RISC-V Week in France: [https://open-src-soc.org/2022-05](https://open-src-soc.org/2022-05)
- - Workshop on RISC-V activities in Germany: [https://www.edacentrum.de/en/risc-v](https://www.edacentrum.de/en/risc-v) 
+- Red-RISC-V in Spain: [http://red-riscv.org](http://red-riscv.org)
+- RISC-V Week in France: [https://open-src-soc.org/2022-05](https://open-src-soc.org/2022-05)
+- Workshop on RISC-V activities in Germany: [https://www.edacentrum.de/en/risc-v](https://www.edacentrum.de/en/risc-v)
 
-<div>
-<h2 style="color: #cb007b" id="the-program-committee"> The Program Committee - R&D Sessions </h2>
+## The Program Committee - R&D Sessions
 
-<ul>
-<li>Jan Andersson (Frontgrade Gaisler)</li>
-<li>Jeremy Bennett (Embecosm)</li>
-<li>Holger Blasum (Sysgo)</li>
-<li>Alex Bradbury (Igalia)</li>
-<li>Ramon Canal (UPC)</li>
-<li>Gregory Chadwick (LowRISC)</li>
-<li>Samuel Chiang (Andes)</li>
-<li>Fabio De Ambroggi (STMicroelectronics)</li>
-<li>Denis Dutoit (CEA)</li>
-<li>Angelo Garofalo (University of Bologna)</li>
-<li>Michael Gielda (Antmicro)</li>
-<li>Daniel Große (Uni Linz)</li>
-<li>Timo Hämäläinen  (Tampere Uni)</li>
-<li>Frederic Heitzmann (Tiempo Secure)</li>
-<li>Eyck Jentzsch (MINRES)</li>
-<li>Nick Kossifidis (FORTH)</li>
-<li>Larry Lapides (Synopsys)</li>
-<li>Nathan Ma (Nuclei)</li>
-<li>Fabrizio Magugliani (E4CE)</li>
-<li>Andreas Mauderer (Bosch)</li>
-<li>Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair</li>
-<li>Rihards Novickis (EDI)</li>
-<li>Katzalin Olcoz Herrero (UCM)</li>
-<li>Arthur Perais (TIMA, CNRS)</li>
-<li>Borja Pérez Pavon (Univ. de Cantabria), PC Co-Chair</li>
-<li>Sandro Pinto (University of Minho)</li>
-<li>Shawn Prestridge (IAR)</li>
-<li>Jérôme Quévremont (Thales)</li>
-<li>Thomas Roecker (Infineon)</li>
-<li>Davide Rossi (University of Bologna)</li>
-<li>Olivier Savry (CEA)</li>
-<li>Olivier Sentieys (INRIA), PC Chair</li>
-<li>Davide Schiavone (OpenHW Group)</li>
-<li>Georg Sigl (TU Munich)</li>
-<li>Sharad Sinha (IIT Goa)</li>
-<li>Gabriel L. Somlo (CMU)</li>
-<li>Philipp Tomsich (VRULL)</li>
-<li>Jonathan Woodruff (Univ. of Cambridge)</li>
-<li>An Xu (Beijing Institute of Open Source Chip)</li>
-<li>Florian Zaruba (Axelera)</li>
+- Jan Andersson (Frontgrade Gaisler)
+- Jeremy Bennett (Embecosm)
+- Holger Blasum (Sysgo)
+- Alex Bradbury (Igalia)
+- Ramon Canal (UPC)
+- Gregory Chadwick (LowRISC)
+- Samuel Chiang (Andes)
+- Fabio De Ambroggi (STMicroelectronics)
+- Denis Dutoit (CEA)
+- Angelo Garofalo (University of Bologna)
+- Michael Gielda (Antmicro)
+- Daniel Große (Uni Linz)
+- Timo Hämäläinen  (Tampere Uni)
+- Frederic Heitzmann (Tiempo Secure)
+- Eyck Jentzsch (MINRES)
+- Nick Kossifidis (FORTH)
+- Larry Lapides (Synopsys)
+- Nathan Ma (Nuclei)
+- Fabrizio Magugliani (E4CE)
+- Andreas Mauderer (Bosch)
+- Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair
+- Jérôme Quévremont (Thales)
+- Rihards Novickis (EDI)
+- Katzalin Olcoz Herrero (UCM)
+- Arthur Perais (TIMA, CNRS)
+- Borja Pérez Pavon (Univ. de Cantabria), PC Co-Chair
+- Sandro Pinto (University of Minho)
+- Shawn Prestridge (IAR)
+- Jérôme Quévremont (Thales)
+- Thomas Roecker (Infineon)
+- Davide Rossi (University of Bologna)
+- Olivier Savry (CEA)
+- Olivier Sentieys (INRIA), PC Chair
+- Davide Schiavone (OpenHW Group)
+- Georg Sigl (TU Munich)
+- Sharad Sinha (IIT Goa)
+- Gabriel L. Somlo (CMU)
+- Philipp Tomsich (VRULL)
+- Jonathan Woodruff (Univ. of Cambridge)
+- An Xu (Beijing Institute of Open Source Chip)
+- Florian Zaruba (Axelera)
 
-</ul>
-<h2 style="color: #60269e" id="the-steering-committee">The Industry Session Committee</h2>
-<ul>
-<li>Marc Canel (Ventana)</li>
-<li>Andy Moore (RISC-V International)</li>
-<li>Daniel Mueller-Gritschneder (TU Munich)</li>
-<li>Borja Pérez Pavon (Univ. de Cantabria)</li>
-<li>Victoria Rege (Imagination)</li>
-<li>Olivier Sentieys (INRIA)</li>
-<li>Tiffany Sparks (RISC-V International)</li>
-<li>Philipp Tomsich (VRULL)</li>
-<li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
-<li>An Xu (Beijing Institute of Open Source Chip)</li>
-<li>Itai Yarom (MIPS)</li>
-</ul>
+## The Inddustry Session Committee
 
-<h2 style="color: #60269e" id="the-steering-committee">The Steering Committee</h2>
-<ul> 
-    <li>Teresa Cervero (BSC)</li>
-    <li>Christian Fabre (CEA), General Chair</li>
-    <li>Romain Dolbeau (SiPearl)</li>
-    <li>Wolfgang Ecker (Infineon)</li>
-    <li>Roger Espasa (Semidynamics)</li>
-    <li>Frank K. Gürkaynak (ETH Zürich)</li>
-    <li>Daniel Mueller-Gritschneder (TU Munich)</li>
-    <li>Borja Pérez Pavon (Univ. de Cantabria)</li>
-    <li>Jérôme Quévremont (Thales R&T)</li>
-    <li>Anna Riverola (SiPearl)</li>
-    <li>Olivier Sentieys (INRIA)</li>
-    <li>Philipp Tomsich (VRULL)</li>
-    <li>Stefan Wallentowitz (Munich University of Applied Sciences)</li>
+- Marc Canel (Ventana)
+- Andy Moore (RISC-V International)</li>
+- Daniel Mueller-Gritschneder (TU Munich)
+- Borja Pérez Pavon (Univ. de Cantabria)
+- Victoria Rege (Imagination)
+- Olivier Sentieys (INRIA)
+- Tiffany Sparks (RISC-V International)
+- Philipp Tomsich (VRULL)
+- Stefan Wallentowitz (Munich University of Applied Sciences)
+- An Xu (Beijing Institute of Open Source Chip)
+- Itai Yarom (MIPS)
 
-</ul>
-<h2 style="color: #ffc72c" id="the-local-team">Local Organization Committee</h2>
-<ul>
-    <li>Teresa Cervero (BSC), 2023 local organizer</li>
-    <li>Wolfgang Ecker (Infineon)</li>
-    <li>Christian Fabre (CEA)</li>
-    <li>Frank K. Gürkaynak (ETH Zürich)</li>
-    <li>Christine Kaschuba (KIT)</li>
-    <li>Andy Moore (RISC-V International)</li> 
-    <li>Daniel Mueller-Gritschneder (TU Munich)</li>
-    <li>Calista Redmond (RISC-V International)</li>
-    <li>Tiffany Sparks (RISC-V International)</li>
-    <li> Anja Schröter (KIT) </li>
-    <li>Stefan Wallentowitz (Munich University of Applied Sciences), local organizer</li>
-	</ul>
-<h2 style="color: #0a6b7c" id="local-organization">Local Organization</h2>
-<p>The event is organized by RISC-V International, Technical University of Munich, Munich University of Applied Sciences and Red RISCV.</p>
-</div>
-<div class="organizers">
-  <figure class="organizers__item organizers__item--1">
-    <a href="https://riscv.org"><img src="media/logos/RISCV-logo.png" alt="RISC-V logo" class="organizers__img"/></a>
-  </figure>
-  <figure class="organizers__item organizers__item--2">
-    <a href="https://www.bsc.es"><img src="media/logos/BSC.png" alt="BSC logo" class="organizers__img"/></a>
-  </figure>
-  <figure class="organizers__item organizers__item--3">
-    <a href="https://www.bcocongresos.com"><img src="media/logos/BCO.png" alt="BCO Congreso logo" class="organizers__img"/></a>
-  </figure>
-  <figure class="organizers__item organizers__item--4">
-    <a href="http://red-riscv.org"><img src="media/logos/Red-RISCV.png" alt="Red RISCV logo" class="organizers__img" style="width:70%"></a>
-  </figure>
-</div>
+## The Steering Committee
 
-{% include jumboboxend.html %}
+- Teresa Cervero (BSC)
+- Romain Dolbeau (SiPearl)
+- Wolfgang Ecker (Infineon)
+- Roger Espasa (Semidynamics)
+- Christian Fabre (CEA), General Chair
+- Frank K. Gürkaynak (ETH Zürich)
+- Daniel Mueller-Gritschneder (TU Munich)
+- Borja Pérez Pavon (Univ. de Cantabria)
+- Jérôme Quévremont (Thales R&T)
+- Anna Riverola (SiPearl)
+- Olivier Sentieys (INRIA)
+- Philipp Tomsich (VRULL)
+- Stefan Wallentowitz (Hochschule München University of Applied Sciences)
 
+## Local Organization Committee
+
+- Teresa Cervero (BSC), 2023 local organizer
+- Wolfgang Ecker (Infineon)
+- Christian Fabre (CEA)
+- Frank K. Gürkaynak (ETH Zürich)
+- Christine Kaschuba (KIT)
+- Andy Moore (RISC-V International)
+- Daniel Mueller-Gritschneder (TU Munich)
+- Calista Redmond (RISC-V International)
+- Tiffany Sparks (RISC-V International)
+- Anja Schröter (KIT)
+- Stefan Wallentowitz (Munich University of Applied Sciences), local organizer
+
+## Local Organization
+
+The event is organized by RISC-V International, Hochschule München University of Applied Sciences, Technical University of Munich and KIT.
