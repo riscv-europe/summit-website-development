@@ -11,11 +11,9 @@ layout: summit2024
     title = "About"
 %}
 
-Learn more about the people behind the 
+Learn more about the people behind RISC-V Summit Europe.
 
-{% include jumboboxend.html %}
-
-## The Summit
+### The Summit
 
 The RISC-V Summit Europe Series is a merger of three European
 events, joined by [RISC-V International](https://riscv.org):
@@ -24,7 +22,7 @@ events, joined by [RISC-V International](https://riscv.org):
 - RISC-V Week in France: [https://open-src-soc.org/2022-05](https://open-src-soc.org/2022-05)
 - Workshop on RISC-V activities in Germany: [https://www.edacentrum.de/en/risc-v](https://www.edacentrum.de/en/risc-v)
 
-## The Program Committee - R&D Sessions
+### The Program Committee - R&D Sessions
 
 - Jan Andersson (Frontgrade Gaisler)
 - Jeremy Bennett (Embecosm)
@@ -68,7 +66,7 @@ events, joined by [RISC-V International](https://riscv.org):
 - An Xu (Beijing Institute of Open Source Chip)
 - Florian Zaruba (Axelera)
 
-## The Inddustry Session Committee
+### The Inddustry Session Committee
 
 - Marc Canel (Ventana)
 - Andy Moore (RISC-V International)</li>
@@ -82,7 +80,7 @@ events, joined by [RISC-V International](https://riscv.org):
 - An Xu (Beijing Institute of Open Source Chip)
 - Itai Yarom (MIPS)
 
-## The Steering Committee
+### The Steering Committee
 
 - Teresa Cervero (BSC)
 - Romain Dolbeau (SiPearl)
@@ -98,7 +96,7 @@ events, joined by [RISC-V International](https://riscv.org):
 - Philipp Tomsich (VRULL)
 - Stefan Wallentowitz (Hochschule München University of Applied Sciences)
 
-## Local Organization Committee
+### Local Organization Committee
 
 - Teresa Cervero (BSC), 2023 local organizer
 - Wolfgang Ecker (Infineon)
@@ -112,7 +110,7 @@ events, joined by [RISC-V International](https://riscv.org):
 - Anja Schröter (KIT)
 - Stefan Wallentowitz (Munich University of Applied Sciences), local organizer
 
-## Local Organization
+### Local Organization
 
 The event is organized by RISC-V International, Hochschule München University of
 Applied Sciences, Technical University of Munich and KIT Group Dresden.
@@ -123,3 +121,5 @@ Applied Sciences, Technical University of Munich and KIT Group Dresden.
     <img src="media/logos/TUM.svg" height="55" class="mx-3"/>
     <img src="media/logos/Kit-Group-logo.svg" height="75" class="ms-5"/>
 </div>
+
+{% include jumboboxend.html %}

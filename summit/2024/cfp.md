@@ -165,3 +165,5 @@ for the talks slots of the industry sessions.
 <div class="row justify-content-md-center my-4">
     <button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submission<br/>(coming soon)</button>
 </div>
+
+{% include jumboboxend.html %}
