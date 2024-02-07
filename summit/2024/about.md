@@ -114,4 +114,12 @@ events, joined by [RISC-V International](https://riscv.org):
 
 ## Local Organization
 
-The event is organized by RISC-V International, Hochschule München University of Applied Sciences, Technical University of Munich and KIT.
+The event is organized by RISC-V International, Hochschule München University of
+Applied Sciences, Technical University of Munich and KIT Group Dresden.
+
+<div class="d-flex justify-content-center align-items-center">
+    <img src="media/logos/RISC-V-logo-square.svg" height="75" class="me-5"/>
+    <img src="media/logos/HM.svg" height="75" class="mx-3"/>
+    <img src="media/logos/TUM.svg" height="55" class="mx-3"/>
+    <img src="media/logos/Kit-Group-logo.svg" height="75" class="ms-5"/>
+</div>
