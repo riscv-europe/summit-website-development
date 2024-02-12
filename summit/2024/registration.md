@@ -16,13 +16,13 @@ layout: summit2024
 
 The RISC-V Summit Europe has three tiers of registration fees:
 
- - **Master Students & Attendees of Low Income Countries, Low & Middle
-   Income Countries (MSc, LIC & LMIC)**. Proof of studentship will be
+ - **Students (up to completion of Master degree) & Attendees of Low Income Countries, Low & Middle
+   Income Countries (Students, LIC & LMIC)**. Proof of student status will be
    requested in the registration form for MSc students. The list of
    LIC & MLIC is available in [this
    document](media/lic-mlic/lic-mlic.pdf).
  - **PhD students & PostDocs**. Postdoctoral researchers. Proof of
-   studentship will be requested in the registration form for PhD
+   student status will be requested in the registration form for PhD
    students.
  - **Academia & Industry**. Industry professionals, staff scientists,
    group and team leaders.
@@ -32,9 +32,9 @@ The RISC-V Summit Europe has three tiers of registration fees:
 The RISC-V Summit Europe has three mains periods:
 
  - **Technical Working Group (TWG) Meetings** and **Tutorials** on Monday June
-   5th, afternoon. Attending the meetings requires to be a member of the TWG
+   24th, afternoon. Attending the meetings requires to be a member of the TWG
    organizing body.
- - **Core summit** from Tuesday 6th to Thursday 8th: with keynotes,
+ - **Core summit** from Tuesday 25th to Thursday 27th: with keynotes,
    presentations, panel, industrial exhibition, demos, posters, etc.
  - **Side events** on Friday 9th, for events related to RISC-V and
    open source technologies: open workshops, consortium meetings, etc.
@@ -51,9 +51,9 @@ the week are presented in the table below.
   <thead>
     <tr>
       <th width="40%"></th>
-      <th width="20%">Early<br/>&rarr; May x</th>
-      <th width="20%">Regular<br/>May x &rarr; May x</th>
-      <th width="20%">Late<br/>May x &rarr; June 27</th>
+      <th width="20%">Early<br/>&rarr; May 10</th>
+      <th width="20%">Regular<br/>May 11 &rarr; June 9</th>
+      <th width="20%">Late<br/>June 10 &rarr; June 27</th>
     </tr>
   </thead>
   <tbody>
@@ -70,7 +70,7 @@ the week are presented in the table below.
       <td>560 €</td>
     </tr>
     <tr>
-      <td>MSc, LIC & MLIC</td>
+      <td>Students, LIC & MLIC</td>
       <td>260 €</td>
       <td>295 €</td>
       <td>330 €</td>
