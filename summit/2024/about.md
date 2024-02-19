@@ -3,11 +3,11 @@ title: About RISC-V Summit Europe
 layout: summit2024
 ---
 
-{% include bannerimg.html 
+{% include bannerimg.html
     img = "media/banners/committee.jpg"
 %}
 
-{% include jumboboxstart.html 
+{% include jumboboxstart.html
     title = "About"
 %}
 
@@ -66,10 +66,10 @@ events, joined by [RISC-V International](https://riscv.org):
 - An Xu (Beijing Institute of Open Source Chip)
 - Florian Zaruba (Axelera)
 
-### The Inddustry Session Committee
+### The Inddstry Session Committee
 
 - Marc Canel (Ventana)
-- Andy Moore (RISC-V International)</li>
+- Andy Moore (RISC-V International)
 - Daniel Mueller-Gritschneder (TU Munich)
 - Borja Pérez Pavon (Univ. de Cantabria)
 - Victoria Rege (Imagination)
