@@ -109,8 +109,10 @@ together with presentations, which will be recorded. The Program Committee will
 ask for the **poster and/or presentation slides before the deadline** to confirm
 the acceptance and give useful input.
 
+Find full instructions for the industry session submission [here](media/Industry_CfP_Europe_2024.pdf).
+
 <div class="row justify-content-md-center my-4">
-    <button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submission<br/>(coming soon)</button>
+    <a href="https://softconf.com/n/riscv-europe24/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal<br/>(via Softconf, please register/login)</a>
 </div>
 
 ## Research and Development (R&D) Sessions
@@ -163,7 +165,7 @@ Suitable research & development submissions by industry will also be recommended
 for the talks slots of the industry sessions.
 
 <div class="row justify-content-md-center my-4">
-    <button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submission<br/>(coming soon)</button>
+    <a href="https://softconf.com/n/riscv-europe24/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal<br/>(via Softconf, please register/login)</a>
 </div>
 
 {% include jumboboxend.html %}
