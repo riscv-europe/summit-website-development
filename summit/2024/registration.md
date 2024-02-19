@@ -36,7 +36,7 @@ The RISC-V Summit Europe has three mains periods:
    organizing body.
  - **Core summit** from Tuesday 25th to Thursday 27th: with keynotes,
    presentations, panel, industrial exhibition, demos, posters, etc.
- - **Side events** on Friday 9th, for events related to RISC-V and
+ - **Side events** on Friday 28th, for events related to RISC-V and
    open source technologies: open workshops, consortium meetings, etc.
    More details on the <a href="side-events.html" target="_blank">Fri
    9th Side Events</a> page.
@@ -99,10 +99,21 @@ The conference registration fee includes:
 
 ### Cancellation policy
 
-coming soon
+All registration changes and cancellations must be communicated to K.I.T. Group in written form, i.e. via
+email or mail. In case of cancellation of the registration or cancellation of single bookings received before
+the early registration deadline, a cancellation fee of 50% of the registration fee applies. No refund will be
+given for cancellations made after the early registration deadline and the claim for the full payment of all
+registration fees remains, respectively.
+
+No refund will be given for unattended events, illness or early termination of attendance.
+
+In case of cancellations due to denied VISA applications, the full registration fee minus a processing fee of
+EUR 50.00 will be refunded after the conference if the visa was applied for in time. To apply for the refund,
+a proof of timely application together with an official notice from the embassy confirming that a visa could
+not be granted needs to be forwarded to K.I.T. Group by email or mail.
 
 <div class="row justify-content-md-center my-4">
-    <button type="button" class="btn btn-lg disabled" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register Now<br/>(coming soon)</button>
+    <a href="https://kit-react.de/portal/init?mnemonic=RISCVRegistration" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register Now!</a>
 </div>
 
 {% include jumboboxend.html %}
