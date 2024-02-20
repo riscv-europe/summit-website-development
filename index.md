@@ -15,7 +15,7 @@ layout: default
   <div class="col mb-4">
     <div class="card h-100">
       <a href="summit/2024"><img
-        src="summit/2024/media/banners/banner-placeholder.svg"
+        src="summit/2024/media/banners/banner.png"
         class="card-img-top"
         alt="RISC-V Summit Europe 2024 Logo"
       /></a>

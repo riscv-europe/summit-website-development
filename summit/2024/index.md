@@ -4,7 +4,7 @@ layout: summit2024
 ---
 
 {% include bannerimg.html
-    img = "media/banners/banner-placeholder.svg"
+    img = "media/banners/banner.png"
 %}
 
 <div class="alert alert-primary" role="alert" markdown="1">
