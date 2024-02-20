@@ -66,7 +66,7 @@ events, joined by [RISC-V International](https://riscv.org):
 - An Xu (Beijing Institute of Open Source Chip)
 - Florian Zaruba (Axelera)
 
-### The Inddstry Session Committee
+### The Industry Session Committee
 
 - Marc Canel (Ventana)
 - Andy Moore (RISC-V International)
