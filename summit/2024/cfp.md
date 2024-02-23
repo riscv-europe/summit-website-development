@@ -51,7 +51,7 @@ not be submitted to both sessions.
 
 **Important dates**
 
-- Abstract submission deadline: **Monday, March 15th, 2024**, AoE (Anywhere on Earth).
+- Abstract submission deadline: ~~Monday, March 15th, 2024~~ **Wednesday, March 20th, 2024**, AoE (Anywhere on Earth). **Hard deadline, no further extension!**
 - Author notification: Monday, April 29th, 2024.
 - Final abstract PDF and slides deadline: Thursday, May 31st, 2024 AoE.
 - Poster PDF deadline: June 14, 2024 AoE.
