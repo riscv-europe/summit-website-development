@@ -150,7 +150,7 @@ level (including Platinum upgrade) and time of form submission. This will
 determine the order sponsors can choose from available slots for keynotes and
 booth location.
 
-*All prices are plus VAT where applicable.*
+**All prices are plus VAT where applicable.**
 
 Below you can find the sponsorship flyer. Contact [Andy Moore](mailto:andy@riscv.org) for more information.
 
