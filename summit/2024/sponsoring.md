@@ -134,9 +134,9 @@ Several packages with varying features are available.
 Beyond the sponsorship packages, there are extra sponsorships available:
 
 - ~~Lanyard sponsorship (1)~~ (sold) - €5k
-- WiFi sponsorship (1) - €5k
+- ~~WiFi sponsorship (1)~~ (sold) - €5k
 - Collaboration breakfast sponsorship (1) - €6k
-- Lounge area sponsorship (1) - €7k
+- ~~Lounge area sponsorship (1)~~ (sold) - €7k
 - ~~Drinks Reception sponsorship~~ (sold) - €7.5k
 - Bulk buy of 20 tickets with logo on exhibition slide and signage: Contact for further details
 - Demo Theatre naming rights (1) - €6k
