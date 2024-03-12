@@ -90,9 +90,9 @@ Areas of interest include:
 
 Submissions can be any length up to a two-page abstract. To improve chances of
 acceptance you should give a good impression of the content and important
-take-away points that can be expected from the presentation. Abstract template
-and instructions for submission will be available on the Summit website at
-https://riscv-europe.org.
+take-away points that can be expected from the presentation. Find full
+instructions for the industry session submission
+[here](media/Industry_CfP_Europe_2024.pdf).
 
 As it is hard to hide authors for this type of contributions, submissions for
 the Industry sessions are for **non-blind** review by the Industry Session
@@ -143,11 +143,10 @@ We invite submissions related to RISC-V addressing the following technical topic
 - RISC-V related educational activities
 - Any other topic related to RISC-V and open stack (hardware or software)
 
-### Submission Format for R&D sessions (blind):
+### Submission Format for R&D sessions (blind)
 
 The R&D submissions should be provided as a two page extended abstract. Abstract
-template and instructions for submission will be available on the Summit website
-at https://riscv-europe.org.
+template and instructions for submission are available [here](https://github.com/riscv-europe/riscv-europe-summit-templates).
 
 Submissions for the Research and Development sessions are for *blind review* by
 the Program Committee. Please, do not include any author information in the
