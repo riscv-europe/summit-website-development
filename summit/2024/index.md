@@ -8,10 +8,6 @@ layout: summit2024
 %}
 
 <div class="alert alert-primary" role="alert" markdown="1">
-  Submission for the [Call for Presentations](cfp) is extended! Make sure you get your ideas ready for submission until ~~March 15, 2024~~ March 20, 2024.
-</div>
-
-<div class="alert alert-primary" role="alert" markdown="1">
   [Registration](registration) is open. Secure the early bird rate until May 10, 2024.
 </div>
 
