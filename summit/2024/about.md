@@ -102,13 +102,14 @@ events, joined by [RISC-V International](https://riscv.org):
 - Wolfgang Ecker (Infineon)
 - Christian Fabre (CEA)
 - Frank K. Gürkaynak (ETH Zürich)
-- Christine Kaschuba (KIT)
 - Andy Moore (RISC-V International)
 - Daniel Mueller-Gritschneder (TU Munich)
+- Grace Mutsengi (KIT)
 - Calista Redmond (RISC-V International)
 - Tiffany Sparks (RISC-V International)
 - Anja Schröter (KIT)
 - Stefan Wallentowitz (Munich University of Applied Sciences), local organizer
+- Anja Zeun (KIT)
 
 ### Local Organization
 
