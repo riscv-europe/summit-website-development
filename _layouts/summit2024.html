@@ -26,11 +26,21 @@
             <li class="nav-item">
               <a {% if page.url == "/summit/2024/" %}class="nav-link active" aria-current="page"{% else %}class="nav-link"{% endif %} href="/summit/2024"><span style="font-weight: bold">Summit Europe 2024</span></a>
             </li>
-            <li class="nav-item">
-              <a {% if page.url == "/summit/2024/conference.html" %}class="nav-link active" aria-current="page"{% else %}class="nav-link"{% endif %} href="conference">Program</a>
+            <li class="nav-item dropdown">
+              <a {% if page.url == "/summit/2024/conference.html" %}class="nav-link dropdown-toggle active" aria-current="page"{% else %}class="nav-link dropdown-toggle"{% endif %} role="button" data-bs-toggle="dropdown">Program</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="conference">Main program (Tuesday to Thursday)</a></li>
+                <li><a class="dropdown-item" href="twgs">Technical Work Groups (Monday)</a></li>
+                <li><a class="dropdown-item" href="sideevents">Side Events (Friday)</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a {% if page.url == "/summit/2024/cfp.html" %}class="nav-link active" aria-current="page"{% else %}class="nav-link"{% endif %} href="cfp">Call for Contributions</a>
+            <li class="nav-item dropdown">
+              <a {% if page.url == "/summit/2024/conference.html" %}class="nav-link dropdown-toggle active" aria-current="page"{% else %}class="nav-link dropdown-toggle"{% endif %} role="button" data-bs-toggle="dropdown">Calls for Proposals</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="cfp">Main program</a></li>
+                <li><a class="dropdown-item" href="sideevents">Side Events (Friday)</a></li>
+                <li><a class="dropdown-item" href="demoday">University Demo Day</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a {% if page.url == "/summit/2024/registration.html" %}class="nav-link active" aria-current="page"{% else %}class="nav-link"{% endif %} href="registration">Registration</a>

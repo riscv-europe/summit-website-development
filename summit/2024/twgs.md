@@ -1,5 +1,5 @@
 ---
-title: Conference
+title: Technical Workgroup Meetings
 layout: summit2024
 ---
 
