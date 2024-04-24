@@ -139,7 +139,7 @@ Beyond the sponsorship packages, there are extra sponsorships available:
 - ~~Lounge area sponsorship (1)~~ (sold) - €7k
 - ~~Drinks Reception sponsorship~~ (sold) - €7.5k
 - Bulk buy of 20 tickets with logo on exhibition slide and signage: Contact for further details
-- Demo Theatre naming rights (1) - €6k
+- ~~Demo Theatre naming rights (1)~~ (sold) - €6k
 - Contribution to Diversity scholarships - €2.5k
 
 ## More Information and Become a Sponsor
@@ -164,5 +164,9 @@ Below you can find the sponsorship flyer. Contact [Andy Moore](mailto:andy@riscv
         </div>
     </div>
 </div>
+
+## Sponsor Manual
+
+You can find the sponsor manual [here](media/RISC-V Summit EU 2024_sponsors manual_2024-04-24.pdf) (version: April 24).
 
 {% include jumboboxend.html %}
