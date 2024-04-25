@@ -167,6 +167,6 @@ Below you can find the sponsorship flyer. Contact [Andy Moore](mailto:andy@riscv
 
 ## Sponsor Manual
 
-You can find the sponsor manual [here](media/RISC-V Summit EU 2024_sponsors manual_2024-04-24.pdf) (version: April 24).
+You can find the sponsor manual [here](media/RISC-V Summit EU 2024_sponsors manual_2024-04-25.pdf) (version: April 25).
 
 {% include jumboboxend.html %}
