@@ -10,11 +10,9 @@ layout: default
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card h-100">
-      <a href="summit/2024"><img
-        src="summit/2024/media/banners/banner.png"
-        class="card-img-top"
-        alt="RISC-V Summit Europe 2024 Logo"
-      /></a>
+      <a href="summit/2024">
+        <img src="summit/2024/media/banners/banner.png" class="card-img-top" alt="RISC-V Summit Europe 2024 Logo">
+      </a>
       <div class="card-body">
         <h5 class="card-title">RISC-V Summit Europe 2024</h5>
         <p class="card-text">
@@ -85,7 +83,7 @@ layout: default
         src="summit/2023/media/banners/banner.jpg"
         class="card-img-top"
         alt="RISC-V Summit Europe 2023 Impression"
-      />
+      >
       <div class="card-body">
         <h5 class="card-title">RISC-V Summit Europe 2023</h5>
         <p class="card-text">
