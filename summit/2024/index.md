@@ -32,7 +32,7 @@ layout: summit2024
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/quendt.jpeg" alt="Bernhard Quendt" class="img-fluid rounded-circle" width="75%">
+        <img src="media/photos/quendt.jpeg" alt="Bernhard Quendt" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
@@ -48,7 +48,7 @@ layout: summit2024
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/boehm.jpeg" alt="Thomas Boehm" class="img-fluid rounded-circle" width="75%">
+        <img src="media/photos/boehm.jpeg" alt="Thomas Boehm" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
@@ -64,7 +64,7 @@ layout: summit2024
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/krste.jpeg" alt="Krste Asanović" class="img-fluid rounded-circle" width="75%">
+        <img src="media/photos/krste.jpeg" alt="Krste Asanović" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
@@ -80,7 +80,7 @@ layout: summit2024
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/baehr.jpeg" alt="Johanna Bähr" class="img-fluid rounded-circle" width="75%">
+        <img src="media/photos/baehr.jpeg" alt="Johanna Bähr" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
@@ -96,7 +96,7 @@ layout: summit2024
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/wilford.jpeg" alt="Edward Wilford" class="img-fluid rounded-circle" width="75%">
+        <img src="media/photos/wilford.jpeg" alt="Edward Wilford" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
@@ -112,7 +112,7 @@ layout: summit2024
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/wikelius.jpeg" alt="Larry Wikelius" class="img-fluid rounded-circle" width="75%">
+        <img src="media/photos/wikelius.jpeg" alt="Larry Wikelius" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
@@ -128,7 +128,7 @@ layout: summit2024
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/kocher.jpeg" alt="Alexander Kocher" class="img-fluid rounded-circle" width="75%">
+        <img src="media/photos/kocher.jpeg" alt="Alexander Kocher" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
