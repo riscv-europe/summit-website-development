@@ -117,10 +117,10 @@ The event is organized by RISC-V International, Hochschule München University o
 Applied Sciences, Technical University of Munich and KIT Group Dresden.
 
 <div class="d-flex justify-content-center align-items-center">
-    <img src="media/logos/RISC-V-logo-square.svg" height="75" class="me-5"/>
-    <img src="media/logos/HM.svg" height="75" class="mx-3"/>
-    <img src="media/logos/TUM.svg" height="55" class="mx-3"/>
-    <img src="media/logos/Kit-Group-logo.svg" height="75" class="ms-5"/>
+    <img src="media/logos/RISC-V-logo-square.svg" height="75" class="me-5" alt="RISC-V">
+    <img src="media/logos/HM.svg" height="75" class="mx-3" alt="HM">
+    <img src="media/logos/TUM.svg" height="55" class="mx-3" alt="TUM">
+    <img src="media/logos/Kit-Group-logo.svg" height="75" class="ms-5" alt="KIT Group">
 </div>
 
 {% include jumboboxend.html %}

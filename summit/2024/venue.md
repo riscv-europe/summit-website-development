@@ -15,7 +15,7 @@ layout: summit2024
 
 The venue can be reached by subway U6 and a short walk. The subway crosses the city center with the stations "Sendlinger Tor", "Marienplatz", "Odeonsplatz" and "Münchener Freiheit". Signage will show the way from the subway station to the venue. The address of the venue is: Lilienthalallee 40, 80939 Munich.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57365.356826564464!2d11.542219843928848!3d48.16424897070057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e746f1a4cd0d3%3A0xe3acdad171be6854!2sMOC%20%E2%80%93%20Event%20Center%20Messe%20Munich!5e0!3m2!1sen!2sde!4v1698259650300!5m2!1sen!2sde" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57365.356826564464!2d11.542219843928848!3d48.16424897070057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e746f1a4cd0d3%3A0xe3acdad171be6854!2sMOC%20%E2%80%93%20Event%20Center%20Messe%20Munich!5e0!3m2!1sen!2sde!4v1698259650300!5m2!1sen!2sde" height="450" style="border:0; width: 100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 {% include jumboboxend.html %}
 

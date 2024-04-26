@@ -50,10 +50,10 @@ the week are presented in the table below.
 <table class="my-4 table table-striped table-sm" style="width: 75%">
   <thead>
     <tr>
-      <th width="40%">(attendance fees are VAT-free)</th>
-      <th width="20%">Early<br/>&rarr; May 10</th>
-      <th width="20%">Regular<br/>May 11 &rarr; June 9</th>
-      <th width="20%">Late<br/>June 10 &rarr; June 27</th>
+      <th style="width: 40%">(attendance fees are VAT-free)</th>
+      <th style="width: 20%">Early<br/>&rarr; May 10</th>
+      <th style="width: 20%">Regular<br/>May 11 &rarr; June 9</th>
+      <th style="width: 20%">Late<br/>June 10 &rarr; June 27</th>
     </tr>
   </thead>
   <tbody>

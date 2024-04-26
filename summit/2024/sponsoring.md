@@ -16,41 +16,41 @@ layout: summit2024
 
 Several packages with varying features are available.
 
-<table cellpadding="4" class="sponsor-table">
+<table class="sponsor-table">
     <thead>
         <tr>
-            <td width="40%"></td>
-            <td width="15%" class="sponsor-platinum">Platinum <br/>(only 1 left)</td>
-            <td width="15%" class="sponsor-gold">Gold</td>
-            <td width="15%" class="sponsor-silver">Silver</td>
-            <td width="15%" class="sponsor-bronze">Bronze</td>
+            <td style="width: 40%"></td>
+            <td style="width: 15%" class="sponsor-platinum">Platinum <br/>(only 1 left)</td>
+            <td style="width: 15%" class="sponsor-gold">Gold</td>
+            <td style="width: 15%" class="sponsor-silver">Silver</td>
+            <td style="width: 15%" class="sponsor-bronze">Bronze</td>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Keynote (15 min)</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
             <td>Demo Theatre Presentation</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
-            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
             <td>2-minute lightning talk in plenary</td>
             <td class="sponsor-platinum"></td>
-            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
             <td>3x2m booth space</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
@@ -58,7 +58,7 @@ Several packages with varying features are available.
         <tr>
             <td>2x2m booth space</td>
             <td class="sponsor-platinum"></td>
-            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
@@ -66,7 +66,7 @@ Several packages with varying features are available.
             <td>Tabletop and two chairs</td>
             <td class="sponsor-platinum"></td>
             <td class="sponsor-gold"></td>
-            <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
@@ -85,31 +85,31 @@ Several packages with varying features are available.
         </tr>
         <tr>
             <td>Private meeting room</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold">+2,500 €</td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
             <td>2-minute video with RISC-V on Youtube playlist</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
             <td>Logo on event giveaway</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
             <td>Logo on event signage, slides and website</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
-            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
-            <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
-            <td class="sponsor-bronze"><img src="/assets/icons/check-circle-fill-green.svg" height="20"></td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-bronze"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
         </tr>
         <tr>
             <td>Cost</td>
@@ -120,7 +120,7 @@ Several packages with varying features are available.
         </tr>
         <tr>
             <td></td>
-            <td class="sponsor-platinum"><strong>Upgrade available:</strong><br/>6x4m booth, 20 minute keynote<br/>+ 5,000 €</td>
+            <td class="sponsor-platinum"><strong>Upgrade available:</strong><br>6x4m booth, 20 minute keynote<br>+ 5,000 €</td>
             <td></td>
             <td></td>
             <td></td>
