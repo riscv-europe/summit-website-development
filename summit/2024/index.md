@@ -23,3 +23,125 @@ layout: summit2024
 
 {% include jumboboxend.html %}
 
+{% include jumboboxstart.html
+    title = "Keynotes & Invited Talks"
+    lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote speakers and invited talks."
+%}
+
+<div class="row mt-5">
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="media/photos/quendt.jpeg" alt="Bernhard Quendt" class="img-fluid rounded-circle" width="75%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1">Bernhard Quendt<br>Thales Group</h5>
+          <h6 class="subtitle">CTO</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="media/photos/boehm.jpeg" alt="Thomas Boehm" class="img-fluid rounded-circle" width="75%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1">Thomas Böhm<br>Infineon Technologies</h5>
+          <h6 class="subtitle">Senior Vice President & General Manager Microcontroller Automotive</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="media/photos/krste.jpeg" alt="Krste Asanović" class="img-fluid rounded-circle" width="75%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1">Krste Asanović<br>SiFive</h5>
+          <h6 class="subtitle">Chief Architect</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="media/photos/baehr.jpeg" alt="Johanna Bähr" class="img-fluid rounded-circle" width="75%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1">Johanna Bähr<br>Fraunhofer AISEC</h5>
+          <h6 class="subtitle">Research Associate</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="media/photos/wilford.jpeg" alt="Edward Wilford" class="img-fluid rounded-circle" width="75%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1">Edward Wilford<br>Omdia</h5>
+          <h6 class="subtitle">Senior Principal Analyst</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="media/photos/wikelius.jpeg" alt="Larry Wikelius" class="img-fluid rounded-circle" width="75%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1">Larry Wikelius<br>RISE</h5>
+          <h6 class="subtitle">Director</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <img src="media/photos/kocher.jpeg" alt="Alexander Kocher" class="img-fluid rounded-circle" width="75%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1">Alexander Kocher<br>Quintauris</h5>
+          <h6 class="subtitle">CEO</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+{% include jumboboxend.html %}
