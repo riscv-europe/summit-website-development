@@ -62,4 +62,9 @@ than **June 5, 2024**.
     <a href="https://forms.gle/VrV4SRPbJX5XiLgT6" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal</a>
 </div>
 
+<div class="text-center mt-5">
+    <b>The University Demo Day is presented by</b><br/>
+    <a href="https://www.quintauris.eu" target="_blank"><img src="media/logos/sponsors/quintauris.svg" width="150" /></a>
+</div>
+
 {% include jumboboxend.html %}
