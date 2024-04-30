@@ -14,8 +14,8 @@ layout: summit2024
 
 Calling all universities and research institutions passionate about RISC-V
 technology! We're thrilled to invite you to our RISC-V University Demo Day,
-where academia meets innovation in the realm of open-source hardware and
-software.
+where academia meets innovation in the realm of RISC-V and open-source hardware
+and software.
 
 RISC-V has emerged as a leading architecture, offering flexibility, scalability,
 and openness like never before. In Europe, universities and research
@@ -39,7 +39,7 @@ of computing, one demo at a time!
 
 ### Guidelines
 
-- The university demo day is limited to universities and research institutions
+- The university demo day is limited to universities and research institutions (worldwide)
 - Demonstrators can be results from joint projects with industry, but the focus must be clearly on the academic partner(s)
 - Presentations are limited to an overview slide
 - The actual demo should showcase your great results, either around a chip, FPGA or software
