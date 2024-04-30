@@ -38,7 +38,7 @@ layout: summit2024
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1">Bernhard Quendt<br>Thales Group</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Bernhard Quendt</b><br>Thales Group</h5>
           <h6 class="subtitle">CTO</h6>
         </div>
       </div>
@@ -54,7 +54,7 @@ layout: summit2024
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1">Thomas Böhm<br>Infineon Technologies</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Thomas Böhm</b><br>Infineon Technologies</h5>
           <h6 class="subtitle">Senior Vice President & General Manager Microcontroller Automotive</h6>
         </div>
       </div>
@@ -70,7 +70,7 @@ layout: summit2024
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1">Krste Asanović<br>SiFive</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Krste Asanović</b><br>SiFive</h5>
           <h6 class="subtitle">Chief Architect</h6>
         </div>
       </div>
@@ -86,7 +86,7 @@ layout: summit2024
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1">Johanna Bähr<br>Fraunhofer AISEC</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Johanna Bähr</b><br>Fraunhofer AISEC</h5>
           <h6 class="subtitle">Research Associate</h6>
         </div>
       </div>
@@ -102,7 +102,7 @@ layout: summit2024
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1">Edward Wilford<br>Omdia</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Edward Wilford</b><br>Omdia</h5>
           <h6 class="subtitle">Senior Principal Analyst</h6>
         </div>
       </div>
@@ -118,7 +118,7 @@ layout: summit2024
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1">Larry Wikelius<br>RISE</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Larry Wikelius</b><br>RISE</h5>
           <h6 class="subtitle">Director</h6>
         </div>
       </div>
@@ -134,7 +134,7 @@ layout: summit2024
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1">Alexander Kocher<br>Quintauris</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Alexander Kocher</b><br>Quintauris</h5>
           <h6 class="subtitle">CEO</h6>
         </div>
       </div>
