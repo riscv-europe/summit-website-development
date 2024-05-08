@@ -89,7 +89,7 @@ A preliminary version of the program will be published on May 1st.
 
 {% endfor %}
 
-### Technical Presentations
+### Technical and Industry Presentations
 {% assign talks = program | where, "type", "technical" %}
 {% for talk in talks %}
 <div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
