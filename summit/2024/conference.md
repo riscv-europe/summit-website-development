@@ -58,3 +58,44 @@ A preliminary version of the program will be published on May 1st.
 </div>
 
 {% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+    title = "Confirmed Presentations"
+    lead = "The following presentations are confirmed for RISC-V Summit Europe. The schedule will follow soon."
+%}
+
+{% assign program=site.data.summit24schedule %}
+
+### Keynotes
+{% assign talks = program | where, "type", "keynote" %}
+{% for talk in talks %}
+<div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
+*{{ talk.name }}*
+
+{% endfor %}
+
+### Invited Talks
+{% assign talks = program | where, "type", "invited" %}
+{% for talk in talks %}
+<div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
+*{{ talk.name }}*
+
+{% endfor %}
+
+### Panels
+{% assign talks = program | where, "type", "panel" %}
+{% for talk in talks %}
+<div style="font-size: large; font-weight: bold" class="my-3">{{ talk.title }}</div>
+
+{% endfor %}
+
+### Technical Presentations
+{% assign talks = program | where, "type", "technical" %}
+{% for talk in talks %}
+<div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
+*{{ talk.name }}*
+
+{% endfor %}
+
+
+{% include jumboboxend.html %}
