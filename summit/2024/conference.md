@@ -65,7 +65,7 @@ presentations, workshops and project meetings.
 {% assign program=site.data.summit24schedule %}
 
 ### Keynotes
-{% assign talks = program | where, "type", "keynote" %}
+{% assign talks = program | where: "type", "keynote" %}
 {% for talk in talks %}
 <div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
 *{{ talk.name }}*
@@ -73,7 +73,7 @@ presentations, workshops and project meetings.
 {% endfor %}
 
 ### Invited Talks
-{% assign talks = program | where, "type", "invited" %}
+{% assign talks = program | where: "type", "invited" %}
 {% for talk in talks %}
 <div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
 *{{ talk.name }}*
@@ -81,14 +81,14 @@ presentations, workshops and project meetings.
 {% endfor %}
 
 ### Panels
-{% assign talks = program | where, "type", "panel" %}
+{% assign talks = program | where: "type", "panel" %}
 {% for talk in talks %}
 <div style="font-size: large; font-weight: bold" class="my-3">{{ talk.title }}</div>
 
 {% endfor %}
 
 ### Technical and Industry Presentations
-{% assign talks = program | where, "type", "technical" %}
+{% assign talks = program | where: "type", "technical" %}
 {% for talk in talks %}
 <div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
 *{{ talk.name }}*
