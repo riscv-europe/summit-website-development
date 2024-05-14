@@ -140,8 +140,67 @@ layout: summit2024
       </div>
     </div>
   </div>
+</div>
 
+{% include jumboboxend.html %}
 
+{% include jumboboxstart.html
+    title = "Panels"
+    lead = "Two exciting panels will bring together experts to discuss the future of computing with RISC-V."
+%}
+
+## Accelerating AI Innovation with RISC-V
+
+<div class="row mt-5">
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <b>Invited Introduction Presentation</b>
+      </div>
+      <div class="col-md-12 text-center">
+        <img src="media/photos/tomsich.jpg" alt="Philipp Tomsich" class="img-fluid rounded-circle" style="width: 50%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Philipp Tomisch</b><br>VRULL</h5>
+          <h6 class="subtitle">Founder & Chief Technologist</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-9 col-12 mb-4" markdown="1">
+**RISC-V: Charting the Future of AI/ML with Open Standards and Global Collaboration**<br>Introduction presentation by *Philipp Tomsich, VRULL*
+
+Panelists to be announced
+  </div>
+</div>
+
+## How can Europe engage in RISC-V?
+
+<div class="row mt-5">
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <b>Invited Introduction Presentation</b>
+      </div>
+      <div class="col-md-12 text-center">
+        <img src="media/photos/quendt.jpeg" alt="Georgi Kuzmanov" class="img-fluid rounded-circle" style="width: 50%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Georgi Kuzmanov</b><br>Programme Officer</h5>
+          <h6 class="subtitle">Chips Joint Undertaking</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-9 col-12 mb-4" markdown="1">
+    Panelists to be announced
+  </div>
 </div>
 
 {% include jumboboxend.html %}
