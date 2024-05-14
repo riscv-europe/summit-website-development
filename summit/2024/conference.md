@@ -18,8 +18,6 @@ RISC-V newcomers and technical workgroup meetings for members. Friday will
 complete the exicting program with side events around research project
 presentations, workshops and project meetings.
 
-A preliminary version of the program will be published on May 1st.
-
 <div class="row">
 <div class="col-sm-3">
 <div class="card" style="height: 100%">
