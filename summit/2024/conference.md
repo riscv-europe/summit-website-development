@@ -58,42 +58,17 @@ presentations, workshops and project meetings.
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-    title = "Confirmed Presentations"
-    lead = "The following presentations are confirmed for RISC-V Summit Europe. The schedule will follow soon."
+    title = "Schedule"
 %}
 
-{% assign program=site.data.summit24schedule %}
+<div class="schedule">
 
-### Keynotes
-{% assign talks = program | where: "type", "keynote" %}
-{% for talk in talks %}
-<div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
-*{{ talk.name }}*
+{% include summit24schedule.md day="Tuesday, June 25th" day_id="tue" %}
 
-{% endfor %}
+{% include summit24schedule.md day="Wednesday, June 26th" day_id="wed" %}
 
-### Invited Talks
-{% assign talks = program | where: "type", "invited" %}
-{% for talk in talks %}
-<div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
-*{{ talk.name }}*
+{% include summit24schedule.md day="Thursday, June 27th" day_id="thu" %}
 
-{% endfor %}
-
-### Panels
-{% assign talks = program | where: "type", "panel" %}
-{% for talk in talks %}
-<div style="font-size: large; font-weight: bold" class="my-3">{{ talk.title }}</div>
-
-{% endfor %}
-
-### Technical and Industry Presentations
-{% assign talks = program | where: "type", "technical" %}
-{% for talk in talks %}
-<div style="font-size: large; font-weight: bold">{{ talk.title }}</div>
-*{{ talk.name }}*
-
-{% endfor %}
-
+</div>
 
 {% include jumboboxend.html %}
