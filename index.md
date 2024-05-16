@@ -3,10 +3,6 @@ title: RISC-V Europe
 layout: default
 ---
 
-<div class="alert alert-primary" role="alert" markdown="1">
-  [Registration](summit/2024/registration) for RISC-V Summit Europe 2024 is open. Secure the early bird rate until May 10, 2024.
-</div>
-
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card h-100">

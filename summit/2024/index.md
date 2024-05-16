@@ -7,10 +7,6 @@ layout: summit2024
     img = "media/banners/banner.png"
 %}
 
-<div class="alert alert-primary" role="alert" markdown="1">
-  [Registration](registration) is open. Secure the early bird rate until May 10, 2024.
-</div>
-
 {% include jumboboxstart.html
     title = "Welcome"
     lead = "The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers - from industry, government, research, academia and ecosystem support - that are building the future of innovation on RISC-V."
