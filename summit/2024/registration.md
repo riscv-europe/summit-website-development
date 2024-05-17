@@ -116,4 +116,9 @@ not be granted needs to be forwarded to K.I.T. Group by email or mail.
     <a href="https://kit-react.de/portal/init?mnemonic=RISCVProfil" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register Now!</a>
 </div>
 
+### Press registration
+
+To secure your free press registration, please contact [us here](mailto:RISC-V@kitdresden.de)
+
+
 {% include jumboboxend.html %}

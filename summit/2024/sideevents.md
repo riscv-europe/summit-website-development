@@ -25,7 +25,7 @@ for Friday 9th**, and payment of the associated fees to covers breaks
 and lunch.
 
 Attendees need to book a full-day pass for Friday at **60 Euro** at
-[registration](/registration).
+[registration](registration).
 
 ## Workshop Organization Details
 
