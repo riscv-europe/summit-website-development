@@ -186,29 +186,6 @@ Panelists to be announced
 
 Panelists to be announced
 
-<!--<div class="row mt-5">
-  <div class="col-sm-3 col-6 mb-4">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <b>Invited Introduction Presentation</b>
-      </div>
-      <div class="col-md-12 text-center">
-        <img src="media/photos/quendt.jpeg" alt="Georgi Kuzmanov" class="img-fluid rounded-circle" style="width: 50%">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1"><b>Georgi Kuzmanov</b><br>Programme Officer</h5>
-          <h6 class="subtitle">Chips Joint Undertaking</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-9 col-12 mb-4" markdown="1">
-    Panelists to be announced
-  </div>
-</div>
---!>
+
 
 {% include jumboboxend.html %}
