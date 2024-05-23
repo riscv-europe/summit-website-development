@@ -184,7 +184,9 @@ Panelists to be announced
 
 ## How can Europe engage in RISC-V?
 
-<div class="row mt-5">
+Panelists to be announced
+
+<!--<div class="row mt-5">
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -207,5 +209,6 @@ Panelists to be announced
     Panelists to be announced
   </div>
 </div>
+--!>
 
 {% include jumboboxend.html %}
