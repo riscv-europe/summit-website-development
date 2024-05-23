@@ -141,6 +141,12 @@ layout: summit2024
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
+    title = "Hackathon"
+    lead = "RISC-V International is excited to join with its members Codasip and Renesas to host an in person hackathon at RISC-V Summit Europe! for more details visit https://community.riscv.org/events/details/risc-v-international-risc-v-in-emea-presents-hackathon-at-risc-v-summit-europe/"
+%}
+
+
+{% include jumboboxstart.html
     title = "Panels"
     lead = "Two exciting panels will bring together experts to discuss the future of computing with RISC-V."
 %}
