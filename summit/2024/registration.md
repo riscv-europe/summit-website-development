@@ -34,12 +34,11 @@ The RISC-V Summit Europe has three mains periods:
  - **Technical Working Group (TWG) Meetings** and **Tutorials** on Monday June
    24th, afternoon. Attending the meetings requires to be a member of the TWG
    organizing body.
- - **Core summit** from Tuesday 25th to Thursday 27th: with keynotes,
+ - **Core summit** with [program](conference) from Tuesday 25th to Thursday 27th: with keynotes,
    presentations, panel, industrial exhibition, demos, posters, etc.
  - **Side events** on Friday 28th, for events related to RISC-V and
    open source technologies: open workshops, consortium meetings, etc.
-   More details on the <a href="side-events.html" target="_blank">Friday
-   Side Events</a> page.
+   More details on the [Side Events Page](sideevents).
 
 The Monday TWG meetings are free of charge. The fees for remaining of
 the week are presented in the table below.
