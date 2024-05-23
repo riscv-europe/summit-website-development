@@ -145,7 +145,7 @@ layout: summit2024
     lead = "RISC-V International is excited to join with its members Codasip and Renesas to host an in person hackathon at RISC-V Summit Europe!"
 %}
 
-For details and updates please visit https://community.riscv.org/events/details/risc-v-international-risc-v-in-emea-presents-hackathon-at-risc-v-summit-europe/
+For details and updates please visit [the Hackathon Event website](https://community.riscv.org/events/details/risc-v-international-risc-v-in-emea-presents-hackathon-at-risc-v-summit-europe/).
 
 {% include jumboboxend.html %}
 
