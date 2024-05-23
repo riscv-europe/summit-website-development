@@ -8,15 +8,11 @@ layout: summit2024
 %}
 
 {% include jumboboxstart.html
-    title = "Friday Side Events"
+    title = "Side Events: public workshops & consortium meetings"
     lead = "Friday of the week of the RISC-V Summit Europe is the day for project meetings and workshops."
 %}
 
-
-## Side Events: public workshops & consortium meetings
-
-Friday June 28th will be dedicated to the following RISC-V and open source hardware
-*side events*: 
+Friday June 28th will be dedicated to the following RISC-V and open source hardware *side events*: 
 
 {% include jumboboxend.html %}
 
