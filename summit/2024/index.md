@@ -193,7 +193,7 @@ Panelists to be announced
         <b>Invited Introduction Presentation</b>
       </div>
       <div class="col-md-12 text-center">
-        <img src="media/photos/quendt.jpeg" alt="Georgi Kuzmanov" class="img-fluid rounded-circle" style="width: 50%">
+        <img src="" alt="Georgi Kuzmanov" class="img-fluid rounded-circle" style="width: 50%">
       </div>
     </div>
     <div class="row">
