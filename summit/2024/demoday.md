@@ -54,8 +54,8 @@ understand maturity of the demonstrator and the learning from your
 demonstration. Just use your powerful smartphone to show us what you plan to
 present!
 
-The deadline for submissions is **May 28, 2024**. Notification will be no later
-than **June 5, 2024**.
+We accept submissions anytime, and will try to confirm the demo within five days
+to ease your planning.
 
 
 <div class="row justify-content-md-center my-4">
