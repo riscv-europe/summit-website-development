@@ -160,7 +160,7 @@ Below you can find the sponsorship flyer. Contact [Andy Moore](mailto:andy@riscv
             <a href="media/RISC-VSummitEuropeSponsorship2024.pdf" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Download Sponsorship Flyer</a>
         </div>
         <div class="col-lg-6 my-2 d-flex justify-content-center">
-        <a href="https://kit-react.de/portal/init?mnemonic=RISC-V-2024-Industry-Partner-Application" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Book Sponsorship</a>
+        <a role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);"><s>Book Sponsorship</s></a>
         </div>
     </div>
 </div>
