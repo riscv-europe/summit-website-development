@@ -53,7 +53,7 @@ not be submitted to both sessions.
 
 - Abstract submission deadline: ~~Monday, March 15th, 2024~~ **Wednesday, March 20th, 2024**, AoE (Anywhere on Earth). **Hard deadline, no further extension!**
 - Author notification: Monday, April 29th, 2024.
-- Final abstract PDF and slides deadline: Thursday, May 31st, 2024 AoE.
+- Final abstract PDF and slides deadline: Thursday, June 7th, 2024 AoE.
 - Poster PDF deadline: June 14, 2024 AoE.
 - RISC-V Summit Europe: June 24-28, 2024, Munich.
 
