@@ -14,7 +14,7 @@ layout: summit2024
 
 Friday June 28th will be dedicated to the following RISC-V and open source hardware *side events*: 
 
-## Side Event 1: CROSSCON & (Secure) Friends, 9:00am-5:00pm
+## Side Event 1: CROSSCON & (Secure) Friends
    
 Organized by the HORIZON EU-funded CROSSCON Project, this event - "CROSSCON & (Secure) Friends" - will disseminate advances related to RISC-V with a particular focus on the topic of security among a set of EU-funded projects, i.e., [CROSSCON](https://crosscon.eu), [ORSHIN](https://horizon-orshin.eu/), [REWIRE](https://rewireproject.eu/), [SPIRS](https://www.spirs-project.eu/), [SecOpera](https://secopera.eu/), and others.
 
