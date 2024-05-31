@@ -49,7 +49,7 @@ presentations, workshops and project meetings.
 <div class="card" style="height: 100%">
   <div class="card-body">
     <h5 class="card-title">Friday, June 28</h5>
-    <p class="card-text" markdown="1">**Side Events** (Workshops and Project Meetings)</p>
+    <p class="card-text" markdown="1">**[Side Events](sideevents)** (Workshops and Project Meetings)</p>
   </div>
 </div>
 </div>
