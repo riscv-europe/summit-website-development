@@ -14,13 +14,31 @@ layout: summit2024
 
 Friday June 28th will be dedicated to the following RISC-V and open source hardware *side events*: 
 
-## CROSSCON & (Secure) Friends
+## Side Event 1: CROSSCON & (Secure) Friends, 9:00am-5:00pm
    
 Organized by the HORIZON EU-funded CROSSCON Project, this event - "CROSSCON & (Secure) Friends" - will disseminate advances related to RISC-V with a particular focus on the topic of security among a set of EU-funded projects, i.e., [CROSSCON](https://crosscon.eu), [ORSHIN](https://horizon-orshin.eu/), [REWIRE](https://rewireproject.eu/), [SPIRS](https://www.spirs-project.eu/), [SecOpera](https://secopera.eu/), and others.
 
-## TRISTAN Project
+## Side Event 2: TRISTAN Project
 
-The [TRISTAN](https://tristan-project.eu/) project will provide a free-access training on Open-Source EDA tooling for RISC-V solutions.
+The [TRISTAN](https://tristan-project.eu/) project will provide a free-access training on EDA tooling for RISC-V solutions.
+
+## Side Event 3: 1st Open-Source RISC-V Software Workshop, 9:00am-5:00pm
+
+History teaches us that any new hardware without good and widely-used software on top has no future. Countless examples exist even from the biggest manufacturers (e.g. Intel Itanium, IBM Cell, ...) without even considering competition (e.g Sun Microsystems's Ultrasparcs, Digital's Alphas, HP's ...). Regardless of the nostalgia and to ensure RISC-V is successful beyond small controllers, software and -specially- widely used software suites require the focus now to avoid repeating the errors of the past.
+
+This workshop is born to bring together all the researchers and developers in the open-source software arena to showcase their developments and stablish collaborations. This community can provide efficiently and effectively the necessary software in the different application areas where RISC-V can be deployed.
+
+This workshop focuses on software. From hardware simulators/emulators, through OSes/toolchains, to applications and software stacks. A special focus will be devoted to open-source and collaborative projects.
+
+For a detailed program visit the [Workshop Website](https://www.vitamin-v.eu/OpenSourceWorkshop).
+
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Friday Side Events"
+    lead = "Information for Registration and Organization."
+%}
 
 ## Extra registration required
 
@@ -42,4 +60,4 @@ The rooms need to be booked by the projects or workshop organizers at cost (incl
 - Morning only: 1200 Euro
 - Afternoon only: 1000 Euro
 
-
+{% include jumboboxend.html %}
