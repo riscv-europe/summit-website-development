@@ -27,11 +27,35 @@ Quick link to reach posters presented each day:
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
+    title = "Posters on Tuesday, June 25th"
 %}
 
-{% assign posters = site.data.summit24posters %}
-{% for poster in posters %}
-{% if poster["Present"] %}{% include summit24poster.md poster=poster %}{% endif %}
+{% assign posters_tue = site.data.summit24posters | where: "Day", "Tuesday 25th" | sort: "Stand" %}
+{% for poster in posters_tue %}
+{% include summit24poster.md poster=poster %}
 {% endfor %}
 
 {% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Posters on Wednesday, June 26th"
+%}
+
+{% assign posters_tue = site.data.summit24posters | where: "Day", "Wednesday 26th" | sort: "Stand" %}
+{% for poster in posters_tue %}
+{% include summit24poster.md poster=poster %}
+{% endfor %}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Posters on Thursday, June 27th"
+%}
+
+{% assign posters_tue = site.data.summit24posters | where: "Day", "Thursday 27th" | sort: "Stand" %}
+{% for poster in posters_tue %}
+{% include summit24poster.md poster=poster %}
+{% endfor %}
+
+{% include jumboboxend.html %}
+
