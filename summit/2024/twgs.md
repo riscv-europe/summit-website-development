@@ -9,11 +9,15 @@ layout: summit2024
 
 {% include jumboboxstart.html
     title = "Technical Workgroup Meetings"
-    lead = "The week of the RISC-V Summit starts with one day of technical workgroup meetings."
+    lead = "The week of the RISC-V Summit starts with one day of tutorials and technical workgroup meetings."
 %}
 
 The technical work groups of RISC-V get the opportunity to meet face-to-face at
 this first day of the summit. Those meetings are only open to members.
+
+Additionally there are Tutorials, that are open to all.
+
+## Monday Program Overview 
 
 <div class="d-flex justify-content-center">
 <table class="my-4 table table-striped table-sm" style="width: 75%">
@@ -94,7 +98,7 @@ this first day of the summit. Those meetings are only open to members.
     </tr>
        <tr>
       <td>17:00-18:00</td>
-     <td colspan="5" style="text-align: center; vertical-align: middle;"> RISC-V InternationaL Annual General Meeting</td>
+     <td colspan="5" style="text-align: center; vertical-align: middle;"> RISC-V International Annual General Meeting</td>
     </tr>
   </tbody>
 </table>
