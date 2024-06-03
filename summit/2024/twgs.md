@@ -19,12 +19,12 @@ this first day of the summit. Those meetings are only open to members.
 <table class="my-4 table table-striped table-sm" style="width: 75%">
   <thead>
     <tr>
-      <th >Time</th>
-      <th >Room: TBA</th>
-      <th ">Room: TBA</th>
-       <th ">Room: TBA</th> 
-      <th ">Room: TBA</th>
-      <th ">Room: TBA</th>
+      <th>Time</th>
+      <th>Room: TBA</th>
+      <th>Room: TBA</th>
+      <th>Room: TBA</th> 
+      <th>Room: TBA</th>
+      <th>Room: TBA</th>
     </tr>
   </thead>
   <tbody>
