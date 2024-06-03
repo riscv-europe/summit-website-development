@@ -58,4 +58,3 @@ Quick link to reach posters presented each day:
 {% endfor %}
 
 {% include jumboboxend.html %}
-
