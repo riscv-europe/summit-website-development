@@ -15,7 +15,7 @@ layout: summit2024
 The technical work groups of RISC-V get the opportunity to meet face-to-face at
 this first day of the summit. Those meetings are only open to members.
 
-Additionally there are Tutorials, that are open to all.
+Additionally there are tutorials that are open to all.
 
 ## Monday Program Overview 
 
