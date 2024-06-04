@@ -45,7 +45,6 @@ events, joined by [RISC-V International](https://riscv.org):
 - Fabrizio Magugliani (E4CE)
 - Andreas Mauderer (Bosch)
 - Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair
-- Jérôme Quévremont (Thales)
 - Rihards Novickis (EDI)
 - Katzalin Olcoz Herrero (UCM)
 - Arthur Perais (TIMA, CNRS)
