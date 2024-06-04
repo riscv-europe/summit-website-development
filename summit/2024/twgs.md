@@ -113,8 +113,8 @@ Additionally there are tutorials that are open to all.
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-    title = "Technical Workgroup Meetings (RISC-V Members only)"
-    lead = "Information on technical workgroup meetings."
+    title = "Technical Workgroup Meetings "
+    lead = "Information on technical workgroup meetings. (RISC-V Members only)"
 %}
 
 ## DTPM SIG
@@ -127,13 +127,14 @@ Runtime Integrity SIG:
 Explore and propose security mechanisms related to runtime integrity that may be efficiently implemented at the ISA level, to provide strong security guarantees, and bridge the gap between RISC-V and other architectures.
 
 Security Horizontal Committee:
-Promote RISC-V as an ideal vehicle for the security community
-Liaise with other internal RISC V committees and with external security committees
-Create an information repository on new attack trends, threats and countermeasures
-Identify top 10 open challenges in security for the RISC-V community to address
-Propose security committees (Marketing or Technical) to tackle specific security topics
-Recruit security talent to the RISC-V ecosystem (e.g., into committees)
-Develop consensus around best security practices for IoT devices and embedded systems
+* Promote RISC-V as an ideal vehicle for the security community
+* Liaise with other internal RISC V committees and with external security committees
+* Create an information repository on new attack trends, threats and countermeasures
+* Identify top 10 open challenges in security for the RISC-V community to address
+* Propose security committees (Marketing or Technical) to tackle specific security topics
+* Recruit security talent to the RISC-V ecosystem (e.g., into committees)
+* Develop consensus around best security practices for IoT devices and embedded systems
+
 More info at https://lists.riscv.org/g/security.
 
 ## SoftCPU SIG
@@ -151,20 +152,20 @@ The objective of this presentation is to help technical contributors who are new
 ## Fast Interrupt Task Group
 
 The aim of the Fast Interrupt Task Group is to: 
-Develop a low-latency, vectored, priority-based, preemptive interrupt scheme for interrupts directed to a single hart, compatible with the existing RISC-V standards
-Provide both hardware specifications and software ABIs/APIs. 
-Standardize compiler conventions for annotating interrupt handler functions.
+* Develop a low-latency, vectored, priority-based, preemptive interrupt scheme for interrupts directed to a single hart, compatible with the existing RISC-V standards
+* Provide both hardware specifications and software ABIs/APIs. 
+* Standardize compiler conventions for annotating interrupt handler functions.
 
 
 ## RISC-V Labs
 
 RISC-V Labs brings together member companies from across the ecosystem to give developers the resources they need to build and test their software, from porting of existing  projects to development of new components that will power the next wave of computing innovation.
 
-## RISC-V Lab Partners provide one or more of the following:
+RISC-V Lab Partners provide one or more of the following:
 
-Continuous Integration (CI) testing of open source software projects
-CI testing resources for use by open source communities to use on their projects
-“Sandbox” instances of RISC-V physical and virtual hardware for open source communities and projects
+* Continuous Integration (CI) testing of open source software projects
+* CI testing resources for use by open source communities to use on their projects
+* “Sandbox” instances of RISC-V physical and virtual hardware for open source communities and projects
 
 ## Scalar Efficiency SIG
 
@@ -174,11 +175,11 @@ This group works to identify opportunities to improve code size and/or performan
 
 The RISC-V Developer Boards program serves to evangelize and promote the RISC-V architecture by partnering with RISC-V hardware vendors to donate hardware to projects to:
 
-Drive success of RISC-V member products and services, to enable operating system distributions support,
-Grow upstream open-source software community adoption, 
-Build educational resources, 
-Embrace emerging technologies which use the RISC-V architecture, and
-Foster software ecosystem engagement and good-will.
+* Drive success of RISC-V member products and services, to enable operating system distributions support,
+* Grow upstream open-source software community adoption, 
+* Build educational resources, 
+* Embrace emerging technologies which use the RISC-V architecture, and
+* Foster software ecosystem engagement and good-will.
 
 Participant projects will submit a plan of usage and be required to document their results using the board. In addition, RISC-V vendor members are running their own programs and coordinating with RISC-V International.
 
@@ -186,14 +187,16 @@ Participant projects will submit a plan of usage and be required to document the
 
 Special Interest Group on High-Performance Computing (HPC).
 More info at https://lists.riscv.org/g/sig-hpc.
-Marketing Committee
+
+## Marketing Committee
+
 The Marketing Committee seeks to generate awareness and adoption of the RISC-V open collaboration ecosystem and adoption of RISC-V technologies, be an advocate for the organization, and help build the RISC-V brand. They also provide input into the strategic marketing plan, RISC-V marketing activities, and assistance on the execution of marketing efforts. The RISC-V Marketing Committee should be considered by it’s members as an extension of their own marketing department for RISC-V related products, solutions, tools, etc.
 
 ## Server Platform TG
-This repository represents an administrative repository for the Server Platform Task Group. It should contain documents to facilitate the group function, e.g. meeting minutes and supporting documents. It should not contain code nor specifications.
+
 
 ## RISC-V in Space
-Sandi Habinc from Frontgrade Gaisler will discuss applications for RISC-V in space 
+Sandi Habinc from Frontgrade Gaisler will discuss applications for RISC-V in space. 
 
 
 {% include jumboboxend.html %}
