@@ -72,3 +72,11 @@ presentations, workshops and project meetings.
 </div>
 
 {% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+    title = "Speakers of Tuesday June 6th"
+%}
+
+{% include summit24scheduledetails.md day="Tuesday June 24th" day_id="tue" %}
+
+{% include jumboboxend.html %}

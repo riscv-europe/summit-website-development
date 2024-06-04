@@ -14,7 +14,8 @@
 <div class="schedule-block">
 {% for talk in talks %}
 <div class="schedule-entry">
-{% if talk.time %}<span class="schedule-time">{{ talk.time }}</span> - {% endif %}<span class="schedule-title">{{ talk.title }}</span>{% if talk.name %} - <span class="schedule-author">{{ talk.name }}</span>{% endif %}<br/>
+<a id="{{ talk.title | slugify }}"/>
+{% if talk.time %}<span class="schedule-time">{{ talk.time }}</span> - {% endif %}<span class="schedule-title">{{ talk.title }}</span>{% if talk.name %} - <span class="schedule-author">{{ talk.name }}</span>{% endif %} <a href="#{{ talk.title | slugify }}-details"><img src="/assets/icons/card-text.svg"> Details</a>
 </div>
 {% endfor %}
 </div>
