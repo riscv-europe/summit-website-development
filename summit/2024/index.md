@@ -200,7 +200,7 @@ For details and updates please visit [the Hackathon Event website](https://commu
         <b>Panelist</b>
       </div>
       <div class="col-md-12 text-center">
-        <img src="media/photos/Roger.jpg" alt="Roger Espasa, Ph.D -  Founder & CEO, Semidynamics" class="img-fluid rounded-circle" style="width: 50%">
+        <img src="media/photos/Roger.png" alt="Roger Espasa, Ph.D -  Founder & CEO, Semidynamics" class="img-fluid rounded-circle" style="width: 50%">
       </div>
     </div>
     <div class="row">
