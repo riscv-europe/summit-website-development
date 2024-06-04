@@ -194,8 +194,60 @@ For details and updates please visit [the Hackathon Event website](https://commu
       </div>
     </div>
   </div>
-
-  
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <b>Panelist</b>
+      </div>
+      <div class="col-md-12 text-center">
+        <img src="media/photos/Roger.jpg" alt="Roger Espasa, Ph.D -  Founder & CEO, Semidynamics" class="img-fluid rounded-circle" style="width: 50%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Roger Espasa, Ph.D</b><br>Semidynamics</h5>
+          <h6 class="subtitle">Founder & CEO</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <b>Panelist</b>
+      </div>
+      <div class="col-md-12 text-center">
+        <img src="media/photos/Tao.jpg" alt="Prof. Xie Tao - Chair Professor, Peking University and Chair of the RISC-V AI/ML SIG " class="img-fluid rounded-circle" style="width: 50%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Prof. Xie Tao</b><br>Peking University</h5>
+          <h6 class="subtitle">Chair of the RISC-V AI/ML SIG</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3 col-6 mb-4">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <b>Panelist</b>
+      </div>
+      <div class="col-md-12 text-center">
+        <img src="media/photos/Stamoulis.jpg" alt="Dr. Iakovos Stamoulis - Senior Product Development Director & Co-founder, Think Silicon S.A. " class="img-fluid rounded-circle" style="width: 50%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="pt-2">
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Dr. Iakovos Stamoulis</b><br>Think Silicon S.A.</h5>
+          <h6 class="subtitle">Senior Product Development Director & Co-founder</h6>
+        </div>
+      </div>
+    </div>
+  </div>  
 </div>
 
 ## How can Europe engage in RISC-V?
