@@ -194,6 +194,7 @@ The Marketing Committee seeks to generate awareness and adoption of the RISC-V o
 
 ## Server Platform TG
 
+The RISC-V Server Platform specification defines a standardized set of hardware and sofware capabilities, that portable system software, such as operating systems and hypervisors, can rely on being present in a RISC-V server platform. 
 
 ## RISC-V in Space
 Sandi Habinc from Frontgrade Gaisler will discuss applications for RISC-V in space. 
