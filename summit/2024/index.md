@@ -177,7 +177,11 @@ For details and updates please visit [the Hackathon Event website](https://commu
 %}
 
 ## Accelerating AI Innovation with RISC-V
-**RISC-V: Charting the Future of AI/ML with Open Standards and Global Collaboration**<br>Introduction presentation by *Philipp Tomsich, VRULL*
+**RISC-V: Charting the Future of AI/ML with Open Standards and Global Collaboration**
+
+AI is a fast evolving space, and realising its huge potential requires levels of compute innovation only possible with RISC-V. This session brings prominent members of the RISC-V AI ecosystem together to explore how the RISC-V ISA will form the common language for AI innovation, how it can deliver the performance and efficiency necessary across applications from the edge to the cloud, and the potential of software and hardware codesign. The RISC-V ecosystem is already delivering the technologies that will underpin the future of AI, come to this session to find out more!
+
+<br>Introduction presentation by *Philipp Tomsich, VRULL*
 
 <div class="row mt-5">
     <div class="col-sm-3 col-6 mb-4">
