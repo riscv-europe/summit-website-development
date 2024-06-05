@@ -14,7 +14,7 @@ layout: summit2024
 
 [RISC-V](https://riscv.org), the open standard [instruction set architecture (ISA)](https://en.wikipedia.org/wiki/Instruction_set_architecture), is enabling a range of new applications and research that will define the future of computing in Europe. The region has been central to RISC-V's success, with one-third of RISC-V's global community based in Europe.
 
-*RISC-V Summit Europe* takes place from Monday 24th to Friday 28th June, 2024. The combination of strong industrial and academic communities is key to the success of RISC-V in Europe, and for this reason the conference is designed to help attendees to explore both commercial and research applications. 
+*RISC-V Summit Europe* takes place from Monday 24th to Friday 28th June, 2024. The combination of strong industrial and academic communities is key to the success of RISC-V in Europe, and for this reason the conference is designed to help attendees to explore both commercial and research applications.
 *RISC-V Summit Europe* is an opportunity not to be missed. Come to Munich to be part of the new wave of European computing innovation!
 
 {% include jumboboxend.html %}
@@ -141,6 +141,28 @@ layout: summit2024
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
+    title = "Program"
+    lead = "The exciting program of RISC-V Summit Europe spans an entire week."
+%}
+
+<table class="table">
+  <tr>
+    <td style="width: 25%"><b>Monday, June 24</b></td>
+    <td><b><i>Member and Newcomer Day</i></b><br/>Tutorials for Newcomers, Hackathon for Students, Technical Workgroup Meetings (members only) and Annual General Assembly (members only)<br/><a href="twgs"><b>Learn more</b></a></td>
+  </tr>
+  <tr>
+    <td><b>Tuesday, June 25 to<br/> Thurday, June 27</b></td>
+    <td><b><i>Main Conference Program</i></b><br/>Keynotes, Plenary Presentations, Panels, Demo Theatre, Expo, Posters<br/><a href="conference"><b>Learn more</b></a></td>
+  </tr>
+  <tr>
+    <td><b>Friday, June 28</b></td>
+    <td><b><i>Side Events & Workshops</i></b><br/>Meetings and Dissemination of Projects<br/><a href="sideevents"><b>Learn more</b></a></td>
+  </tr>
+</table>
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
     title = "Hackathon"
     lead = "RISC-V International is excited to join with its members Codasip and Renesas to host an in person hackathon at RISC-V Summit Europe!"
 %}
@@ -247,7 +269,7 @@ For details and updates please visit [the Hackathon Event website](https://commu
         </div>
       </div>
     </div>
-  </div>  
+  </div>
 </div>
 
 ## How can Europe engage in RISC-V?
