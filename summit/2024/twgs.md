@@ -89,7 +89,7 @@ Additionally there are tutorials that are open to all.
     </tr>  
     <tr>
       <td>15:00-15:30</td>
-      <td rowspan="3" style="background-color: var(--riscv-sy)">Tutorial Custom Extension Support in LLVM</td>
+      <td rowspan="3" style="background-color: var(--riscv-sy)">Tutorial: Custom Extension Support in LLVM</td>
       <td rowspan="3" style="background-color: var(--riscv-sy)">Tutorial: <br>RISC-V in Education</td>   
       <td rowspan="3" style="background-color: var(--riscv-lv)">RISC-V Hackathon</td>
       <td style="background-color: var(--riscv-lg)">HPC SIG</td>
