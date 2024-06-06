@@ -24,9 +24,9 @@ Additionally there are tutorials that are open to all.
   <thead>
     <tr>
       <th>Time</th>
-      <th colspan="2" style="text-align: center">Tutorials</th>
-      <th colspan="1" style="text-align: center">Hackathon</th>
-      <th colspan="2" style="text-align: center">TWG Meetings (Members Only)</th>
+      <th colspan="2" style="text-align: center">[Tutorials](#tutorials)</th>
+      <th colspan="1" style="text-align: center">[Hackathon](#hackathon)</th>
+      <th colspan="2" style="text-align: center">[TWG Meetings (Members Only)](#technical-workgroup-meetings)</th>
     </tr>
   </thead>
   <tbody>
@@ -83,7 +83,7 @@ Additionally there are tutorials that are open to all.
     </tr>  
     <tr>
       <td>15:00-15:30</td>
-      <td rowspan="3" style="background-color: var(--riscv-sy)">Tutorial: LLVM</td>
+      <td rowspan="3" style="background-color: var(--riscv-sy)">[Tutorial: LLVM](tutorial-on-implementing-support-for-custom-risc-v-extensions-in-llvm)</td>
       <td rowspan="3" style="background-color: var(--riscv-sy)">Tutorial: <br>RISC-V in Education</td>   
       <td rowspan="3" style="background-color: var(--riscv-lv)">RISC-V Hackathon</td>
       <td style="background-color: var(--riscv-lg)">HPC SIG</td>
@@ -113,9 +113,72 @@ Additionally there are tutorials that are open to all.
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
+    title = "Tutorials "
+    lead = "Information on tutorials. "
+%}
+
+# Tutorials
+
+## Tutorial Introduction to RISC-V
+
+Details will follow
+
+## Tutorial on X-Heep SoC
+
+<br> Abstract</br>
+X-HEEP is a RISC-V open-source platform meticulously crafted at the Embedded System Laboratory (ESL) of EPFL. It stands out for its configurability and extensibility, fostering rapid prototyping of custom IPs, which significantly reduces the entry threshold for developers.
+A pivotal aspect of X-HEEP is its strategic reuse of successful open-source IPs, primarily from renowned entities such as PULP, OpenHW Group, and OpenTitan. This integration not only bolsters the reliability and efficiency of X-HEEP but also enriches its feature set with validated components widely acknowledged in the industry.
+Users can seamlessly instantiate custom accelerators, co-processors, peripherals, and memory blocks, leveraging the X-HEEP's versatile extension interface. We will also highlight X-HEEP’s readiness for FPGA implementation and its first tape-out implementation on TSMC 65nm technology, named HEEPocrates. The roadmap ahead and ongoing collaborations will be discussed, showcasing X-HEEP's commitment to continuous improvement and innovation.
+The presentation will also spotlight X-HEEP's strong focus on education, providing essential tools for students to learn how to design custom IPs, integrate them, and develop embedded software. Attendees will gain insights into the practical applications of X-HEEP, supported by demonstrations and case studies showcasing its versatility and efficiency. By the end of the session, participants will have a comprehensive understanding of how X-HEEP's open-source approach and extendible architecture can streamline the development of customized hardware solutions, foster innovation, accelerate time-to-market for new products, and enrich educational experiences.
+
+<br>Bios</br>
+Pasquale Davide Schiavone (Davide) is a PostDoc at the Swiss Federal Institute of Technology Lausanne (EPFL) and Director of Engineering of the OpenHW Group. He obtained the Ph.D. title at the Integrated Systems Laboratory of ETH Zurich in the Digital Systems group in 2020 and the BSc. and MSc. from "Politecnico di Torino" in computer engineering in 2013 and 2016, respectively. His main activities are on RISC-V CPU design and low-power energy-efficient computer architectures for smart embedded systems and edge-computing devices.
+He likes to contribute what he does open-source. Since the Ph.D., he delivers training workshops to companies and universities. 
+
+Juan Sapriza is a doctoral candidate at the Embedded Systems Laboratory of EPFL. His research focuses on ultra-low-power embedded hardware and software co-design, particularly involving Coarse-Grained Reconfigurable Architectures (CGRAs) and sparse signal processing. Juan is actively involved in several X-HEEP projects and serves as a maintainer of the software stack for the main repository of X-HEEP.
+
+## Tutorial on Implementing support for custom RISC-V extensions in LLVM
+
+<br> Abstract</br>
+This tutorial will provide a high level overview of how to implement support for custom RISC-V extensions in LLVM. It will guide you
+through:
+* A very rapid summary of the LLVM compilation flow and the parts relevant to custom instruction set extensions.
+* The different levels of compiler support, when they would be appropriate, and the relevant trade-offs.
+* Implementation approaches and examples
+* Assessing the amount of effort required for different types of extensions
+* Testing approaches
+* Various other tips and guidance
+
+<br>Bio</br>
+Alex Bradbury is a compiler engineer at Igalia, working within a growing LLVM sub-team largely focused on RISC-V compiler support. He has been heavily involved in the RISC-V ecosystem since its inception, working across the hardware and software stack having previously co-founded lowRISC CIC. He initiated the upstream RISC-V LLVM backend implementation, authoring the initial patchset, acting as upstream code owner, and collaborating with a growing set of contributors. Alex is also well known within the LLVM community for authoring the LLVM Weekly newsletter for the past 10 years.
+
+## Tutorial: RISC-V in Education 
+
+Details will follow
+
+{% include jumboboxstart.html
+title = "Hackathon"
+lead = "RISC-V International is excited to join with its members Codasip and Renesas to host an in person hackathon at
+RISC-V Summit Europe!"
+%}
+
+## Hackathon
+
+For details and updates please visit [the Hackathon Event
+website](https://community.riscv.org/events/details/risc-v-international-risc-v-in-emea-presents-hackathon-at-risc-v-summit-europe/).
+
+{% include jumboboxend.html %}
+
+
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
     title = "Technical Workgroup Meetings "
     lead = "Information on technical workgroup meetings. (RISC-V Members only)"
 %}
+
+# Technical Workgroup Meetings
 
 ## DTPM SIG
 
