@@ -248,6 +248,11 @@ Participant projects will submit a plan of usage and be required to document the
 
 ## HPC SIG
 
+Computer simulation of real-world processes and entities is crucial for scientific discovery and engineering. High Performance Computing (HPC) is the workhorse that not only enables these workloads, but furthermore is also crucial for AI and ML models. The HPC community have recently reached exascale (the ability for a supercomputer to perform a billion billion calculations per second), but as we move further into the exascale era there are other challenges, such as an increased focus on decarbonising our workloads, faced by the HPC community that requires the rethinking of existing approaches.
+
+The RISC-V HPC SIG focusses on bringing RISC-V to HPC, with our belief that the unique flexibility offered by RISC-V will be crucial to the HPC community in meeting the challenges that it faces. In this SIG we are identifying and exploring the high priority areas in the RISC-V ecosystem that must be addressed to drive adoption in HPC, as well as building awareness of RISC-V in HPC and acting as a network for participants working in this area.
+
+
 Special Interest Group on High-Performance Computing (HPC).
 More info at https://lists.riscv.org/g/sig-hpc.
 
