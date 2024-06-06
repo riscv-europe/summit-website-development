@@ -24,9 +24,9 @@ Additionally there are tutorials that are open to all.
   <thead>
     <tr>
       <th>Time</th>
-      <th colspan="2" style="text-align: center">[Tutorials](#tutorials)</th>
-      <th colspan="1" style="text-align: center">[Hackathon](#hackathon)</th>
-      <th colspan="2" style="text-align: center">[TWG Meetings (Members Only)](#technical-workgroup-meetings)</th>
+      <th colspan="2" style="text-align: center">Tutorials</th>
+      <th colspan="1" style="text-align: center">Hackathon)</th>
+      <th colspan="2" style="text-align: center">TWG Meetings (Members Only)</th>
     </tr>
   </thead>
   <tbody>
@@ -40,19 +40,25 @@ Additionally there are tutorials that are open to all.
     </tr>
     <tr>
       <td>10:00-11:00</td>
-      <td rowspan="2" style="background-color: var(--riscv-sy)">Tutorial:<br> Introduction to RISC-V</td>
+      <td rowspan="3" style="background-color: var(--riscv-sy)">Tutorial:<br> Introduction to RISC-V</td>
       <td>-</td>
       <td>-</td>
       <td style="background-color: var(--riscv-lg)">DTPM SIG</td>
       <td style="background-color: var(--riscv-lg)">Runtime Integrity SIG & Security HC</td>
     </tr>
     <tr>
-      <td>11:00-12:00</td>
+      <td>11:00-11:30</td>
       <td>-</td>
-      <td style="background-color: var(--riscv-lv)">RISC-V Hackathon</td>
+      <td rowspan="2" style="background-color: var(--riscv-lv)">RISC-V Hackathon</td>
       <td style="background-color: var(--riscv-lg)">SoftCPU SIG</td>
       <td>-</td>
     </tr>
+      <tr>
+      <td>11:30-12:00</td>
+      <td>-</td>
+      <td style="background-color: var(--riscv-lg)">Composable Extensions TG</td>
+      <td>-</td>
+    </tr> 
     <tr>
       <td>12:00-13:00</td>
       <td colspan="5" style="text-align: center; vertical-align: middle;"> Lunch Break </td>    
@@ -117,8 +123,6 @@ Additionally there are tutorials that are open to all.
     lead = "Information on tutorials. "
 %}
 
-# Tutorials
-
 ## Tutorial Introduction to RISC-V
 
 Details will follow
@@ -131,7 +135,7 @@ A pivotal aspect of X-HEEP is its strategic reuse of successful open-source IPs,
 Users can seamlessly instantiate custom accelerators, co-processors, peripherals, and memory blocks, leveraging the X-HEEP's versatile extension interface. We will also highlight X-HEEP’s readiness for FPGA implementation and its first tape-out implementation on TSMC 65nm technology, named HEEPocrates. The roadmap ahead and ongoing collaborations will be discussed, showcasing X-HEEP's commitment to continuous improvement and innovation.
 The presentation will also spotlight X-HEEP's strong focus on education, providing essential tools for students to learn how to design custom IPs, integrate them, and develop embedded software. Attendees will gain insights into the practical applications of X-HEEP, supported by demonstrations and case studies showcasing its versatility and efficiency. By the end of the session, participants will have a comprehensive understanding of how X-HEEP's open-source approach and extendible architecture can streamline the development of customized hardware solutions, foster innovation, accelerate time-to-market for new products, and enrich educational experiences.
 
-<br>Bios</br>
+### Bios:
 Pasquale Davide Schiavone (Davide) is a PostDoc at the Swiss Federal Institute of Technology Lausanne (EPFL) and Director of Engineering of the OpenHW Group. He obtained the Ph.D. title at the Integrated Systems Laboratory of ETH Zurich in the Digital Systems group in 2020 and the BSc. and MSc. from "Politecnico di Torino" in computer engineering in 2013 and 2016, respectively. His main activities are on RISC-V CPU design and low-power energy-efficient computer architectures for smart embedded systems and edge-computing devices.
 He likes to contribute what he does open-source. Since the Ph.D., he delivers training workshops to companies and universities. 
 
@@ -139,7 +143,7 @@ Juan Sapriza is a doctoral candidate at the Embedded Systems Laboratory of EPFL.
 
 ## Tutorial on Implementing support for custom RISC-V extensions in LLVM
 
-<br> Abstract</br>
+### Abstract:
 This tutorial will provide a high level overview of how to implement support for custom RISC-V extensions in LLVM. It will guide you
 through:
 * A very rapid summary of the LLVM compilation flow and the parts relevant to custom instruction set extensions.
@@ -149,7 +153,7 @@ through:
 * Testing approaches
 * Various other tips and guidance
 
-<br>Bio</br>
+### Bio
 Alex Bradbury is a compiler engineer at Igalia, working within a growing LLVM sub-team largely focused on RISC-V compiler support. He has been heavily involved in the RISC-V ecosystem since its inception, working across the hardware and software stack having previously co-founded lowRISC CIC. He initiated the upstream RISC-V LLVM backend implementation, authoring the initial patchset, acting as upstream code owner, and collaborating with a growing set of contributors. Alex is also well known within the LLVM community for authoring the LLVM Weekly newsletter for the past 10 years.
 
 ## Tutorial: RISC-V in Education 
@@ -161,8 +165,6 @@ title = "Hackathon"
 lead = "RISC-V International is excited to join with its members Codasip and Renesas to host an in person hackathon at
 RISC-V Summit Europe!"
 %}
-
-## Hackathon
 
 For details and updates please visit [the Hackathon Event
 website](https://community.riscv.org/events/details/risc-v-international-risc-v-in-emea-presents-hackathon-at-risc-v-summit-europe/).
@@ -177,8 +179,6 @@ website](https://community.riscv.org/events/details/risc-v-international-risc-v-
     title = "Technical Workgroup Meetings "
     lead = "Information on technical workgroup meetings. (RISC-V Members only)"
 %}
-
-# Technical Workgroup Meetings
 
 ## DTPM SIG
 
