@@ -123,9 +123,20 @@ Additionally there are tutorials that are open to all.
     lead = "Information on tutorials. "
 %}
 
-## Tutorial Introduction to RISC-V
+## Tutorial Introduction to RISC-V (Walk-in, No registration for Summit required, Room E 101 /102 from 10am – 12pm)
 
-Details will follow
+**Abstract:** 
+"Introduction to RISC-V" is crafted as an introduction to the world of RISC-V architecture. This course delves into the core aspects of RISC-V, focusing on its Instruction Set Architecture (ISA), the benefits of its open standard nature, and its extensibility. ‘Introduction to RISC-V aims to provide participants with an overall understanding of the fundamentals of RISC-V, making it ideal for newcomers and those who wish to gain a richer insight into leveraging this cutting-edge technology. Whether you are new to RISC-V or looking to expand your knowledge, this course will equip you with the knowledge and concepts to navigate and utilize RISC-V effectively. Begin your journey with RISC-V here.
+
+Subjects Include: 
+* What is RISC-V?
+* Why RISC-V?
+* Software & RISC-V
+* How Europe can Engage in RISC-V
+* Getting Involved in RISC-V
+
+Content may change. This session is approximately 2 hours.  It is free and no registration for the RISC-V Summit EU is required to attend.  
+
 
 ## Tutorial on X-Heep SoC
 
