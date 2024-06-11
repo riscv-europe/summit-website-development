@@ -14,7 +14,7 @@ Quick link to reach posters presented each day:
 
  - Preparation before the conference:
    - Posters shall be printed in A0 format in portrait mode.
-   - Each presenter shall bring their own poster on site.
+   - Each presenter shall bring their own poster on site. For a list of copy shops in Munich, that offer poster printing, please look [here](media/Copy_shops_nearest_to_the_MOC_Munich.pdf)
    - There is no template for posters
    - Make sure that the poster is easy to read from distance and attracts people, use QR codes to link to more content
    - At least one author of the poster must register for the core conference (Tue-Thu)
