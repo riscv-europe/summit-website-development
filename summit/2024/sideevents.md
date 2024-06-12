@@ -29,7 +29,7 @@ Topics of interest include but are not limited to:
 * Root of Trust design and implementation
 * Use case studies of trusted execution
 
-For the Agenda, please visit the [Workshop Webiste](https://crosscon.eu/events/crosscon-secure-friends).
+For the detailed agenda, please visit the [Workshop Website](https://crosscon.eu/events/crosscon-secure-friends).
 
 
 ## Side Event 2: TRISTAN Project
