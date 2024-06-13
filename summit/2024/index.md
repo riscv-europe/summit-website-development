@@ -36,7 +36,7 @@ speakers and invited talks."
   <div class="col-sm-3 col-6 mb-4">
     <div class="row">
       <div class="col-md-12 text-center">
-        <img src="media/photos/quendt.jpeg" alt="Jean Roch Coulon" class="img-fluid rounded-circle" style="width: 75%">
+        <img src="media/photos/Coulon.JPG" alt="Jean Roch Coulon" class="img-fluid rounded-circle" style="width: 75%">
       </div>
     </div>
     <div class="row">
