@@ -221,7 +221,7 @@ lead = "Two exciting panels will bring together experts to discuss the future of
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1"><b>Philipp Tomisch</b><br>VRULL</h5>
+          <h5 class="mt-4 font-weight-medium mb-1"><b>Philipp Tomsich</b><br>VRULL</h5>
           <h6 class="subtitle">Founder & Chief Technologist</h6>
         </div>
       </div>
