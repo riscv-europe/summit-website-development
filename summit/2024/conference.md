@@ -25,9 +25,25 @@ layout: summit2024
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-    title = "Speakers of Tuesday June 6th"
+    title = "Speakers of Tuesday June 24th"
 %}
 
 {% include summit24scheduledetails.md day="Tuesday June 24th" day_id="tue" %}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+    title = "Speakers of Wednesday June 25th"
+%}
+
+{% include summit24scheduledetails.md day="Wednesday June 25th" day_id="wed" %}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+    title = "Speakers of Thursday June 26th"
+%}
+
+{% include summit24scheduledetails.md day="Thursday June 26th" day_id="thu" %}
 
 {% include jumboboxend.html %}
