@@ -288,7 +288,7 @@ The first RISC-V in Space Workshop was organized by the European Space Agency (E
 
 Hosts: Mr Roland Weigand - European Space Agency; Mr Sandi Habinc - Frongrade Gaisler
 
-(Link to past event)[http://microelectronics.esa.int/riscv/rvws2022/index.php]
+[Link to past event](http://microelectronics.esa.int/riscv/rvws2022/index.php)
 
 
 
