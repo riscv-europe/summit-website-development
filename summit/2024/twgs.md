@@ -32,11 +32,11 @@ Additionally there are tutorials that are open to all.
   <tbody>
     <tr>
       <td></td>
-      <td>Room: TBA</td>
-      <td>Room: TBA</td>
-      <td>Room: TBA</td> 
-      <td>Room: TBA</td>
-      <td>Room: TBA</td>
+      <td>Room: E101/102</td>
+      <td>Room: E104</td>
+      <td>Room: F129</td> 
+      <td>Room: E105</td>
+      <td>Room: F130</td>
     </tr>
     <tr>
       <td>10:00-11:00</td>
