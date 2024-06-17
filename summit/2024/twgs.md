@@ -277,7 +277,19 @@ The Marketing Committee seeks to generate awareness and adoption of the RISC-V o
 The RISC-V Server Platform specification defines a standardized set of hardware and sofware capabilities, that portable system software, such as operating systems and hypervisors, can rely on being present in a RISC-V server platform. 
 
 ## RISC-V in Space
-Sandi Habinc from Frontgrade Gaisler will discuss applications for RISC-V in space. 
+The first RISC-V in Space Workshop was organized by the European Space Agency (ESA) in December 2022 in the Netherlands, focusing on the use of RISC-V technology in the space domain. ESA has delegated the organization and execution of a second workshop to Frontgrade Gaisler and it will take place on 2-3 April 2025 in Gothenburg, Sweden. This two day event will include a single technical track (baseline) and an exhibition, and is has been fully endorsed by ESA and RISC-V International. As preparation for this second installment of the workshop, the organizers are inviting interested parties to join them in a preparatory meeting to form a technical committee and brainstorm technical topics to be included in the call for paper. You are more than welcome to join the technical committee or to contribute the organization of the event. 
+
+**Agenda:**
+
+* presentation of RISC-V in Space workshop concept
+* presentation of the 2022 event and lessons learned
+* forming of a technical committee
+* forming of technical topics for the call for papers
+
+Hosts: Mr Roland Weigand - European Space Agency; Mr Sandi Habinc - Frongrade Gaisler
+
+(Link to past event)[http://microelectronics.esa.int/riscv/rvws2022/index.php]
+
 
 
 {% include jumboboxend.html %}
