@@ -197,7 +197,7 @@ speakers and invited talks."
         <div class="row">
           <div class="col-md-12 text-center">
             <img src="media/photos/teresa.jpeg" alt="Teresa Cervero, Barcelona Supercomputing Center"
-              class="img-fluid rounded-circle" style="width: 50%">
+              class="img-fluid rounded-circle" style="width: 75%">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
