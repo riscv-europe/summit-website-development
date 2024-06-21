@@ -193,6 +193,21 @@ speakers and invited talks."
     </div>
   </div>
 
+    <div class="col-sm-3 col-6 mb-4">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <img src="media/photos/teresa.jpeg" alt="Teresa Cervero, Barcelona Supercomputing Center"
+              class="img-fluid rounded-circle" style="width: 50%">
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="pt-2">
+              <h5 class="mt-4 font-weight-medium mb-1"><b>Teresa Cervero</b><br>Barcelona Supercomputing Center</h5>
+              <h6 class="subtitle">Senior Researcher</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+
 </div>
 
 {% include jumboboxend.html %}
