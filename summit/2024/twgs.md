@@ -110,7 +110,7 @@ Additionally there are tutorials that are open to all.
     </tr>
        <tr>
       <td>17:00-18:00</td>
-     <td colspan="5" style="text-align: center; vertical-align: middle; background-color: var(--riscv-lg)"> RISC-V International Annual General Meeting (Members Only)</td>
+     <td colspan="5" style="text-align: center; vertical-align: middle; background-color: var(--riscv-lg)"> RISC-V International Annual General Meeting (Members Only) <br> Room: Plenary Hall </td>
     </tr>
   </tbody>
 </table>
