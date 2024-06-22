@@ -56,7 +56,7 @@ Additionally there are tutorials that are open to all.
       <tr>
       <td>11:30-12:00</td>
       <td>-</td>
-      <td style="background-color: var(--riscv-lg)">Composable Extensions TG</td>
+      <td style="background-color: var(--riscv-lg)">Composable Extensions (CX) TG</td>
       <td>-</td>
     </tr> 
     <tr>
@@ -171,7 +171,7 @@ Alex Bradbury is a compiler engineer at Igalia, working within a growing LLVM su
 
 ## Tutorial: RISC-V in Education 
 
-Details will follow
+This presentation provides an overview of how to get started with RISC-V in education. It covers the benefits of using RISC-V in educational settings, including its open standard nature and extensibility. The session explores various resources and tools available for teaching RISC-V, such as development boards, simulators, and educational materials. 
 
 {% include jumboboxend.html %}
 
@@ -215,6 +215,10 @@ More info at https://lists.riscv.org/g/security.
 ## SoftCPU SIG
 
 The RISC-V Soft-CPU SIG provides a forum to advance RISC-V as the preeminent ecosystem for FPGA processor and SoC designs. The SIG will not deliver any specifications or standards. It will develop overall strategy and establish priorities, then create task groups to develop any identified outputs.
+
+## Composable Extensions (CX) TG
+
+This new TG will define ISA and non-ISA specifications to facilitate the decentralized, cooperative reuse of the custom instruction and custom CSR space, enabling practical reuse, within a system, of multiple, independently authored composable custom extensions (CXs), CX libraries, and CX unit (CXU) logic modules, while also remaining backwards compatible with legacy custom extensions.
 
 ## CHERI SIG + TG
 
