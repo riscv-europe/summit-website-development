@@ -24,6 +24,8 @@ attendees to explore both commercial and research applications.
 *RISC-V Summit Europe* is an opportunity not to be missed. Come to Munich to be part of the new wave of European
 computing innovation!
 
+{% include jumboboxend.html %}
+
 {% include jumboboxstart.html
 title = "Social Event"
 lead = "On the evening of Wednesday, June 26, the attendees of RISC-V Summit Europe 2024 will gather for a relaxing social event to meet new people and discuss RISC-V."
