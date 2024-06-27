@@ -27,23 +27,6 @@ computing innovation!
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-title = "Social Event"
-lead = "On the evening of Wednesday, June 26, the attendees of RISC-V Summit Europe 2024 will gather for a relaxing social event to meet new people and discuss RISC-V."
-%}
-
-The social event takes place at **Tonhalle München** (Atelierstraße 24, 81671 Munich) in the stylish former industrial area near the train station east (München Ost).
-
-Venue opens at: 19:30
-
-You can find the venue right beside the landmark ferris wheel in the center of this area.
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2870009197068!2d11.607072500000001!3d48.123988399999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf8575c878a7%3A0x68eeecac1db3df96!2sTonHalle%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1719405513971!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-You can reach the venue by taxi in circa 20 minutes from MOC, or by public transport by taking the U6 subway towards the city center and change to the U5 subway at "Odeonsplatz" (take the U5 in the direction of "Neuperlach Süd"). Exit the subway at "Ostbahnhof" and leave the train station at the back entrance. You can find the venue from there on the right along "Atelierstraße".
-
-{% include jumboboxend.html %}
-
-{% include jumboboxstart.html
 title = "Keynotes & Invited Talks"
 lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote
 speakers and invited talks."
