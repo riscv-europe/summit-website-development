@@ -16,7 +16,7 @@ Friday June 28th will be dedicated to the following RISC-V and open source hardw
 
 ## Side Event 1: CROSSCON & (Secure) Friends
 
-**Room: TBA, 9:00-18:00**
+**Room: E101/102, 9:00-18:00**
    
 Organized by the HORIZON EU-funded CROSSCON Project, this event - "CROSSCON & (Secure) Friends" - will disseminate advances related to RISC-V with a particular focus on the topic of security among a set of EU-funded projects, i.e., [CROSSCON](https://crosscon.eu), [ORSHIN](https://horizon-orshin.eu/), [REWIRE](https://rewireproject.eu/), [SPIRS](https://www.spirs-project.eu/), [SecOpera](https://secopera.eu/), and others.
 
@@ -34,7 +34,7 @@ For the detailed agenda, please visit the [Workshop Website](https://crosscon.eu
 
 ## Side Event 2: TRISTAN Training on EDA Tooling for RISC-V Solutions
 
-**Room: TBA, 9:00-11:30**
+**Room: E104, 9:00-11:30**
 
 Electronic Design Automation tools play a central role for research and development of Processor Families and Hardware Peripherals. The Chips JU-funded project TRISTAN aims to expand and develop RISC-V architecture in Europe to compete with existing commercial alternatives, and focuses on low and mid-end performance RISC-V processors including hardware peripherals, software development and EDA tooling. [TRISTAN](https://tristan-project.eu/) will provide this free-access training on EDA tooling for RISC-V solutions and will give a glimpse into the TRISTAN EDA tooling landscape, Virtual Platform Modeling for RISC-V Systems, CVE2 Industrial Verification, and shared experiences on IP Design with open-source and commercial tools.
    
@@ -59,7 +59,7 @@ First experiences gained during TRISTAN with Open-Source EDA tools and commercia
 
 ## Side Event 3: 1st Open-Source RISC-V Software Workshop
 
-**Room: TBA, 9:00-17:00**
+**Room: E105, 9:00-17:00**
 
 History teaches us that any new hardware without good and widely-used software on top has no future. Countless examples exist even from the biggest manufacturers (e.g. Intel Itanium, IBM Cell, ...) without even considering competition (e.g Sun Microsystems's Ultrasparcs, Digital's Alphas, HP's ...). Regardless of the nostalgia and to ensure RISC-V is successful beyond small controllers, software and -specially- widely used software suites require the focus now to avoid repeating the errors of the past.
 
