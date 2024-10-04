@@ -156,6 +156,8 @@ Juan Sapriza is a doctoral candidate at the Embedded Systems Laboratory of EPFL.
 
 ## Tutorial on Implementing support for custom RISC-V extensions in LLVM
 
+[Slides](media/Tutorial supporting custom RISC-V extensions in LLVM.pdf)
+
 **Abstract**
 This tutorial will provide a high level overview of how to implement support for custom RISC-V extensions in LLVM. It will guide you
 through:
