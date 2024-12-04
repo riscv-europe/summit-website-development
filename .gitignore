@@ -2,3 +2,6 @@ vendor
 _site
 .bundle/
 .history
+
+# Emacs letfover
+*~
