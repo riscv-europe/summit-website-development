@@ -9,19 +9,21 @@ layout: summit2025
 
 {% include jumboboxstart.html
 	title = "Side events"
-	lead = "There will be no sides events hosted on Friday 16th at the venue of the *RISC-V Summit Europe* this year. However, INRIA has a solution..."
+	lead = "There will be no sides events hosted on Friday, May 16th, at the venue of the *RISC-V Summit Europe* this year. However, there is a Plan B…"
 %}
 
-There will be no *Side events* directly following the *RISC-V Summit
-Europe* on Friday this year, as was in Barcelona (June 2013) and
-Munich (June 2024)
+Unlike previous years in [Barcelona (June
+2013)](https://riscv-europe.org/summit/2023/side-events) and [Munich
+(June 2024)](https://riscv-europe.org/summit/2024/sideevents), there
+will be no side events directly following the RISC-V Summit Europe on
+Friday this year.
 
-For projects, RISC-V or open hardware communities that would want to
-piggy-back on the Summit and have a productive Friday, INRIA has a
-number of meeting rooms available located [48 rue Barrault, 75013
+For RISC-V projects or open hardware communities that would like to
+piggyback on the Summit and have a productive Friday, INRIA has
+several meeting rooms available at [48 rue Barrault, 75013
 Paris](https://www.openstreetmap.org/#map=19/48.826311/2.346010).
 
-For any further information, please get in in touch with John Doe at
+For more information, please get in in touch with John Doe at
 [john.doe@inria.fr](mailto:john.doe@inria.fr).
 
 {% include jumboboxend.html %}
