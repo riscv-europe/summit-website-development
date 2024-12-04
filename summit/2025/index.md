@@ -217,7 +217,7 @@ of European computing innovation!
 
 {% include jumboboxstart.html
 title = "Program"
-lead = "The exciting program of RISC-V Summit Europe spans 4 days."
+lead = "The exciting program of RISC-V Summit Europe 2025 spans 4 days."
 %}
 
 <table class="table">

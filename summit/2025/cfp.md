@@ -9,7 +9,7 @@ layout: summit2025
 
 {% include jumboboxstart.html
     title = "Present your work"
-    lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe."
+    lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe in Paris, from Monday May 12 to Thursday May 15th 2025."
 %}
 
 # Call for Submissions
