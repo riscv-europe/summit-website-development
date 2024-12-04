@@ -21,10 +21,10 @@ source communities will come together to exchange knowledge, ideas,
 technologies, and research, shaping the future of RISC-V computing in
 Europe.
 
-Taking place from May 12-15, 2025, the event will have a single track
-of keynotes, invited and selected talks, alongside an exhibition
-showcasing the latest developments across industry and research,
-including technology demonstrations and poster sessions.
+Taking place from 12-15 May 2025, in Paris (France), the event will
+have a single track of keynotes, invited and selected talks, alongside
+an exhibition showcasing the latest developments across industry and
+research, including technology demonstrations and poster sessions.
 
 Submissions with a strong focus on technical content are invited,
 outlining for example:
