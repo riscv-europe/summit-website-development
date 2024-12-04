@@ -3,9 +3,9 @@ title: Call for Contributions
 layout: summit2025
 ---
 
-{% include bannerimg.html
-    img = "media/banners/posters.jpg"
-%}
+<!-- {% include bannerimg.html -->
+<!--     img = "media/banners/posters.jpg" -->
+<!-- %} -->
 
 {% include jumboboxstart.html
     title = "Present your work"
