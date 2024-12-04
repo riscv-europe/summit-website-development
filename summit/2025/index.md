@@ -26,11 +26,11 @@ computing innovation!
 
 {% include jumboboxend.html %}
 
-{% include jumboboxstart.html
-title = "Keynotes & Invited Talks"
-lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote
-speakers and invited talks."
-%}
+<!-- {% include jumboboxstart.html -->
+<!-- title = "Keynotes & Invited Talks" -->
+<!-- lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote -->
+<!-- speakers and invited talks." -->
+<!-- %} -->
 
 <!-- <div class="row mt-5"> -->
 <!--   <div class="col-sm-3 col-6 mb-4"> -->
@@ -210,7 +210,7 @@ speakers and invited talks."
 
 <!-- </div> -->
 
-{% include jumboboxend.html %}
+<!-- {% include jumboboxend.html %} -->
 
 {% include jumboboxstart.html
 title = "Program"
