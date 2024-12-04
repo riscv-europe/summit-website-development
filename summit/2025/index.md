@@ -214,22 +214,22 @@ computing innovation!
 
 {% include jumboboxstart.html
 title = "Program"
-lead = "The exciting program of RISC-V Summit Europe spans an entire week."
+lead = "The exciting program of RISC-V Summit Europe spans 4 days."
 %}
 
 <table class="table">
   <tr>
     <td style="width: 25%"><b>Monday, May 12</b></td>
     <td><b><i>Member and Newcomer Day</i></b><br />Tutorials for Newcomers, Hackathon for Students, Technical Workgroup
-      Meetings (members only) and Annual General Assembly (members only)<br />
-	  <!-- <a href="twgs"><b>Learn more</b></a> -->
+      Meetings (members only) and Annual General Assembly (members only)
+	  <!-- <br /><a href="twgs"><b>Learn more</b></a> -->
 	  </td>
   </tr>
   <tr>
     <td><b>Tuesday, May 13 to<br /> Thurday, May 15</b></td>
     <td><b><i>Main Conference Program</i></b><br />Keynotes, Plenary Presentations, Panels, Demo Theatre, Expo,
-      Posters<br />
-	  <!-- <a href="conference"><b>Learn more</b></a> -->
+      Posters
+	  <!-- <br /><a href="conference"><b>Learn more</b></a> -->
 	  </td>
   </tr>
   <!-- <tr> -->
