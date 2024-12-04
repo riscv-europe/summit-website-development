@@ -42,7 +42,7 @@ be left to contributions that are hard to anonymize, such as technical
 presentations of new commercial products or presentations of publicly
 funded projects. Any question whether a submission should apply to
 blind or non-blind review should be asked to the PC chairs at
-[`riscv-europe2025_pc@softconf.com`](mailto:riscv-europe2025_pc@softconf.com)
+[riscv-europe2025_pc@softconf.com](mailto:riscv-europe2025_pc@softconf.com)
 before submitting. Please note, an abstract may not be submitted to
 both review methods.
 
@@ -102,7 +102,7 @@ technical topics of interest:
 Submissions should be provided as a two page extended
 abstract. Abstract template and instructions for submission will be
 available on the Summit website at
-[`https://riscv-europe.org`](https://riscv-europe.org).
+[https://riscv-europe.org](https://riscv-europe.org).
 
 Contributions may be submitted for blind (recommended) or non-blind
 review. Submissions for blind review must be anonymized, removing any
