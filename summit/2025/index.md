@@ -1,6 +1,6 @@
 ---
 title: Welcome
-layout: summit2024
+layout: summit2025
 ---
 
 {% include bannerimg.html
