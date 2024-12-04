@@ -4,25 +4,28 @@ layout: summit2025
 ---
 
 {% include bannerimg.html
-img = "media/banners/banner.png"
+    img = "media/banners/banner.png"
 %}
 
 {% include jumboboxstart.html
-title = "Welcome"
-lead = "The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers – from industry,
-government, research, academia and ecosystem support – that are building the future of innovation on RISC-V."
+	title = "Welcome"
+	lead = "The *RISC-V Summit Europe 2025* is the premier event that connects the European movers and shakers – from industry, sgovernment, research, academia and ecosystem support – that are building the future of innovation on RISC-V."
 %}
 
-[RISC-V](https://riscv.org), the open standard [instruction set architecture
-(ISA)](https://en.wikipedia.org/wiki/Instruction_set_architecture), is enabling a range of new applications and research
-that will define the future of computing in Europe. The region has been central to RISC-V's success, with one-third of
-RISC-V's global community based in Europe.
+[RISC-V](https://riscv.org), the open standard [instruction set
+architecture
+(ISA)](https://en.wikipedia.org/wiki/Instruction_set_architecture), is
+enabling a range of new applications and research that will define the
+future of computing in Europe. The region has been central to RISC-V's
+success, with one-third of RISC-V's global community based in Europe.
 
-*RISC-V Summit Europe* takes place from Monday 24th to Friday 28th June, 2024. The combination of strong industrial and
-academic communities is key to the success of RISC-V in Europe, and for this reason the conference is designed to help
-attendees to explore both commercial and research applications.
-*RISC-V Summit Europe* is an opportunity not to be missed. Come to Munich to be part of the new wave of European
-computing innovation!
+*RISC-V Summit Europe 2025* takes place from Monday 12th to Thursday
+15th May, 2025. The combination of strong industrial and academic
+communities is key to the success of RISC-V in Europe, and for this
+reason the conference is designed to help attendees to explore both
+commercial and research applications.  *RISC-V Summit Europe* is an
+opportunity not to be missed. Come to Paris to be part of the new wave
+of European computing innovation!
 
 {% include jumboboxend.html %}
 
