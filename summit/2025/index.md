@@ -49,11 +49,11 @@ lead = "The exciting program of RISC-V Summit Europe 2025 spans 4 days."
 	  <!-- <br /><a href="conference"><b>Learn more</b></a> -->
 	  </td>
   </tr>
-  <!-- <tr> -->
-  <!--   <td><b>Friday, June 28</b></td> -->
-  <!--   <td><b><i>Side Events & Workshops</i></b><br />Meetings and Dissemination of Projects<br /><a -->
-  <!--       href="sideevents"><b>Learn more</b></a></td> -->
-  <!-- </tr> -->
+  <tr>
+    <td><b>Friday, June 28</b></td>
+    <td><b><i>Side Events & Workshops</i></b><br />This year project meetings and workshop are possible but not located on the venue.<br /><a
+        href="inria"><b>Learn more</b></a></td>
+  </tr>
 </table>
 
 {% include jumboboxend.html %}
