@@ -50,9 +50,11 @@ lead = "The exciting program of RISC-V Summit Europe 2025 spans 4 days."
 	  </td>
   </tr>
   <tr>
-    <td><b>Friday, June 28</b></td>
-    <td><b><i>Side Events & Workshops</i></b><br />This year project meetings and workshop are possible but not located on the venue.<br /><a
-        href="inria"><b>Learn more</b></a></td>
+    <td><b>Friday, May 16</b></td>
+    <td><b><i>Side Events & Workshops</i></b><br />Project meetings
+	and workshops are possible on Friday 16th, but will not be part of
+	the event this year.
+	<br /><a href="inria"><b>Learn more</b></a></td>
   </tr>
 </table>
 
