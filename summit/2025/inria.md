@@ -15,13 +15,13 @@ layout: summit2025
 Unlike previous years in [Barcelona (June
 2013)](https://riscv-europe.org/summit/2023/side-events) and [Munich
 (June 2024)](https://riscv-europe.org/summit/2024/sideevents), this
-year there will be no side events hosted at the venue that will
-directly follow the *RISC-V Summit Europe* on Friday.
+year the *Friday Side Events* will not be hosted hosted at the venue
+of the *RISC-V Summit Europe*.
 
-However, for RISC-V projects or open hardware communities that would
-still like to piggyback on the Summit and have a productive Friday,
-INRIA has several meeting rooms available at [48 rue Barrault, 75013
-Paris](https://www.openstreetmap.org/#map=19/48.826311/2.346010).
+INRIA has several meeting rooms at [48 rue Barrault, 75013
+Paris](https://www.openstreetmap.org/#map=19/48.826311/2.346010) that
+are available to RISC-V projects or open hardware communities that
+want to close the *RISC-V Summit Europe* with a productive Friday.
 
 For more information, please get in in touch with John Doe at
 [john.doe@inria.fr](mailto:john.doe@inria.fr).

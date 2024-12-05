@@ -9,7 +9,7 @@ layout: summit2025
 
 {% include jumboboxstart.html
 	title = "Welcome"
-	lead = "The *RISC-V Summit Europe 2025* is the premier event that connects the European movers and shakers – from industry, government, research, academia and ecosystem support – that are building the future of innovation on RISC-V."
+	lead = "The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers – from industry, government, research, academia and ecosystem support – that are building the future of innovation on RISC-V."
 %}
 
 [RISC-V](https://riscv.org), the open standard [instruction set
@@ -19,7 +19,7 @@ enabling a range of new applications and research that will define the
 future of computing in Europe. The region has been central to RISC-V's
 success, with one-third of RISC-V's global community based in Europe.
 
-*RISC-V Summit Europe 2025* takes place in Paris from Monday 12th to
+*RISC-V Summit Europe* takes place in Paris from Monday 12th to
 Thursday 15th May, 2025. The combination of strong industrial and
 academic communities is key to the success of RISC-V in Europe, and
 for this reason the conference is designed to help attendees to
@@ -31,7 +31,7 @@ of the new wave of European computing innovation!
 
 {% include jumboboxstart.html
 title = "Program"
-lead = "The exciting program of RISC-V Summit Europe 2025 spans 4 days."
+lead = "The exciting program of RISC-V Summit Europe spans a full week."
 %}
 
 <table class="table">
@@ -54,7 +54,7 @@ lead = "The exciting program of RISC-V Summit Europe 2025 spans 4 days."
 	<td><b><i>Side Events & Workshops</i></b><br />
 	Side events, such as project meetings and workshops, can be
 	organized on Friday, May 16th. However, they will be
-	coordinated and hosted by INRIA this year on their premises
+	coordinated and hosted by INRIA this year, on their premises
 	in Paris.
 	<br /><a href="inria"><b>Learn more</b></a></td>
   </tr>
