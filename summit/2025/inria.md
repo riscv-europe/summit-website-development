@@ -26,4 +26,6 @@ want to close the *RISC-V Summit Europe* with a productive Friday.
 For more information, please get in in touch with John Doe at
 [john.doe@inria.fr](mailto:john.doe@inria.fr).
 
+<p align="center"><img src="media/logos/inr_logo_rouge.png" alt="INRIA logo" height="70"></p>
+
 {% include jumboboxend.html %}
