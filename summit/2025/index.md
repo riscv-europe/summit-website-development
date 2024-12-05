@@ -51,9 +51,11 @@ lead = "The exciting program of RISC-V Summit Europe 2025 spans 4 days."
   </tr>
   <tr>
     <td><b>Friday, May 16</b></td>
-    <td><b><i>Side Events & Workshops</i></b><br />Project meetings
-	and workshops are possible on Friday 16th, but will not be part of
-	the event this year.
+	<td><b><i>Side Events & Workshops</i></b><br />
+	Side events, such as project meetings and workshops, can be
+	organized on Friday, May 16th. However, they will be
+	coordinated and hosted by INRIA this year on their premises
+	in Paris.
 	<br /><a href="inria"><b>Learn more</b></a></td>
   </tr>
 </table>
