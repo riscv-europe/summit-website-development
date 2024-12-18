@@ -76,6 +76,27 @@ layout: default
   <div class="col mb-4">
     <div class="card h-100">
       <img
+        src="summit/2024/media/banners/banner.jpg"
+        class="card-img-top"
+        alt="RISC-V Summit Europe 2024 Impression"
+      >
+      <div class="card-body">
+        <h5 class="card-title">RISC-V Summit Europe 2024</h5>
+        <p class="card-text">
+          The second RISC-V Summit Europe was held in Munich on June 24-28,
+          2024.
+        </p>
+        <div class="text-center">
+          <a href="summit/2024" class="btn btn-primary btn-lg"
+            >Recap the highlights</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img
         src="summit/2023/media/banners/banner.jpg"
         class="card-img-top"
         alt="RISC-V Summit Europe 2023 Impression"
