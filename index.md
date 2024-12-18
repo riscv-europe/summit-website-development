@@ -6,7 +6,7 @@ layout: default
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card h-100">
-      <a href="summit/2024">
+      <a href="summit/2025">
         <img src="summit/2025/media/banners/banner.png" class="card-img-top" alt="RISC-V Summit Europe 2025 Logo">
       </a>
       <div class="card-body">
@@ -76,41 +76,20 @@ layout: default
   <div class="col mb-4">
     <div class="card h-100">
       <img
-        src="summit/2024/media/banners/munich.jpg"
+        src="summit/2024/media/banners/highlight.jpg"
         class="card-img-top"
         alt="RISC-V Summit Europe 2024 Impression"
       >
       <div class="card-body">
-        <h5 class="card-title">RISC-V Summit Europe 2024</h5>
+        <h5 class="card-title"></h5>
         <p class="card-text">
-          The second RISC-V Summit Europe was held in Munich on June 24-28,
-          2024.
+          The previous editions of RISC-V Summit Europe were a great success in bringing the community together.
         </p>
-        <div class="text-center">
-          <a href="summit/2024" class="btn btn-primary btn-lg"
-            >Munich 2024 highlights</a
-          >
+        <div class="text-center mb-2">
+          <a href="summit/2024" class="btn btn-secondary btn-md">RISC-V Summit Europe 2024</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card h-100">
-      <img
-        src="summit/2023/media/banners/banner.jpg"
-        class="card-img-top"
-        alt="RISC-V Summit Europe 2023 Impression"
-      >
-      <div class="card-body">
-        <h5 class="card-title">RISC-V Summit Europe 2023</h5>
-        <p class="card-text">
-          The first RISC-V Summit Europe was held in Barcelona on June 05-09,
-          2023.
-        </p>
         <div class="text-center">
-          <a href="summit/2023" class="btn btn-primary btn-lg"
-            >Barcelona 2023 highlights</a
-          >
+          <a href="summit/2023" class="btn btn-secondary btn-md">RISC-V Summit Europe 2023</a>
         </div>
       </div>
     </div>
