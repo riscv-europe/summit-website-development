@@ -88,7 +88,7 @@ layout: default
         </p>
         <div class="text-center">
           <a href="summit/2024" class="btn btn-primary btn-lg"
-            >Recap the highlights</a
+            >Munich 2024 highlights</a
           >
         </div>
       </div>
@@ -109,7 +109,7 @@ layout: default
         </p>
         <div class="text-center">
           <a href="summit/2023" class="btn btn-primary btn-lg"
-            >Recap the highlights</a
+            >Barcelona 2023 highlights</a
           >
         </div>
       </div>
