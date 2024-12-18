@@ -48,7 +48,7 @@ both review methods.
 
 # Important dates:
 
-- Abstract submission deadline: Monday, January 27th, 2025, [AOE
+- Abstract submission deadline: Monday, February 3rd, 2025, [AOE
   (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). No
   extensions.
