@@ -119,6 +119,12 @@ community.
 Sales or marketing pitches are welcome in the exhibition but are
 strongly discouraged in this call for submissions.
 
+The RISC-V Summit Europe covers a broad spectrum of activities
+including academic, research, commercial, open-source, and proprietary
+– all abstract submissions are considered on a merit and
+non-discrimination basis by the program committee, made up of
+representatives across the RISC-V community, to build a well rounded
+schedule of talks across industry application and research areas.
 The committee will accept most contributions as posters and some
 selected submissions for short or long presentations. The submitted
 extended abstracts shall be publishable standalone short papers, not
