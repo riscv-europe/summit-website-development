@@ -7,16 +7,16 @@ layout: default
   <div class="col mb-4">
     <div class="card h-100">
       <a href="summit/2024">
-        <img src="summit/2024/media/banners/banner.png" class="card-img-top" alt="RISC-V Summit Europe 2024 Logo">
+        <img src="summit/2025/media/banners/banner.png" class="card-img-top" alt="RISC-V Summit Europe 2025 Logo">
       </a>
       <div class="card-body">
-        <h5 class="card-title">RISC-V Summit Europe 2024</h5>
+        <h5 class="card-title">RISC-V Summit Europe 2025</h5>
         <p class="card-text">
-          RISC-V Summit return to Europe in 2024. It will take place in Munich
-          on June 24-28, 2024.
+          RISC-V Summit return to Europe in 2025. It will take place in Paris
+          on May 12-15, 2025.
         </p>
         <div class="text-center">
-          <a href="summit/2024" class="btn btn-primary btn-lg">Learn More</a>
+          <a href="summit/2025" class="btn btn-primary btn-lg">Learn More</a>
         </div>
       </div>
     </div>
