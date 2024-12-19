@@ -23,8 +23,7 @@ Paris](https://www.openstreetmap.org/#map=19/48.826311/2.346010) that
 are available to RISC-V projects or open hardware communities that
 want to close the *RISC-V Summit Europe* with a productive Friday.
 
-For more information, please get in in touch with John Doe at
-[john.doe@inria.fr](mailto:john.doe@inria.fr).
+More information soon!
 
 <p align="center"><img src="media/logos/inr_logo_rouge.png" alt="INRIA logo" height="70"></p>
 
