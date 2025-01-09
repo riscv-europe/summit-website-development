@@ -52,7 +52,7 @@ both review methods.
   (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). No
   extensions.
-- Author notification: Monday, March 7th, 2025.
+- Author notification: Friday, March 7th, 2025.
 - Final abstract PDF and slides deadline: Thursday, April 15th, 2025.
 - Poster PDF deadline: May 5th, 2025.
 - RISC-V Summit Europe: May 12th-15th, 2025, Paris.
