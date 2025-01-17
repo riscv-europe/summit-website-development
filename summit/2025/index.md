@@ -38,7 +38,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
   <tr>
     <td style="width: 25%"><b>Monday, May 12</b></td>
     <td><b><i>Member and Newcomer Day</i></b><br />Tutorials for Newcomers, Hackathon for Students, Technical Workgroup
-      Meetings (members only) and Annual General Assembly (members only)
+      Meetings (members only)
 	  <!-- <br /><a href="twgs"><b>Learn more</b></a> -->
 	  </td>
   </tr>
