@@ -12,7 +12,7 @@ layout: summit2025
     lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe in Paris, from Monday May 12 to Thursday May 15th 2025."
 %}
 
-# Call for Submissions
+## Call for Submissions
 
 RISC-V Summit Europe brings together developers, architects, technical
 management, business persons and policy makers from across the RISC-V
@@ -46,7 +46,7 @@ blind or non-blind review should be asked to the PC chairs at
 before submitting. Please note, an abstract may not be submitted to
 both review methods.
 
-# Important dates:
+## Important dates
 
 - Abstract submission deadline: Friday, February 7th, 2025, [AOE
   (Anywhere on
@@ -66,12 +66,12 @@ The Steering Committee aims to provide a limited budget for
 stipends. More information will be available on the conference website
 before the submission deadline.
 
-# Topics of interest:
+## Topics of interest
 
 We invite submissions related to RISC-V addressing the following
 technical topics of interest:
 
-- Security and functional safety 
+- Security and functional safety
 - Energy efficiency and green computing
 - High-performance computing
 - Embedded systems, IoT, edge computing
@@ -97,12 +97,11 @@ technical topics of interest:
 - Any other topic related to RISC-V and open stack (hardware or
   software)
 
-# Submission Format:
+## Submission Format
 
-Submissions should be provided as a two page extended
-abstract. Abstract template and instructions for submission will be
-available on the Summit website at
-[https://riscv-europe.org](https://riscv-europe.org).
+Submissions should be provided as a two page extended abstract. Abstract
+template and instructions for submission are available
+[here](https://github.com/riscv-europe/riscv-europe-summit-templates).
 
 Contributions may be submitted for blind (recommended) or non-blind
 review. Submissions for blind review must be anonymized, removing any
@@ -134,3 +133,7 @@ Accepted abstracts, slides, and posters will be published on the event
 page, together with presentations, which will be recorded. The Program
 Committee will ask for the poster/presentation before the event to
 confirm acceptance at the according deadlines.
+
+<div class="row justify-content-md-center my-4">
+    <a href="https://softconf.com/p/riscv-europe25/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal<br/>(via Softconf, please register/login)</a>
+</div>
