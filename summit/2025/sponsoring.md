@@ -150,21 +150,15 @@ Sponsorships go live on Wednesday 22nd January at 6am PT / 3pm CET and will be a
 
 Below you can find the sponsorship flyer. Contact [Lori Servin](mailto:lori@riscv.org) for more information.
 
-
 <div class="container">
     <div class="row">
         <div class="col-lg-6 my-2 d-flex justify-content-center align-items-center">
             <a href="media/RISC-V Summit Europe Sponsorship 2025 16012025.pdf" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Download Sponsorship Flyer</a>
         </div>
         <div class="col-lg-6 my-2 d-flex justify-content-center">
-        <a href="https://esos.kitsecure.org/app85.cshtml?aat=324f2f6b336a624e364632456c304b736a6158666a5379466c566a6539416f564d6538386c586e38564a413d" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Book Sponsorship</a>
+            <a href="https://esos.kitsecure.org/app85.cshtml?aat=324f2f6b336a624e364632456c304b736a6158666a5379466c566a6539416f564d6538386c586e38564a413d" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Book Sponsorship</a>
         </div>
     </div>
 </div>
-
-
-<!--## Sponsor Manual
-
-You can find the sponsor manual [here](media/RISC-V Summit EU 2024_sponsors manual_2024-04-25.pdf) (version: April 25).//-->
 
 {% include jumboboxend.html %}
