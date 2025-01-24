@@ -86,7 +86,7 @@ Several packages with varying features are available.
         <tr>
             <td>Private meeting room</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
-            <td class="sponsor-gold">+2,500 €</td>
+            <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
