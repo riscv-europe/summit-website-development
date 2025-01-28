@@ -1,6 +1,7 @@
 ---
 title: Call for Contributions
 layout: summit2025
+ocimage: https://riscv-europe.org/summit/2025/media/cfp.png
 ---
 
 {% include bannerimg.html
