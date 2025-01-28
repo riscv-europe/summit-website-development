@@ -13,7 +13,7 @@ ocimage: https://riscv-europe.org/summit/2025/media/cfp.png
     lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe in Paris, from Monday May 12 to Thursday May 15th 2025."
 %}
 
-## Call for Submissions
+## Call for Contributions
 
 RISC-V Summit Europe brings together developers, architects, technical
 management, business persons and policy makers from across the RISC-V
