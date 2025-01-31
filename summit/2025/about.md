@@ -27,7 +27,7 @@ International](https://riscv.org):
 - RISC-V Week in France: [https://open-src-soc.org/2022-05](https://open-src-soc.org/2022-05)
 - Workshop on RISC-V activities in Germany: [https://www.edacentrum.de/en/risc-v](https://www.edacentrum.de/en/risc-v)
 
-### The Program Committee - R&D Sessions
+### The Program Committee
 
 TBD.
 
