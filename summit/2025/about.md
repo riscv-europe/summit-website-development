@@ -124,7 +124,7 @@ France](https://kit-group.org/offices/paris/).
 <div class="d-flex justify-content-center align-items-center">
     <img src="media/logos/RISC-V-logo-square.svg" height="75" class="me-5" alt="RISC-V">
     <img src="media/logos/CEA.svg" height="75" class="mx-3" alt="CEA">
-    <img src="media/logos/INRIA.svg" height="55" class="mx-3" alt="INRIA">
+    <img src="media/logos/INRIA.jpg" height="55" class="mx-3" alt="INRIA">
     <img src="media/logos/Kit-Group-logo.svg" height="75" class="ms-5" alt="KIT">
 </div>
 
