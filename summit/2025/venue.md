@@ -24,7 +24,7 @@ layout: summit2025
     lead = "There are plenty of accomodation options in Paris."
 %}
 
-The are several hotels in the close nearby of venue:
+The are several hotels close to the venue:
 <ul>
 <li><a href="https://www.hilton.com/en/hotels/orygigi-hilton-garden-inn-paris-la-villette/">Hilton Garden Inn Paris La Villette</a>.</li>
 <li><a href="https://www.remix-hotel.com/en/">ReMIX hotel</a>.</li>
