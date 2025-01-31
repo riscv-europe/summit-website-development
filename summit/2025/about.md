@@ -19,8 +19,9 @@ The two previous editions of the RISC-V Summit Europe were:
 - [RISC-V Summit Europe 2024](https://riscv-europe.org/summit/2024), June 24-28, Munich.
 - [RISC-V Summit Europe 2023](https://riscv-europe.org/summit/2023), June 5-9, Barcelona.
 
-The RISC-V Summit Europe Series is a merger of three previous European
-events series, joined by [RISC-V International](https://riscv.org):
+The RISC-V Summit Europe Series started as a merger of three previous
+European events series, joined by [RISC-V
+International](https://riscv.org):
 
 - Red-RISC-V in Spain: [http://red-riscv.org](http://red-riscv.org)
 - RISC-V Week in France: [https://open-src-soc.org/2022-05](https://open-src-soc.org/2022-05)
