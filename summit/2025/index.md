@@ -19,7 +19,7 @@ enabling a range of new applications and research that will define the
 future of computing in Europe. The region has been central to RISC-V's
 success, with one-third of RISC-V's global community based in Europe.
 
-*RISC-V Summit Europe* takes place in Paris from **Monday 12th to
+**RISC-V Summit Europe** takes place in **Paris** from **Monday 12th to
 Thursday 15th May, 2025**. The combination of strong industrial and
 academic communities is key to the success of RISC-V in Europe, and
 for this reason the conference is designed to help attendees to
