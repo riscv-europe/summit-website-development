@@ -5,7 +5,7 @@ layout: summit2025
 
 {% include bannerimg.html 
     img = "media/banners/Paris-by-sunset.jpg"
-    caption = "CC0 Public Domain -- https://pxhere.com/fr/photo/1233506 -- Visited on 2025-01-31"
+    caption = "CC0 Public Domain"
 %}
 
 {% include jumboboxstart.html 
