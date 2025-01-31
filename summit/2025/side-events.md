@@ -25,6 +25,6 @@ want to close the *RISC-V Summit Europe* with a productive Friday.
 
 More information soon!
 
-<p align="center"><img src="media/logos/inr_logo_rouge.png" alt="INRIA logo" height="70"></p>
+<p align="center"><img src="media/logos/INRIA.svg" alt="INRIA logo" height="70"></p>
 
 {% include jumboboxend.html %}
