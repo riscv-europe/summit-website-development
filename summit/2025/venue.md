@@ -10,7 +10,7 @@ layout: summit2025
 
 {% include jumboboxstart.html 
     title = "Venue"
-    lead = "RISC-V Summit Europe 2025 will take place at La Cité des Science et de l'Industrie in Paris."
+    lead = "RISC-V Summit Europe 2025 will take place at <em>La Cité des Science et de l'Industrie</em> in Paris."
 %}
 
 <a href="https://www.cite-sciences.fr/en"><em>La Cité des Sciences et de l'Industrie</em></a>, 30 avenue Corentin-Cariou, 75019 Paris. It can be reached by metro M7 and tramway T3b.
