@@ -29,48 +29,49 @@ International](https://riscv.org):
 
 ### The Program Committee
 
-TBD.
-
-<!-- - Jan Andersson (Frontgrade Gaisler) -->
-<!-- - Jeremy Bennett (Embecosm) -->
-<!-- - Holger Blasum (Sysgo) -->
-<!-- - Alex Bradbury (Igalia) -->
-<!-- - Ramon Canal (UPC) -->
+- Jan Andersson (Frontgrade Gaisler)
+- Jeremy Bennett (Embecosm)
+- Alex Bradbury (Igalia)
+- Ramon Canal (UPC)
 <!-- - Gregory Chadwick (LowRISC) -->
 <!-- - Samuel Chiang (Andes) -->
-<!-- - Fabio De Ambroggi (STMicroelectronics) -->
-<!-- - Denis Dutoit (CEA) -->
-<!-- - Angelo Garofalo (University of Bologna) -->
+- Fabio De Ambroggi (STMicroelectronics)
+- Julie Dumas (TIMA)
+- Denis Dutoit (CEA)
+- Angelo Garofalo (University of Bologna)
 <!-- - Michael Gielda (Antmicro) -->
-<!-- - Daniel Große (Uni Linz) -->
+- Daniel Große (Uni Linz)
 <!-- - Timo Hämäläinen  (Tampere Uni) -->
-<!-- - Frederic Heitzmann (Tiempo Secure) -->
-<!-- - Eyck Jentzsch (MINRES) -->
-<!-- - Nick Kossifidis (FORTH) -->
-<!-- - Larry Lapides (Synopsys) -->
-<!-- - Nathan Ma (Nuclei) -->
-<!-- - Fabrizio Magugliani (E4CE) -->
-<!-- - Andreas Mauderer (Bosch) -->
-<!-- - Daniel Mueller-Gritschneder (TU Munich), PC Co-Chair -->
-<!-- - Rihards Novickis (EDI) -->
-<!-- - Katzalin Olcoz Herrero (UCM) -->
-<!-- - Arthur Perais (TIMA, CNRS) -->
-<!-- - Borja Pérez Pavon (Univ. de Cantabria), PC Co-Chair -->
-<!-- - Sandro Pinto (University of Minho) -->
-<!-- - Shawn Prestridge (IAR) -->
-<!-- - Jérôme Quévremont (Thales) -->
-<!-- - Thomas Roecker (Infineon) -->
-<!-- - Davide Rossi (University of Bologna) -->
-<!-- - Olivier Savry (CEA) -->
-<!-- - Olivier Sentieys (INRIA), PC Chair -->
-<!-- - Davide Schiavone (OpenHW Group) -->
-<!-- - Georg Sigl (TU Munich) -->
-<!-- - Sharad Sinha (IIT Goa) -->
-<!-- - Gabriel L. Somlo (CMU) -->
-<!-- - Philipp Tomsich (VRULL) -->
-<!-- - Jonathan Woodruff (Univ. of Cambridge) -->
-<!-- - An Xu (Beijing Institute of Open Source Chip) -->
-<!-- - Florian Zaruba (Axelera) -->
+- Eyck Jentzsch (MINRES)
+- Nick Kossifidis (FORTH), PC Co-Chair
+- Larry Lapides (Synopsys)
+- Nathan Ma (Nuclei)
+- Fabrizio Magugliani (E4CE)
+- Andreas Mauderer (Bosch)
+- Andy Moore (RISC-V International)
+- Daniel Mueller-Gritschneder (TU Munich),
+- Rihards Novickis (EDI)
+- Katzalin Olcoz Herrero (UCM)
+- Borja Pérez Pavon (Univ. de Cantabria), PC Chair
+- Sandro Pinto (University of Minho)
+- Shawn Prestridge (IAR)
+- Jérôme Quévremont (Thales)
+- Thomas Roecker (Infineon)
+- Davide Rossi (University of Bologna)
+- Fatima Saleem (10xEngineers)
+- Olivier Savry (CEA)
+- Davide Schiavone (OpenHW Group)
+- Olivier Sentieys (INRIA), PC Co-Chair
+- Darshak Sheladiya (SYSGO)
+- Georg Sigl (TU Munich)
+- Sharad Sinha (IIT Goa)
+- Gabriel L. Somlo (CMU)
+- Philipp Tomsich (VRULL)
+- Stefan Wallentowitz (Munich University of Applied Sciences)
+- Wei Wu (ISCAS)
+- Jonathan Woodruff (Univ. of Cambridge)
+- An Xu (Beijing Institute of Open Source Chip)
+- Florian Zaruba (Axelera)
 
 <!-- ### The Industry Session Committee -->
 
