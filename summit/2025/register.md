@@ -23,7 +23,7 @@ The RISC-V Summit Europe has three tiers of registration fees:
    Income Countries (MSc, LIC & LMIC)**. Proof of studentship will be
    requested in the registration form for MSc students. The list of
    LIC & MLIC is available in [this
-   document](media/lic-mlic/lic-mlic.pdf).
+   document](media/pdf/lic-mlic.pdf).
  - **PhD students & PostDocs**. Postdoctoral researchers. Proof of
    studentship will be requested in the registration form for PhD
    students.
