@@ -110,10 +110,12 @@ International](https://riscv.org):
 - Magaly Gouttebroze (CEA)
 - Frank K. Gürkaynak (ETH Zürich)
 - Stéphane Laurens (KIT)
+- Amanda Martin (RISC-V International)
 - Andy Moore (RISC-V International)
 - Daniel Mueller-Gritschneder (TU Munich)
 - Martin Pierrelée (KIT)
 - Olivier Sentieys (INRIA)
+- Lori Servin (RISC-V International)
 - Stefan Wallentowitz (Munich University of Applied Sciences), as 2024 Local Organizer
 
 ### Local Organization
