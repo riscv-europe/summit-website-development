@@ -111,7 +111,7 @@ TBD.
 - Stéphane Laurens (KIT)
 - Andy Moore (RISC-V International)
 - Daniel Mueller-Gritschneder (TU Munich)
-- Martin Pierelée (KIT)
+- Martin Pierrelée (KIT)
 - Olivier Sentieys (INRIA)
 - Stefan Wallentowitz (Munich University of Applied Sciences), as 2024 Local Organizer
 
