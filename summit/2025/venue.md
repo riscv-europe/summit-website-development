@@ -4,8 +4,8 @@ layout: summit2025
 ---
 
 {% include bannerimg.html 
-    img = "media/banners/Paris-by-sunset.jpg"
-    caption = "CC0 Public Domain"
+    img = "media/banners/Amphi-Berger-full.jpg"
+    caption = "&copy; A. Robin - La Cité des Sciences"
 %}
 
 {% include jumboboxstart.html 
