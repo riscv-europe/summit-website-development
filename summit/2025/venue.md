@@ -26,8 +26,8 @@ layout: summit2025
 
 The are several hotels close to the venue:
 <ul>
-<li><a href="https://www.hilton.com/en/hotels/orygigi-hilton-garden-inn-paris-la-villette/">Hilton Garden Inn Paris La Villette</a>.</li>
 <li><a href="https://www.remix-hotel.com/en/">ReMIX hotel</a>.</li>
+<li><a href="https://www.hilton.com/en/hotels/orygigi-hilton-garden-inn-paris-la-villette/">Hilton Garden Inn Paris La Villette</a>.</li>
 <li><a href="https://all.accor.com/ssr/app/ibis/rates/1401/index.fr.shtml">ibis Paris la Villette Cité des Sciences</a></li>
 </ul>
 
