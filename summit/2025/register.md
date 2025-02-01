@@ -105,9 +105,9 @@ following conditions will be applied:
 
 - Cancellations until February 12, 2025 (3 months before): Refund of
   fees minus 25% administrative charge.
-- Cancellations between February 13th and March 12 5th, 2025 (2 months
+- Cancellations between February 13 and March 12, 2025 (2 months
   before): Refund of fees minus 50% administrative charge.
-- Cancellations after April 12th, 2025: Refunds will unfortunately no
+- Cancellations after April 12, 2025: Refunds will unfortunately no
   longer be possible.
 - All refunds will be processed after the conference.
 
