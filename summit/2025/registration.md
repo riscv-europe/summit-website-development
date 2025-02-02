@@ -82,7 +82,8 @@ outside EU attendees, reverse charge for EU).**
   </tbody>
 </table>
 
-<p>&nbsp;</p>
+<!-- To preserve spacinf before next header. -->
+&nbsp;
 
 ### Included in the registration fees
 
