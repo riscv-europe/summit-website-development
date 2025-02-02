@@ -16,9 +16,10 @@ layout: summit2025
 RISC-V Summit Europe will have a large exhibition area on three
 levels, where our sponsors' stands, the poster presentations and some
 rest areas will be spread out. Breaks and lunches will be served in
-several places in these three areas.  The overall layout will
-encourage networking by allowing maximum interaction between all
-summit participants
+several places.
+
+The overall layout will encourage networking by allowing maximum
+interaction between all summit participants
 
 {% include jumboboxend.html %}
 
@@ -31,7 +32,7 @@ From Tuesday 13 noon until Wednesday 14 afternoon, during breaks and
 lunches, a 200-seat amphitheatre will be dedicated to demos and
 product presentations from our sponsors.
 
-On Thursday 15, the same amphitheatre will be used to present results
-and demos from academic RISC-V research projects.
+On Thursday 15, the same amphitheatre will present results and demos
+from academic research projects.
 
 {% include jumboboxend.html %}
