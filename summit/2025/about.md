@@ -89,10 +89,10 @@ International](https://riscv.org):
 
 ### The Steering Committee
 
-- Teresa Cervero (BSC), Co-Chair
+- Teresa Cervero (BSC), Chair
 - Romain Dolbeau (SiPearl)
 - Roger Espasa (Semidynamics)
-- Christian Fabre (CEA), Chair
+- Christian Fabre (CEA) Co-Chair (former Chair)
 - Frank K. Gürkaynak (ETH Zürich)
 - Daniel Mueller-Gritschneder (TU Munich)
 - Borja Pérez Pavon (Univ. de Cantabria)
