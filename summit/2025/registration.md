@@ -82,6 +82,8 @@ outside EU attendees, reverse charge for EU).**
   </tbody>
 </table>
 
+<p>&nbsp;</p>
+
 ### Included in the registration fees
 
 The conference registration fee includes:
