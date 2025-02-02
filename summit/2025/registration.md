@@ -13,7 +13,7 @@ layout: summit2025
 
 ### Online registration form
 
-The online registration form is now available at <https://kit.com/risc-v2023/registrationform/Site/RegisterTBD>!
+The online registration form is now available at <https://kit.com/TBD>!
 
 ### Fees tiers
 
@@ -102,8 +102,7 @@ The conference registration fee includes:
 ### Cancellation policy
 
 Any cancellation or change of your registration must be notified in
-writing by email to KIT
-([risc-v2023@bcocongresos.com](mailto:risc-v2023@bcocongresos.com)). The
+writing by email to KIT ([TBD@kit.com](mailto:TBD@kit.com)). The
 following conditions will be applied:
 
 - Cancellations until February 12, 2025 (3 months before): Refund of
