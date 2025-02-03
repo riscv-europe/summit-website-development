@@ -81,9 +81,7 @@ outside EU attendees, reverse charge for EU).**
     </tr>
   </tbody>
 </table>
-
-<!-- To preserve spacinf before next header. -->
-&nbsp;
+&nbsp; <!-- To preserve spacing before next header. -->
 
 ### Included in the registration fees
 
