@@ -100,7 +100,8 @@ The conference registration fee includes:
 ### Cancellation policy
 
 Any cancellation or change of your registration must be notified in
-writing by email to KIT ([TBD@kit.com](mailto:TBD@kit.com)). The
+writing by email to KIT
+([registration.risc-v@kit-group.org](mailto:registration.risc-v@kit-group.org)). The
 following conditions will be applied:
 
 - Cancellations until February 12, 2025 (3 months before): Refund of
