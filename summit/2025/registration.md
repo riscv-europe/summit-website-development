@@ -107,8 +107,8 @@ following conditions will be applied:
   fees minus a 50.00 € administrative charge.
 - Cancellations recived between April 2nd and April 28th, 2025: refund
   of fees minus a 50% administrative charge.
-- Cancellations after April 28th, 2025: refunds will unfortunately no
-  longer be possible.
+- Refunds will unfortunately no longer be possible after April 28th,
+  2025..
 - Refunds will be credited only to the person or entity who paid the
   original registration. Reimbursement to or for the benefit of third
   parties is excluded.
