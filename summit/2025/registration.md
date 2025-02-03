@@ -100,16 +100,18 @@ The conference registration fee includes:
 ### Cancellation policy
 
 Any cancellation or change of your registration must be notified in
-writing by email to KIT
+writing by email to KIT at
 ([registration.risc-v@kit-group.org](mailto:registration.risc-v@kit-group.org)). The
 following conditions will be applied:
 
-- Cancellations until February 12, 2025 (3 months before): Refund of
-  fees minus 25% administrative charge.
-- Cancellations between February 13 and March 12, 2025 (2 months
-  before): Refund of fees minus 50% administrative charge.
-- Cancellations after April 12, 2025: Refunds will unfortunately no
+- Cancellations request received before April 2nd, 2025: refund of
+  fees minus a 50.00 € administrative charge.
+- Cancellations recived between April 2nd and April 28th, 2025: refund
+  of fees minus a 50% administrative charge.
+- Cancellations after April 28th, 2025: refunds will unfortunately no
   longer be possible.
-- All refunds will be processed after the conference.
+- Refunds will be credited only to the person or entity who paid the
+  original registration. Reimbursement to or for the benefit of third
+  parties is excluded.
 
 {% include jumboboxend.html %}
