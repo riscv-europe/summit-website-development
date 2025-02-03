@@ -42,8 +42,6 @@ The RISC-V Summit Europe has two main periods:
 
 The Monday 12th TWG meetings and Tutorials are free of charge. The
 fees for the remaining of the Summit are presented in the table below.
-**All prices are plus VAT, where applicable (VAT is charged for
-outside EU attendees, reverse charge for EU).**
 
 <table class="riscv-sy">
   <thead>
@@ -81,7 +79,8 @@ outside EU attendees, reverse charge for EU).**
     </tr>
   </tbody>
 </table>
-&nbsp; <!-- To preserve spacing before next header. -->
+**All prices are plus VAT, where applicable (VAT is charged for
+outside EU attendees, reverse charge for EU).**
 
 ### Included in the registration fees
 
