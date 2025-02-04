@@ -13,7 +13,7 @@ layout: summit2025
 
 ### Online registration form
 
-The online registration form is now available at <https://kit.com/TBD>!
+The online registration form will be available soon!
 
 ### Fees tiers
 
