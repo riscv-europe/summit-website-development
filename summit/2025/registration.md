@@ -44,7 +44,7 @@ The RISC-V Summit Europe has two main periods:
 The Monday 12th TWG meetings and Tutorials are free of charge. The
 fees for the remaining of the Summit are presented in the table below.
 
-<table class="riscv-sy">
+<table class="riscv-sy" margin-bottom="3pt">
   <thead>
     <tr>
       <th>Registration rate</th>
