@@ -92,7 +92,7 @@ International](https://riscv.org):
 - Teresa Cervero (BSC), Chair
 - Romain Dolbeau (SiPearl)
 - Roger Espasa (Semidynamics)
-- Christian Fabre (CEA) Co-Chair (former Chair)
+- Christian Fabre (CEA)
 - Frank K. Gürkaynak (ETH Zürich)
 - Daniel Mueller-Gritschneder (TU Munich)
 - Borja Pérez Pavon (Univ. de Cantabria)
