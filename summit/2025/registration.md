@@ -62,20 +62,20 @@ fees for the remaining of the Summit are presented in the table below.
   <tbody>
     <tr>
       <td>Industry & Academia</td>
-      <td>536 €</td>
-      <td>607 €</td>
+      <td>540 €</td>
+      <td>610 €</td>
       <td>680 €</td>
     </tr>
     <tr>
       <td>Phd students & PostDocs</td>
-      <td>453 €</td>
-      <td>515 €</td>
-      <td>521 €</td>
+      <td>460 €</td>
+      <td>550 €</td>
+      <td>580 €</td>
     </tr>
     <tr>
       <td>MSc, LIC & MLIC</td>
-      <td>268 €</td>
-      <td>304 €</td>
+      <td>270 €</td>
+      <td>305 €</td>
       <td>340 €</td>
     </tr>
   </tbody>
