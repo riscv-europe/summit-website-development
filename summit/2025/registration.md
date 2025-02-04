@@ -80,6 +80,7 @@ fees for the remaining of the Summit are presented in the table below.
     </tr>
   </tbody>
 </table>
+
 **All prices are plus VAT, where applicable (VAT is charged for
 outside EU attendees, reverse charge for EU).**
 
