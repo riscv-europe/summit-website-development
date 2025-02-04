@@ -106,7 +106,7 @@ following conditions will be applied:
 
 - Cancellations request received before April 2nd, 2025: refund of
   fees minus a 50.00 € administrative charge.
-- Cancellations recived between April 2nd and April 28th, 2025: refund
+- Cancellations received between April 2nd and April 28th, 2025: refund
   of fees minus a 50% administrative charge.
 - Refunds will unfortunately no longer be possible after April 28th,
   2025..
