@@ -91,7 +91,6 @@ The conference registration:
  - The fees to attend the core Summit, from Tuesday May 13 to Thursday
    May 15 (plenaries, poster sessions, demo theater, and exhibition
    area).
- - Receipt of all main conference materials.
  - Welcome cocktail on Tuesday, May 13.
  - Social event on Wednesday, May 14.
  - Lunches and coffee breaks during the conference -- Tuesday to
