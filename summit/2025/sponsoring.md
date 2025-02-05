@@ -134,7 +134,7 @@ Several packages with varying features are available.
 Beyond the sponsorship packages, there are extra sponsorships available:
 
 - ~~Lanyard sponsorship (1)~~ (sold) - €8k
-- WiFi sponsorship (1) - €5k
+- ~~WiFi sponsorship (1)~~ (sold) - €5k
 - Collaboration breakfast sponsorship (1) - €6k
 - Lounge area sponsorship (1) - €7k
 - Drinks Reception sponsorship (1) - €7.5k
