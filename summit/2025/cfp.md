@@ -100,7 +100,7 @@ technical topics of interest:
 
 ## Submission Format
 
-Submissions should be provided as a two page extended abstract. Abstract
+Submissions should be provided as a max two pages extended abstract. Abstract
 template and instructions for submission are available
 [here](https://github.com/riscv-europe/riscv-europe-summit-templates).
 
