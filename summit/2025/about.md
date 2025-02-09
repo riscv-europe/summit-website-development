@@ -91,6 +91,7 @@ International](https://riscv.org):
 
 - Teresa Cervero (BSC), Chair
 - Romain Dolbeau (SiPearl)
+- Wolfgang Ecker (Infineon)
 - Roger Espasa (Semidynamics)
 - Christian Fabre (CEA)
 - Frank K. Gürkaynak (ETH Zürich)
