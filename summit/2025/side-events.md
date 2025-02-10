@@ -8,7 +8,7 @@ layout: summit2025
 %}
 
 {% include jumboboxstart.html
-	title = "Side events"
+	title = "*Side events* on May 16th 2025"
 	lead = "This year, *Friday Sides Events* on May 16th will not be taking place on the main venue of the *RISC-V Summit Europe*, but in the Paris premises of INRIA"
 %}
 
@@ -18,8 +18,8 @@ layout: summit2025
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-	title = "Organize your Side event at the Paris premises of INRIA"
-	lead = "Organise your *Side Event* on May 16th at the Paris premises of INRIA"
+	title = "Your *Side Event* at the Paris premises of INRIA"
+	lead = "To organise your *Side Event* on May 16th, get in touch with INRIA."
 %}
 
 Unlike previous years in [Barcelona (June
