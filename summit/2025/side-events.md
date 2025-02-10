@@ -12,6 +12,16 @@ layout: summit2025
 	lead = "This year, *Friday Sides Events* on May 16th will not be taking place on the main venue of the *RISC-V Summit Europe*, but in the Paris premises of INRIA"
 %}
 
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1313.3307748338514!2d2.3454704680477394!3d48.82651876274748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671975c391b55%3A0x898ec5cd93e997c2!2s48%20Rue%20Barrault%2C%2075013%20Paris!5e0!3m2!1sfr!2sfr!4v1739198711055!5m2!1sfr!2sfr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+	title = "Side events"
+	lead = "Organise your *Side Event* on May 16th at the Paris premises of INRIA"
+%}
+
 Unlike previous years in [Barcelona (June
 2013)](https://riscv-europe.org/summit/2023/side-events) and [Munich
 (June 2024)](https://riscv-europe.org/summit/2024/sideevents), this
