@@ -49,15 +49,15 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
 	  <!-- <br /><a href="conference"><b>Learn more</b></a> -->
 	  </td>
   </tr>
-  <!-- <tr> -->
-  <!--   <td><b>Friday, May 16</b></td> -->
-  <!-- 	<td><b><i>Side Events & Workshops</i></b><br /> -->
-  <!-- 	Side events, such as project meetings and workshops, can be -->
-  <!-- 	organized on Friday, May 16th. However, they will be -->
-  <!-- 	coordinated and hosted by INRIA this year, on their premises -->
-  <!-- 	in Paris. -->
-  <!-- 	<br /><a href="side-events"><b>Learn more</b></a></td> -->
-  <!-- </tr> -->
+  <tr>
+    <td><b>Friday, May 16</b></td>
+	<td><b><i>Side Events & Workshops</i></b><br />
+	Side events, such as project meetings and workshops, can be
+	organized on Friday, May 16th. However, they will be
+	coordinated and hosted by INRIA this year, on their premises
+	in Paris.
+	<br /><a href="side-events"><b>Learn more</b></a></td>
+  </tr>
 </table>
 
 {% include jumboboxend.html %}
