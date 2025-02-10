@@ -26,7 +26,7 @@ want to close the *RISC-V Summit Europe* with a productive Friday.
 
 To organize a side event on Friday 16th at [INRIA
 Paris](https://www.inria.fr/fr/centre-inria-de-paris), get in touch
-with [Ms Jeniffer Bourdon](mailto:jennifer.bourdon@inria.fr?subject=RISC-V Summit Europe Side Event!).
+with [Ms Jennifer Bourdon](mailto:jennifer.bourdon@inria.fr?subject=RISC-V Summit Europe Side Event!).
 
 <p align="center"><img src="media/logos/INRIA.svg" alt="INRIA logo" height="70"></p>
 
