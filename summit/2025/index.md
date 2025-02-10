@@ -39,6 +39,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
     <td style="width: 25%"><b>Monday, May 12</b></td>
     <td><b><i>Member and Newcomer Day</i></b><br />Tutorials for Newcomers, Hackathon for Students, Technical Workgroup
       Meetings (members only)
+	  <br/> Venue: *La Cité des Sciences et de l'Industrie,* Porte de la Villete, Paris.
 	  <!-- <br /><a href="twgs"><b>Learn more</b></a> -->
 	  </td>
   </tr>
@@ -46,6 +47,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
     <td><b>Tuesday, May 13 to<br /> Thurday, May 15</b></td>
     <td><b><i>Main Conference Program</i></b><br />Keynotes, Plenary Presentations, Panels, Demo Theatre, Expo,
       Posters
+	  <br/> Venue: *La Cité des Sciences et de l'Industrie,* Porte de la Villette, Paris.
 	  <!-- <br /><a href="conference"><b>Learn more</b></a> -->
 	  </td>
   </tr>
@@ -55,6 +57,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
 	Side events, such as projects meetings and workshops, can be
 	organized on Friday, May 16th. However, they will be
 	coordinated and hosted by INRIA this year, on their Paris premises.
+	<br/> Venue: *INRIA Paris*, 48 rue Barrault, Paris.
 	<br /><a href="side-events"><b>Learn more</b></a></td>
   </tr>
 </table>
