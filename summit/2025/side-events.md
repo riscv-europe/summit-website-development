@@ -18,7 +18,8 @@ Unlike previous years in [Barcelona (June
 year the *Friday Side Events* will not be hosted hosted at the main
 venue of the *RISC-V Summit Europe*.
 
-INRIA has several meeting rooms at [48 rue Barrault, 75013
+[INRIA](https://www.inria.fr) has several meeting rooms at [48 rue
+Barrault, 75013
 Paris](https://www.openstreetmap.org/#map=19/48.826311/2.346010) that
 are available to RISC-V projects or open hardware communities that
 want to close the *RISC-V Summit Europe* with a productive Friday.
