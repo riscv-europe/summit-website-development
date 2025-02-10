@@ -39,7 +39,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
     <td style="width: 25%"><b>Monday, May 12</b></td>
     <td><b><i>Member and Newcomer Day</i></b><br />Tutorials for Newcomers, Hackathon for Students, Technical Workgroup
       Meetings (members only)
-	  <br/> Venue: <a href="https://maps.app.goo.gl/7373NynYU2eFzuy16"><em>La Cité des Sciences et de l'Industrie,</em> Porte de la Villette, Paris</a>.
+	  <br/> Venue: <a href="https://maps.app.goo.gl/Q31cnRLcnvaRXa6v9"><em>La Cité des Sciences et de l'Industrie,</em> Porte de la Villette, Paris</a>.
 	  <!-- <br /><a href="twgs"><b>Learn more</b></a> -->
 	  </td>
   </tr>
@@ -47,7 +47,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
     <td><b>Tuesday, May 13 to<br /> Thurday, May 15</b></td>
     <td><b><i>Main Conference Program</i></b><br />Keynotes, Plenary Presentations, Panels, Demo Theatre, Expo,
       Posters
-	  <br/> Venue: <a href="https://maps.app.goo.gl/7373NynYU2eFzuy16"><em>La Cité des Sciences et de l'Industrie,</em> Porte de la Villette, Paris</a>.
+	  <br/> Venue: <a href="https://maps.app.goo.gl/Q31cnRLcnvaRXa6v9"><em>La Cité des Sciences et de l'Industrie,</em> Porte de la Villette, Paris</a>.
 	  <!-- <br /><a href="conference"><b>Learn more</b></a> -->
 	  </td>
   </tr>
@@ -57,7 +57,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
 	Side events, such as projects meetings and workshops, can be
 	organized on Friday, May 16th. However, they will be
 	coordinated and hosted by INRIA this year, on their Paris premises.
-	<br/><a href="side-events"><b>Learn more</b></a> &mdash; Venue: <a href="https://maps.app.goo.gl/HfXzsJaiiNpe6TKu5"><em>INRIA Paris</em>, 48 rue Barrault, Paris</a>.</td>
+	<br/><a href="side-events"><b>Learn more</b></a> &mdash; Venue: <a href="https://maps.app.goo.gl/4aLjAxVuKkJU7WbL7"><em>INRIA Paris</em>, 48 rue Barrault, Paris</a>.</td>
   </tr>
 </table>
 
