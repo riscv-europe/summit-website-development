@@ -18,7 +18,7 @@ layout: summit2025
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-	title = "Side events"
+	title = "Organize your Side event at the Paris premises of INRIA"
 	lead = "Organise your *Side Event* on May 16th at the Paris premises of INRIA"
 %}
 
