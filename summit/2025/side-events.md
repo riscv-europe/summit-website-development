@@ -12,7 +12,7 @@ layout: summit2025
 	lead = "This year, *Friday Sides Events* on May 16th will not be taking place on the main venue of the *RISC-V Summit Europe*, but in the Paris premises of INRIA"
 %}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.853340052354!2d2.343862076391585!3d48.82637250295927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6719834a756c1%3A0x6c966534f8bae2e0!2s60%20Rue%20Vergniaud%2C%2075013%20Paris!5e1!3m2!1sfr!2sfr!4v1739214408276!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.853340052354!2d2.343862076391585!3d48.82637250295927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671975c391b55%3A0x898ec5cd93e997c2!2s48%20Rue%20Barrault%2C%2075013%20Paris!5e1!3m2!1sfr!2sfr!4v1739216032710!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 {% include jumboboxend.html %}
 
