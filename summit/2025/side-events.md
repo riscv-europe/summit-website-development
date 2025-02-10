@@ -18,8 +18,8 @@ layout: summit2025
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-	title = "Your *Side Event* at the Paris premises of INRIA"
-	lead = "To organise your *Side Event* on May 16th, get in touch with INRIA."
+	title = "Your own workshop or project meeting at the Paris premises of INRIA"
+	lead = "To organize your own event on May 16th in Paris, get in touch with INRIA."
 %}
 
 Unlike previous years in [Barcelona (June
