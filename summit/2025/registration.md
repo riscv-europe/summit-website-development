@@ -16,7 +16,7 @@ layout: summit2025
 Registration for the summit is now open:
 
 <div class="row justify-content-md-center my-4">
-    <a href="https://softconf.com/p/riscv-europe25/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register for the Summit Europe<br> 12-15 May 2025, Paris</a>
+    <a href="https://kit-react.de/portal/init?mnemonic=RV25" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register for the Summit Europe<br> 12-15 May 2025, Paris</a>
 </div>
 
 ### Fees tiers
