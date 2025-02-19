@@ -5,3 +5,7 @@ _site
 
 # Emacs leftover files.
 *~
+[#]*[#]
+
+# Ignore the Mac OS hidden folders.
+.DS_Store
