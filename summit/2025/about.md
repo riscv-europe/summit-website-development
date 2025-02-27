@@ -49,7 +49,7 @@ International](https://riscv.org):
 - Fabrizio Magugliani (E4CE)
 - Andreas Mauderer (Bosch)
 - Andy Moore (RISC-V International)
-- Daniel Mueller-Gritschneder (TU Munich),
+- Daniel Mueller-Gritschneder (TU Wien),
 - Rihards Novickis (EDI)
 - Katzalin Olcoz Herrero (UCM)
 - Borja Pérez Pavon (Univ. de Cantabria), PC Chair
@@ -95,7 +95,7 @@ International](https://riscv.org):
 - Roger Espasa (Semidynamics)
 - Christian Fabre (CEA)
 - Frank K. Gürkaynak (ETH Zürich)
-- Daniel Mueller-Gritschneder (TU Munich)
+- Daniel Mueller-Gritschneder (TU Wien)
 - Borja Pérez Pavon (Univ. de Cantabria)
 - Jérôme Quévremont (Thales R&T)
 - Anna Riverola (SiPearl)
@@ -113,7 +113,7 @@ International](https://riscv.org):
 - Stéphane Laurens (KIT)
 - Amanda Martin (RISC-V International)
 - Andy Moore (RISC-V International)
-- Daniel Mueller-Gritschneder (TU Munich)
+- Daniel Mueller-Gritschneder (TU Wien)
 - Martin Pierrelée (KIT)
 - Olivier Sentieys (INRIA)
 - Lori Servin (RISC-V International)
