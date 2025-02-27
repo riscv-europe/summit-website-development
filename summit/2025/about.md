@@ -49,7 +49,7 @@ International](https://riscv.org):
 - Fabrizio Magugliani (E4CE)
 - Andreas Mauderer (Bosch)
 - Andy Moore (RISC-V International)
-- Daniel Mueller-Gritschneder (TU Wien),
+- Daniel Mueller-Gritschneder (TU Wien)
 - Rihards Novickis (EDI)
 - Katzalin Olcoz Herrero (UCM)
 - Borja Pérez Pavon (Univ. de Cantabria), PC Chair
