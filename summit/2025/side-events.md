@@ -21,7 +21,7 @@ layout: summit2025
 	lead = "To organize your own event on May 16th, get in touch with INRIA."
 %}
 
-Unlike previous years in [Barcelona (June
+Unlike previous *Summits Europe* in [Barcelona (June
 2013)](https://riscv-europe.org/summit/2023/side-events) and [Munich
 (June 2024)](https://riscv-europe.org/summit/2024/sideevents), this
 year the *Friday Side Events* will not be hosted hosted at the main
