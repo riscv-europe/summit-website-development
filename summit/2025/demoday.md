@@ -1,0 +1,75 @@
+---
+title: University Demo Day
+layout: summit2025
+---
+
+{% include bannerimg.html
+    img = "media/banners/demo.jpg"
+%}
+
+{% include jumboboxstart.html
+    title = "Join Us for the RISC-V University Demo Day!"
+    lead = "On Thursday, May 15th, the demo theatre will host universities and research institutions, providing them a platform to present their innovative research outcomes through hardware or software demonstrations."
+%}
+
+We’re excited to invite universities and research institutions
+enthusiastic about RISC-V to join our **RISC-V University Demo Day**,
+an event where academic innovation intersects with the world of RISC-V
+and open-source hardware and software.
+
+RISC-V has risen as a leading architecture, delivering unmatched
+flexibility, scalability, and openness. Across Europe, universities
+and research institutions have led the charge in RISC-V exploration,
+pioneering transformative advancements poised to redefine the future
+of computing.
+
+This demo day offers you a platform to present your state-of-the-art
+RISC-V research, whether through hardware prototypes, software
+demonstrations, or creative applications. From developing innovative
+RISC-V processor designs to enhancing software ecosystems for RISC-V
+systems or advancing RISC-V-based IoT solutions, we’re eager to see
+your contributions!
+
+By taking part in the **RISC-V University Demo Day**, you’ll share
+your work with peers, industry experts, and enthusiasts while helping
+to fuel enthusiasm and drive RISC-V adoption across diverse sectors.
+
+Join us to harness the power of RISC-V and collaboratively shape the
+future of computing, one inspiring demo at a time!
+
+### Guidelines
+
+- The university demo day is limited to universities and research
+  institutions (worldwide)
+- Demonstrators can be results from joint projects with industry, but
+  the focus must be clearly on the academic partner(s)
+- Presentations are limited to an overview slide
+- The actual demo should showcase your great results, either around a
+  chip, FPGA or software
+- Viewers should understand the relevance of your demonstrator to the
+  growing RISC-V ecosystem
+
+### Submission
+
+To create the best experience of this unique opportunity, we require
+you to provide a short description of the demao and share a brief
+video of your proposed demonstration. This does not have to be of very
+high quality and be the final demonstration, but it is important for
+us to understand maturity of the demonstrator and the learning from
+your demonstration. Just use your powerful smartphone to show us what
+you plan to present!
+
+The deadline for submissions is Monday April 7th, [AOE (Anywhere on
+  Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). We will
+  start notifying accepted demo on Monday April 14th.
+
+<!-- <div class="row justify-content-md-center my-4"> -->
+<!--     <a href="https://forms.gle/VrV4SRPbJX5XiLgT6" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal</a> -->
+<!-- </div> -->
+
+<!-- <div class="text-center mt-5"> -->
+<!--     <b>The University Demo Day is presented by</b><br/> -->
+<!--     <a href="https://www.quintauris.eu" target="_blank"><img src="media/logos/sponsors/quintauris.svg" width="150" /></a> -->
+<!-- </div> -->
+
+{% include jumboboxend.html %}
