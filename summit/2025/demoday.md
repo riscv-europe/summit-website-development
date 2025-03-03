@@ -12,10 +12,10 @@ layout: summit2025
     lead = "On Thursday, May 15th, the demo theatre will host universities and research institutions, providing them a platform to present their innovative research outcomes through hardware or software demonstrations."
 %}
 
-We’re excited to invite universities and research institutions
-enthusiastic about RISC-V to join our **RISC-V University Demo Day**,
-an event where academic innovation intersects with the world of RISC-V
-and open-source hardware and software.
+We’re inviting universities and research institutions enthusiastic
+about RISC-V to join our **RISC-V University Demo Day**, an event
+where academic innovation intersects with the world of RISC-V and
+open-source hardware and software.
 
 RISC-V has risen as a leading architecture, delivering unmatched
 flexibility, scalability, and openness. Across Europe, universities
@@ -52,12 +52,12 @@ future of computing, one inspiring demo at a time!
 ### Submission
 
 To create the best experience of this unique opportunity, we require
-you to provide a short description of the demao and share a brief
-video of your proposed demonstration. This does not have to be of very
-high quality and be the final demonstration, but it is important for
-us to understand maturity of the demonstrator and the learning from
-your demonstration. Just use your powerful smartphone to show us what
-you plan to present!
+you to provide a short description and share a brief video of your
+proposed demonstration. This does not have to be of very high quality
+and be the final demonstration, but it is important for us to
+understand maturity of the demonstrator and the learning from your
+demonstration. Just use your powerful smartphone to show us what you
+plan to present!
 
 The deadline for submissions is Monday April 7th, [AOE (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). We will
