@@ -40,14 +40,14 @@ future of computing, one inspiring demo at a time!
 ### Guidelines
 
 - The university demo day is limited to universities and research
-  institutions (worldwide)
+  institutions, worldwide.
 - Demonstrators can be results from joint projects with industry, but
-  the focus must be clearly on the academic partner(s)
-- Presentations are limited to an overview slide
+  the focus must be clearly on the academic partner(s).
+- Presentations are limited to an overview slide.
 - The actual demo should showcase your great results, either around a
-  chip, FPGA or software
+  chip, FPGA or software.
 - Viewers should understand the relevance of your demonstrator to the
-  growing RISC-V ecosystem
+  growing RISC-V ecosystem.
 
 ### Submission
 
@@ -59,9 +59,9 @@ understand maturity of the demonstrator and the learning from your
 demonstration. Just use your powerful smartphone to show us what you
 plan to present!
 
-The deadline for submissions is Monday April 7th, [AOE (Anywhere on
+The deadline for submissions is Monday, April 7th, [AOE (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). We will
-  start notifying accepted demo on Monday April 14th.
+  start notifying accepted demo on Monday, April 14th.
 
 <!-- <div class="row justify-content-md-center my-4"> -->
 <!--     <a href="https://forms.gle/VrV4SRPbJX5XiLgT6" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal</a> -->
