@@ -9,16 +9,16 @@ layout: summit2025
 
 {% include jumboboxstart.html
 	title = "*Side events* on May 16th 2025"
-	lead = "This year, *Friday Sides Events* on May 16th will not be taking place on the main venue of the *RISC-V Summit Europe*, but in the Paris premises of INRIA"
+	lead = "This year, *Friday Sides Events* on May 16th will not be taking place on the main venue of the *RISC-V Summit Europe*, but at FIAP Paris"
 %}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.853340052354!2d2.343862076391585!3d48.82637250295927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671975c391b55%3A0x898ec5cd93e997c2!2s48%20Rue%20Barrault%2C%2075013%20Paris!5e1!3m2!1sfr!2sfr!4v1739216032710!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7516.8585107717445!2d2.3354952783735756!3d48.830465771328576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671bc17c61afb%3A0x189e78ebb0a8e7b4!2sFIAP%20Paris!5e1!3m2!1sfr!2sfr!4v1741626582672!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
 	title = "Your own workshop or project meeting in Paris"
-	lead = "To organize your own event on May 16th, get in touch with INRIA."
+	lead = "To organize your own event on May 16th, get in touch with FIAP Paris."
 %}
 
 Unlike previous *Summits Europe* in [Barcelona (June
@@ -27,16 +27,23 @@ Unlike previous *Summits Europe* in [Barcelona (June
 year the *Friday Side Events* will not be hosted hosted at the main
 venue of the *RISC-V Summit Europe*.
 
-[INRIA](https://www.inria.fr) has several meeting rooms at [48 rue
-Barrault, 75013
-Paris](https://www.openstreetmap.org/#map=19/48.826311/2.346010) that
-are available to RISC-V projects or open hardware communities that
-want to close the *RISC-V Summit Europe* with a productive Friday.
+[FIAP PAris](https://www.fiap.paris/en) can host meetings for at [30
+rue Cabanis, 75014
+Paris](https://maps.app.goo.gl/9eu4mjzJj6SJTqha9). This allows for
+RISC-V projects or open hardware communities to close the *RISC-V
+Summit Europe* with a productive Friday.
 
-To organize a side event on Friday 16th at [INRIA
-Paris](https://www.inria.fr/fr/centre-inria-de-paris), get in touch
-with [Ms Jennifer Bourdon](mailto:jennifer.bourdon@inria.fr?subject=RISC-V Summit Europe Side Event).
+To organize a side event on Friday 16th at [FIAP
+Paris](https://www.fiap.paris/en), get in touch with [Ms Emma
+Nezondet](mailto:nezondet@fiap.fr?subject=Booking for a RISC-V Side
+Event on Fri 16 May).
 
-<p align="center"><img src="media/logos/INRIA.svg" alt="INRIA logo" height="70"></p>
+*The earlier version of this page suggested INRIA's Paris premises as
+a potential venue for Side Events. However, upon review, it has been
+determined that these facilities do not meet the requirements outlined
+in the initial events requests. Consequently, FIAP has been identified
+as a more appropriate location for hosting workshops and meetings.*
+
+<p align="center"><img src="media/logos/FIAP.svg" alt="FIAP" height="70"></p>
 
 {% include jumboboxend.html %}
