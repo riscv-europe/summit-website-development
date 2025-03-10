@@ -33,12 +33,12 @@ Paris](https://www.google.com/maps/place/30+Rue+Cabanis,+75014+Paris). This
 allows for RISC-V projects or open hardware communities to close the
 *RISC-V Summit Europe* with a productive Friday.
 
-To organize a *Side Event* on Friday 16th at [FIAP
+To organize a *Side Event* on Friday May, 16th at [FIAP
 Paris](https://www.fiap.paris/en), get in touch with [Ms Emma
 Nezondet](mailto:nezondet@fiap.fr?subject=Booking for a RISC-V Side
 Event on Fri 16 May).
 
-*The earlier version of this page suggested INRIA's Paris premises as
+*An earlier version of this page suggested INRIA's Paris premises as
 a potential venue for Side Events. However, upon review of initial
 events requests, it has been determined that these facilities do not
 meet necessary requirements. Consequently, FIAP has been identified
