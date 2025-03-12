@@ -33,7 +33,7 @@ room at [FIAP Paris](https://www.fiap.paris/en). FIAP Paris offers
 facilities and accommodation to host meetings at their premises
 located at [30 rue Cabanis, 75014
 Paris](https://maps.app.goo.gl/xgC3pgiuuqeUmN3S6). For further
-information, please contact [Ms Emma
+information on pricing and conditions, please contact [Ms Emma
 Nezondet](mailto:nezondet@fiap.fr?subject=Meeting room for a RISC-V Side Event on Fri 16 May)
 directly.
 
