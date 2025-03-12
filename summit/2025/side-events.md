@@ -27,15 +27,15 @@ Unlike previous *Summits Europe* in [Barcelona (June
 year the *Friday Side Events* will not be hosted at the main
 venue of the *RISC-V Summit Europe*.
 
-[FIAP Paris](https://www.fiap.paris/en) can host meetings at [30 rue
-Cabanis, 75014
-Paris](https://maps.app.goo.gl/xgC3pgiuuqeUmN3S6). This
-allows for RISC-V projects or open hardware communities to close the
-*RISC-V Summit Europe* with a productive Friday.
-
-To organize a *Side Event* on Friday May, 16th, get in touch directly with [Ms
-Emma Nezondet](mailto:nezondet@fiap.fr?subject=Meeting room for a RISC-V Side Event on Fri 16 May)
-from [FIAP Paris](https://www.fiap.paris/en).
+RISC-V projects or open hardware communities interested in concluding
+the RISC-V Summit Europe with a productive Friday can rent a meeting
+room at [FIAP Paris](https://www.fiap.paris/en). FIAP Paris offers
+facilities and accommodation to host meetings at their premises
+located at [30 rue Cabanis, 75014
+Paris](https://maps.app.goo.gl/xgC3pgiuuqeUmN3S6). For further
+information, please contact [Ms Emma
+Nezondet](mailto:nezondet@fiap.fr?subject=Meeting room for a RISC-V Side Event on Fri 16 May)
+directly.
 
 *An earlier version of this page suggested INRIA's Paris premises as
 a potential venue for Side Events. However, upon review of initial
