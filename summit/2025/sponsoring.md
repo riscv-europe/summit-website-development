@@ -20,7 +20,7 @@ Several packages with varying features are available.
     <thead>
         <tr>
             <td style="width: 40%"></td>
-            <td style="width: 15%" class="sponsor-platinum">Platinum <br/>(only 1 left!)</td>
+            <td style="width: 15%" class="sponsor-platinum">Platinum <br/>(sold out!)</td>
             <td style="width: 15%" class="sponsor-gold">Gold</td>
             <td style="width: 15%" class="sponsor-silver">Silver</td>
             <td style="width: 15%" class="sponsor-bronze">Bronze</td>
