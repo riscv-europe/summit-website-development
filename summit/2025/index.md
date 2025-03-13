@@ -4,7 +4,7 @@ layout: summit2025
 ---
 
 {% include bannerimg.html
-    img = "media/banners/Paris-by-sunset.jpg"
+    img = "media/banners/banner-official.png"
 %}
 
 {% include jumboboxstart.html
