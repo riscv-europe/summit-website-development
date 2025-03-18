@@ -64,7 +64,7 @@ The deadline for submissions is Monday, April 7th, [AOE (Anywhere on
   start notifying accepted demo on Monday, April 14th.
 
 <div class="row justify-content-md-center my-4">
-    <a href="https://softconf.com/p/riscv-europe25/user/scmd.cgi?scmd=submitPaperCustom&pageid=1" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your demo!</a>
+    <a href="https://softconf.com/p/riscv-europe25/user/scmd.cgi?scmd=submitPaperCustom&pageid=1" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your demo<br/>(via Softconf, please register/login)</a>
 </div>
 
 <!-- <div class="text-center mt-5"> -->
