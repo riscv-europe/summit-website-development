@@ -63,8 +63,6 @@ The deadline for submissions is Monday, April 7th, [AOE (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). We will
   start notifying accepted demo on Monday, April 14th.
 
-**The submission form for university demos will soon be available here!**
-
 <div class="row justify-content-md-center my-4">
     <a href="https://softconf.com/p/riscv-europe25/user/scmd.cgi?scmd=submitPaperCustom&pageid=1" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your demo!</a>
 </div>
