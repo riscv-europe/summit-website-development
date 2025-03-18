@@ -65,9 +65,9 @@ The deadline for submissions is Monday, April 7th, [AOE (Anywhere on
 
 **The submission form for university demos will soon be available here!**
 
-<!-- <div class="row justify-content-md-center my-4"> -->
-<!--     <a href="https://forms.gle/VrV4SRPbJX5XiLgT6" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal</a> -->
-<!-- </div> -->
+<div class="row justify-content-md-center my-4">
+    <a href="https://softconf.com/p/riscv-europe25/user/scmd.cgi?scmd=submitPaperCustom&pageid=1" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your demo!</a>
+</div>
 
 <!-- <div class="text-center mt-5"> -->
 <!--     <b>The University Demo Day is presented by</b><br/> -->
