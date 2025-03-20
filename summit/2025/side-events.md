@@ -44,8 +44,8 @@ following options:
    Nezondet](mailto:nezondet@fiap.fr?subject=Meeting room for a RISC-V
    Side Event on Fri 16 May) directly.
 
-If you want your side event to be annouced on this page, please get in
-touch with the RISC-V Summit Europe 2025 [Local
+If you have organized a side event, and want it to be annouced on this
+page, please get in touch with the RISC-V Summit Europe 2025 [Local
 Committee](mailto:europe-summit-planning@riscv.org).
 
 *An earlier version of this page suggested INRIA's Paris premises as a
