@@ -28,21 +28,28 @@ year the *Friday Side Events* will not be hosted at the main
 venue of the *RISC-V Summit Europe*.
 
 RISC-V projects or open hardware communities interested in concluding
-the RISC-V Summit Europe with a productive Friday can rent a meeting
-room at [FIAP Paris](https://www.fiap.paris/en). FIAP Paris offers
-facilities and accommodation to host meetings at their premises
-located at [30 rue Cabanis, 75014
-Paris](https://maps.app.goo.gl/xgC3pgiuuqeUmN3S6). For further
-information on pricing and conditions, please contact [Ms Emma
-Nezondet](mailto:nezondet@fiap.fr?subject=Meeting room for a RISC-V Side Event on Fri 16 May)
-directly.
+the RISC-V Summit Europe with a productive Friday can look into the
+following options:
 
-*An earlier version of this page suggested INRIA's Paris premises as
-a potential venue for Side Events. However, upon review of initial
+ - Contact nearby hotels to check availability of meeting rooms for
+   Friday 16 May, like hotels metionned in the [Venue &
+   Accommodation](https://riscv-europe.org/summit/2025/venue) page.
+
+ - For meetings of 14 people or less, you may rent a meeting room at
+   [FIAP Paris](https://www.fiap.paris/en). FIAP Paris offers
+   facilities and accommodation to host meetings at their premises
+   located at [30 rue Cabanis, 75014
+   Paris](https://maps.app.goo.gl/xgC3pgiuuqeUmN3S6). For further
+   information on pricing and conditions, please contact [Ms Emma
+   Nezondet](mailto:nezondet@fiap.fr?subject=Meeting room for a RISC-V
+   Side Event on Fri 16 May) directly.
+
+*An earlier version of this page suggested INRIA's Paris premises as a
+potential venue for Side Events. However, upon review of initial
 events requests, it has been determined that these facilities do not
-meet necessary requirements. Consequently, FIAP has been identified
-as a more appropriate location for hosting workshops and meetings on
-Friday 16 May.*
+meet necessary requirements. Consequently, FIAP and nearby hotels have
+been identified as a more appropriate location for hosting workshops
+and meetings on Friday 16 May.*
 
 <p align="center"><a href="https://www.fiap.paris/en"><img src="media/logos/FIAP.svg" alt="FIAP" height="70"></a></p>
 
