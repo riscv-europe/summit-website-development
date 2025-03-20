@@ -32,7 +32,7 @@ the RISC-V Summit Europe with a productive Friday can look into the
 following options:
 
  - Contact nearby hotels to check availability of meeting rooms for
-   Friday 16 May, like hotels metionned in the [Venue &
+   Friday 16 May, e.g. those mentioned in the [Venue &
    Accommodation](https://riscv-europe.org/summit/2025/venue) page.
 
  - For meetings of 14 people or less, you may rent a meeting room at
