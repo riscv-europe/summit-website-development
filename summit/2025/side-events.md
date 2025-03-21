@@ -55,8 +55,6 @@ meet necessary requirements. Consequently, FIAP and nearby hotels have
 been identified as a more appropriate location for hosting workshops
 and meetings on Friday 16 May.*
 
-<p align="center"><a href="https://www.fiap.paris/en"><img src="media/logos/FIAP.svg" alt="FIAP" height="70"></a></p>
-
 {% include jumboboxend.html %}
 
 [Local Committee]: j
