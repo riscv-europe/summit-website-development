@@ -9,7 +9,7 @@ layout: summit2025
 
 {% include jumboboxstart.html
 	title = "*Side events* on May 16th 2025"
-	lead = "This year, *Friday Sides Events* on May 16th will not be taking place on the main venue of the *RISC-V Summit Europe*, but at FIAP Paris"
+	lead = "This year, *Friday Sides Events* on May 16th will not be taking place on the main venue of the *RISC-V Summit Europe*"
 %}
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7517.091614952042!2d2.339818999305587!3d48.82891195811259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671bc17c61afb%3A0x189e78ebb0a8e7b4!2sFIAP%20Paris!5e1!3m2!1sfr!2sfr!4v1741629011283!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
