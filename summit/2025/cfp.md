@@ -138,3 +138,23 @@ confirm acceptance at the according deadlines.
 <div class="row justify-content-md-center my-4">
     <a href="https://softconf.com/p/riscv-europe25/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your proposal<br/>(via Softconf, please register/login)</a>
 </div>
+
+## Instructions for Accepted Posters
+
+Preparation before the conference:
+ - Posters shall be printed in **A0 format in portrait mode**.
+ - Each presenter shall bring their own poster on site.
+ - There is no template for posters.
+ - Make sure that the poster is easy to read from distance and
+   attracts people, use QR codes to link to more content.
+ - At least one author of the poster must register for the core
+   conference (Tuesday 13 to Thursday 15).
+
+At the conference:
+ - You will mount your own poster, no own tape allowed, you will get
+   some.
+ - Each poster will be displayed for a full day.
+ - Presenters are expected to stand next to their posters during
+   breaks and lunches.
+ - The exhibition and poster area will be open only during breaks and
+   lunches.
