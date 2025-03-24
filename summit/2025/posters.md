@@ -32,7 +32,7 @@ At the conference:
 
 {% include jumboboxstart.html 
     title = "Posters"
-    lead =  "Accepted posters, sorted by last name of main contact."
+    lead =  "Sorted by last name of main contact."
 %}
 
 {% assign posters_tue = site.data.summit25posters | sort: "Main Contact Lastname" %}
