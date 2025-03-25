@@ -90,7 +90,7 @@ published in different top-tier venues. Julian has worked designing
 and developing different hardware modules for multiple RISC-V cores
 manufactured.*
 
-** Iván Vargas Valdivieso** *(BSC, UPC) is a Ph.D. candidate at the
+**Iván Vargas Valdivieso** *(BSC, UPC) is a Ph.D. candidate at the
 Universitat Politecnica de Catalunya advised by Dr. Adrian Cristal and
 Dr. Osman Unsal.  His research interests are in computer architecture,
 Process-in-memory, Vector Architectures, Database Management Systems
@@ -127,7 +127,7 @@ or downloads. Thus, the tutorial can be followed in full using no
 other pre-requisites than a (reasonably modern) web browser running on
 a laptop.
 
-**Dr Per Anderson** (Lund Univ.) main interests are in design of
+**Dr Per Anderson** *(Lund Univ.). His main interests are in design of
 digital IC:s. He has a background as researcher, lecturer and
 entrepreneur and is now responsible for, and currently developing, the
 Batchelor level courses in digital design and computer organization at
@@ -136,6 +136,6 @@ RISC-V design on FPGA during the laboratory work of the introductory
 course in digital design given in the sophomore year on the EE and CE
 programs. The development and dissemination of these activities were
 made possible by the EU project CHIPS of Europe and the Swedish Chips
-Competence center, SCCC.
+Competence center, SCCC.*
 
 {% include jumboboxend.html %}
