@@ -12,13 +12,14 @@ layout: summit2025
     lead = "Showcase your RISC-V powered device at the Paris Summit!"
 %}
 
-The RISC-V Developer Zone showcases the latest developer boards and
-RISC-V powered consumer products to visitors to RISC-V Summit Europe.
+The *RISC-V Developer Zone* showcases the latest **developer boards
+and RISC-V powered consumer products** to visitors to RISC-V Summit
+Europe.
 
 ### Guidelines
 
-Your board or other RISC-V powered device must be received by Monday,
-May 12th, by 4pm in the Dev Zone area. Hand carry is best.
+Your board or other RISC-V powered device must be **received by
+Monday, May 12th, by 4pm in the Dev Zone area. Hand carry is best.**
 
 ### Submission
 
