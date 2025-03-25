@@ -138,4 +138,46 @@ programs. The development and dissemination of these activities were
 made possible by the EU project CHIPS of Europe and the Swedish Chips
 Competence center, SCCC.*
 
+### SC-V MMU Verification of Virtualization and Hypervisor Operation for CPU and SOC Platform
+
+**By Adnan Hamid**
+
+The advent of RISC-V has presented verification teams with many new
+verification challenges. Complex interactions at the system level,
+that must be considered when developing a RISC-V core, include
+uncommon scenarios for block level verification teams. As we move
+towards more system-level verification and RISC-V Application
+Processors in general, these types of scenarios will become
+commonplace. As such, RISC-V verification provides, among many other
+things, an interesting learning vehicle for general verification
+challenges to come. This workshop will discuss a specific complex, but
+yet commonplace, verification challenge for any team working on a
+complex RISC-V core. We will consider the verification of a Memory
+Management Unit (MMU) that includes virtualization and hypervisor
+operation. These scenarios need to consider both Single- and
+Multi-core devices along with an Input Output Memory Management Unit
+(IOMMU) and uncore IP interaction. The workshop will contain valuable
+information for any engineer or manager involved with the design of a
+RISC-V core or using a RISC-V core on their SoC.
+
+**Audience:** is any engineer involved with the design or verification
+of a RISC-V core, or any end user of a core on an SoC.
+
+**Requirements:** None. The tutorial will consist of presentations and
+demos, and will not be hands on.
+
+**Adnan Hamid** *is the founder and CTO of Breker and the inventor of
+its core technology. Noted as the father of Portable Stimulus, he has
+over 20 years of experience in functional verification automation,
+much of it spent working in this domain. Prior to Breker, he managed
+AMD’s System Logic Division, and also led their verification team to
+create the first test case generator providing 100% coverage for an
+x86-class microprocessor. In addition, Adnan spent several years at
+Cadence Design Systems and served as the subject matter expert in
+system-level verification, developing solutions for Texas Instruments,
+Siemens/Infineon, Motorola/Freescale, and General Motors. Adnan holds
+twelve patents in test case generation and synthesis. He received BS
+degrees in Electrical Engineering and Computer Science from Princeton
+University, and an MBA from the University of Texas at Austin.*
+
 {% include jumboboxend.html %}
