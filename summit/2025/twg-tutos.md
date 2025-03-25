@@ -23,6 +23,8 @@ layout: summit2025
 
 ### The potential of custom instructions, from design to implementation, accelerating the co-design flow
 
+**By Julián Pavón and Iván Vargas**
+
 Our objective is to enhance the efficiency of designing and evaluating
 new instructions within the RISC-V ISA, thereby reducing the entry
 barriers for researchers seeking to apply RISC-V to their respective
@@ -55,13 +57,28 @@ depart equipped with the evaluation framework, code samples, and the
 necessary proficiency to employ them as foundational elements in their
 individual research endeavor.
 
-*Requirements:* Have Docker software installed on the laptop used
+**Audience:** The tutorial is tailored for a diverse audience,
+encompassing computer architecture researchers with a keen interest in
+integrating the RISC-V ISA into their research endeavors, and who seek
+a proficient tool to commence their work within this ISA
+domain. Moreover, it caters to researchers already immersed in RISC-V,
+aiming to augment their design methodology with a comprehensive
+top-to-bottom evaluation framework.  Hardware developers exploring
+avenues for expedited performance assessment of new RISC-V
+instructions, prior to embarking on hardware modules in RTL, will find
+substantial value in this tutorial. Additionally, graduate and
+undergraduate students with a passion for computer systems and
+embedded systems are well-positioned to benefit from this tutorial, as
+it provides hands-on coding experiences facilitating the modeling and
+evaluation of diverse CPU architectures.
+
+**Requirements:** Have Docker software installed on the laptop used
 during the tutorial and download our docker image with all the tools
 and libraries dependencies. All the information can be found in the
 following page:
 <https://sites.google.com/view/tutorial-custom-riscv-instr/home>
 
-**Julian Pavon** *(BSC, UPC) currently a final-year Ph.D. candidate at
+**Julián Pavón** *(BSC, UPC) currently a final-year Ph.D. candidate at
 the Universitat Politecnica de Catalunya advised by Dr. Adrian Cristal
 and Dr.  Osman Unsal. His research interests are centered around
 Computer Architecture, Vector Architectures, and RTL design. Julian's
@@ -73,7 +90,7 @@ published in different top-tier venues. Julian has worked designing
 and developing different hardware modules for multiple RISC-V cores
 manufactured.*
 
-**Ivan Vargas Valdivieso** *(BSC, UPC) is a Ph.D. candidate at the
+** Iván Vargas Valdivieso** *(BSC, UPC) is a Ph.D. candidate at the
 Universitat Politecnica de Catalunya advised by Dr. Adrian Cristal and
 Dr. Osman Unsal.  His research interests are in computer architecture,
 Process-in-memory, Vector Architectures, Database Management Systems
