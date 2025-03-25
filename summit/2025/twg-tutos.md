@@ -101,4 +101,41 @@ management systems and computer architecture simulators. His research
 focuses on acceleration of DBMS through novel hardware-software
 codesign.*
 
+### RISC-V on FPGA in 90 minutes
+
+**By Dr Per Anderson**
+
+You will see and experience how to replicate the design of a simple
+RISC-V processor from scratch to executing programs on an FPGA-board
+within the timeframe of this 90-minute tutorial. The take-aways
+include how RISC-V can be used to raise educational goals and
+accomplishments, as well as the incredible, combined power and
+simplicity of open-source tools applied to open architecture
+specifications.
+
+**Audience:** The tutorial is directed to anyone interested in how
+RISC-V, combined with the power and simplicity of present generation
+open-source tools, can be integrated with ease and thereby inspire and
+encourage the next, and perhaps present, generation of engineers to
+implement RISC-V in their designs.
+
+**Requirements:** Laptops with USB and access to the Internet. FPGA
+boards will be provided by lecturers.  One point of the tutorial is to
+demonstrate the ease of use emerging from delivering the tools into,
+and executing them inside, the user’s web browser without installation
+or downloads. Thus, the tutorial can be followed in full using no
+other pre-requisites than a (reasonably modern) web browser running on
+a laptop.
+
+**Dr Per Anderson** (Lund Univ.) main interests are in design of
+digital IC:s. He has a background as researcher, lecturer and
+entrepreneur and is now responsible for, and currently developing, the
+Batchelor level courses in digital design and computer organization at
+Lund University. This includes using open-source tools to implement a
+RISC-V design on FPGA during the laboratory work of the introductory
+course in digital design given in the sophomore year on the EE and CE
+programs. The development and dissemination of these activities were
+made possible by the EU project CHIPS of Europe and the Swedish Chips
+Competence center, SCCC.
+
 {% include jumboboxend.html %}
