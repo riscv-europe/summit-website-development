@@ -23,7 +23,7 @@ layout: summit2025
 
 ### The potential of custom instructions, from design to implementation, accelerating the co-design flow
 
-**By Julián Pavón and Iván Vargas**
+**By Julián Pavón and Iván Vargas.**
 
 Our objective is to enhance the efficiency of designing and evaluating
 new instructions within the RISC-V ISA, thereby reducing the entry
@@ -103,7 +103,7 @@ codesign.*
 
 ### RISC-V on FPGA in 90 minutes
 
-**By Dr Per Anderson**
+**By Dr Per Anderson.**
 
 You will see and experience how to replicate the design of a simple
 RISC-V processor from scratch to executing programs on an FPGA-board
@@ -140,7 +140,7 @@ Competence center, SCCC.*
 
 ### SC-V MMU Verification of Virtualization and Hypervisor Operation for CPU and SOC Platform
 
-**By Adnan Hamid**
+**By Adnan Hamid.**
 
 The advent of RISC-V has presented verification teams with many new
 verification challenges. Complex interactions at the system level,
