@@ -31,7 +31,7 @@ of the new wave of European computing innovation!
 
 {% include jumboboxstart.html
 title = "Planing Overview"
-lead = "Get up to speed on Monday and prepare for three intense days afterward."
+lead = "Get up to speed on Monday and prepare for three intense days afterward!"
 %}
 
 {% include bannerimg.html
