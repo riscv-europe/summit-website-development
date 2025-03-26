@@ -141,7 +141,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
 	Side events, such as projects meetings and workshops, can be
 	organized on Friday, May 16th. However, they will be
 	coordinated and hosted by INRIA this year, on their Paris premises.
-	<br/><a href="side-events"><b>Learn more</b></a> &mdash; Venue: <a href="https://www.fiap.paris/en"><em>FIAP Paris</em>, 30 rue Cabanis, Paris</a>.</td>
+	<br/><a href="side-events"><b>Learn more</b></a>.</td>
   </tr>
 </table>
 
