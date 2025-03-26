@@ -30,6 +30,17 @@ of the new wave of European computing innovation!
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
+title = "Planing Overview"
+lead = "Get up to speed on Monday and prepare for three intense days afterward."
+%}
+
+{% include bannerimg.html
+    img = "media/banners/schedule-overview.png"
+%}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
 title = "Keynotes & Invited Talks"
 lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote speakers and invited talks."
 %}
