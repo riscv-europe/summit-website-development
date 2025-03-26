@@ -219,4 +219,49 @@ schedualing and vector architechture.
 Sciences, working on CPU architecture and open-source hardware
 design. His research interests include memory and cache systems.
 
+### UnityChip Verification:Open Source Multi-Language Hardware Verification
+
+**By Fangyuan Song and Yunlong Xie.**
+
+This tutorial equips attendees with practical skills to unify hardware
+verification across languages and domains. Software engineers will
+learn to leverage Python/C++/Java/Golang for hardware validation
+without needing deep HDL expertise. Hardware verification engineers
+will discover software-driven automation (CI/CD, hybrid
+SystemVerilog-Python workflows) to accelerate complex
+verification. Open-source developers will gain hands-on experience
+with low-cost toolchains (Verilator, Pytest) and collaborative
+practices to verify RISC-V or custom chips efficiently. Attendees will
+leave with cross-domain strategies, reusable code templates, and
+insights to bridge hardware rigor with software agility in modern
+verification.
+
+**Audience:** (a) Software Engineers interested in hardware
+verification: Leverage Python / C++ skills to validate hardware
+without deep HDL expertise. (b) Hardware verification engineers will
+discover software-driven automation (CI/CD, hybrid System
+Verilog-Python workflows) to accelerate complex verification.
+(c)Open-sourcedevelopers will gainh ands-on experience with low-cost
+tool chains (Verilator, Pytest) and collaborative practices to verify
+RISC-V or custom chips efficiently. Attendees will leave with
+cross-domain strategies, reusable code templates, and insights to
+bridge hardware rigor with software agility in modern verification.
+
+**Requirements:** A laptop with Linux and pre-installed Docker & VS
+Code.
+
+**Fangyuan Song** is a research intern at Beijing Open Source Chip
+Research Institute, where he focus on bridging software agility with
+hardware reliability in modern verification workflows. His work
+centers on developing accessible solutions that empower engineers
+across different domains to collaborate effectively on chip
+verification – particularly for RISC-V architectures.
+
+**Yunlong Xie** is a PhD candidate at the University of Chinese
+Academy of Sciences, working on open-source hardware toolchains for
+software-native hardware verification. His research focuses on
+enabling more efficient hardware validation through software
+methodologies while lowering the verification barrier for software
+developers.
+
 {% include jumboboxend.html %}
