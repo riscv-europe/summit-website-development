@@ -128,7 +128,7 @@ lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 
 	  </td>
   </tr>
   <tr>
-    <td><b>Tuesday, May 13 to<br /> Thurday, May 15</b></td>
+    <td><b>Tuesday, May 13 to<br /> Thursday, May 15</b></td>
     <td><b><i>Main Conference Program</i></b><br />Keynotes, Plenary Presentations, Panels, Demo Theatre, Expo,
       Posters
 	  <br/> Venue: <a href="https://maps.app.goo.gl/Q31cnRLcnvaRXa6v9"><em>La Cité des Sciences et de l'Industrie,</em> Porte de la Villette, Paris</a>.
