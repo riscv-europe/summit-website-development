@@ -219,7 +219,7 @@ schedualing and vector architechture.
 Sciences, working on CPU architecture and open-source hardware
 design. His research interests include memory and cache systems.
 
-### UnityChip Verification:Open Source Multi-Language Hardware Verification
+### UnityChip Verification: Open Source Multi-Language Hardware Verification
 
 **By Fangyuan Song and Yunlong Xie.**
 
