@@ -180,4 +180,43 @@ twelve patents in test case generation and synthesis. He received BS
 degrees in Electrical Engineering and Computer Science from Princeton
 University, and an MBA from the University of Texas at Austin.*
 
+### XiangShan: An Open-Source High-Performance RISC-V Processor and Infrastructure for Architecture Research
+
+**By Xin Li, Xuan Hu, and Xi Chen.**
+
+This tutorial will present our efforts on the XiangShan project, an
+industry-competitive, high performance RISC-V processor
+project. Engineers will learn advanced processor design of our
+superscalar out-of-order core. Researchers will learn how to use
+XiangShan and its agile development infrastructure, MinJie, to make
+architecture research more convenient and solid. Open-source
+developers will have the opportunity to join us in hands-on
+development, and explore typical use cases on XiangShan and MinJie. In
+summary, this tutorial aims to provide valuable insights and
+experiments for the audience to engage with XiangShan and its
+supporting infrastructure, fostering collaboration and innovation in
+RISC-V processor development.
+
+**Audience:** researchers and engineers on computer architecture
+research, open-source hardware design and agile development
+Infrastructure.
+
+**Requirements:** attentees should bring their own laptop. The
+presenter will provide access to cloud servers with XiangShan
+environment.
+
+**Xin Li** is a CPU design engineer at the Beijing Open-Source Chip
+Research Institute. His primary work focuses on open-source hardware
+design and CPU modeling. His research interests mainly include memory
+subsystems, covering Load-Store Units (LSU), Cache, and Prefetching.
+
+**Xuan Hu** is a PhD candidate student at the University of Chinese
+Academy of Sciences, working on CPU architecture and open-source
+hardware design. His research interests include out-of-order
+schedualing and vector architechture.
+
+**Xi Chen** is a PhD candidate at the University of Chinese Academy of
+Sciences, working on CPU architecture and open-source hardware
+design. His research interests include memory and cache systems.
+
 {% include jumboboxend.html %}
