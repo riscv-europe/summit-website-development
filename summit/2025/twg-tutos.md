@@ -160,7 +160,7 @@ Multi-core devices along with an Input Output Memory Management Unit
 information for any engineer or manager involved with the design of a
 RISC-V core or using a RISC-V core on their SoC.
 
-**Audience:** is any engineer involved with the design or verification
+**Audience:** any engineer involved with the design or verification
 of a RISC-V core, or any end user of a core on an SoC.
 
 **Requirements:** None. The tutorial will consist of presentations and
