@@ -31,8 +31,7 @@ of the new wave of European computing innovation!
 
 {% include jumboboxstart.html
 title = "Keynotes & Invited Talks"
-lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote
-speakers and invited talks."
+lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote speakers and invited talks."
 %}
 
 <div class="row mt-5">
