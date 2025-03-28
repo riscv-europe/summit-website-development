@@ -64,8 +64,9 @@ notification will be issued at least one week before the expiration of
 the early-bird time.
 
 The Steering Committee aims to provide a limited budget for
-stipends. More information will be available on the conference website
-before the submission deadline.
+stipends. This year, this budget will be used to bring in a delegation
+of RISC-V Ambassadors to the event, where they will meet and engage
+with the European RISC-V community.
 
 ## Topics of interest
 
