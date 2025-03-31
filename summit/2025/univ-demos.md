@@ -37,6 +37,11 @@ to fuel enthusiasm and drive RISC-V adoption across diverse sectors.
 Join us to harness the power of RISC-V and collaboratively shape the
 future of computing, one inspiring demo at a time!
 
+## Important dates
+- Deadline for submissions is **Monday, April 7th**, [AOE (Anywhere on
+  Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
+- Notification of accepted demos will start on on Monday, April 14th.
+
 ### Guidelines
 
 - The university demo day is limited to universities and research
@@ -58,10 +63,6 @@ and be the final demonstration, but it is important for us to
 understand maturity of the demonstrator and the learning from your
 demonstration. Just use your powerful smartphone to show us what you
 plan to present!
-
-The deadline for submissions is Monday, April 7th, [AOE (Anywhere on
-  Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). We will
-  start notifying accepted demo on Monday, April 14th.
 
 <div class="row justify-content-md-center my-4">
     <a href="https://softconf.com/p/riscv-europe25/user/scmd.cgi?scmd=submitPaperCustom&pageid=1" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Submit your demo<br/>(via Softconf, please register/login)</a>
