@@ -41,8 +41,8 @@ future of computing, one inspiring demo at a time!
 - Deadline for submissions is **Friday, April 25th** (was ~~Monday,
   April 7th~~), [AOE (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
-- Notification of accepted demos will start on on Monday, April 14th,
-  unti Friday, May 2nd.
+- Notification of accepted demos will be sent starting on Monday,
+  April 14th, and will continue until Friday, May 2nd.
 
 ### Guidelines
 
