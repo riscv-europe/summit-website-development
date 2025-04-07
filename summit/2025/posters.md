@@ -35,8 +35,8 @@ At the conference:
     lead =  "Sorted by last name of main contact."
 %}
 
-{% assign posters_tue = site.data.summit25posters | sort: "Main Contact Lastname" %}
-{% for poster in posters_tue %}
+{% assign posters = site.data.summit25posters | sort: "Main Contact Lastname" %}
+{% for poster in posters %}
 {% if poster["Acceptance Status"] == "Accept as poster" %}
 {% include summit25poster.md poster=poster %}
 {% endif %}
