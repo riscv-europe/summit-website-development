@@ -48,13 +48,17 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 <div class="row mt-5">
 {% assign speakers = site.data.summit25speakers | where: "Status", "OkToPublish" | sort: "LastName" %}
 {% for speaker in speakers %}
+{% if speaker['TalkKind'] == "InvitedKeynote" or speaker['TalkKind'] == "InvitedPres" or speaker['TalkKind'] == "SponsorKeynote" %}
 {% include summit25speaker-short.md speaker=speaker %}
+{% endif %}
 {% endfor %}
 </div>
 
 {% assign speakers = site.data.summit25speakers | where: "Status", "OkToPublish" | sort: "LastName" %}
 {% for speaker in speakers %}
+{% if speaker['TalkKind'] == "InvitedKeynote" or speaker['TalkKind'] == "InvitedPres" or speaker['TalkKind'] == "SponsorKeynote" %}
 {% include summit25speaker-long.md speaker=speaker %}
+{% endif %}
 {% endfor %}
 
 {% include jumboboxend.html %}
