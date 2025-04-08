@@ -2,7 +2,10 @@
 
 <h3 id="{{ speaker['FirstName'] }}-{{ speaker['LastName'] }}-talk">{{ speaker['TalkTitle'] }}</h3>
 
-By **{{ speaker['FirstName'] }} {{ speaker['LastName'] }}**, {{ speaker['Company'] }}, {{ speaker['Position'] }}.
+By **{{ speaker['FirstName'] }} {{ speaker['LastName'] }}**
+{%- if speaker['Company']  -%}, {{ speaker['Company']  }} {%- endif -%}
+{%- if speaker['Position'] -%}, {{ speaker['Position'] }} {%- endif -%}
+.
 
 {% if speaker['TalkAbstract'] %}Abstract: {{ speaker['TalkAbstract'] }}{% endif %}
 
