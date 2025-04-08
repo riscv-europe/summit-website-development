@@ -7,8 +7,10 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
+          <!-- <a href="#{{ speaker['FirstName'] }}-{{ speaker['LastName'] }}-talk"> -->
           <h5 class="mt-4 font-weight-medium mb-1"><b>{{ speaker['FirstName'] }} {{ speaker['LastName'] }}</b><br>{{ speaker['Company'] }}</h5>
           <h6 class="subtitle">{{ speaker['Position'] }}</h6>
+          <!-- </a> -->
         </div>
       </div>
     </div>
