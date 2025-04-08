@@ -52,6 +52,11 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 {% endfor %}
 </div>
 
+{% assign speakers = site.data.summit25speakers | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% for speaker in speakers %}
+{% include summit25speaker-long.md speaker=speaker %}
+{% endfor %}
+
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
