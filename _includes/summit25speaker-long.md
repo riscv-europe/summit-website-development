@@ -7,8 +7,8 @@ By **{{ speaker['FirstName'] }} {{ speaker['LastName'] }}**
 {%- if speaker['Position'] -%}, {{ speaker['Position'] }} {%- endif -%}
 .
 
-{% if speaker['TalkAbstract'] %}Abstract: {{ speaker['TalkAbstract'] }}{% endif %}
+{% if speaker['TalkAbstract'] %}Abstract: {{ speaker['TalkAbstract'] }} {% endif %}
 
-{% if speaker['Bio'] %}Bio: *{{ speaker['Bio'] | strip_newlines }}* {% endif %}
+{% if speaker['Bio']          %}Bio:     *{{ speaker['Bio'] | strip_newlines }}* {% endif %}
 
 {% endif %}
