@@ -46,69 +46,10 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 %}
 
 <div class="row mt-5">
-  <div class="col-sm-3 col-6 mb-4">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <img src="media/speakers/Asanović.jpeg" alt="Krste Asanović" class="img-fluid rounded-circle" style="width: 75%">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1"><b>Krste Asanović</b><br>SiFive</h5>
-          <h6 class="subtitle">Chief Architect</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-3 col-6 mb-4">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <img src="media/speakers/Kinaret.jpeg" alt="Jari Kinaret" class="img-fluid rounded-circle" style="width: 75%">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1"><b>Jari Kinaret</b><br>Chips JU</h5>
-          <h6 class="subtitle">Executive Director</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-3 col-6 mb-4">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <img src="media/speakers/Santos.jpeg" alt="Lucana Santos" class="img-fluid rounded-circle" style="width: 75%">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1"><b>Lucana Santos</b><br>ESA</h5>
-          <h6 class="subtitle">&nbsp;</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-sm-3 col-6 mb-4">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <img src="media/speakers/Wallentowitz.jpeg" alt="Stefan Wallentowitz" class="img-fluid rounded-circle" style="width: 75%">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <div class="pt-2">
-          <h5 class="mt-4 font-weight-medium mb-1"><b>Stefan Wallentowitz</b><br>Munich University of Applied Sciences</h5>
-          <h6 class="subtitle">Professor</h6>
-        </div>
-      </div>
-    </div>
-  </div>
+{% assign speakers = site.data.summit25speakers | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% for speaker in speakers %}
+{% include summit25speaker-short.md speaker=speaker %}
+{% endfor %}
 </div>
 
 {% include jumboboxend.html %}
