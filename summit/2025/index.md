@@ -30,8 +30,8 @@ of the new wave of European computing innovation!
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-title = "Planing Overview"
-lead = "Get up to speed on Monday and prepare for three intense days afterward!"
+title = "Summit Overview"
+lead = "Get up to speed on Monday and dive into three days of RISC-V news!"
 %}
 
 {% include bannerimg.html
