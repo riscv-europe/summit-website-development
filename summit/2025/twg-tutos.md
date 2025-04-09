@@ -8,8 +8,6 @@ layout: summit2025
     lead = "Get updated and up to speed on RISC-V before the core Summit!<br>*Please note that tutorials are open to the public while TWGs/SIGs require RISC-V membership.*"
 %}
 
-
-
 {% include jumboboxend.html %}
 
 {% include bannerimg.html
