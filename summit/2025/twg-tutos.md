@@ -3,10 +3,6 @@ title: TWGs and Tutorials
 layout: summit2025
 ---
 
-{% include bannerimg.html
-    img = "media/banners/tutorials.jpg"
-%}
-
 {% include jumboboxstart.html
     title = "Tutorials and Technical Working Group Meetings"
     lead = "Get updated and up to speed on RISC-V before the core Summit!"
@@ -15,6 +11,10 @@ layout: summit2025
 
 
 {% include jumboboxend.html %}
+
+{% include bannerimg.html
+    img = "media/banners/schedule-mon.png"
+%}
 
 {% include jumboboxstart.html
     title = "Tutorials"
