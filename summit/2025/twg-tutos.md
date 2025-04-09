@@ -20,7 +20,7 @@ layout: summit2025
 %}
 
 
-### Intro to RISC-V (aka RISC-V 101)
+### T1.1 -- Intro to RISC-V (aka RISC-V 101)
 
 Come to hear aout the What, How and Why of RISC-V!
 
@@ -41,7 +41,7 @@ This tutorial is free and open to the public and requires registration:
 </div>
 
 
-### RISC-V on FPGA in 90 minutes
+### T1.3 -- RISC-V on FPGA in 90 minutes
 
 **By Dr Per Anderson.**
 
@@ -79,7 +79,7 @@ made possible by the EU project CHIPS of Europe and the Swedish Chips
 Competence center, SCCC.*
 
 
-### XiangShan: An Open-Source High-Performance RISC-V Processor and Infrastructure for Architecture Research
+### T2.2 -- XiangShan: An Open-Source High-Performance RISC-V Processor and Infrastructure for Architecture Research
 
 **By Xin Li, Xuan Hu, and Xi Chen.**
 
@@ -118,7 +118,7 @@ schedualing and vector architechture.
 Sciences, working on CPU architecture and open-source hardware
 design. His research interests include memory and cache systems.
 
-### UnityChip Verification: Open Source Multi-Language Hardware Verification
+### T2.3 -- UnityChip Verification: Open Source Multi-Language Hardware Verification
 
 **By Fangyuan Song and Yunlong Xie.**
 
@@ -163,7 +163,7 @@ enabling more efficient hardware validation through software
 methodologies while lowering the verification barrier for software
 developers.
 
-### SC-V MMU Verification of Virtualization and Hypervisor Operation for CPU and SOC Platform
+### T3.2 -- SC-V MMU Verification of Virtualization and Hypervisor Operation for CPU and SOC Platform
 
 **By Adnan Hamid.**
 
@@ -206,7 +206,7 @@ degrees in Electrical Engineering and Computer Science from Princeton
 University, and an MBA from the University of Texas at Austin.*
 
 
-### The potential of custom instructions, from design to implementation, accelerating the co-design flow
+### T3.3 -- The potential of custom instructions, from design to implementation, accelerating the co-design flow
 
 **By Julián Pavón and Iván Vargas.**
 
