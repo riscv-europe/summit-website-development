@@ -16,7 +16,7 @@ layout: summit2025
 
 {% include jumboboxstart.html
     title = "Tutorials"
-    lead = "Description of the tutorials<br>(Tutorials rooms and schedule TBD)"
+    lead = "Description of the tutorials"
 %}
 
 ### The potential of custom instructions, from design to implementation, accelerating the co-design flow
