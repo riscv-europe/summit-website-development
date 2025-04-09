@@ -34,7 +34,7 @@ deepen their understanding and engagement. The covered topics are:
  - *How to get involved and engage in RISC-V* by **Jeffrey
    Osier-Mixon** and **Flo Wohlrab**.
 
-This tutorial is free and open to the public and requires registration:
+This tutorial is free and open to the public, but **requires registration**:
 
 <div class="row justify-content-md-center my-4">
     <a href="https://community.riscv.org/events/details/risc-v-international-risc-v-synergy-forums-technical-talks-and-webinars-presents-intro-to-risc-v-summit-europe/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register to <em>Intro to RISC-V (aka RISC-V 101)</em><br> Monday 12 May, 10h00-13h00</a>
