@@ -35,7 +35,7 @@ lead = "Get up to speed on Monday and prepare for three intense days afterward!"
 %}
 
 {% include bannerimg.html
-    img = "media/banners/schedule-overview.png"
+    img = "media/banners/schedule-mon-thu.png"
 %}
 
 {% include jumboboxend.html %}
