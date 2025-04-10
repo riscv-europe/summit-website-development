@@ -8,6 +8,11 @@ layout: summit2025
     lead = "Keynotes and presentations in the <b>Gaston Berger</b> amphitheatre (level -2)"
 %}
 
+{% include bannerimg.html
+    img = "media/banners/schedule-tue-thu.png"
+%}
+
+
 **Notes for plenary session presenters**
 
 Before the conference:
