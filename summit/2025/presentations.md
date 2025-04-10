@@ -4,8 +4,8 @@ layout: summit2025
 ---
 
 {% include jumboboxstart.html 
-    title = "Presentations"
-    lead = "The list of accepted presentations."
+    title = "Plenary sessions"
+    lead = "Keynotes and presentations in the <b>Gaston Berger</b> amphitheatre (level -2)"
 %}
 
 **Notes for plenary session presenters**
