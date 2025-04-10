@@ -8,6 +8,16 @@
 *Talk {{ speaker['Session'] | strip -}}
 , part of plenary session starting at
 **
+{%- case day -%}
+{%- when "1" -%}
+Tuesday 13
+{%- when "2" -%}
+Wednesday 14
+{%- else -%}
+Thursday 15
+{%- endcase  -%}
+** at
+**
 {%- case ses -%}
 {%- when '1' -%}
 09h00
@@ -18,19 +28,7 @@
 {%- else -%}
 16h30
 {%- endcase -%}
-**
- on
-**
-{%- case day -%}
-{%- when "1" -%}
-Tuesday 13,
-{%- when "2" -%}
-Wednesday 14,
-{%- else -%}
-Thursday 15,
-{%- endcase  -%}
-**
- in **Gaston Berger** amphitheater.*
+**, in **Gaston Berger** amphitheater.*
 
 By **{{ speaker['FirstName'] }} {{ speaker['LastName'] }}**
 {%- if speaker['Company']  -%},  {{ speaker['Company']  | strip }} {%- endif -%}
