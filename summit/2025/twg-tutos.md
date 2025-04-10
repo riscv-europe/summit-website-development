@@ -4,8 +4,8 @@ layout: summit2025
 ---
 
 {% include jumboboxstart.html
-    title = "Tutorials and Technical Working Group Meetings"
-    lead = "Get updated and up to speed on RISC-V before the core Summit!<br>*Please note that tutorials are open to the public while TWGs/SIGs require RISC-V membership.*"
+    title = "Tutorials and TWGs/SIGs Meetings"
+    lead = "In <b>Louis Armand East-West</b> amphitheaters, and in <b>Rooms 1-3</b> (level -3)<br>*Please note that tutorials are open to the public while TWGs/SIGs require RISC-V membership.*"
 %}
 
 {% include jumboboxend.html %}
