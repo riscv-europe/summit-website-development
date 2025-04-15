@@ -30,9 +30,48 @@ Before the conference:
     lead =  "Keynotes, invited talks, industrial and technical presentations in the Gaston Berger amphitheater."
 %}
 
-{% assign presentations = site.data.summit25posters | where : "Acceptance Status", "Accept as presentation (industry)" | sort : "Main Contact Lastname" %}
-{% for presentation in presentations %}
-{% include summit25presentation.md presentation=presentation %}
+{% assign presentations = site.data.summit25posters %}
+{% assign invited = site.data.invited-slots-details %}
+{% assign config  = site.data.plenary-sessions-config | sort_natural: SessionId %}
+{% assign agenda  = site.data.plenary-sessions-agenda %}
+{% for session in config %}
+<hr>
+## {{ session.DayLong }} from {{ session.Start }} to {{ session.End }}, P{{ session.SessionId }}
+{% assign sessionId = session.SessionId %}
+{% assign block = agenda | where: 'PlenarySessionId', sessionId | sort_natural: TalkSessionId %}
+{% for slot in block %}
+{% assign content_s = slot['SubmissId'] %}
+{% assign content   = slot['SubmissId'] | plus: 0 %}
+{% if content != 0 %}
+{% if content < 1000 %}
+{% assign presentation_ = presentations | where: 'Submission ID', content_s %}
+{% assign presentation  = presentation_[0] %}
+### {{ presentation['Title'] | strip_newlines }}
+
+P{{ slot["TalkSessionId"] }} (submission \#{{ slot.SubmissId }}), {{ session.DayShort  }} at {{ slot['TalkStartTime'] }}, in Gaston Berger.
+
+By **{{ presentation["Main Contact Firstname"] | strip }} {{ presentation["Main Contact Lastname"] | strip }}**
+{%- if presentation['Main Contact Job Function'] -%}, {{ presentation['Main Contact Job Function'] | strip }}{%- endif -%}
+{%- if presentation['Main Contact Affiliation']  -%}, {{ presentation["Main Contact Affiliation"]  | strip }}{%- endif -%}
+.
+
+{% elsif content >= 1000 and content < 2000 %}
+{% assign presentation_ = invited | where: 'SubmissId', content_s %}
+{% assign presentation  = presentation_[0] %}
+### {{ presentation['TalkTitle'] | strip_newlines }}
+
+P{{ slot["TalkSessionId"] }}, {{ session.DayShort  }} at {{ slot['TalkStartTime'] }}, in Gaston Berger.
+
+By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
+{%- if presentation.Position -%}, {{ presentation.Position | strip }}{%- endif -%}
+{%- if presentation.Company  -%}, {{ presentation.Company  | strip }}{%- endif -%}
+.
+
+{% else %}
+Panel
+{% endif %}
+{% endif %}
+{% endfor %}
 {% endfor %}
 
 {% include jumboboxend.html %}
