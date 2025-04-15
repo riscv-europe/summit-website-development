@@ -26,8 +26,8 @@ Before the conference:
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
-    title = "Industrial presentations"
-    lead =  "Accepted industrial presentations, sorted by last name of main contact."
+    title = "Plenary sessions"
+    lead =  "Keynotes, invited talks, industrial and technical presentations in the Gaston Berger amphitheater."
 %}
 
 {% assign presentations = site.data.summit25posters | where : "Acceptance Status", "Accept as presentation (industry)" | sort : "Main Contact Lastname" %}
