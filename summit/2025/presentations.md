@@ -75,15 +75,3 @@ Panel
 {% endfor %}
 
 {% include jumboboxend.html %}
-
-{% include jumboboxstart.html 
-    title = "Technical presentations"
-    lead =  "Accepted technical presentations, sorted by last name of main contact."
-%}
-
-{% assign presentations = site.data.summit25posters | where : "Acceptance Status", "Accept as presentation" | sort : "Main Contact Lastname" %}
-{% for presentation in presentations %}
-{% include summit25presentation.md presentation=presentation %}
-{% endfor %}
-
-{% include jumboboxend.html %}
