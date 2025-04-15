@@ -54,10 +54,16 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 {% endfor %}
 </div>
 
-{% assign speakers = site.data.summit25speakers | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% assign speakers = site.data.invited-slots-details | where: "Status", "OkToPublish" | sort: "Session" %}
+{% assign agenda  = site.data.plenary-sessions-agenda %}
+{% assign config  = site.data.plenary-sessions-config %}
 {% for speaker in speakers %}
 {% if speaker['TalkKind'] == "InvitedKeynote" or speaker['TalkKind'] == "InvitedPres" or speaker['TalkKind'] == "SponsorKeynote" %}
-{% include summit25speaker-long.md speaker=speaker %}
+{% assign slot_ = agenda  | where: 'TalkSessionId', speaker['Session'] %}
+{% assign slot  = slot_[0] %}
+{% assign day_  = config | where: 'SessionId', slot['PlenarySessionId'] %}
+{% assign day   = day_[0] %}
+{% include summit25speaker-long.md speaker=speaker slot=slot day=day %}
 {% endif %}
 {% endfor %}
 
