@@ -31,8 +31,8 @@ Thursday 15
 **, in **Gaston Berger** amphitheater.*
 
 By **{{ speaker['FirstName'] }} {{ speaker['LastName'] }}**
-{%- if speaker['Company']  -%},  {{ speaker['Company']  | strip }} {%- endif -%}
-{%- if speaker['Position']  -%}, {{ speaker['Position'] | strip }} {%- endif -%}
+{%- if speaker['Company']  -%}, {{ speaker['Company']  | strip }} {%- endif -%}
+{%- if speaker['Position'] -%}, {{ speaker['Position'] | strip }} {%- endif -%}
 .
 
 {% if speaker['TalkAbstract'] %}**Abstract**: {{ speaker['TalkAbstract'] }} {% endif %}
