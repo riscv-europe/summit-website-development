@@ -36,7 +36,7 @@ Before the conference:
 {% assign agenda  = site.data.plenary-sessions-agenda %}
 {% for session in config %}
 <hr>
-## {{ session.DayLong }} from {{ session.Start }} to {{ session.End }}, P{{ session.SessionId }}
+## {{ session.DayLong }},  {{ session.Start }}-{{ session.End }}
 {% assign sessionId = session.SessionId %}
 {% assign block = agenda | where: 'PlenarySessionId', sessionId | sort_natural: TalkSessionId %}
 {% for slot in block %}
