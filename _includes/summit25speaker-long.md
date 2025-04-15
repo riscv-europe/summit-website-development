@@ -2,7 +2,7 @@
 
 <h3 id="{{ speaker['FirstName'] }}-{{ speaker['LastName'] }}-talk">{{ speaker['TalkTitle'] }}</h3>
 
-P{{ slot.TalkSessionId }} on {{ day.DayLong }}, at {{ slot.TalkStartTime }}, in Gaston Berger amphitheater.
+P{{ slot.TalkSessionId }}, {{ day.DayLong }} at {{ slot.TalkStartTime }}, in Gaston Berger amphitheater.
 
 By **{{ speaker['FirstName'] }} {{ speaker['LastName'] }}**
 {%- if speaker['Company']  -%}, {{ speaker['Company']  | strip }} {%- endif -%}
