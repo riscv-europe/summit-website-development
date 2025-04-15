@@ -68,36 +68,3 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 {% endfor %}
 
 {% include jumboboxend.html %}
-
-{% include jumboboxstart.html
-title = "Program"
-lead = "The exciting program of RISC-V Summit Europe spans <!-- a full week --> 4 days."
-%}
-
-<table class="table">
-  <tr>
-    <td style="width: 25%"><b>Monday, May 12</b></td>
-    <td><b><i>Member and Newcomer Day</i></b><br />Tutorials for Newcomers and Experienced Professionals, and Technical Workgroup
-      Meetings (members only)
-	  <br/> Venue: <a href="https://maps.app.goo.gl/Q31cnRLcnvaRXa6v9"><em>La Cité des Sciences et de l'Industrie,</em> Porte de la Villette, Paris</a>.
-	  <!-- <br /><a href="twgs"><b>Learn more</b></a> -->
-	  </td>
-  </tr>
-  <tr>
-    <td><b>Tuesday, May 13 to<br /> Thursday, May 15</b></td>
-    <td><b><i>Main Conference Program</i></b><br />Keynotes, Plenary Presentations, Panels, Demo Theatre, Expo,
-      Posters, Dev Zone
-	  <br/> Venue: <a href="https://maps.app.goo.gl/Q31cnRLcnvaRXa6v9"><em>La Cité des Sciences et de l'Industrie,</em> Porte de la Villette, Paris</a>.
-	  <!-- <br /><a href="conference"><b>Learn more</b></a> -->
-	  </td>
-  </tr>
-  <tr>
-    <td><b>Friday, May 16</b></td>
-	<td><b><i>Side Events & Workshops</i></b><br />
-	Side events, such as projects meetings and workshops, can be
-	organized on Friday, May 16th.
-	<br/><a href="side-events"><b>Learn more</b></a>.</td>
-  </tr>
-</table>
-
-{% include jumboboxend.html %}
