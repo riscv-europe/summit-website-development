@@ -44,6 +44,7 @@ Before the conference:
 {% assign content   = slot['SubmissId'] | plus: 0 %}
 {% if content != 0 %}
 {% if content < 1000 %}
+<hr style="width:50%;;margin-left:25%">
 {% assign presentation_ = presentations | where: 'Submission ID', content_s %}
 {% assign presentation  = presentation_[0] %}
 ### {{ presentation['Title'] | strip_newlines }}
@@ -56,6 +57,7 @@ By **{{ presentation["Main Contact Firstname"] | strip }} {{ presentation["Main 
 .
 
 {% elsif content >= 1000 and content < 2000 %}
+<hr style="width:50%;;margin-left:25%">
 {% assign presentation_ = invited | where: 'SubmissId', content_s %}
 {% assign presentation  = presentation_[0] %}
 ### {{ presentation['TalkTitle'] | strip_newlines }}

@@ -59,6 +59,7 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 {% assign config  = site.data.plenary-sessions-config %}
 {% for speaker in speakers %}
 {% if speaker['TalkKind'] == "InvitedKeynote" or speaker['TalkKind'] == "InvitedPres" or speaker['TalkKind'] == "SponsorKeynote" %}
+<hr style="width:50%;;margin-left:25%">
 {% assign slot_ = agenda  | where: 'TalkSessionId', speaker['Session'] %}
 {% assign slot  = slot_[0] %}
 {% assign day_  = config | where: 'SessionId', slot['PlenarySessionId'] %}
