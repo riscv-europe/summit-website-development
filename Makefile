@@ -19,16 +19,16 @@ GDRIVE_TARGET_DIR:=$(shell pwd)/_data
 ## Remove previously downloadded files, if any. Or they will be
 ## numbered by Forefox and you might just overlook them.
 gdrive-import-clean:
-	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)plenary-sessions-config.csv
-	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)plenary-sessions-agenda.csv
-	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)invited-slots-details.csv
+	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)sessions-config.csv
+	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)summit-agenda.csv
+	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)talks-details.csv.csv
 
 ## This done the brutal way because GNU make cannot handle properly
 ## file names with white spaces.
 gdrive-import-downloaded:
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)plenary-sessions-config.csv $(GDRIVE_TARGET_DIR)/plenary-sessions-config.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)plenary-sessions-agenda.csv $(GDRIVE_TARGET_DIR)/plenary-sessions-agenda.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)invited-slots-details.csv $(GDRIVE_TARGET_DIR)/invited-slots-details.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)sessions-config.csv $(GDRIVE_TARGET_DIR)/sessions-config.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)summit-agenda.csv $(GDRIVE_TARGET_DIR)/summit-agenda.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)talks-details.csv.csv $(GDRIVE_TARGET_DIR)/talks-details.csv.csv
 
 # A couple of shorthands to Jekyll production management.
 
