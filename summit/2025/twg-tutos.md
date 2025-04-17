@@ -22,7 +22,7 @@ layout: summit2025
 
 ### T1.1 -- Intro to RISC-V (aka RISC-V 101)
 
-Come to hear aout the What, How and Why of RISC-V!
+Come to hear about the What, How and Why of RISC-V!
 
 This tutorial is perfect for anyone curious about RISC-V or looking to
 deepen their understanding and engagement. The covered topics are:
