@@ -36,13 +36,16 @@ view-site:
 	bundle exec jekyll serve
 
 ## To properly import and commit the speaker list. 
-data-check:
-	dos2unix _data/summit25speakers.csv
-	git diff _data/summit25speakers.csv
+dos2unix:
+	dos2unix $(GDRIVE_TARGET_DIR)/sessions-config.csv
+	dos2unix $(GDRIVE_TARGET_DIR)/summit-agenda.csv
+	dos2unix $(GDRIVE_TARGET_DIR)/talks-details.csv
 
-data-commit:
-	dos2unix _data/summit25speakers.csv
-	git commit -m "Upd: updated the speakers database." _data/summit25speakers.csv
+data-check: dos2unix
+	git diff _data/*.csv
+
+data-commit: dos2unix
+	git commit -m "Upd: update summit's databases." _data/*.csv
 
 ## To arease the produced site and start producing next time from a
 ## clean slate.
