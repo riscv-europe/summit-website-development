@@ -46,25 +46,25 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 %}
 
 <div class="row mt-5">
-{% assign speakers = site.data.invited-slots-details | where: "Status", "OkToPublish" | sort: "LastName" %}
-{% for speaker in speakers %}
-{% if speaker['TalkKind'] == "InvitedKeynote" or speaker['TalkKind'] == "InvitedPres" or speaker['TalkKind'] == "SponsorKeynote" %}
-{% include summit25speaker-short.md speaker=speaker %}
+{% assign talks = site.data.talks-details | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% for talk in talks %}
+{% if talk['TalkKind'] == "InvitedKeynote" or talk['TalkKind'] == "InvitedPres" or talk['TalkKind'] == "SponsorKeynote" %}
+{% include summit25talk-short.md talk=talk %}
 {% endif %}
 {% endfor %}
 </div>
 
-{% assign speakers = site.data.invited-slots-details | where: "Status", "OkToPublish" | sort: "Session" %}
-{% assign agenda  = site.data.plenary-sessions-agenda %}
-{% assign config  = site.data.plenary-sessions-config %}
-{% for speaker in speakers %}
-{% if speaker['TalkKind'] == "InvitedKeynote" or speaker['TalkKind'] == "InvitedPres" or speaker['TalkKind'] == "SponsorKeynote" %}
+{% assign talks = site.data.talks-details | where: "Status", "OkToPublish" | sort: "Session" %}
+{% assign agenda  = site.data.summit-agenda %}
+{% assign config  = site.data.sessions-config %}
+{% for talk in talks %}
+{% if talk['TalkKind'] == "InvitedKeynote" or talk['TalkKind'] == "InvitedPres" or talk['TalkKind'] == "SponsorKeynote" %}
 <hr style="width:50%;;margin-left:25%">
-{% assign slot_ = agenda  | where: 'TalkSessionId', speaker['Session'] %}
+{% assign slot_ = agenda  | where: 'SlotId', talk['Session'] %}
 {% assign slot  = slot_[0] %}
-{% assign day_  = config | where: 'SessionId', slot['PlenarySessionId'] %}
-{% assign day   = day_[0] %}
-{% include summit25speaker-long.md speaker=speaker slot=slot day=day %}
+{% assign session_  = config | where: "SessionId", slot.SessionId %}
+{% assign session   = session_[0] %}
+{% include summit25talk-long.md talk=talk slot=slot session=session %}
 {% endif %}
 {% endfor %}
 
