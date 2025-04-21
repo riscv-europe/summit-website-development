@@ -9,6 +9,8 @@ By **{{ talk['FirstName'] }} {{ talk['LastName'] }}**
 {%- if talk['Position'] -%}, {{ talk['Position'] | strip }} {%- endif -%}
 .
 
+{% if talk['TalkAbstract'] %}**Abstract**: {{ talk['TalkAbstract'] | strip_newlines }} {% endif %}
+
 {% if talk['Bio']          %}**Bio**:     *{{ talk['Bio'] | strip_newlines }}* {% endif %}
 
 {% endif %}
