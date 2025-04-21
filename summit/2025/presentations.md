@@ -32,6 +32,7 @@ Before the conference:
 
 {% assign presentations = site.data.summit25posters %}
 {% assign invited = site.data.talks-details %}
+{% assign panels  = site.data.panels-details %}
 {% assign sessions_raw = site.data.sessions-config %}
 {% assign sessions = "" | split: "" %}
 {% for sess in sessions_raw %}
@@ -95,8 +96,24 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 
 {% if presentation.Bio          %}**Bio**:     *{{ presentation['Bio'] | strip_newlines }}* {% endif %}
 {% endunless %}
-{% else %}
-Panel
+{% elsif content >= 2000 %}
+{% assign panel_ = panels | where: 'SessionId', content_s %}
+{% assign panel  = panel_[0] %}
+{% unless presentation.Status == "OnHold" %}
+
+## Panel -- {{ panel.Title }}
+
+T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in
+{% if session.Kind == "Breakfast" %}Louis Armand East{% else %}Gaston Berger{% endif %}.
+
+Moderated by **{{ panel.ModerName }}**
+{%- if panel.ModerPosition -%}, {{ panel.ModerPosition | strip }}{%- endif -%}
+{%- if panel.ModerCompany  -%}, {{ panel.ModerCompany  | strip }}{%- endif -%}
+.
+
+{% if panel.Argument %}**Argument**: {{ panel.Argument | strip_newlines }} {% endif %}
+
+{% endunless %}
 {% endif %}
 {% endif %}
 {% endfor %}
