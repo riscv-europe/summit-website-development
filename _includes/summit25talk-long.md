@@ -1,16 +1,14 @@
-{% if speaker['TalkTitle'] %}
+{% if talk['TalkTitle'] %}
 
-<h3 id="{{ speaker['FirstName'] }}-{{ speaker['LastName'] }}-talk">{{ speaker['TalkTitle'] }}</h3>
+<h3 id="{{ talk['FirstName'] }}-{{ talk['LastName'] }}-talk">{{ talk['TalkTitle'] }}</h3>
 
-P{{ slot.TalkSessionId }}, {{ day.DayLong }} at {{ slot.TalkStartTime }}, in Gaston Berger amphitheater.
+P{{ slot.SlotId }}, {{ session.DayLong }} at {{ slot.Start }}, in Gaston Berger amphitheater.
 
-By **{{ speaker['FirstName'] }} {{ speaker['LastName'] }}**
-{%- if speaker['Company']  -%}, {{ speaker['Company']  | strip }} {%- endif -%}
-{%- if speaker['Position'] -%}, {{ speaker['Position'] | strip }} {%- endif -%}
+By **{{ talk['FirstName'] }} {{ talk['LastName'] }}**
+{%- if talk['Company']  -%}, {{ talk['Company']  | strip }} {%- endif -%}
+{%- if talk['Position'] -%}, {{ talk['Position'] | strip }} {%- endif -%}
 .
 
-{% if speaker['TalkAbstract'] %}**Abstract**: {{ speaker['TalkAbstract'] }} {% endif %}
-
-{% if speaker['Bio']          %}**Bio**:     *{{ speaker['Bio'] | strip_newlines }}* {% endif %}
+{% if talk['Bio']          %}**Bio**:     *{{ talk['Bio'] | strip_newlines }}* {% endif %}
 
 {% endif %}
