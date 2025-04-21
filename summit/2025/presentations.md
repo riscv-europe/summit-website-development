@@ -26,8 +26,8 @@ Before the conference:
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
-    title = "Plenary sessions"
-    lead =  "Keynotes, invited talks, industrial and technical presentations in the Gaston Berger amphitheater."
+    title = "Plenary sessions & Demos"
+    lead =  "**Keynotes**, **invited talks**, **industrial** and **technical presentations** will presented in plenary sessions in the **Gaston Berger** amphitheater. **Demos** will presented during lunches and some breaks in the **Louis Armand East** amphitheater"
 %}
 
 {% assign presentations = site.data.summit25posters %}
@@ -51,7 +51,9 @@ Before the conference:
 	{% assign kind = "Community breakfast in Louis Armand amphitheater (level -3)." %}
 {% endif %}
 <hr>
-## {{ session.DayLong }},  {{ session.Start }}-{{ session.End }}
+<hr>
+<p align="center" style="font-weight: bold; font-size: 1.875em">{{ session.DayLong }},  {{ session.Start }}-{{ session.End }}</p>
+<p align="center" style="font-style: italic">{{ kind }}</p>
 {% assign sessionId = session.SessionId %}
 {% assign block = agenda | where: "SessionId", sessionId %}
 {% for slot in block %}
