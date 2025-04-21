@@ -16,12 +16,11 @@ GDRIVE_TARGET_DIR:=$(shell pwd)/_data
 
 # Import Google drive files downloaded by Firefox.
 
-## Remove previously downloadded files, if any. Or they will be
-## numbered by Forefox and you might just overlook them.
-gdrive-import-clean:
-	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)sessions-config.csv
-	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)summit-agenda.csv
-	rm -f $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)talks-details.csv.csv
+## Remove previously downloadded files, if any. Leaving them before a
+## new download will have the next ones being numbered by Firefox. And
+## this is not what you want!
+clobber-imported:
+	rm -f $(GDRIVE_DOWNLOAD_DIR)/*.csv
 
 ## This done the brutal way because GNU make cannot handle properly
 ## file names with white spaces.
