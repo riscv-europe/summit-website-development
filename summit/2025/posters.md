@@ -40,26 +40,29 @@ At the conference:
 %}
 
 {% assign day = "Tue" %}
-{% include summit25posters-of-day.md day=day posters=posters %}
+{% assign dayLong = "Tuesday 13" %}
+{% include summit25posters-of-day.md day=day dayLong=dayLong posters=posters %}
 
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
     title = "Posters of Wednesday 14"
-    lead =  "Sorted by poster island and stand."
+    lead =  "Sorted by expo level, poster island, and stand."
 %}
 
 {% assign day = "Wed" %}
-{% include summit25posters-of-day.md day=day posters=posters %}
+{% assign dayLong = "Wednesday 14" %}
+{% include summit25posters-of-day.md day=day dayLong=dayLong posters=posters %}
 
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
     title = "Posters of Thursday 15"
-    lead =  "Sorted by poster island and stand."
+    lead =  "Sorted by expo level, poster island, and stand."
 %}
 
 {% assign day = "Thu" %}
-{% include summit25posters-of-day.md day=day posters=posters %}
+{% assign dayLong = "Thursday 15" %}
+{% include summit25posters-of-day.md day=day dayLong=dayLong posters=posters %}
 
 {% include jumboboxend.html %}
