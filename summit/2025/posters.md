@@ -5,10 +5,8 @@ layout: summit2025
 
 {% include jumboboxstart.html 
     title = "Posters"
-    lead = "The list of accepted posters."
+    lead = "**Notes for poster presenters**"
 %}
-
-**Notes for poster presenters**
 
 Preparation before the conference:
  - Posters shall be printed in **A0 format in portrait mode**.
@@ -30,16 +28,38 @@ At the conference:
 
 {% include jumboboxend.html %}
 
-{% include jumboboxstart.html 
-    title = "Posters"
-    lead =  "Sorted by last name of main contact."
+{% assign posters_pure           = site.data.summit25posters | where: 'Acceptance Status', 'Accept as poster' %}
+{% assign presentation_technical = site.data.summit25posters | where: 'Acceptance Status', 'Accept as presentation' %}
+{% assign presentation_industry  = site.data.summit25posters | where: 'Acceptance Status', 'Accept as presentation (industry)' %}
+
+{% assign posters = posters_pure | concat: presentation_technical | concat: presentation_industry %}
+
+{% include jumboboxstart.html
+    title = "Posters of Tuesday 13"
+    lead =  "Sorted by poster island and stand."
 %}
 
-{% assign posters = site.data.summit25posters | sort: "Main Contact Lastname" %}
-{% for poster in posters %}
-{% if poster["Acceptance Status"] == "Accept as poster" %}
-{% include summit25poster.md poster=poster %}
-{% endif %}
-{% endfor %}
+{% assign day = "Tue" %}
+{% include summit25posters-of-day.md day=day posters=posters %}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+    title = "Posters of Wednesday 14"
+    lead =  "Sorted by poster island and stand."
+%}
+
+{% assign day = "Wed" %}
+{% include summit25posters-of-day.md day=day posters=posters %}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Posters of Thursday 15"
+    lead =  "Sorted by poster island and stand."
+%}
+
+{% assign day = "Thu" %}
+{% include summit25posters-of-day.md day=day posters=posters %}
 
 {% include jumboboxend.html %}
