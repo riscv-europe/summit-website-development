@@ -28,6 +28,8 @@ P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, a
 
 {% if poster['Summary'] %}**Abstract**: {{ poster['Summary'] }} {% endif %}
 
+<p><i>Back to <a href="#summary">posters' summary</a>, or <a href="#{{ day }}">{{ dayLong }} posters</a>.</i></p>
+
 {% endunless %}
 
 {% endfor %}
