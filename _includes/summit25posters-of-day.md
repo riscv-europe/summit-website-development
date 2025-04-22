@@ -8,8 +8,7 @@
 {% unless standsOfIsland.size == 0 %}
 
 <hr>
-<hr>
-<p align="center" style="font-weight: bold; font-size: 1.875em">Poster island {{ island.Island }} at level {{ island.Level  }}</p>
+<p align="center" style="font-weight: bold; font-size: 1.875em">On {{ dayLong }}, at island {{ island.Island }} (level {{ island.Level }})</p>
 
 {% for stand in standsOfIsland %}
 

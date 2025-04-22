@@ -28,15 +28,31 @@ At the conference:
 
 {% include jumboboxend.html %}
 
+{% include jumboboxstart.html
+    title = "More than 180 posters over 3 days!"
+    lead = "More than 60 posters per day are dispatched over a dozen of posters islands spread over the 3 levels of the expo area"
+	id = "summary"
+%}
+
+To the lists of posters on display, per day:
+<ul>
+<li><a href="#Tue">Tuesday 13</a>.</li>
+<li><a href="#Wed">Wednesday 14</a>.</li>
+<li><a href="#Thu">Thursday 15</a>.</li>
+</ul>
+
+{% include jumboboxend.html %}
+
+
 {% assign posters_pure           = site.data.summit25posters | where: 'Acceptance Status', 'Accept as poster' %}
 {% assign presentation_technical = site.data.summit25posters | where: 'Acceptance Status', 'Accept as presentation' %}
 {% assign presentation_industry  = site.data.summit25posters | where: 'Acceptance Status', 'Accept as presentation (industry)' %}
-
 {% assign posters = posters_pure | concat: presentation_technical | concat: presentation_industry %}
 
 {% include jumboboxstart.html
-    title = "Posters of Tuesday 13"
+    title = "Tuesday 13 Posters"
     lead =  "Sorted by expo level, poster island, and stand."
+	id =    "Tue"
 %}
 
 {% assign day = "Tue" %}
@@ -46,8 +62,9 @@ At the conference:
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-    title = "Posters of Wednesday 14"
+    title = "Wednesday 14 Posters"
     lead =  "Sorted by expo level, poster island, and stand."
+	id =    "Wed"
 %}
 
 {% assign day = "Wed" %}
@@ -56,9 +73,10 @@ At the conference:
 
 {% include jumboboxend.html %}
 
-{% include jumboboxstart.html 
-    title = "Posters of Thursday 15"
+{% include jumboboxstart.html
+    title = "Thursday 15 Posters"
     lead =  "Sorted by expo level, poster island, and stand."
+	id =    "Thu"
 %}
 
 {% assign day = "Thu" %}
