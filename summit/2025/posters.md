@@ -36,7 +36,7 @@ At the conference:
 
 {% include jumboboxstart.html
     title = "Posters of Tuesday 13"
-    lead =  "Sorted by poster island and stand."
+    lead =  "Sorted by expo level, poster island, and stand."
 %}
 
 {% assign day = "Tue" %}
