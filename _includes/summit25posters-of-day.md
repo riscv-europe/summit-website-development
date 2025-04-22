@@ -23,7 +23,8 @@
 
 P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, at island {{ island.Island }} on level {{island.Level }}.
 
-**{{ poster["Main Contact Firstname"] }} {{ poster["Main Contact Lastname"]}}**, {{ poster["Main Contact Affiliation"] }}.
+{% assign authors = poster['Authors with Affiliations'] | split: "; " | join: ", " | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '), ', '. **' | replace: ')', '.' -%}
+**{{ authors }}
 
 {% if poster['Summary'] %}**Abstract**: {{ poster['Summary'] }} {% endif %}
 
