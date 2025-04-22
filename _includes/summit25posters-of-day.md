@@ -9,7 +9,7 @@
 
 <hr>
 <hr>
-<p align="center" style="font-weight: bold; font-size: 1.875em">Poster island #{{ island.Island }} at level {{ island.Level  }}</p>
+<p align="center" style="font-weight: bold; font-size: 1.875em">Poster island {{ island.Island }} at level {{ island.Level  }}</p>
 
 {% for stand in standsOfIsland %}
 
