@@ -22,7 +22,7 @@
 
 ### {{ poster["Title"] | strip_newlines }}
 
-P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}), at level {{island.Level }}.
+P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, at island {{ island.Island }} on level {{island.Level }}.
 
 **{{ poster["Main Contact Firstname"] }} {{ poster["Main Contact Lastname"]}}**, {{ poster["Main Contact Affiliation"] }}.
 
