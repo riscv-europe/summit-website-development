@@ -55,6 +55,7 @@ future of computing, one inspiring demo at a time!
   chip, FPGA or software.
 - Viewers should understand the relevance of your demonstrator to the
   growing RISC-V ecosystem.
+- if selected, the demo will have a 10 min. time slot.
 
 ### Submission
 
