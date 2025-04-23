@@ -54,6 +54,7 @@ Before the conference:
 <hr>
 <hr>
 <p align="center" style="font-weight: bold; font-size: 1.875em">{{ session.DayLong }},  {{ session.Start }}-{{ session.End }}</p>
+{%- if session.ChairName -%}<p align="center">Session chair: <b>{{ session.ChairName }}</b>, {{ session.ChairAffiliation }}.</p>{%- endif -%}
 <p align="center" style="font-style: italic">{{ kind }}</p>
 {% assign sessionId = session.SessionId %}
 {% assign block = agenda | where: "SessionId", sessionId %}
