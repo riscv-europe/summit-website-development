@@ -72,7 +72,7 @@ T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayS
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
 
-{% if presentation['TalkAbstract'] %}**Abstract**: {{ presentation['TalkAbstract'] }} {% endif %}
+{% if presentation['Summary'] %}**Abstract**: {{ presentation['Summary'] }} {% endif %}
 
 {% if presentation['Bio']          %}**Bio**:     *{{ presentation['Bio'] | strip_newlines }}* {% endif %}
 
