@@ -69,10 +69,8 @@ Before the conference:
 
 T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in Gaston Berger.
 
-By **{{ presentation["Main Contact Firstname"] | strip }} {{ presentation["Main Contact Lastname"] | strip }}**
-{%- if presentation['Main Contact Job Function'] != "" -%}, {{ presentation['Main Contact Job Function'] | strip }}{%- endif -%}
-{%- if presentation['Main Contact Affiliation']  != "" -%}, {{ presentation["Main Contact Affiliation"]  | strip }}{%- endif -%}
-.
+By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
+**{{ authors }}
 
 {% if presentation['TalkAbstract'] %}**Abstract**: {{ presentation['TalkAbstract'] }} {% endif %}
 
