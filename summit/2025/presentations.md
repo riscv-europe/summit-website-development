@@ -96,7 +96,7 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {% elsif content >= 2000 %}
 {% assign panel_ = panels | where: 'SessionId', content_s %}
 {% assign panel  = panel_[0] %}
-{% unless presentation.Status == "OnHold" %}
+{% unless panel.Status == "OnHold" %}
 
 ## Panel -- {{ panel.Title }}
 
