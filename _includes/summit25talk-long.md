@@ -5,8 +5,8 @@
 T{{ slot.SlotId }}, {{ session.DayLong }} at {{ slot.Start }}, in Gaston Berger amphitheater.
 
 By **{{ talk['FirstName'] }} {{ talk['LastName'] }}**
-{%- if talk['Company']  -%}, {{ talk['Company']  | strip }} {%- endif -%}
 {%- if talk['Position'] -%}, {{ talk['Position'] | strip }} {%- endif -%}
+{%- if talk['Company']  -%}, {{ talk['Company']  | strip }} {%- endif -%}
 .
 
 {% if talk['TalkAbstract'] %}**Abstract**: {{ talk['TalkAbstract'] | strip_newlines }} {% endif %}
