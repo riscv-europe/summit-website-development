@@ -74,8 +74,6 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 
 {% if presentation['Summary'] %}**Abstract**: {{ presentation['Summary'] }} {% endif %}
 
-{% if presentation['Bio']          %}**Bio**:     *{{ presentation['Bio'] | strip_newlines }}* {% endif %}
-
 {% elsif content >= 1000 and content < 2000 %}
 {% assign presentation_ = invited | where: 'SubmissId', content_s %}
 {% assign presentation  = presentation_[0] %}
