@@ -5,7 +5,7 @@ layout: summit2025
 
 {% include jumboboxstart.html 
     title = "Plenary sessions"
-    lead = "Keynotes and presentations in the <b>Gaston Berger</b> amphitheatre (level -2)"
+    lead = "Keynotes and presentations in the <b>Gaston Berger</b> amphitheatre (S2)"
 %}
 
 {% include bannerimg.html
@@ -43,13 +43,13 @@ Before the conference:
 {% assign agenda  = site.data.summit-agenda %}
 {% for session in sessions %}
 {% if session.Kind == "Plenary" %}
-	{% assign kind = "Plenary keynotes and presentations in Gaston Berger anphitheater (level -2)." %}
+	{% assign kind = "Plenary keynotes and presentations in Gaston Berger anphitheater (S2)." %}
 {% elsif session.Kind == "Demo" %}
-	{% assign kind = "Demos in Louis Armand East amphitheater (level -3).<br/>Booths and posters in expo area's 3 levels." %}
+	{% assign kind = "Demos in Louis Armand East amphitheater (S3).<br/>Booths and posters in expo area's 3 levels." %}
 {% elsif session.Kind == "None" %}
 	{% assign kind = "Booths and posters in expo area's 3 levels." %}
 {% elsif session.Kind == "Breakfast" %}
-	{% assign kind = "Community breakfast in Louis Armand amphitheater (level -3)." %}
+	{% assign kind = "Community breakfast in Louis Armand amphitheater (S3)." %}
 {% endif %}
 <hr>
 <hr>

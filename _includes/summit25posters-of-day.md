@@ -21,7 +21,7 @@
 
 ### {{ poster["Title"] | strip_newlines }}
 
-P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, at island {{ island.Island }} on level {{island.Level }}.
+P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.
 
 {% assign authors = poster['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
