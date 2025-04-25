@@ -44,12 +44,15 @@ Before the conference:
 {% for session in sessions %}
 {% if session.Kind == "Plenary" %}
 	{% assign kind = "Plenary keynotes and presentations in Gaston Berger anphitheater (S2)." %}
+	{% assign location = "Gaston Berger (S2)" %}
 {% elsif session.Kind == "Demo" %}
 	{% assign kind = "Demos in Louis Armand East amphitheater (S3).<br/>Booths and posters in expo area's 3 levels." %}
+	{% assign location = "Louis Armand East (S3)" %}
 {% elsif session.Kind == "None" %}
 	{% assign kind = "Booths and posters in expo area's 3 levels." %}
 {% elsif session.Kind == "Breakfast" %}
 	{% assign kind = "Community breakfast in Louis Armand amphitheater (S3)." %}
+	{% assign location = "Louis Armand East (S3)" %}
 {% endif %}
 <hr>
 <hr>
@@ -68,7 +71,7 @@ Before the conference:
 {% assign presentation  = presentation_[0] %}
 ### {{ presentation['Title'] | strip_newlines }}
 
-T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in Gaston Berger.
+T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
@@ -82,7 +85,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 <hr style="width:50%;;margin-left:25%">
 ### {{ presentation['TalkTitle'] | strip_newlines }}
 
-T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in Gaston Berger.
+T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
 By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {%- if presentation.Position -%}, {{ presentation.Position | strip }}{%- endif -%}
@@ -100,8 +103,7 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 
 ## Panel -- {{ panel.Title }}
 
-T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in
-{% if session.Kind == "Breakfast" %}Louis Armand East{% else %}Gaston Berger{% endif %}.
+T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
 Moderated by **{{ panel.ModerName }}**
 {%- if panel.ModerPosition -%}, {{ panel.ModerPosition | strip }}{%- endif -%}
