@@ -42,18 +42,17 @@ review. The preferred review method is blind review. Non-blind should
 be left to contributions that are hard to anonymize, such as technical
 presentations of new commercial products or presentations of publicly
 funded projects. Any question whether a submission should apply to
-blind or non-blind review should be asked to the PC chairs at <a
-class="summit"
-href="mailto:riscv-europe2025_pc@softconf.com">riscv-europe2025_pc@softconf.com</a>
+blind or non-blind review should be asked to the PC chairs at
+[riscv-europe2025_pc@softconf.com](mailto:riscv-europe2025_pc@softconf.com)
 before submitting. Please note, an abstract may not be submitted to
 both review methods.
 
 ## Important dates
 
-- Abstract submission deadline: Friday, February 7th, 2025, <a
-  class="summit"
-  href="https://en.wikipedia.org/wiki/Anywhere_on_Earth">AOE (Anywhere
-  on Earth)</a>. No extensions.
+- Abstract submission deadline: Friday, February 7th, 2025, [AOE
+  (Anywhere on
+  Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth). No
+  extensions.
 - Author notification: Friday, March 7th, 2025.
 - Final abstract PDF and slides deadline: Monday, April 21st, 2025 (was ~~Thursday, April 15th~~).
 - Poster PDF deadline: Monday, April 21st, 2025 (was ~~Monday, May 5th~~).
@@ -102,11 +101,9 @@ technical topics of interest:
 
 ## Submission Format
 
-Submissions should be provided as a max two pages extended
-abstract. Abstract template and instructions for submission are
-available <a class="summit"
-href="https://github.com/riscv-europe/riscv-europe-summit-templates">
-here</a>.
+Submissions should be provided as a max two pages extended abstract. Abstract
+template and instructions for submission are available
+[here](https://github.com/riscv-europe/riscv-europe-summit-templates).
 
 Contributions may be submitted for blind (recommended) or non-blind
 review. Submissions for blind review must be anonymized, removing any

@@ -148,7 +148,7 @@ Sponsorships go live on Wednesday 22nd January at 6am PT / 3pm CET and will be a
 
 **All prices are plus VAT,  where applicable (VAT is charged for outside EU sponsors, reverse charge for EU).**
 
-Below you can find the sponsorship flyer. Contact <a class="summit" href="mailto:lori@riscv.org">Lori Servin</a> for more information.
+Below you can find the sponsorship flyer. Contact [Lori Servin](mailto:lori@riscv.org) for more information.
 
 <div class="container">
     <div class="row">
