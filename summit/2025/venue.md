@@ -43,7 +43,10 @@ print shop named “[Au Print](https://auprint.fr)” located [14 rue
 Rouvet, 75019 Paris](https://maps.app.goo.gl/FZZuos9y2NQEyHv77). It is
 close to the metro station “[Corentin
 Cariou](https://www.bonjour-ratp.fr/en/stations-metro/corentin-cariou/)”,
-one stop away from the venue. The web site is in French, but the
-[comment/request form](https://auprint.fr/contactez-nous/) is typical.
+one stop away from the venue. The web site is in French, but they
+accept orders in English at
+[contact@auprint.fr](mailto:contact@auprint.fr) -- price is about
+40&nbsp;€ for an A0 print on 120&nbsp;g/m<sup>2</sup> paper.
+
 
 {% include jumboboxend.html %}
