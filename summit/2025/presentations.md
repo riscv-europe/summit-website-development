@@ -33,6 +33,7 @@ Before the conference:
 {% assign presentations = site.data.summit25posters %}
 {% assign invited = site.data.talks-details %}
 {% assign panels  = site.data.panels-details %}
+{% assign univdemos  = site.data.univ-demos %}
 {% assign sessions_raw = site.data.sessions-config %}
 {% assign sessions = "" | split: "" %}
 {% for sess in sessions_raw %}
@@ -78,7 +79,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 
 {% if presentation['Summary'] %}**Abstract**: {{ presentation['Summary'] }} {% endif %}
 
-{% elsif content >= 1000 and content < 2000 %}
+{% elsif content >= 1000 and content < 1600 %}
 {% assign presentation_ = invited | where: 'SubmissId', content_s %}
 {% assign presentation  = presentation_[0] %}
 {% unless presentation.Status == "OnHold" %}
@@ -95,6 +96,23 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {% if presentation.TalkAbstract %}**Abstract**: {{ presentation['TalkAbstract'] | strip_newlines }} {% endif %}
 
 {% if presentation.Bio          %}**Bio**:     *{{ presentation['Bio'] | strip_newlines }}* {% endif %}
+{% endunless %}
+{% elsif content >= 1600 and content < 2000 %}
+{% assign univdemo = content_s | minus: 1500 %}
+{% capture univdemo_s %}{{ univdemo }}{% endcapture %}
+{% assign presentation_ = univdemos | where: 'Submission ID', univdemo_s %}
+{% assign presentation  = presentation_[0] %}
+{% unless presentation.Status == "OnHold" %}
+
+### {{ presentation['Title'] | strip_newlines }}
+
+T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+
+By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
+**{{ authors }}
+
+{% if presentation['Summary'] %}**Abstract**: {{ presentation['Summary'] }} {% endif %}
+
 {% endunless %}
 {% elsif content >= 2000 %}
 {% assign panel_ = panels | where: 'SessionId', content_s %}
