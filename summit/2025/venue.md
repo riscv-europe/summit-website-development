@@ -32,3 +32,18 @@ Several hotels are close to the venue (in order of proximity):
 </ul>
 
 {% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Local print shop"
+    lead = "If you do not want to carry your poster all the way to Paris..."
+%}
+
+For authors that would like to print their poster in Paris, there is a
+print shop named “[Au Print](https://auprint.fr)” located [14 rue
+Rouvet, 75019 Paris](https://maps.app.goo.gl/FZZuos9y2NQEyHv77). It is
+close to the metro station “[Corentin
+Cariou](https://www.bonjour-ratp.fr/en/stations-metro/corentin-cariou/)”,
+one stop away from the venue. The web site is in French, but the
+[comment/request form](https://auprint.fr/contactez-nous/) is typical.
+
+{% include jumboboxend.html %}

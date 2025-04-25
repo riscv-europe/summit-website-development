@@ -17,6 +17,17 @@ Preparation before the conference:
  - At least one author of the poster must register for the core
    conference (Tuesday 13 to Thursday 15).
 
+Local print shop:
+ - For authors that would like to print their poster in Paris, there
+   is a print shop named “[Au Print](https://auprint.fr)” located [14
+   rue Rouvet, 75019
+   Paris](https://maps.app.goo.gl/FZZuos9y2NQEyHv77). It is close to
+   the metro station “[Corentin
+   Cariou](https://www.bonjour-ratp.fr/en/stations-metro/corentin-cariou/)”,
+   one stop away from the venue. The web site is in French, but the
+   [comment/request form](https://auprint.fr/contactez-nous/) is
+   typical.
+
 At the conference:
  - You will mount your own poster, no own tape allowed, you will get
    some.
