@@ -75,6 +75,7 @@ events, joined by [RISC-V International](https://riscv.org):
     <li>Daniel Müller-Gritschneder (TU Munich), PC Co-Chair</li>
     <li>Borja Pérez Pavon (Univ. de Cantabria), Submission Chair</li>
     <li>Jérôme Quévremont (Thales R&amp;T)</li>
+    <li>Elisenda Rasero (BSC)</li>
     <li>Calista Redmond (RISC-V International), Co-General Chair</li>
     <li>Iara Ruibal (BCO)</li>
     <li>Mirtcho Savov (BCO)</li>
