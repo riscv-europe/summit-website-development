@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="pt-2">
-          <a class="summit" href="#{{ talk['FirstName'] }}-{{ talk['LastName'] }}-talk">
+          <a class="speaker" href="#{{ talk['FirstName'] }}-{{ talk['LastName'] }}-talk">
           <h5 class="mt-4 font-weight-medium mb-1"><b>{{ talk['FirstName'] }} {{ talk['LastName'] }}</b><br>{{ talk['Company'] }}</h5>
           <h6 class="subtitle">{{ talk['Position'] }}</h6>
           </a>
