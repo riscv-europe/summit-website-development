@@ -8,10 +8,21 @@ layout: summit2025
     lead = "Keynotes and presentations in the <b>Gaston Berger</b> amphitheatre (S2)"
 %}
 
+{% assign presentations = site.data.summit25posters %}
+{% assign invited = site.data.talks-details %}
+{% assign panels  = site.data.panels-details %}
+{% assign univdemos  = site.data.univ-demos %}
+{% assign sessions_raw = site.data.sessions-config %}
+{% assign sessions = "" | split: "" %}
+{% for sess in sessions_raw %}
+    {% unless sess.Kind == "None" %}
+        {% assign sessions = sessions | push: sess %}
+    {% endunless %}
+{% endfor %}
+
 {% include bannerimg.html
     img = "media/banners/schedule-tue-thu.png"
 %}
-
 
 **Notes for plenary session presenters**
 
@@ -30,17 +41,6 @@ Before the conference:
     lead =  "**Keynotes**, **invited talks**, **industrial** and **technical presentations** will presented in plenary sessions in the **Gaston Berger** amphitheater. **Demos** will presented during lunches and some breaks in the **Louis Armand East** amphitheater"
 %}
 
-{% assign presentations = site.data.summit25posters %}
-{% assign invited = site.data.talks-details %}
-{% assign panels  = site.data.panels-details %}
-{% assign univdemos  = site.data.univ-demos %}
-{% assign sessions_raw = site.data.sessions-config %}
-{% assign sessions = "" | split: "" %}
-{% for sess in sessions_raw %}
-    {% unless sess.Kind == "None" %}
-        {% assign sessions = sessions | push: sess %}
-    {% endunless %}
-{% endfor %}
 {% assign agenda  = site.data.summit-agenda %}
 {% for session in sessions %}
 {% if session.Kind == "Plenary" %}
