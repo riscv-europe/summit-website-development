@@ -155,7 +155,7 @@ Moderated by **{{ panel.ModerName }}**
 {% endunless %}
 {% endif %}
 {% endif %}
-<p><a href="presentations.html">To top of page</a> &mdash; <a href="#T{{ session.SessionId }}">To session T{{ session.SessionId }}</a> &mdash; <a href="#T{{ slot.SlotId }}">To talk T{{ slot.SlotId }}</a></p>
+<p align="center" style="font-size: 0.8em"><a href="presentations.html" class="backnavigation">To top of page</a> &mdash; <a href="#T{{ session.SessionId }}" class="backnavigation">To session T{{ session.SessionId }}</a> &mdash; <a href="#T{{ slot.SlotId }}" class="backnavigation">To talk T{{ slot.SlotId }}</a></p>
 {% endfor %}
 {% endfor %}
 
