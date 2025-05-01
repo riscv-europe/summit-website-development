@@ -34,6 +34,10 @@ Before the conference:
  - The slides will be collected beforehand and displayed from a shared
    laptop.
 
+At the conference:
+ - Get in touch with your Session Chair long before the session.
+ - Get in touch with the audio/video team 15 min. before the session.
+
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
