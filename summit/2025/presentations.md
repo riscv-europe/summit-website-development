@@ -84,13 +84,16 @@ At the conference:
 {% assign sessionId = session.SessionId %}
 {% assign block = agenda | where: "SessionId", sessionId %}
 {% for slot in block %}
+{%- assign emptySlot = true -%}
 {% assign content_s = slot.TalkId %}
 {% assign content   = content_s | plus: 0 %}
 {% if content != 0 %}
 {% if content < 1000 %}
+{%- assign emptySlot = false -%}
 <hr style="width:50%;;margin-left:25%">
 {% assign presentation_ = presentations | where: 'Submission ID', content_s %}
 {% assign presentation  = presentation_[0] %}
+
 ### {{ presentation['Title'] | strip_newlines }}
 
 T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
@@ -104,8 +107,10 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 {% assign presentation_ = invited | where: 'SubmissId', content_s %}
 {% assign presentation  = presentation_[0] %}
 {% unless presentation.Status == "OnHold" %}
+{%- assign emptySlot = false -%}
 <hr style="width:50%;;margin-left:25%">
 <a id="T{{ slot.SlotId }}"></a>
+
 ### {{ presentation['TalkTitle'] | strip_newlines }}
 
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
@@ -125,6 +130,7 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {% assign presentation_ = univdemos | where: 'Submission ID', univdemo_s %}
 {% assign presentation  = presentation_[0] %}
 {% unless presentation.Status == "OnHold" %}
+{%- assign emptySlot = false -%}
 
 ### {{ presentation['Title'] | strip_newlines }}
 
@@ -141,6 +147,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 {% assign panel  = panel_[0] %}
 {% unless panel.Status == "OnHold" %}
 
+{%- assign emptySlot = false -%}
 ## Panel -- {{ panel.Title }}
 
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
@@ -155,7 +162,7 @@ Moderated by **{{ panel.ModerName }}**
 {% endunless %}
 {% endif %}
 {% endif %}
-<p align="center" style="font-size: 0.8em"><a href="presentations.html" class="backnavigation">To top of page</a> &mdash; <a href="#T{{ session.SessionId }}" class="backnavigation">To session T{{ session.SessionId }}</a> &mdash; <a href="#T{{ slot.SlotId }}" class="backnavigation">To talk T{{ slot.SlotId }}</a></p>
+{% unless emptySlot %}<p align="center" style="font-size: 0.8em"><a href="presentations.html" class="backnavigation">To top of page</a> &mdash; <a href="#T{{ session.SessionId }}" class="backnavigation">To session T{{ session.SessionId }}</a> &mdash; <a href="#T{{ slot.SlotId }}" class="backnavigation">To talk T{{ slot.SlotId }}</a></p>{% endunless %}
 {% endfor %}
 {% endfor %}
 
