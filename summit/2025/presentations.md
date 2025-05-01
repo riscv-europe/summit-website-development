@@ -38,6 +38,24 @@ At the conference:
  - Get in touch with your Session Chair long before the session.
  - Get in touch with the audio/video team 15 min. before the session.
 
+**Quick links to sessions**
+
+{% assign day = sessions[0].DayLong %}
+- {{ day }}:&#32;
+{%- for session in sessions -%}
+{% if day != session.DayLong %}
+{% assign day = session.DayLong %}
+- {{ day }}:&#32;
+{%- endif -%}
+<a href="#T{{ session.SessionId }}">T{{ session.SessionId }} {{ session.Start }}–{{ session.End }}&#32;
+{%- case session.Kind -%}
+{%- when "Plenary" -%} plenary
+{%- when "Breakfast" -%} community breakfast
+{%- else -%} {% if session.Start == "13:00" %}lunch{% else %}break{% endif %} and demos
+{%- endcase -%}</a>.
+{% endfor %}
+
+
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
@@ -60,7 +78,7 @@ At the conference:
 	{% assign location = "Louis Armand East (S3)" %}
 {% endif %}
 <hr>
-<p align="center" style="font-weight: bold; font-size: 1.875em">{{ session.DayLong }},  {{ session.Start }}-{{ session.End }}</p>
+<p id="T{{ session.SessionId }}" align="center" style="font-weight: bold; font-size: 1.875em">{{ session.DayLong }},  {{ session.Start }}-{{ session.End }}</p>
 {%- if session.ChairName -%}<p align="center">Session chair: <b>{{ session.ChairName }}</b>, {{ session.ChairAffiliation }}.</p>{%- endif -%}
 <p align="center" style="font-style: italic">{{ kind }}</p>
 {% assign sessionId = session.SessionId %}
