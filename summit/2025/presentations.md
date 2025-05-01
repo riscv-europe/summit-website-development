@@ -105,6 +105,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 {% assign presentation  = presentation_[0] %}
 {% unless presentation.Status == "OnHold" %}
 <hr style="width:50%;;margin-left:25%">
+<a id="T{{ slot.SlotId }}"></a>
 ### {{ presentation['TalkTitle'] | strip_newlines }}
 
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
@@ -154,6 +155,7 @@ Moderated by **{{ panel.ModerName }}**
 {% endunless %}
 {% endif %}
 {% endif %}
+<p><a href="presentations.html">To top of page</a> &mdash; <a href="#T{{ session.SessionId }}">To session T{{ session.SessionId }}</a> &mdash; <a href="#T{{ slot.SlotId }}">To talk T{{ slot.SlotId }}</a></p>
 {% endfor %}
 {% endfor %}
 
