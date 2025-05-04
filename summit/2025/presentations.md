@@ -152,9 +152,12 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
-Moderated by **{{ panel.ModerName }}**
-{%- if panel.ModerPosition -%}, {{ panel.ModerPosition | strip }}{%- endif -%}
-{%- if panel.ModerCompany  -%}, {{ panel.ModerCompany  | strip }}{%- endif -%}
+{% if panel.PanelistsAndAffiliation %}
+**Panelists**: {{ panel.PanelistsAndAffiliation | strip }}.
+{% endif %}
+
+**Moderator**: {{ panel.ModerName }}
+{%- if panel.ModerCompany  -%}&#32;({{ panel.ModerCompany  | strip }}){%- endif -%}
 .
 
 {% if panel.Argument %}**Argument**: {{ panel.Argument | strip_newlines }} {% endif %}
