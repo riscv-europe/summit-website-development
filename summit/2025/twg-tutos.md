@@ -225,9 +225,26 @@ University, and an MBA from the University of Texas at Austin.*
 <hr style="width:50%;;margin-left:25%">
 
 
-### T3.3 -- The potential of custom instructions, from design to implementation, accelerating the co-design flow
+### T3.3 -- Expedited development of novel RISC-V instructions through an emulation-simulation framework
 
 **By Julián Pavón and Iván Vargas.**
+
+Given the widespread adoption of the RISC-V ISA by notable industry
+players like Google, Huawei, Intel, and others, a significant
+opportunity emerges for software developers and hardware architects to
+conceive and present innovative solutions readily integrable into
+commercial products. Furthermore, the inherent flexibility of RISC-V
+allows for seamless augmentation with new instructions aimed at
+expediting various domain-specific algorithms, thereby inviting
+computer architecture researchers to propose inventive instructions
+conducive to achieving the aforementioned objective. However, the
+process of designing and assessing new instructions for RISC-V
+presents a substantial time investment due to the current
+methodologies and simulation tools employed for evaluation. Notably,
+computer architecture and RTL simulators, such as gem5 and Verilator,
+entail protracted simulation times, rendering them inefficient for the
+initial phases of instruction development characterized by iterative
+program versioning and integration of new instructions.
 
 Our objective is to enhance the efficiency of designing and evaluating
 new instructions within the RISC-V ISA, thereby reducing the entry
@@ -277,9 +294,9 @@ it provides hands-on coding experiences facilitating the modeling and
 evaluation of diverse CPU architectures.
 
 **Requirements:** Have Docker software installed on the laptop used
-during the tutorial and download our docker image with all the tools
-and libraries dependencies. All the information can be found in the
-following page:
+during the tutorial and **download beforehand our 22 GB docker image**
+with all the tools and libraries dependencies. All the information can
+be found in the following page:
 <https://sites.google.com/view/tutorial-custom-riscv-instr/home>
 
 **Julián Pavón** *(BSC, UPC) currently a final-year Ph.D. candidate at
