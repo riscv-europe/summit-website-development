@@ -83,6 +83,9 @@ programs. The development and dissemination of these activities were
 made possible by the EU project CHIPS of Europe and the Swedish Chips
 Competence center, SCCC.*
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Tutos" class="backnavigation">To tutorials</a></p>
+<hr style="width:50%;;margin-left:25%">
+
 
 ### T2.2 -- XiangShan: An Open-Source High-Performance RISC-V Processor and Infrastructure for Architecture Research
 
@@ -122,6 +125,10 @@ schedualing and vector architechture.
 **Xi Chen** is a PhD candidate at the University of Chinese Academy of
 Sciences, working on CPU architecture and open-source hardware
 design. His research interests include memory and cache systems.
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Tutos" class="backnavigation">To tutorials</a></p>
+<hr style="width:50%;;margin-left:25%">
+
 
 ### T2.3 -- UnityChip Verification: Open Source Multi-Language Hardware Verification
 
@@ -168,6 +175,10 @@ enabling more efficient hardware validation through software
 methodologies while lowering the verification barrier for software
 developers.
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Tutos" class="backnavigation">To tutorials</a></p>
+<hr style="width:50%;;margin-left:25%">
+
+
 ### T3.2 -- SC-V MMU Verification of Virtualization and Hypervisor Operation for CPU and SOC Platform
 
 **By Adnan Hamid.**
@@ -209,6 +220,9 @@ Siemens/Infineon, Motorola/Freescale, and General Motors. Adnan holds
 twelve patents in test case generation and synthesis. He received BS
 degrees in Electrical Engineering and Computer Science from Princeton
 University, and an MBA from the University of Texas at Austin.*
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Tutos" class="backnavigation">To tutorials</a></p>
+<hr style="width:50%;;margin-left:25%">
 
 
 ### T3.3 -- The potential of custom instructions, from design to implementation, accelerating the co-design flow
@@ -320,6 +334,10 @@ to provide diverse perspectives rather than execute tasks.
  - Amplifying initiatives by sharing through personal/professional networks when possible
  - Participation is entirely voluntary and input-driven—members are not expected to take on planning or execution roles.
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
+
 ### CHERI- TG/SIG
 
 **Description of SIG**
@@ -382,6 +400,10 @@ multiple vendors with in-flight hardware implementationsq, the
 practicality of porting software, and the regulatory push toward CHERI
 to fundamentally improve
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
+
 ### Security HC
 
 ** Mission Description**:
@@ -394,6 +416,10 @@ to fundamentally improve
  - Recruit security talent to the RISC-V ecosystem (e.g., into committees)
  - Develop consensus around best security practices for all industry technology sectors
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
+
 ### HPC SIG Mission
 
 **Mission**:
@@ -403,6 +429,10 @@ computing, systems and copmponents (processors, accelerators, etc.)
 targeting large scale performance (tera- peta- exa-scale and beyond)
 and power targets (any data and compute intensive domain), imperatives
 to leverage and enable RISC-V.
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
 
 ### Timing Fences TWG
 
@@ -434,6 +464,10 @@ The proposed RISC-V Timing Fences TG will collaborate to produce:
 The TG will work with the appropriate Priv/Unpriv ISA committee,
 Architecture Review Committee, and Security HC.
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
+
 ### Soft CPU SIG
 
 **Description**:
@@ -447,6 +481,10 @@ additional extensions to provide hardware acceleration. The goal of
 the CLIC is to provide support for a variety of software ABI and
 interrupt models, without complex hardware that can impact
 high-performance implementations.
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
 
 ### Attached Matrix Ext (AME)
 
@@ -498,6 +536,10 @@ The resulting specification will encompass:
    of matrices with the RISC-V memory models and a specification of
    any deviations from the standard RISC-V memory model.
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
+
 ### SoC Infra HC
 
 The SOC infrastructure Horizontal committee contains but is not
@@ -511,6 +553,10 @@ successful while minimizing duplication of effort and fragmentation of
 design choices in the RISC-V community.
 
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+<hr style="width:50%;;margin-left:25%">
+
+
 ### Functional Safety SIG
 
 The goal of the Safety SIG (special interest group) within the RISC-V
@@ -519,5 +565,8 @@ principles and hardware interfaces for achieving Functional Safety in
 the RISC-V architecture. Focused task groups will be proposed to the
 RISC-V Foundation technical committee to be spun off when sufficient
 critical mass and discussion depth is reached on a specific topic.
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+
 
 {% include jumboboxend.html %}
