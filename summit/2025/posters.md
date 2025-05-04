@@ -52,11 +52,18 @@ At the conference:
 %}
 
 To the lists of posters on display, per day:
-<ul>
-<li><a href="#Tue">Tuesday 13</a>.</li>
-<li><a href="#Wed">Wednesday 14</a>.</li>
-<li><a href="#Thu">Thursday 15</a>.</li>
-</ul>
+
+{% assign day = "Tue" %}
+{% assign dayLong = "Tuesday 13" %}
+{% include summit25posters-islands.md day=day dayLong=dayLong %}
+
+{% assign day = "Wed" %}
+{% assign dayLong = "Wednesday 14" %}
+{% include summit25posters-islands.md day=day dayLong=dayLong %}
+
+{% assign day = "Thu" %}
+{% assign dayLong = "Thursday 15" %}
+{% include summit25posters-islands.md day=day dayLong=dayLong %}
 
 {% include jumboboxend.html %}
 
