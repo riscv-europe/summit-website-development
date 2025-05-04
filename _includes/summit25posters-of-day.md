@@ -29,7 +29,7 @@ P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, a
 
 {% if poster['Summary'] %}**Abstract**: {{ poster['Summary'] }} {% endif %}
 
-<p align="center" style="font-size: 0.8em"><a class="backnavigation" href="#summary">To top of page</a> &mdash; <a href="#{{ day }}" class="backnavigation">To {{ dayLong }} posters</a></p>
+<p align="center" style="font-size: 0.8em"><a class="backnavigation" href="#summary">To page top</a> &mdash; <a href="#P{{ island.Island }}-{{ day }}" class="backnavigation">To posters at P{{ island.Island }} ({{ island.Level }}) on {{ dayLong }}</a> &mdash; <a href="#{{ day }}" class="backnavigation">To all posters of {{ dayLong }}</a></p>
 
 {% endunless %}
 
