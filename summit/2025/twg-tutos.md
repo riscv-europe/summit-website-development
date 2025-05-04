@@ -8,6 +8,10 @@ layout: summit2025
     lead = "In <b>Louis Armand East-West</b> amphitheaters, and in <b>Rooms 1-3</b>, level S3.<br>*Please note that tutorials are open to the public while TWGs/SIGs require <a href=\"https://riscv.org/members/join/\">RISC-V membership</a>.*"
 %}
 
+Jump to:
+ - [Tutorial descriptions](#Tutos).
+ - [Details on some of the TWGs, SIGs, and HCs](#TWG-SIG).
+
 {% include jumboboxend.html %}
 
 {% include bannerimg.html
@@ -17,6 +21,7 @@ layout: summit2025
 {% include jumboboxstart.html
     title = "Tutorials"
     lead = "Description of the tutorials"
+	id = "Tutos"
 %}
 
 
