@@ -19,6 +19,7 @@
 {% assign poster_ = posters | where: 'Submission ID', submissId %}
 {% assign poster  = poster_[0] %}
 
+<hr style="width:50%;;margin-left:25%">
 ### {{ poster["Title"] | strip_newlines }}
 
 P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.
