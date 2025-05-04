@@ -406,7 +406,7 @@ to fundamentally improve
 
 ### Security HC
 
-** Mission Description**:
+**Mission Description**:
 
  - Promote RISC-V as a vehicle within the security community
  - Liaise with other internal RISC-V committees and with external security committees
