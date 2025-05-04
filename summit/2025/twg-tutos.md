@@ -294,9 +294,9 @@ it provides hands-on coding experiences facilitating the modeling and
 evaluation of diverse CPU architectures.
 
 **Requirements:** Have Docker software installed on the laptop used
-during the tutorial and **download beforehand our 22 GB docker image**
-with all the tools and libraries dependencies. All the information can
-be found in the following page:
+during the tutorial and **download before traveling our 22 GB docker
+image** with all the tools and libraries dependencies. All the
+information can be found in the following page:
 <https://sites.google.com/view/tutorial-custom-riscv-instr/home>
 
 **Julián Pavón** *(BSC, UPC) currently a final-year Ph.D. candidate at
