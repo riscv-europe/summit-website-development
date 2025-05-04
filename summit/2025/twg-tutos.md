@@ -287,3 +287,230 @@ focuses on acceleration of DBMS through novel hardware-software
 codesign.*
 
 {% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "TWG/SIG Meetings"
+    lead = "Description of **Technical Working Groups**, **Special Interest Group**, and **Horizontal Committees** meetings of RISC-V International<br>*Please note that TWGs/SIGs require <a href=\"https://riscv.org/members/join/\">RISC-V membership</a>*"
+	id = "TWG-SIG"
+%}
+
+### Marketing / Event Committee
+
+**Description**
+
+The Marketing & Event Committee serves as a strategic sounding board,
+offering feedback, ideas, and guidance on the organization’s marketing
+and event initiatives. This is a low-commitment, advisory group meant
+to provide diverse perspectives rather than execute tasks.
+
+**Primary functions include**:
+
+ - Offering feedback on event concepts, branding, messaging, and promotional strategies
+ - Sharing insights on industry trends, audience engagement, and best practices
+ - Brainstorming new ideas for campaigns, content, and community outreach
+ - Acting as a test group for reviewing communications or event materials before launch
+ - Amplifying initiatives by sharing through personal/professional networks when possible
+ - Participation is entirely voluntary and input-driven—members are not expected to take on planning or execution roles.
+
+### CHERI- TG/SIG
+
+**Description of SIG**
+
+The CHERI SIG will work on a strategy for adding Capability Hardware
+Enhanced RISC Instructions (CHERI) to the RISC-V ISA. Enabling a
+capability-based security model will ensure that RISC-V can provide
+strong security guarantees as well as mechanisms for
+compartmentalization that are more scalable than traditional
+techniques like PMP (physical memory protection) and MMU (memory
+management unit). This SIG will work towards defining a CHERI-enabled
+instruction set extension, toolchain requirements, programming model
+and psABI (processor-specific application binary interface).
+
+**Description of CHERI TG**
+
+Memory safety is the biggest security threat to computer systems:
+Microsoft and Google Chromium identifying 70% of their critical
+vulnerabilities being in this class. CHERI-based memory safety has
+arisen from research starting in 2010 to be the focus of the [Innovate
+UK Digital Security by Design Program](https://www.dsbd.tech) (£90m UK
+government funding and over £200m from industry). Under this program,
+ARM Ltd has produced the Morello prototype: quad-core CHERI-ARM
+superscalar processors and GPU on a 7nm TSMC process, demonstrating
+little performance or area penalty from adding this security
+technology. Initially 1,000 Morello units have been shipped to
+partners for evaluation.
+
+Microsoft’s Security Response Center’s 42-page report [Security
+Analysis of CHERI
+ISA](https://github.com/microsoft/MSRC-Security-Research/blob/master/papers/2020/Security%20analysis%20of%20CHERI%20ISA.pdf)
+concludes that over ⅔ of all of Microsoft’s critical memory-safety
+vulnerabilities in 2019 would have been deterministically mitigated by
+CHERI - the closest competing technology, tagged memory extensions,
+achieved only 13% deterministic mitigation. Tens of millions of lines
+of C/C++ code have now been ported to CHERI including work by
+[Capabilities
+Limited](https://www.capabilitieslimited.co.uk/_files/ugd/f4d681_e0f23245dace466297f20a0dbd22d371.pdf)
+who measured just 0.026% lines-of-code change when porting an
+open-source desktop application stack including X11 and
+KDE. Microsoft’s Azure Silicon team has developed and released
+[CHERIoT: Rethinking security for low-cost embedded
+systems](https://www.capabilitieslimited.co.uk/_files/ugd/f4d681_e0f23245dace466297f20a0dbd22d371.pdf)
+that includes an open-source [CHERIoT on
+Ibex](https://github.com/microsoft/CherIoT-ibex) - a CHERI extended
+embedded RISC-V core that will be taped out in the near future. The
+CHERIoT RTOS demonstrates how CHERI can provide scalable
+compartmentalisation and memory protection, which is more scalable and
+uses comparable silicon area to a PMP (physical memory protection as
+defined in the RISC-V privileged spec). The intergovernmental report
+[Shifting the Balance of Cybersecurity Risk: Principles and Approaches
+for Security-by-Design and
+-Default](https://www.cisa.gov/sites/default/files/2023-04/principles_approaches_for_security-by-design-default_508_0.pdf)
+recommends CHERI as the secure hardware foundation for future systems,
+and also recommends the use of software compartmentalisation that
+CHERI supports efficiently.
+
+Given the commercial demonstration of the effectiveness of CHERI,
+multiple vendors with in-flight hardware implementationsq, the
+practicality of porting software, and the regulatory push toward CHERI
+to fundamentally improve
+
+### Security HC
+
+** Mission Description**:
+
+ - Promote RISC-V as a vehicle within the security community
+ - Liaise with other internal RISC-V committees and with external security committees
+ - Create an information repository on trends, threats and countermeasures
+ - Identify top 10 challenges in security for the RISC-V community to address
+ - Propose security committees (Marketing or Technical) to tackle specific security topics
+ - Recruit security talent to the RISC-V ecosystem (e.g., into committees)
+ - Develop consensus around best security practices for all industry technology sectors
+
+### HPC SIG Mission
+
+**Mission**:
+
+Provide a global forum for technical and strategic high pereformance
+computing, systems and copmponents (processors, accelerators, etc.)
+targeting large scale performance (tera- peta- exa-scale and beyond)
+and power targets (any data and compute intensive domain), imperatives
+to leverage and enable RISC-V.
+
+### Timing Fences TWG
+
+**Description**:
+
+Covert channels are communication channels that a supervisor cannot
+observe or control. Timing channels are covert channels that exploit
+timing interferences caused by competition for shared
+microarchitectural resources, such as caches, buffers, and branch
+predictors. For instance, timing channels can be used to extract
+secrets as part of a microarchitectural speculation attack, such as
+Spectre-like attacks.
+
+To prevent timing channels, shared hardware resources must be strictly
+partitioned between isolated applications. The Timing Fences Task
+Group will propose a small ISA extension to enable such partitioning
+of shared microarchitectural states. For instance, we will introduce a
+temporal fence instruction that can be used to temporally partition
+shared on-core microarchitectural states by clearing them, e.g., when
+switching between isolated applications.
+
+The proposed RISC-V Timing Fences TG will collaborate to produce:
+ - A small ISA extension (possibly no more than one or two instructions, or only a new CSR).
+ - A non-normative short guide: defining threat models, developing rationale, etc.
+ - A proof-of-concept implementation, including both a prototype RISC-V core and a compiler that manages the necessary intrinsics.
+ - A test strategy guide, including a test suite for common covert channels.
+ - The Sail model corresponding to this extension.
+
+The TG will work with the appropriate Priv/Unpriv ISA committee,
+Architecture Review Committee, and Security HC.
+
+### Soft CPU SIG
+
+**Description**:
+
+The Core-Local Interrupt Controller (CLIC) Privileged Architecture
+Extensions are designed to provide low-latency, vectored, pre-emptive
+interrupts for RISC-V systems. When activated the CLIC subsumes and
+replaces the original RISC-V basic local interrupt scheme. The CLIC
+has a base design that requires minimal hardware, but supports
+additional extensions to provide hardware acceleration. The goal of
+the CLIC is to provide support for a variety of software ABI and
+interrupt models, without complex hardware that can impact
+high-performance implementations.
+
+### Attached Matrix Ext (AME)
+
+Matrix operations are a key operation in deep-learning training and
+inference for workloads like natural-language processing,
+recommendation systems, and image recognition. With the pervasive use
+of these applications in environments ranging from the datacenter,
+through IoT to mobile applications, matrix operations for RISC-V
+should scale acrsoss these application domains and apply to
+high-performance and resource-constrained environments.
+
+The Matrix Operations Unit TG will specify an attached Matrix
+Operations Unit Extension. An attached matrix unit executes
+instructions that are part of the processor instruction stream and,
+from an architectural perspective, must follow program order. An
+attached matrix unit is also self-contained and orthogonal to other
+architectural resources: it defines its own set of matrix registers
+and uses these as part of its specified operations.
+
+The Matrix Operations Unit will specify an extension to the RISC-V ISA
+that implements a scalable (i.e., with the ability to operate on
+different operand sizes and allow the writing of matrix-geometry
+agnostic code) matrix operations unit. This matrix operations unit
+will be a standalone block implementable without dependencies on the
+RISC-V Vector extension.
+
+The resulting specification will encompass:
+ - an overview of the commonly used matrix operations in established
+   algorithms and commonly used software libraries;
+ - a specification of the architectural state capable of
+   holding/referencing two-dimensional matrix tiles of
+   configurable/variable geometry;
+ - a specification of those matrix operations supported as part of
+   this extension, including at least:
+    - load, store, and move operations
+       - between memory and the matrix tile architectural state
+       - (if implemented together with the RISC-V Vector extension)
+         between RISC-V vector registers and rows/columns of the
+         matrix tile architectural state
+    - matrix-matrix, vector-matrix and scalar-matrix arithmetic
+      operations
+    - matrix permutation operations
+    - sparse-matrix compression/decompression;
+ - a predication mechanism to control operations performed on matrix
+   tiles;
+ - a mapping of matrix operations onto instructions defined in the
+   (newly defined) Matrix Operations Extension; and
+ - a review of the interactions of matrix load/store and prefetching
+   of matrices with the RISC-V memory models and a specification of
+   any deviations from the standard RISC-V memory model.
+
+### SoC Infra HC
+
+The SOC infrastructure Horizontal committee contains but is not
+limited to the components that straddle the hardware/software boundary
+and are necessary to boot and operate systems in every product from
+IOT/embedded through Data Center/Cloud and beyond. By their nature
+these components are also often matrixed into other committees
+pertaining to security, RAS, platforms, etc. The intent is to provide
+a robust set of specifications that product implementers need to be
+successful while minimizing duplication of effort and fragmentation of
+design choices in the RISC-V community.
+
+
+### Functional Safety SIG
+
+The goal of the Safety SIG (special interest group) within the RISC-V
+Foundation is to identify the need for various architectural
+principles and hardware interfaces for achieving Functional Safety in
+the RISC-V architecture. Focused task groups will be proposed to the
+RISC-V Foundation technical committee to be spun off when sufficient
+critical mass and discussion depth is reached on a specific topic.
+
+{% include jumboboxend.html %}
