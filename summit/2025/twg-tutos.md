@@ -5,7 +5,7 @@ layout: summit2025
 
 {% include jumboboxstart.html
     title = "Tutorials and TWGs/SIGs Meetings"
-    lead = "In <b>Louis Armand East-West</b> amphitheaters, and in <b>Rooms 1-3</b>, level S3.<br>*Please note that tutorials are open to the public while TWGs/SIGs require <a href=\"https://riscv.org/members/join/\">RISC-V membership</a>.*"
+    lead = "In <b>Louis Armand East-West</b> amphitheaters, and in <b>Rooms 1-3</b>, level S3.<br>*Please note that tutorials are open to the public while TWGs/SIGs require <a href=\"https://riscv.org/members/join/\">RISC-V membership.</a>.*"
 %}
 
 Jump to:
@@ -291,12 +291,14 @@ management systems and computer architecture simulators. His research
 focuses on acceleration of DBMS through novel hardware-software
 codesign.*
 
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Tutos" class="backnavigation">To tutorials</a></p>
+
 {% include jumboboxend.html %}
 
 
 {% include jumboboxstart.html
     title = "TWG/SIG Meetings"
-    lead = "Description of **Technical Working Groups**, **Special Interest Group**, and **Horizontal Committees** meetings of RISC-V International<br>*Please note that TWGs/SIGs require <a href=\"https://riscv.org/members/join/\">RISC-V membership</a>*"
+    lead = "Description of **Technical Working Groups**, **Special Interest Group**, and **Horizontal Committees** meetings of RISC-V International.<br>*Please note that TWGs/SIGs require <a href=\"https://riscv.org/members/join/\">RISC-V membership.</a>*"
 	id = "TWG-SIG"
 %}
 
