@@ -69,10 +69,10 @@ At the conference:
 	{% assign kind = "Plenary keynotes and presentations in Gaston Berger anphitheater (S2)." %}
 	{% assign location = "Gaston Berger (S2)" %}
 {% elsif session.Kind == "Demo" %}
-	{% assign kind = "Booths and posters in expo area's S1, S2, & S3.<br/>Demos in Louis Armand East amphitheater (S3)." %}
+	{% assign kind = "Booths and posters in expo area (S1, S2, & S3).<br/>Demos in Louis Armand East amphitheater (S3)." %}
 	{% assign location = "Louis Armand East (S3)" %}
 {% elsif session.Kind == "None" %}
-	{% assign kind = "Booths and posters in expo area's S1, S2, & S3." %}
+	{% assign kind = "Booths and posters in expo area (S1, S2, & S3)." %}
 {% elsif session.Kind == "Breakfast" %}
 	{% assign kind = "Community breakfast in Louis Armand amphitheater (S3)." %}
 	{% assign location = "Louis Armand East (S3)" %}
