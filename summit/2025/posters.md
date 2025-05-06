@@ -51,7 +51,7 @@ At the conference:
 	id = "summary"
 %}
 
-To the lists of posters on display, per day:
+To the lists of posters on display, per day and per island:
 
 {% assign day = "Tue" %}
 {% assign dayLong = "Tuesday 13" %}
