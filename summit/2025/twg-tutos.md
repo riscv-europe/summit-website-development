@@ -48,7 +48,7 @@ This tutorial is free and open to the public, but **requires registration**:
 
 ### T1.3 -- RISC-V on FPGA in 90 minutes
 
-**By Dr Per Anderson.**
+**By Dr Per Anderson**, Lund Univ. **Joachim Rodrigues**, Lund Univ.
 
 You will see and experience how to replicate the design of a simple
 RISC-V processor from scratch to executing programs on an FPGA-board
@@ -72,7 +72,8 @@ or downloads. Thus, the tutorial can be followed in full using no
 other pre-requisites than a (reasonably modern) web browser running on
 a laptop.
 
-**Dr Per Anderson** *(Lund Univ.). His main interests are in design of
+**Dr Per Anderson** *([Lund Univ.](https://www.lunduniversity.lu.se)).
+His main interests are in design of
 digital IC:s. He has a background as researcher, lecturer and
 entrepreneur and is now responsible for, and currently developing, the
 Batchelor level courses in digital design and computer organization at
@@ -82,6 +83,17 @@ course in digital design given in the sophomore year on the EE and CE
 programs. The development and dissemination of these activities were
 made possible by the EU project CHIPS of Europe and the Swedish Chips
 Competence center, SCCC.*
+
+**Dr. Joachim Rodrigues** *received his degree in electronic
+engineering and computer science from the University of Applied
+Science in Kaiserslautern, Germany, in 1999, and the Ph.D. degree in
+circuit design from Lund University in 2005. After being Digital
+Process Lead at Ericsson, he returned to Lund University in 2008 where
+he currently holds an Associate Professorship and is one of the
+directors for the multidisciplinary Swedish research center
+classIC. He is one of the founders of Xenergic AB. His current
+research interest is energy-efficient accelerators for Edge AI
+devices, chiplets, RISC-V processors and design flows.*
 
 <p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Tutos" class="backnavigation">To tutorials</a></p>
 <hr style="width:50%;;margin-left:25%">
