@@ -66,7 +66,7 @@ At the conference:
 {% assign agenda  = site.data.summit-agenda %}
 {% for session in sessions %}
 {% if session.Kind == "Plenary" %}
-	{% assign kind = "Plenary keynotes and presentations in Gaston Berger anphitheater (S2)." %}
+	{% assign kind = "Plenary keynotes and presentations in Gaston Berger amphitheater (S2)." %}
 	{% assign location = "Gaston Berger (S2)" %}
 {% elsif session.Kind == "Demo" %}
 	{% assign kind = "Booths and posters in expo area (S1, S2, & S3).<br/>Demos in Louis Armand East amphitheater (S3)." %}
