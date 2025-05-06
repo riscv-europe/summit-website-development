@@ -118,11 +118,19 @@ T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location 
 By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {%- if presentation.Position -%}, {{ presentation.Position | strip }}{%- endif -%}
 {%- if presentation.Company  -%}, {{ presentation.Company  | strip }}{%- endif -%}
+{%- if presentation.FirstName2 -%}
+,
+**{{ presentation.FirstName2 | strip }} {{ presentation.LastName2 | strip }}**
+{%- if presentation.Position2 -%}, {{ presentation.Position2 | strip }}{%- endif -%}
+{%- if presentation.Company2  -%}, {{ presentation.Company2  | strip }}{%- endif -%}
+{%- endif -%}
 .
 
 {% if presentation.TalkAbstract %}**Abstract**: {{ presentation['TalkAbstract'] | strip_newlines }} {% endif %}
 
-{% if presentation.Bio          %}**Bio**:     *{{ presentation['Bio'] | strip_newlines }}* {% endif %}
+{% if presentation.Bio          %}**Bio**:     *{{ presentation['Bio']  | strip | strip_newlines }}* {% endif %}
+
+{% if presentation.Bio2         %}**Bio**:     *{{ presentation['Bio2'] | strip | strip_newlines }}* {% endif %}
 {% endunless %}
 {% elsif content >= 1600 and content < 2000 %}
 {% assign univdemo = content_s | minus: 1500 %}
