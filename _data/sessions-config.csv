@@ -6,7 +6,7 @@ SessionId,Kind,Room,DayLong,DayShort,Start,End,ChairName,ChairAffiliation,Plan A
 1.5,Plenary,Gaston Berger,Tuesday 13,Tue 13,14:30,15:30,Andy Moore,RISC-V International,,
 1.6,Demo,Louis Armand East,Tuesday 13,Tue 13,15:30,16:30,,,Katzalin,
 1.7,Plenary,Gaston Berger,Tuesday 13,Tue 13,16:30,18:00,,,Anna,
-2.0,Breakfast,Louis Armand East,Wednesday 14,Wed 14,08:00,09:00,,,,
+2.0,Breakfast,Louis Armand East,Wednesday 14,Wed 14,08:00,09:00,Andrea Gallo,RISC-V International,,
 2.1,Plenary,Gaston Berger,Wednesday 14,Wed 14,09:00,10:30,Andrea Gallo,RISC-V International,,
 2.2,Demo,Louis Armand East,Wednesday 14,Wed 14,10:30,11:30,Teresa Cervero,BSC,,
 2.3,Plenary,Gaston Berger,Wednesday 14,Wed 14,11:30,13:00,Olivier Sentieys,INRIA,,
