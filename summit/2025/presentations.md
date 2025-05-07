@@ -94,7 +94,7 @@ At the conference:
 {% assign presentation_ = presentations | where: 'Submission ID', content_s %}
 {% assign presentation  = presentation_[0] %}
 
-### {{ presentation['Title'] | strip_newlines }}
+### {{ presentation['Title'] | strip | strip_newlines }}
 
 T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
@@ -111,7 +111,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 <hr style="width:50%;;margin-left:25%">
 <a id="T{{ slot.SlotId }}"></a>
 
-### {{ presentation['TalkTitle'] | strip_newlines }}
+### {{ presentation['TalkTitle'] | strip | strip_newlines }}
 
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
@@ -140,7 +140,7 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {% unless presentation.Status == "OnHold" %}
 {%- assign emptySlot = false -%}
 
-### {{ presentation['Title'] | strip_newlines }}
+### {{ presentation['Title'] | strip | strip_newlines }}
 
 T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
@@ -156,7 +156,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 {% unless panel.Status == "OnHold" %}
 
 {%- assign emptySlot = false -%}
-## Panel -- {{ panel.Title }}
+## Panel -- {{ panel.Title | strip | strip_newlines }}
 
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
