@@ -1,16 +1,13 @@
 ---
 title: Sponsoring
-layout: summit2025
+layout: summit2025-sponsors-first
 ---
-
-{% include bannerimg.html
-    img = "media/banners/sponsors.jpg"
-%}
 
 {% include jumboboxstart.html
     title = "Become a sponsor"
     lead = "By sponsoring RISC-V Summit Europe 2025, you support the global community and get recognized."
 %}
+
 
 ## Sponsorship Packages
 
