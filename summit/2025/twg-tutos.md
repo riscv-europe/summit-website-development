@@ -598,4 +598,14 @@ critical mass and discussion depth is reached on a specific topic.
 <p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
 
 
+### Automotive SIG
+
+The Automotive SIG provides a global forum for technical and strategic
+input to enable or accelerate the adoption of RISC-V-related
+technology in the automotive industry, specifically for in-vehicle
+compute.
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
+
+
 {% include jumboboxend.html %}
