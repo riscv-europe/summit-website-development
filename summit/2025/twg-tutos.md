@@ -607,5 +607,23 @@ compute.
 
 <p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#TWG-SIG" class="backnavigation">To TWGs, SIGs, and HCs</a></p>
 
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Hot RISC-V Topics!"
+    lead = "Choose a table and join the conversation!"
+	id = "Hot-topics"
+%}
+
+Start your week with engaging conversations on the hottest RISC-V
+topics! Join us Monday at 4:00 PM on the S3 floor and choose a topic
+table:
+ - Software & RISC-V,
+ - Hardware & RISC-V,
+ - RISC-V Education/Training, or
+ - Engaging in the RISC-V Community.
+
+No slides, no seats—just real talk with fellow RISC-V enthusiasts.
 
 {% include jumboboxend.html %}
