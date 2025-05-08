@@ -11,6 +11,7 @@ layout: summit2025
 Jump to:
  - [Tutorial descriptions](#Tutos).
  - [Details on some of the TWGs, SIGs, and HCs](#TWG-SIG).
+ - [Hot topics disucssion](#Hot-topics).
 
 {% include jumboboxend.html %}
 
@@ -44,6 +45,9 @@ This tutorial is free and open to the public, but **requires registration**:
 <div class="row justify-content-md-center my-4">
     <a href="https://community.riscv.org/events/details/risc-v-international-risc-v-synergy-forums-technical-talks-and-webinars-presents-intro-to-risc-v-summit-europe/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register to <em>Intro to RISC-V (aka RISC-V 101)</em><br> Monday 12 May, 10h00-13h00</a>
 </div>
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Tutos" class="backnavigation">To tutorials</a></p>
+<hr style="width:50%;;margin-left:25%">
 
 
 ### T1.3 -- RISC-V on FPGA in 90 minutes
@@ -625,5 +629,8 @@ table:
  - Engaging in the RISC-V Community.
 
 No slides, no seats—just real talk with fellow RISC-V enthusiasts.
+
+<p align="center" style="font-size: 0.8em"><a href="#Top" class="backnavigation">To page top</a> &mdash; <a href="#Hot-topics" class="backnavigation">To hot topics</a></p>
+<hr style="width:50%;;margin-left:25%">
 
 {% include jumboboxend.html %}
