@@ -39,7 +39,7 @@ attendees.
 
 {% include jumboboxstart.html 
     title = "DeepComputing Evening Reception!"
-    lead = ""
+    lead = "Raffles of lego and a mini-PC!"
 	id = "DeepComputing"
 %}
 
