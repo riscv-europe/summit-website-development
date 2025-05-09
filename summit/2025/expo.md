@@ -3,11 +3,6 @@ title: Expo
 layout: summit2025
 ---
 
-{% include bannerimg.html 
-    img = "media/banners/Amphi-Berger-full.jpg"
-    caption = "&copy; A. Robin - La Cité des Sciences"
-%}
-
 {% include jumboboxstart.html 
     title = "Expo area"
     lead = "A 3 levels expo area to meet our sponsors and network."
@@ -23,9 +18,29 @@ interaction between all summit participants
 
 {% include jumboboxend.html %}
 
-{% include jumboboxstart.html 
-    title = "Demo Theater"
-    lead = "A dedicated amphitheatre for demos and product presentations."
+{% include bannerimg.html
+    img = "media/banners/exhibitors.png"
+	caption = "The exhibitors are located on S1 & S2. The posters islands are on S1, S2 & S3.<br>The main entries to Gaston Berger amphitheatre is on S2, for Louis Armand on S3.<br>S3 is also a lounge area."
+%}
+
+{% include bannerimg.html
+    img = "media/banners/S1.png"
+	caption = "S1, at level -1 from the entrance: reception, cloack room, exhibitors, posters islands, dev zone, lavatories."
+%}
+
+{% include bannerimg.html
+    img = "media/banners/S2.png"
+	caption = "S2, at level -2: exhibitors, posters islands, main entries to amphitheatre Gaston Berger."
+%}
+
+{% include bannerimg.html
+    img = "media/banners/S3.png"
+	caption = "S2, at level -2: posters islands, lounge area, entries to amphitheatres Louis Armand. Lavatories."
+%}
+
+{% include jumboboxstart.html
+    title = "Demo Theatre"
+    lead = "From Tuesday to Thursday, Louis Armand East (S3) will be dedicated to demos and product presentations."
 %}
 
 From Tuesday 13 noon until Wednesday 14 afternoon, during breaks and
