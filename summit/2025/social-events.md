@@ -79,12 +79,14 @@ spectacular immersive experience.
 
 Details will be provided during the Summit.
 
+<p align="center" style="font-size: 0.8em"><a href="social-events.html" class="backnavigation">To page top</a> &mdash; <a href="#Cocktail" class="backnavigation">To Welcome</a> &mdash; <a href="#DeepComputing" class="backnavigation">To Deep Computing</a> <br> <a href="#Planetarium" class="backnavigation">To Planetarium</a> &mdash; <a href="#Social" class="backnavigation">To Summit's Social Event</a></p>
+
 {% include jumboboxend.html %}
 
 
 {% include jumboboxstart.html 
     title = "The Summit 2025 Social Event!"
-    lead = "<i>, Wednesday 14 from 20:00&ndash;23:00 upstairs from the Summit"
+    lead = "Wednesday 14 from 20:00&ndash;23:00 upstairs from the Summit"
 	id = "Social"
 %}
 
