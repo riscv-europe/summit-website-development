@@ -43,7 +43,7 @@ attendees.
 	id = "DeepComputing"
 %}
 
-Between 18:00&ndash;20:00, on Wednesday:
+Between 18:00&ndash;20:00, on Wednesday 14:
 
  - DeepComputing wikk raffle <a
    href="https://deepcomputing.io/product/dc-roma-risc-v-mainboard/">DC-ROMA
