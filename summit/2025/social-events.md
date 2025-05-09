@@ -34,6 +34,8 @@ layout: summit2025
 Enjoy beverages and light bites, while networking with exhibitors and
 attendees.
 
+<p align="center" style="font-size: 0.8em"><a href="social-events.html" class="backnavigation">To page top</a> &mdash; <a href="#Cocktail" class="backnavigation">To Welcome</a> &mdash; <a href="#DeepComputing" class="backnavigation">To Deep Computing</a> <br> <a href="#Planetarium" class="backnavigation">To Planetarium</a> &mdash; <a href="#Social" class="backnavigation">To Summit's Social Event</a></p>
+
 {% include jumboboxend.html %}
 
 
@@ -60,6 +62,8 @@ Raffle Tickets are available at the DeepComputing & RISC-V booths.
 	<img src="media/social-events/DeepComputing-lego.png" style="width:90%">
  </div>
 </div>
+<p>&nbsp;</p>
+<p align="center" style="font-size: 0.8em"><a href="social-events.html" class="backnavigation">To page top</a> &mdash; <a href="#Cocktail" class="backnavigation">To Welcome</a> &mdash; <a href="#DeepComputing" class="backnavigation">To Deep Computing</a> <br> <a href="#Planetarium" class="backnavigation">To Planetarium</a> &mdash; <a href="#Social" class="backnavigation">To Summit's Social Event</a></p>
 
 {% include jumboboxend.html %}
 
@@ -93,5 +97,7 @@ Details will be provided during the Summit.
 *Last, but not least&hellip;* join us Wednesday evening for a special
 night of networking, cocktails, and a buffet dinner, set at the
 **Forum**, against the backdrop of open museum exhibits'
+
+<p align="center" style="font-size: 0.8em"><a href="social-events.html" class="backnavigation">To page top</a> &mdash; <a href="#Cocktail" class="backnavigation">To Welcome</a> &mdash; <a href="#DeepComputing" class="backnavigation">To Deep Computing</a> <br> <a href="#Planetarium" class="backnavigation">To Planetarium</a> &mdash; <a href="#Social" class="backnavigation">To Summit's Social Event</a></p>
 
 {% include jumboboxend.html %}
