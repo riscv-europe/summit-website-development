@@ -13,26 +13,26 @@ layout: summit2025
     lead = "There will be several opportunities at the Summit for free interactions with other members of the RISC-V community!"
 %}
 
-- [The welcome cocktail](#Cocktail), Thursday 13 from 18:00 to 20:30
-  at the expo area (S1, S2, & S3).
+- [The Welcome Networking Reception](#Cocktail), Thursday 13 from
+  18:00&ndash;20:30 at the expo area (S1 & S2).
 - [The Deep Computing Reception](#DeepComputing), Wednesday 14
-  evening, from 18:00 to 20:00, at DeepComputing's booth and the expo
-  area (S1, S2, S3).
+  evening, from 18:00&ndash;20:00, at the expo area (S1 & S2).
 - [The Planetarium sessions](#Planetarium), Wednesday 14 evening,
-  between 18:00 and 20:00 at the
+  between 18:00&ndash;20:00 at the
   [Planetarium](https://www.cite-sciences.fr/en/planetarium).
 - [The Summit 2025 Social Event](#Social), Wednesday 14 evening, from
-  20:00 to 23:00 at the **Forum**, upstairs from the Summit.
+  20:00&ndash;23:00 at the **Forum**, upstairs from the Summit.
 
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
-    title = "The welcome cocktail!"
-    lead  = "On Tuesday, from 18:00 to 21:00, a cocktail will be served within the expo (S1, S2, & S3)."
+    title = "The Welcome Networking Reception!"
+	lead  = "Tuesday 13 from 18:00&ndash;20:30 at expo area (S1 & S2)"
 	id    = "Cocktail"
 %}
 
-(Simple cocktail description welcome!)
+Enjoy beverages and light bites, while networking with exhibitors and
+attendees.
 
 {% include jumboboxend.html %}
 
@@ -43,18 +43,23 @@ layout: summit2025
 	id = "DeepComputing"
 %}
 
-<table>
-<tr> 
-<td>Between 28:00 and 20:00, on Wednesday, to celebrate their <a
-href="https://deepcomputing.io/product/dc-roma-risc-v-mainboard/">DC-ROMA
-RISC-V Mainboard</a>, DeepComputing will be raffling off a set of
-Lego!
-</td>
-<td>
-<img src="media/social-events/DeepComputing-lego.png" width="100%">
-</td>
-</tr>
-</table>
+Between 18:00&ndash;20:00, on Wednesday:
+
+ - DeepComputing wikk raffle <a
+   href="https://deepcomputing.io/product/dc-roma-risc-v-mainboard/">DC-ROMA
+   RISC-V Mainboard</a>!
+ - While RISC-V International will raffle a set of lego!
+
+Raffle Tickets are available at the DeepComputing & RISC-V booths.
+
+<div class="row">
+  <div class="column">
+	<img src="media/social-events/DeepComputing-minipc.png" style="width:90%">
+  </div>
+  <div class="column">
+	<img src="media/social-events/DeepComputing-lego.png" style="width:90%">
+ </div>
+</div>
 
 {% include jumboboxend.html %}
 
@@ -65,21 +70,26 @@ Lego!
 	id = "Planetarium"
 %}
 
-(More planetaium stuff here)
+With its high-resolution projection equipment, the Cité's
+[Planetarium](https://www.cite-sciences.fr/en/planetarium) will take
+you on a thrilling journey to the outer reaches of the
+universe. Surrounded by 360° computer-generated images, not only will
+you learn more, you'll also feel as if you really are in space! A
+spectacular immersive experience.
+
+Details will be provided during the Summit.
 
 {% include jumboboxend.html %}
 
 
 {% include jumboboxstart.html 
-    title = "Last, but not least... the Summit 2025 Social Event!"
-    lead = "Not far away, upstairs from the Summit..."
+    title = "The Summit 2025 Social Event!"
+    lead = "<i>, Wednesday 14 from 20:00&ndash;23:00 upstairs from the Summit"
 	id = "Social"
 %}
 
-Join us Wednesday evening from 20:00–23:00 for a special night of
-networking, cocktails, and a buffet dinner—set against the backdrop of
-three open museum exhibits'
-
-(More stuff is comming for the exhibitions.)
+*Last, but not least&hellip;* join us Wednesday evening for a special
+night of networking, cocktails, and a buffet dinner, set at the
+**Forum**, against the backdrop of open museum exhibits'
 
 {% include jumboboxend.html %}
