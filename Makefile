@@ -35,6 +35,21 @@ gdrive-import-downloaded:
 	cp $(GDRIVE_DOWNLOAD_DIR)/Submission_Information.csv      		$(GDRIVE_TARGET_DIR)/summit25posters.csv
 
 
+# Consolidate information from various CSV files to ease Summit's web
+# site generation.
+
+## Call the consolidation
+consolidate:
+	mkdir -p _tmp
+	_bin/consolidate.py \
+		--agenda  $(GDRIVE_TARGET_DIR)/summit-agenda.csv \
+		--posters $(GDRIVE_TARGET_DIR)/posters-agenda.csv \
+		--invited $(GDRIVE_TARGET_DIR)/talks-details.csv \
+		--subm _data/summit25posters.csv \
+		--pdf-src-dir .
+		--pdf-dst-dir _tmp
+
+
 # A couple of shorthands to Jekyll production management.
 
 ## To compile and publish the web site on a local web server.
