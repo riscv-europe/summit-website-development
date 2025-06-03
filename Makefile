@@ -13,6 +13,9 @@ GDRIVE_INVITEDTALKS_BFN?=Invited-Talks-Keynotes\ -\
 ## Target repo. directory for these files.
 GDRIVE_TARGET_DIR:=$(shell pwd)/_data
 
+## Local dir with all the PDF from Softconf' submissions. Defaults to ../
+SUBMITTED_PDFS?=$(shell pwd)/../submitted-pdfs
+
 
 # Import Google drive files downloaded by Firefox.
 
