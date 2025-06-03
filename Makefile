@@ -49,9 +49,8 @@ consolidate:
 		--posters $(GDRIVE_TARGET_DIR)/posters-agenda.csv \
 		--invited $(GDRIVE_TARGET_DIR)/talks-details.csv \
 		--subm _data/summit25posters.csv \
-		--pdf-src-dir .
-		--pdf-dst-dir _tmp
-
+		--submitted-pdfs $(SUBMITTED_PDFS) \
+		--published-pdfs _tmp
 
 # A couple of shorthands to Jekyll production management.
 

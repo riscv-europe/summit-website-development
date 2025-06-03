@@ -36,8 +36,8 @@ def main():
     parser.add_argument('--posters',     required=True,  help="Path to the posters' CSV file")
     parser.add_argument('--subm',        required=True,  help="Path to the submitted talks/posters' CSV file")
     parser.add_argument('--invited',     required=True,  help="Path to the invited talks' CSV file")
-    parser.add_argument('--pdf-src-dir', required=False, help="Path to the PDFs source dir", default=".")
-    parser.add_argument('--pdf-dst-dir', required=False, help="Path to the PDFs target dir", default=".")
+    parser.add_argument('--submitted-pdfs', required=False, help="Path to the submitted PDFs source dir", default=".")
+    parser.add_argument('--published-pdfs', required=False, help="Path to the published PDFs target dir", default=".")
 
     # Parse arguments
     args = parser.parse_args()
