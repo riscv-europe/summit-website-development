@@ -28,6 +28,21 @@ def ensure_column(rows, column):
         if column not in row:
             row[column] = None
 
+def create_PDFs_filenames(posters, subs):
+    """Create the filenames for posters and their abstracts"""
+    full_days = dict(zip({"Tue","Wed","Thu"},{"2025-05-13","2025-05-14","2025-05-15"}))
+    reverse_subs = {}
+    for sub in subs:
+        reverse_subs[sub['Submission ID']] = sub
+    for poster in posters:
+        if poster['PosterId'] != "":
+            sub = reverse_subs[poster['PosterId']]
+            abstractFileName = f"{full_days[poster['Day']]}-RISC-V-Summit-Europe-{poster['Island']}-{poster['StantRank']}-{sub['1: Last Name'].upper()}-abstract.pdf"
+            posterFileName   = f"{full_days[poster['Day']]}-RISC-V-Summit-Europe-{poster['Island']}-{poster['StantRank']}-{sub['1: Last Name'].upper()}-poster.pdf"
+            poster['AbstractPDFFileName'] = abstractFileName
+            poster['PosterPDFFileName'  ] = posterFileName
+        print(poster)
+
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
     # Set up argument parser
@@ -53,8 +68,12 @@ def main():
         print("Cannot proceed due to file reading errors.")
         sys.exit(1)
 
-    print(type(posters))
-        
+    # Make sure that each row has a column for PDF base target file
+    # names.
+    ensure_column(posters,'AbstractPDFFileName')
+    ensure_column(posters,'PosterPDFFileName')
+    create_PDFs_filenames(posters,subm)
+
     # Make sure that each row has a column for posters's PDF.
     ensure_column(posters,'PosterPDF')
     
