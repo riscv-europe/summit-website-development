@@ -41,7 +41,6 @@ def create_PDFs_filenames(posters, subs):
             posterFileName   = f"{full_days[poster['Day']]}-RISC-V-Summit-Europe-{poster['Island']}-{poster['StantRank']}-{sub['1: Last Name'].upper()}-poster.pdf"
             poster['AbstractPDFFileName'] = abstractFileName
             poster['PosterPDFFileName'  ] = posterFileName
-        print(poster)
 
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
@@ -77,11 +76,12 @@ def main():
 
     # Make sure that each row has a column for posters's PDF.
     ensure_column(posters,'PosterPDF')
-    
-    # Display the contents of the files
-    print(f"\nContents of {args.posters}:")
-    for row in posters:
-        print(row)
+
+    # If debug is on, display the contents of the input files.
+    if args.debug:
+        print(f"\nContents of {args.posters}, with extra fields:")
+        for poster in posters:
+            print(poster)
     
 if __name__ == "__main__":
     main()
