@@ -73,7 +73,7 @@ def check_and_import_posters(posters, src_dir, dest_dir):
                     if args.debug:
                         print(f"Found unused file", file=sys.stderr)
         else:
-            print(f"Poster {poster_id} has no abstract nor actual poster.", file=sys.stderr)
+            print(f"Poster {poster_id:>4} has no abstract nor actual poster.", file=sys.stderr)
 
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
