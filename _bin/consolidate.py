@@ -6,6 +6,8 @@ import csv
 import argparse
 import sys
 
+args = {}
+
 def read_csv(filename):
     """Read a CSV file and return its contents as a list of rows."""
     try:
@@ -56,6 +58,7 @@ def main():
     parser.add_argument('--published-pdfs', required=False, help="Path to the published PDFs target dir", default=".")
 
     # Parse arguments
+    global args
     args = parser.parse_args()
     
     # Read the files
