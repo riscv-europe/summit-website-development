@@ -50,7 +50,7 @@ consolidate:
 		--invited $(GDRIVE_TARGET_DIR)/talks-details.csv \
 		--subm _data/summit25posters.csv \
 		--submitted-pdfs $(SUBMITTED_PDFS) \
-		--published-pdfs _tmp
+		--published-pdfs _tmp ${CONSOLIDATE_DEBUG}
 
 # A couple of shorthands to Jekyll production management.
 
