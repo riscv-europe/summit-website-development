@@ -5,6 +5,8 @@
 import csv
 import argparse
 import sys
+import os
+import shutil
 
 args = {}
 
@@ -44,6 +46,35 @@ def create_PDFs_filenames(posters, subs):
             posterFileName   = f"{full_days[poster['Day']]}-RISC-V-Summit-Europe-{poster['Island']}-{poster['StantRank']}-{last_name}-poster.pdf"
             poster['AbstractPDFFileName'] = abstractFileName
             poster['PosterPDFFileName'  ] = posterFileName
+
+def check_and_import_posters(posters, src_dir, dest_dir):
+    for poster in posters:
+        poster_id = poster['PosterId']
+        poster_dir = os.path.join(src_dir,poster_id)
+        if os.path.exists(poster_dir):
+            for file in os.listdir(poster_dir):
+                abstract_file = f"{poster_id}_Abstract.pdf"
+                poster_file   = f"{poster_id}_Poster.pdf"
+                if file == abstract_file:
+                    src_path  = os.path.join(src_dir,poster_id,abstract_file)
+                    dest_path = os.path.join(dest_dir,poster['AbstractPDFFileName'])
+                    if os.path.exists(src_path):
+                        shutil.copy(src_path,dest_path)
+                    else:
+                        print(f"No file: {src_path}")
+                elif file == poster_file:
+                    src_path  = os.path.join(src_dir,poster_id,poster_file)
+                    dest_path = os.path.join(dest_dir,poster['PosterPDFFileName'])
+                    if os.path.exists(src_path):
+                        shutil.copy(src_path,dest_path)
+                    else:
+                        print(f"No file: {src_path}")
+                else:
+                    if args.debug:
+                        print(f"Found unused file", file=sys.stderr)
+        else:
+            if args.debug:
+                print(f"Poster {poster-id} has no abstract nor actual poster.", file=sys.stderr)
 
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
@@ -86,6 +117,9 @@ def main():
         print(f"\nContents of {args.posters}, with extra fields:")
         for poster in posters:
             print(poster)
-    
+
+    # Check and import posters' asbtract and actual poster files.
+    check_and_import_posters(posters,args.submitted_pdfs,args.published_pdfs)
+
 if __name__ == "__main__":
     main()
