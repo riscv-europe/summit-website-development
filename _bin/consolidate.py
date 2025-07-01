@@ -102,8 +102,10 @@ def main():
         print("Cannot proceed due to file reading errors.")
         sys.exit(1)
 
-    # Make sure that each row has a column for PDF base target file
-    # names.
+    # Somme bookeeping to prepare posters' table for further
+    # processing: (1) Ensure that there are columns for posters'
+    # abstract and actual poster filenames. (2) Create the actual
+    # files names for posters' abstract and actual poster.
     ensure_column(posters,'AbstractPDFFileName')
     ensure_column(posters,'PosterPDFFileName')
     create_PDFs_filenames(posters,subm)
