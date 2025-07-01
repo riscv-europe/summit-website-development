@@ -105,9 +105,13 @@ def main():
     # Somme bookeeping to prepare posters' table for further
     # processing: (1) Ensure that there are columns for posters'
     # abstract and actual poster filenames. (2) Create the actual
-    # files names for posters' abstract and actual poster.
+    # files names for posters' abstract and actual poster. (3) filter
+    # out empty poster slots. (4) Sort by PosterId to ease reporting
+    # of missing PDF files.
     ensure_column(posters,'AbstractPDFFileName')
     ensure_column(posters,'PosterPDFFileName')
+    posters = [poster for poster in posters if poster['PosterId'] != ""]
+    posters = sorted(posters, key=lambda poster: int(poster['PosterId']))
     create_PDFs_filenames(posters,subm)
 
     # Make sure that each row has a column for posters's PDF.
