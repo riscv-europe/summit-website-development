@@ -1,5 +1,5 @@
-{% assign islands = site.data.islands-config | where: 'Day', day %}
-{% assign stands  = site.data.posters-agenda | where: 'Day', day %}
+{% assign islands = site.data.summit2025.islands-config | where: 'Day', day %}
+{% assign stands  = site.data.summit2025.posters-agenda | where: 'Day', day %}
 {% assign levels  = "S1, S2, S3" | split: ", " -%}
 
  - {{ dayLong }}.

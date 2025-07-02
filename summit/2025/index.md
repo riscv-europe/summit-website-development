@@ -46,7 +46,7 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 %}
 
 <div class="row mt-5">
-{% assign talks = site.data.talks-details | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% assign talks = site.data.summit2025.talks-details | where: "Status", "OkToPublish" | sort: "LastName" %}
 {% for talk in talks %}
 {% if talk['TalkKind'] == "InvitedKeynote" or talk['TalkKind'] == "InvitedPres" or talk['TalkKind'] == "SponsorKeynote" %}
 {% include summit25talk-short.md talk=talk %}
@@ -54,9 +54,9 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 {% endfor %}
 </div>
 
-{% assign talks = site.data.talks-details | where: "Status", "OkToPublish" | sort: "Session" %}
+{% assign talks = site.data.summit2025.talks-details | where: "Status", "OkToPublish" | sort: "Session" %}
 {% assign agenda  = site.data.summit-agenda %}
-{% assign config  = site.data.sessions-config %}
+{% assign config  = site.data.summit2025.sessions-config %}
 {% for talk in talks %}
 {% if talk['TalkKind'] == "InvitedKeynote" or talk['TalkKind'] == "InvitedPres" or talk['TalkKind'] == "SponsorKeynote" %}
 <hr style="width:50%;;margin-left:25%">

@@ -9,10 +9,10 @@ layout: summit2025
 %}
 
 {% assign presentations = site.data.summit25posters %}
-{% assign invited = site.data.talks-details %}
-{% assign panels  = site.data.panels-details %}
-{% assign univdemos  = site.data.univ-demos %}
-{% assign sessions_raw = site.data.sessions-config %}
+{% assign invited = site.data.summit2025.talks-details %}
+{% assign panels  = site.data.summit2025.panels-details %}
+{% assign univdemos  = site.data.summit2025.univ-demos %}
+{% assign sessions_raw = site.data.summit2025.sessions-config %}
 {% assign sessions = "" | split: "" %}
 {% for sess in sessions_raw %}
     {% unless sess.Kind == "None" %}
