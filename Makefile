@@ -1,5 +1,8 @@
 # Configuration variables
 
+## This is for year 2025.
+YEAR=2025
+
 ## Firefox's download dir where Google drive files will land.
 GDRIVE_DOWNLOAD_DIR?=${HOME}/Downloads
 
@@ -11,7 +14,7 @@ GDRIVE_SUMMITCONFIG_BFN?=Summit-Config\ -\
 GDRIVE_INVITEDTALKS_BFN?=Invited-Talks-Keynotes\ -\ 
 
 ## Target repo. directory for these files.
-GDRIVE_TARGET_DIR:=$(shell pwd)/_data
+GDRIVE_ASIMPORTED_DIR:=$(shell pwd)/_data/summit$(YEAR)/asimported
 
 ## Local dir with all the PDF from Softconf' submissions. Defaults to ../
 SUBMITTED_PDFS?=$(shell pwd)/../submitted-pdfs
@@ -28,14 +31,14 @@ clobber-imported:
 ## This done the brutal way because GNU make cannot handle properly
 ## file names with white spaces.
 gdrive-import-downloaded:
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)sessions-config.csv $(GDRIVE_TARGET_DIR)/sessions-config.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)summit-agenda.csv   $(GDRIVE_TARGET_DIR)/summit-agenda.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)islands-config.csv  $(GDRIVE_TARGET_DIR)/islands-config.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)posters-agenda.csv  $(GDRIVE_TARGET_DIR)/posters-agenda.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)talks-details.csv   $(GDRIVE_TARGET_DIR)/talks-details.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)panels-details.csv  $(GDRIVE_TARGET_DIR)/panels-details.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)univ-demos.csv      $(GDRIVE_TARGET_DIR)/univ-demos.csv
-	cp $(GDRIVE_DOWNLOAD_DIR)/Submission_Information.csv      		$(GDRIVE_TARGET_DIR)/summit25posters.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)sessions-config.csv $(GDRIVE_ASIMPORTED_DIR)/sessions-config.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)summit-agenda.csv   $(GDRIVE_ASIMPORTED_DIR)/summit-agenda.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)islands-config.csv  $(GDRIVE_ASIMPORTED_DIR)/islands-config.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_SUMMITCONFIG_BFN)posters-agenda.csv  $(GDRIVE_ASIMPORTED_DIR)/posters-agenda.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)talks-details.csv   $(GDRIVE_ASIMPORTED_DIR)/talks-details.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)panels-details.csv  $(GDRIVE_ASIMPORTED_DIR)/panels-details.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)univ-demos.csv      $(GDRIVE_ASIMPORTED_DIR)/univ-demos.csv
+	cp $(GDRIVE_DOWNLOAD_DIR)/Submission_Information.csv      		$(GDRIVE_ASIMPORTED_DIR)/summit25posters.csv
 
 
 # Consolidate information from various CSV files to ease Summit's web
@@ -45,9 +48,9 @@ gdrive-import-downloaded:
 consolidate:
 	mkdir -p _tmp
 	_bin/consolidate.py \
-		--agenda  $(GDRIVE_TARGET_DIR)/summit-agenda.csv \
-		--posters $(GDRIVE_TARGET_DIR)/posters-agenda.csv \
-		--invited $(GDRIVE_TARGET_DIR)/talks-details.csv \
+		--agenda  $(GDRIVE_ASIMPORTED_DIR)/summit-agenda.csv \
+		--posters $(GDRIVE_ASIMPORTED_DIR)/posters-agenda.csv \
+		--invited $(GDRIVE_ASIMPORTED_DIR)/talks-details.csv \
 		--subm _data/summit25posters.csv \
 		--submitted-pdfs $(SUBMITTED_PDFS) \
 		--published-pdfs _tmp ${CONSOLIDATE_DEBUG}
@@ -60,14 +63,14 @@ view-site:
 
 ## To properly import and commit the speaker list. 
 dos2unix:
-	dos2unix $(GDRIVE_TARGET_DIR)/sessions-config.csv
-	dos2unix $(GDRIVE_TARGET_DIR)/summit-agenda.csv
-	dos2unix $(GDRIVE_TARGET_DIR)/islands-config.csv
-	dos2unix $(GDRIVE_TARGET_DIR)/posters-agenda.csv
-	dos2unix $(GDRIVE_TARGET_DIR)/talks-details.csv
-	dos2unix $(GDRIVE_TARGET_DIR)/panels-details.csv
-	dos2unix $(GDRIVE_TARGET_DIR)/univ-demos.csv
-	dos2unix $(GDRIVE_TARGET_DIR)/summit25posters.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/sessions-config.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/summit-agenda.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/islands-config.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/posters-agenda.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/talks-details.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/panels-details.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/univ-demos.csv
+	dos2unix $(GDRIVE_ASIMPORTED_DIR)/summit25posters.csv
 
 data-check: dos2unix
 	git diff _data/*.csv
