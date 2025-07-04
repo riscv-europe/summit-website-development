@@ -83,9 +83,9 @@ def main():
     parser.add_argument('--posters',     required=True,  help="Path to the posters' CSV file")
     parser.add_argument('--subm',        required=True,  help="Path to the submitted talks/posters' CSV file")
     parser.add_argument('--invited',     required=True,  help="Path to the invited talks' CSV file")
-    parser.add_argument('--debug',       required=False, help="Dump the input file contents for debug purposes.", action="store_true", default=False)
     parser.add_argument('--submitted-pdfs', required=False, help="Path to the submitted PDFs source dir", default=".")
     parser.add_argument('--published-pdfs', required=False, help="Path to the published PDFs target dir", default=".")
+    parser.add_argument('--debug',       required=False, help="Dump the input file contents for debug purposes.", action="store_true", default=False)
 
     # Parse arguments
     global args
