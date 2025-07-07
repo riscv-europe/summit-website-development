@@ -50,6 +50,8 @@ def create_PDFs_filenames(posters, subs):
 def check_and_import_posters(posters, src_dir, dest_dir):
     for poster in posters:
         poster_id = poster['PosterId']
+        if poster_id == "": # Some poster stands may be empty.
+            continue
         poster_dir = os.path.join(src_dir,poster_id)
         if os.path.exists(poster_dir):
             for file in os.listdir(poster_dir):
