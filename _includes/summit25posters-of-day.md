@@ -1,5 +1,5 @@
-{% assign islands = site.data.summit2025.islands-config | where: 'Day', day %}
-{% assign stands  = site.data.summit2025.posters-agenda | where: 'Day', day %}
+{% assign islands = site.data.summit2025.asimported.islands-config | where: 'Day', day %}
+{% assign stands  = site.data.summit2025.integrated.posters-agenda | where: 'Day', day %}
 
 {% for island in islands %}
 

@@ -8,9 +8,9 @@ layout: summit2025
     lead = "**Notes for poster presenters**"
 %}
 
-{% assign posters_pure           = site.data.summit25posters | where: 'Acceptance Status', 'Accept as poster' %}
-{% assign presentation_technical = site.data.summit25posters | where: 'Acceptance Status', 'Accept as presentation' %}
-{% assign presentation_industry  = site.data.summit25posters | where: 'Acceptance Status', 'Accept as presentation (industry)' %}
+{% assign posters_pure           = site.data.summit2025.asimported.summit25posters | where: 'Acceptance Status', 'Accept as poster' %}
+{% assign presentation_technical = site.data.summit2025.asimported.summit25posters | where: 'Acceptance Status', 'Accept as presentation' %}
+{% assign presentation_industry  = site.data.summit2025.asimported.summit25posters | where: 'Acceptance Status', 'Accept as presentation (industry)' %}
 {% assign posters = posters_pure | concat: presentation_technical | concat: presentation_industry %}
 
 Preparation before the conference:
