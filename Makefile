@@ -54,7 +54,7 @@ consolidate:
 		--agenda  $(ASIMPORTED_CSV_DIR)/summit-agenda.csv \
 		--posters $(ASIMPORTED_CSV_DIR)/posters-agenda.csv \
 		--invited $(ASIMPORTED_CSV_DIR)/talks-details.csv \
-		--subm _data/summit25posters.csv \
+		--subm    $(ASIMPORTED_CSV_DIR)/summit25posters.csv \
 		--submitted-pdfs $(SUBMITTED_PDFS) \
 		--integrated-csvs $(INTEGRATED_CSV_DIR) \
 		--published-pdfs _tmp ${CONSOLIDATE_DEBUG}
