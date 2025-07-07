@@ -107,7 +107,7 @@ def main():
     # abstract and actual poster filenames. (2) Create the actual
     # files names for posters' abstract and actual poster. (3) filter
     # out empty poster slots. (4) Sort by PosterId to ease reporting
-    # of missing PDF files.
+    # of missing PDF files on stderr.
     ensure_column(posters,'AbstractPDFFileName')
     ensure_column(posters,'PosterPDFFileName')
     posters = [poster for poster in posters if poster['PosterId'] != ""]
