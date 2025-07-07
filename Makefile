@@ -57,7 +57,8 @@ consolidate:
 		--subm    $(ASIMPORTED_CSV_DIR)/summit25posters.csv \
 		--submitted-pdfs $(SUBMITTED_PDFS) \
 		--integrated-csvs $(INTEGRATED_CSV_DIR) \
-		--published-pdfs _tmp ${CONSOLIDATE_DEBUG}
+		--published-pdfs _tmp \
+		${CONSOLIDATE_DEBUG}
 
 # A couple of shorthands to Jekyll production management.
 
