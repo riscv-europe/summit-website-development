@@ -10,6 +10,8 @@ import shutil
 
 args = {}
 
+posters_agenda_csv = "posters-agenda.csv"
+
 def read_csv(filename):
     """Read a CSV file and return its contents as a list of rows."""
     try:
@@ -135,6 +137,26 @@ def main():
 
     # Check and import posters' asbtract and actual poster files.
     check_and_import_posters(posters,args.submitted_pdfs,args.published_pdfs)
+
+    # Sort posters for final publishing on the web site.
+    def poster_ordering(poster):
+        sorted_days = {
+            "Tue": 1,
+            "Wed": 2,
+            "Thu": 3,
+        }
+        return (sorted_days.get(sorted_days.get(poster['Day'])),poster['Island'],poster['StantRank']) # 'Stant' is an unfortunate typo. Should be 'Stand'.
+    posters.sort(key=poster_ordering)
+
+    # Write to posters' agenda file.
+    os.makedirs(args.integrated_csvs, exist_ok=True)
+    posters_agenda = os.path.join(args.integrated_csvs,posters_agenda_csv)
+    with open(posters_agenda, mode="w", newline='') as file:
+        header = posters[0].keys()
+        writer = csv.DictWriter(file, fieldnames=header)
+        writer.writeheader()
+        writer.writerows(posters)
+    print(f"Posters, islands and stands described in '{posters_agenda}'.")
 
 if __name__ == "__main__":
     main()
