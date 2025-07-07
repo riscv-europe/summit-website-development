@@ -47,13 +47,13 @@ gdrive-import-downloaded:
 	cp $(GDRIVE_DOWNLOAD_DIR)/Submission_Information.csv      		$(ASIMPORTED_CSV_DIR)/summit25posters.csv
 
 
-# Consolidate information from various CSV files to ease Summit's web
+# Integrate information from various CSV files to ease Summit's web
 # site generation.
 
-## Call the consolidation
-consolidate:
+## Call the integration of all data source
+integrate:
 	mkdir -p _tmp
-	_bin/consolidate.py \
+	_bin/integrate.py \
 		--agenda  $(ASIMPORTED_CSV_DIR)/summit-agenda.csv \
 		--posters $(ASIMPORTED_CSV_DIR)/posters-agenda.csv \
 		--invited $(ASIMPORTED_CSV_DIR)/talks-details.csv \
@@ -61,7 +61,7 @@ consolidate:
 		--submitted-pdfs $(SUBMITTED_PDFS) \
 		--integrated-csvs $(INTEGRATED_CSV_DIR) \
 		--published-pdfs $(PROCEEDINGS_DIR) \
-		${CONSOLIDATE_DEBUG}
+		${INTEGRATE_DEBUG}
 
 # A couple of shorthands to Jekyll production management.
 
