@@ -22,7 +22,11 @@
 <hr style="width:50%;;margin-left:25%">
 ### {{ poster["Title"] | strip_newlines }}
 
-P{{ stand.StandId }} (sub. \#{{ poster['Submission ID'] }}). On {{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.
+<p style="{ font-size: 70%}">
+Sub. #{{ poster['Submission ID'] }}.
+{% if stand['PosterPDFFileName']   %}<a href="media/proceedings/{{ stand['PosterPDFFileName'] }}">Poster</a>.{% endif %}
+{% if stand['AbstractPDFFileName'] %}<a href="media/proceedings/{{ stand['AbstractPDFFileName'] }}">Extented abstract</a>.{% endif %}
+P{{ stand.StandId }}: {{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.</p>
 
 {% assign authors = poster['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
