@@ -22,6 +22,9 @@ INTEGRATED_CSV_DIR:=$(shell pwd)/_data/summit$(YEAR)/integrated
 ## Local dir with all the PDF from Softconf' submissions. Defaults to ../
 SUBMITTED_PDFS?=$(shell pwd)/../submitted-pdfs
 
+## Where to put the PDF procedings.
+PROCEEDINGS_DIR:=summit/$(YEAR)/media/proceedings
+
 
 # Import Google drive files downloaded by Firefox.
 
@@ -57,7 +60,7 @@ consolidate:
 		--subm    $(ASIMPORTED_CSV_DIR)/summit25posters.csv \
 		--submitted-pdfs $(SUBMITTED_PDFS) \
 		--integrated-csvs $(INTEGRATED_CSV_DIR) \
-		--published-pdfs _tmp \
+		--published-pdfs $(PROCEEDINGS_DIR) \
 		${CONSOLIDATE_DEBUG}
 
 # A couple of shorthands to Jekyll production management.
