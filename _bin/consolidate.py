@@ -53,6 +53,8 @@ def check_and_import_posters(posters, src_dir, dest_dir):
         if poster_id == "": # Some poster stands may be empty.
             continue
         poster_dir = os.path.join(src_dir,poster_id)
+        abstract_found = False
+        poster_found = False
         if os.path.exists(poster_dir):
             for file in os.listdir(poster_dir):
                 abstract_file = f"{poster_id}_Abstract.pdf"
@@ -62,6 +64,7 @@ def check_and_import_posters(posters, src_dir, dest_dir):
                     dest_path = os.path.join(dest_dir,poster['AbstractPDFFileName'])
                     if os.path.exists(src_path):
                         shutil.copy(src_path,dest_path)
+                        abstract_found = True
                     else:
                         print(f"No file: {src_path}")
                 elif file == poster_file:
@@ -69,13 +72,17 @@ def check_and_import_posters(posters, src_dir, dest_dir):
                     dest_path = os.path.join(dest_dir,poster['PosterPDFFileName'])
                     if os.path.exists(src_path):
                         shutil.copy(src_path,dest_path)
+                        poster_found = True
                     else:
                         print(f"No file: {src_path}")
                 else:
-                    if args.debug:
-                        print(f"Found unused file", file=sys.stderr)
-        else:
-            print(f"Poster {poster_id:>3} has no abstract nor actual poster.", file=sys.stderr)
+                    print(f"Poster {poster_id:>3} has unused file '{file}'.", file=sys.stderr)
+        if abstract_found == False:
+            print(f"Poster {poster_id:>3} has no abstract.", file=sys.stderr)
+            poster['AbstractPDFFileName'] = ""
+        if poster_found == False:
+            print(f"Poster {poster_id:>3} has no poster.", file=sys.stderr)
+            poster['PosterPDFFileName'] == ""
 
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
