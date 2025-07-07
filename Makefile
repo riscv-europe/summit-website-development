@@ -16,6 +16,8 @@ GDRIVE_INVITEDTALKS_BFN?=Invited-Talks-Keynotes\ -\
 ## Target repo. directory for these imported files.
 ASIMPORTED_CSV_DIR:=$(shell pwd)/_data/summit$(YEAR)/asimported
 
+## Target repo. directory for these integrated files.
+INTEGRATED_CSV_DIR:=$(shell pwd)/_data/summit$(YEAR)/integrated
 
 ## Local dir with all the PDF from Softconf' submissions. Defaults to ../
 SUBMITTED_PDFS?=$(shell pwd)/../submitted-pdfs
@@ -54,6 +56,7 @@ consolidate:
 		--invited $(ASIMPORTED_CSV_DIR)/talks-details.csv \
 		--subm _data/summit25posters.csv \
 		--submitted-pdfs $(SUBMITTED_PDFS) \
+		--integrated-csvs $(INTEGRATED_CSV_DIR) \
 		--published-pdfs _tmp ${CONSOLIDATE_DEBUG}
 
 # A couple of shorthands to Jekyll production management.
