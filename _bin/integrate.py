@@ -84,7 +84,7 @@ def check_and_import_posters(posters, src_dir, dest_dir):
             poster['AbstractPDFFileName'] = ""
         if poster_found == False:
             print(f"Poster {poster_id:>3} has no poster.", file=sys.stderr)
-            poster['PosterPDFFileName'] == ""
+            poster['PosterPDFFileName'] = ""
 
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
