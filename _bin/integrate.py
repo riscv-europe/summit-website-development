@@ -84,10 +84,10 @@ def check_and_import_posters(posters, src_dir, dest_dir):
                     print(f"Poster {poster_id:>3} has unused file '{file}'.", file=sys.stderr)
         if abstract_found == False:
             print(f"Poster {poster_id:>3} has no abstract.", file=sys.stderr)
-            poster['AbstractPDFFileName'] = ""
+            poster['AbstractPDFFileName'] = None
         if poster_found == False:
             print(f"Poster {poster_id:>3} has no poster.", file=sys.stderr)
-            poster['PosterPDFFileName'] = ""
+            poster['PosterPDFFileName'] = None
 
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
