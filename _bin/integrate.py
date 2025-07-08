@@ -126,9 +126,6 @@ def main():
     posters = sorted(posters, key=lambda poster: int(poster['PosterId']))
     create_PDFs_filenames(posters,subm)
 
-    # Make sure that each row has a column for posters's PDF.
-    ensure_column(posters,'PosterPDF')
-
     # If debug is on, display the contents of the input files.
     if args.debug:
         print(f"\nContents of {args.posters}, with extra fields:")
