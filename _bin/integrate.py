@@ -43,9 +43,12 @@ def create_PDFs_filenames(posters, subs):
     for poster in posters:
         if poster['PosterId'] != "":
             sub = reverse_subs[poster['PosterId']]
+            full_day = full_days[poster['Day']]
+            island = poster['Island']
+            stand = poster['StantRank'] # The T in StantRank is an unfortunate typo, here to stay.
             last_name = sub['1: Last Name'].upper().replace(" ","-")
-            abstractFileName = f"{full_days[poster['Day']]}-RISC-V-Summit-Europe-{poster['Island']}-{poster['StantRank']}-{last_name}-abstract.pdf"
-            posterFileName   = f"{full_days[poster['Day']]}-RISC-V-Summit-Europe-{poster['Island']}-{poster['StantRank']}-{last_name}-poster.pdf"
+            abstractFileName = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-abstract.pdf"
+            posterFileName   = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-poster.pdf"
             poster['AbstractPDFFileName'] = abstractFileName
             poster['PosterPDFFileName'  ] = posterFileName
 
