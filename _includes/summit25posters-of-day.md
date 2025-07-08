@@ -22,11 +22,12 @@
 <hr style="width:50%;;margin-left:25%">
 ### {{ poster["Title"] | strip_newlines }}
 
-<p style="{ font-size: 70%}">
+<p style="font-size: 80%;">
+{% if stand['PosterPDFFileName']   %}<a href="media/proceedings/{{ stand['PosterPDFFileName'] }}">Poster <img style="display: inline-block; vertical-align: middle; height: auto; max-height: 1em;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>.{% endif %}
+{% if stand['AbstractPDFFileName'] %}<a href="media/proceedings/{{ stand['AbstractPDFFileName'] }}">Extented abstract <img style="display: inline-block; vertical-align: middle; height: auto; max-height: 1em;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>.{% endif %}
 Sub. #{{ poster['Submission ID'] }}.
-{% if stand['PosterPDFFileName']   %}<a href="media/proceedings/{{ stand['PosterPDFFileName'] }}">Poster</a>.{% endif %}
-{% if stand['AbstractPDFFileName'] %}<a href="media/proceedings/{{ stand['AbstractPDFFileName'] }}">Extented abstract</a>.{% endif %}
-P{{ stand.StandId }}: {{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.</p>
+{{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.
+(P{{ stand.StandId }}).</p>
 
 {% assign authors = poster['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
