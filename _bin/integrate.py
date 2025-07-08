@@ -36,7 +36,7 @@ def ensure_column(rows, column):
 
 def create_PDFs_filenames(posters, subs):
     """Create the filenames for posters and their abstracts"""
-    full_days = dict(zip({"Tue","Wed","Thu"},{"2025-05-13","2025-05-14","2025-05-15"}))
+    full_days = { "Tue" : "2025-05-13","Wed": "2025-05-14", "Thu": "2025-05-15"}
     reverse_subs = {}
     for sub in subs:
         reverse_subs[sub['Submission ID']] = sub
