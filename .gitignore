@@ -9,3 +9,6 @@ _site
 
 # Ignore the Mac OS hidden folders.
 .DS_Store
+
+# Ignore the CSVs file intergation log.
+/integrate.log

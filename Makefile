@@ -61,7 +61,8 @@ integrate:
 		--submitted-pdfs $(SUBMITTED_PDFS) \
 		--integrated-csvs $(INTEGRATED_CSV_DIR) \
 		--published-pdfs $(PROCEEDINGS_DIR) \
-		${INTEGRATE_DEBUG}
+		${INTEGRATE_DEBUG} \
+		2> integrate.log
 
 # A couple of shorthands to Jekyll production management.
 
