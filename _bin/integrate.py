@@ -46,11 +46,11 @@ def create_PDFs_filenames(posters, subs):
             full_day = full_days[poster['Day']]
             island = poster['Island']
             stand = poster['StantRank'] # The T in StantRank is an unfortunate typo, here to stay.
-            last_name = sub['1: Last Name'].upper().replace(" ","-")
-            abstractFileName = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-abstract.pdf"
-            posterFileName   = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-poster.pdf"
-            poster['AbstractPDFFileName'] = abstractFileName
-            poster['PosterPDFFileName'  ] = posterFileName
+            first_name = sub['1: First Name'].strip().title()
+            last_name  = sub['1: Last Name' ].strip().upper().replace(" ","-")
+            poster['AbstractPDFFileName'] = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-abstract.pdf"
+            poster['PosterPDFFileName'  ] = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-poster.pdf"
+            poster['FirstAuthorName'    ] = f"{first_name} {last_name}"
 
 def check_and_import_posters(posters, src_dir, dest_dir):
     for poster in posters:
@@ -81,12 +81,12 @@ def check_and_import_posters(posters, src_dir, dest_dir):
                     else:
                         print(f"No file: {src_path}")
                 else:
-                    print(f"Poster {poster_id:>3} has unused file '{file}'.", file=sys.stderr)
+                    print(f"Poster {poster_id:>3} has unused file '{file}' ({poster['FirstAuthorName']}).", file=sys.stderr)
         if abstract_found == False:
-            print(f"Poster {poster_id:>3} has no abstract.", file=sys.stderr)
+            print(f"Poster {poster_id:>3} has no abstract ({poster['FirstAuthorName']}).", file=sys.stderr)
             poster['AbstractPDFFileName'] = None
         if poster_found == False:
-            print(f"Poster {poster_id:>3} has no poster.", file=sys.stderr)
+            print(f"Poster {poster_id:>3} has no poster ({poster['FirstAuthorName']}).", file=sys.stderr)
             poster['PosterPDFFileName'] = None
 
 def main():
@@ -125,6 +125,7 @@ def main():
     # of missing PDF files on stderr.
     ensure_column(posters,'AbstractPDFFileName')
     ensure_column(posters,'PosterPDFFileName')
+    ensure_column(posters,'FirstAuthorName')
     posters = [poster for poster in posters if poster['PosterId'] != ""]
     posters = sorted(posters, key=lambda poster: int(poster['PosterId']))
     create_PDFs_filenames(posters,subm)
@@ -138,7 +139,11 @@ def main():
     # Check and import posters' asbtract and actual poster files.
     check_and_import_posters(posters,args.submitted_pdfs,args.published_pdfs)
 
-    # Sort posters for final publishing on the web site.
+    # Prepate posters for final publishing on the web site: (1) remove
+    # the field of the 1st author's name; (2) sort posters ordering
+    # back to (day, island, stand).
+    for poster in posters:
+        del poster['FirstAuthorName']
     def poster_ordering(poster):
         sorted_days = {
             "Tue": 1,
