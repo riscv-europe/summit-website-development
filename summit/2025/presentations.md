@@ -8,7 +8,7 @@ layout: summit2025
     lead = "Keynotes and presentations in the <b>Gaston Berger</b> amphitheatre (S2)"
 %}
 
-{% assign presentations = data.summit2025.asimported.summit25posters %}
+{% assign presentations = site.data.summit2025.asimported.summit25posters %}
 {% assign invited = site.data.summit2025.asimported.talks-details %}
 {% assign panels  = site.data.summit2025.asimported.panels-details %}
 {% assign univdemos  = site.data.summit2025.asimported.univ-demos %}
