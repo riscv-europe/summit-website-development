@@ -34,7 +34,7 @@ def ensure_column(rows, column):
         if column not in row:
             row[column] = None
 
-def create_PDFs_filenames(posters, subs):
+def create_posters_PDFs_filenames(posters, subs):
     """Create the filenames for posters and their abstracts"""
     full_days = { "Tue" : "2025-05-13","Wed": "2025-05-14", "Thu": "2025-05-15"}
     reverse_subs = {}
@@ -128,7 +128,8 @@ def main():
     ensure_column(posters,'FirstAuthorName')
     posters = [poster for poster in posters if poster['PosterId'] != ""]
     posters = sorted(posters, key=lambda poster: int(poster['PosterId']))
-    create_PDFs_filenames(posters,subm)
+    create_posters_PDFs_filenames(posters,subm)
+
 
     # If debug is on, display the contents of the input files.
     if args.debug:
