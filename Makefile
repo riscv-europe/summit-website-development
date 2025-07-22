@@ -63,6 +63,7 @@ integrate:
 		--published-pdfs $(PROCEEDINGS_DIR) \
 		${INTEGRATE_DEBUG} \
 		2> integrate.log
+	dos2unix $(INTEGRATED_CSV_DIR)/*.csv
 
 # A couple of shorthands to Jekyll production management.
 

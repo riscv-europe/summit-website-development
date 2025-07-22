@@ -53,8 +53,8 @@ def create_posters_PDFs_filenames(posters, subs):
             stand = poster['StantRank'] # The T in StantRank is an unfortunate typo, here to stay.
             first_name = sub['1: First Name'].strip().title()
             last_name  = sub['1: Last Name' ].strip().upper().replace(" ","-")
-            poster['AbstractPDFFileName'] = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-abstract.pdf"
-            poster['PosterPDFFileName'  ] = f"{full_day}-RISC-V-Summit-Europe-{island}-{stand}-{last_name}-poster.pdf"
+            poster['AbstractPDFFileName'] = f"{full_day}-RISC-V-Summit-Europe-P{island}.{stand}-{last_name}-abstract.pdf"
+            poster['PosterPDFFileName'  ] = f"{full_day}-RISC-V-Summit-Europe-P{island}.{stand}-{last_name}-poster.pdf"
             poster['FirstAuthorName'    ] = f"{first_name} {last_name}"
 
 def check_and_import_posters(posters, src_dir, dest_dir):
