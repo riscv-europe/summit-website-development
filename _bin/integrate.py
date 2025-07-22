@@ -12,6 +12,12 @@ args = {}
 
 posters_agenda_csv = "posters-agenda.csv"
 
+full_days = {
+    "Tue": "2025-05-13",
+    "Wed": "2025-05-14",
+    "Thu": "2025-05-15"
+}
+
 def read_csv(filename):
     """Read a CSV file and return its contents as a list of rows."""
     try:
@@ -36,7 +42,6 @@ def ensure_column(rows, column):
 
 def create_posters_PDFs_filenames(posters, subs):
     """Create the filenames for posters and their abstracts"""
-    full_days = { "Tue" : "2025-05-13","Wed": "2025-05-14", "Thu": "2025-05-15"}
     reverse_subs = {}
     for sub in subs:
         reverse_subs[sub['Submission ID']] = sub
