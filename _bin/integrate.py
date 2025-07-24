@@ -156,7 +156,7 @@ def main():
             "Wed": 2,
             "Thu": 3,
         }
-        return (sorted_days.get(sorted_days.get(poster['Day'])),poster['Island'],poster['StantRank']) # 'Stant' is an unfortunate typo. Should be 'Stand'.
+        return (sorted_days.get(poster['Day']),poster['Island'],poster['StantRank']) # 'Stant' is an unfortunate typo. Should be 'Stand'.
     posters.sort(key=poster_ordering)
 
     # Write to posters' agenda file.
