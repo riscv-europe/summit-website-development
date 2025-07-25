@@ -100,6 +100,7 @@ def main():
     parser = argparse.ArgumentParser(description="Read two CSV files")
     parser.add_argument('--agenda',      required=True,  help="Path to the summit's agenda CSV file")
     parser.add_argument('--posters',     required=True,  help="Path to the posters' CSV file")
+    parser.add_argument('--panels',      required=True,  help="Path to the panels' CSV file")
     parser.add_argument('--subm',        required=True,  help="Path to the submitted talks/posters' CSV file")
     parser.add_argument('--invited',     required=True,  help="Path to the invited talks' CSV file")
     parser.add_argument('--submitted-pdfs', required=False, help="Path to the submitted PDFs source dir", default=".")
@@ -114,11 +115,12 @@ def main():
     # Read the files
     agenda      = read_csv(args.agenda)
     posters     = read_csv(args.posters)
+    panels      = read_csv(args.panels)
     subm        = read_csv(args.subm)
     invited     = read_csv(args.invited)
 
     # Check if files were read successfully
-    if agenda is None or posters is None or subm is None or invited is None:
+    if agenda is None or posters is None or panels is None or subm is None or invited is None:
         print("Cannot proceed due to file reading errors.")
         sys.exit(1)
 
