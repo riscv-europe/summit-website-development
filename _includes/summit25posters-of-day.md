@@ -23,8 +23,10 @@
 ### {{ poster["Title"] | strip_newlines }}
 
 <p style="font-size: 80%;">
-{% if stand['PosterPDFFileName']   %}<a href="media/proceedings/{{ stand['PosterPDFFileName'] }}">Poster <img style="display: inline-block; vertical-align: middle; height: auto; max-height: 1em;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>.{% endif %}
-{% if stand['AbstractPDFFileName'] %}<a href="media/proceedings/{{ stand['AbstractPDFFileName'] }}">Extented abstract <img style="display: inline-block; vertical-align: middle; height: auto; max-height: 1em;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>.{% endif %}
+{% if stand['PosterPDFFileName']   %}<a href="media/proceedings/{{ stand['PosterPDFFileName'] }}"   style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;
+	<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>.{% endif %}
+{% if stand['AbstractPDFFileName'] %}<a href="media/proceedings/{{ stand['AbstractPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Extented abstract&nbsp;
+	<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>.{% endif %}
 Sub. #{{ poster['Submission ID'] }}.
 {{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.
 (P{{ stand.StandId }}).</p>
