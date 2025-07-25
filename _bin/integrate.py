@@ -122,7 +122,7 @@ def main():
         print("Cannot proceed due to file reading errors.")
         sys.exit(1)
 
-    # Somme bookeeping to prepare posters' table for further
+    # Some bookeeping to prepare posters' table for further
     # processing: (1) Ensure that there are columns for posters'
     # abstract and actual poster filenames. (2) Create the actual
     # files names for posters' abstract and actual poster. (3) filter
