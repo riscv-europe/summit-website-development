@@ -2,7 +2,7 @@
 
 <h3 id="{{ talk['FirstName'] }}-{{ talk['LastName'] }}-talk">{{ talk['TalkTitle'] }}</h3>
 
-{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}">Video <img style="display: inline-block; vertical-align: middle; height: auto; max-height: 1em;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
 T{{ slot.SlotId }}, {{ session.DayLong }} at {{ slot.Start }}, in Gaston Berger amphitheater (S2).
 
 By **{{ talk['FirstName'] }} {{ talk['LastName'] }}**
