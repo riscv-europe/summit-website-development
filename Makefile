@@ -45,6 +45,7 @@ gdrive-import-downloaded:
 	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)panels-details.csv  $(ASIMPORTED_CSV_DIR)/panels-details.csv
 	cp $(GDRIVE_DOWNLOAD_DIR)/$(GDRIVE_INVITEDTALKS_BFN)univ-demos.csv      $(ASIMPORTED_CSV_DIR)/univ-demos.csv
 	cp $(GDRIVE_DOWNLOAD_DIR)/Submission_Information.csv      		$(ASIMPORTED_CSV_DIR)/summit25posters.csv
+	dos2unix $(ASIMPORTED_CSV_DIR)/*.csv
 
 
 # Integrate information from various CSV files to ease Summit's web
