@@ -164,7 +164,7 @@ def main():
     # Write to posters' agenda file.
     os.makedirs(args.integrated_csvs, exist_ok=True)
     posters_agenda = os.path.join(args.integrated_csvs,posters_agenda_csv)
-    with open(posters_agenda, mode="w", newline='') as file:
+    with open(posters_agenda, mode="w", encoding='utf-8') as file:
         header = posters[0].keys()
         writer = csv.DictWriter(file, fieldnames=header)
         writer.writeheader()
