@@ -169,8 +169,8 @@ Panelists: {{ panel.PanelistsAndAffiliation | strip }}.
 {% endif %}
 
 Moderator: **{{ panel.ModerName }}**
-{%- if panel.ModerPosition -%}&#32;{{ panel.ModerPosition | strip }},{%- endif -%}
-{%- if panel.ModerCompany  -%}&#32;{{ panel.ModerCompany  | strip }}{%- endif -%}
+{%- if panel.ModerPosition -%},&#32;{{ panel.ModerPosition | strip }}{%- endif -%}
+{%- if panel.ModerCompany  -%},&#32;{{ panel.ModerCompany  | strip }}{%- endif -%}
 .
 
 {% if panel.Argument %}**Argument**: {{ panel.Argument | strip_newlines }} {% endif %}
