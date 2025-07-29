@@ -96,6 +96,7 @@ At the conference:
 
 ### {{ presentation['Title'] | strip | strip_newlines }}
 
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
 T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
@@ -113,6 +114,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 
 ### {{ presentation['TalkTitle'] | strip | strip_newlines }}
 
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
 By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
@@ -142,6 +144,7 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 
 ### {{ presentation['Title'] | strip | strip_newlines }}
 
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
 T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
@@ -158,6 +161,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 {%- assign emptySlot = false -%}
 ## Panel -- {{ panel.Title | strip | strip_newlines }}
 
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 
 {% if panel.PanelistsAndAffiliation %}
