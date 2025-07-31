@@ -101,7 +101,7 @@ At the conference:
 {%- if slot['AbstractPDFFileName'] %}<a href="media/proceedings/{{ slot['AbstractPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Extended abstract&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
 {%- if slot['SlidesPDFFileName'] %}<a href="media/proceedings/{{ slot['SlidesPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Slides&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
 {%- if slot['PosterPDFFileName'] %}<a href="media/proceedings/{{ slot['PosterPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
-T{{ slot.SlotId }} (subms. {{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+T{{ slot.SlotId }} (sub. #{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 </p>
 
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
@@ -159,7 +159,7 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {%- if slot['AbstractPDFFileName'] %}<a href="media/proceedings/{{ slot['AbstractPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Extended abstract&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
 {%- if slot['SlidesPDFFileName'] %}<a href="media/proceedings/{{ slot['SlidesPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Slides&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
 {%- if slot['PosterPDFFileName'] %}<a href="media/proceedings/{{ slot['PosterPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
-T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+T{{ slot.SlotId }} (sub. #{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
 </p>
 
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
