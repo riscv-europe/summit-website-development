@@ -238,7 +238,6 @@ def main():
     posters = sorted(posters, key=lambda poster: int(poster['PosterId']))
     create_posters_PDFs_filenames(posters,subm)
 
-
     # If debug is on, display the contents of the input files.
     if args.debug:
         print(f"\nContents of {args.posters}, with extra fields:")
