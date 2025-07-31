@@ -11,6 +11,7 @@ import shutil
 args = {}
 
 posters_agenda_csv = "posters-agenda.csv"
+agenda_summit_csv  = "summit-agenda.csv"
 
 full_days = {
     "Tue": "2025-05-13",
