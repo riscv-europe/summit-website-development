@@ -96,8 +96,13 @@ At the conference:
 
 ### {{ presentation['Title'] | strip | strip_newlines }}
 
-{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
-T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+<p style="font-size: 80%;">
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
+{%- if slot['AbstractPDFFileName'] %}<a href="media/proceedings/{{ slot['AbstractPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Extended abstract&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['SlidesPDFFileName'] %}<a href="media/proceedings/{{ slot['SlidesPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Slides&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['PosterPDFFileName'] %}<a href="media/proceedings/{{ slot['PosterPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+T{{ slot.SlotId }} (subms. {{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+</p>
 
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
@@ -114,8 +119,13 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 
 ### {{ presentation['TalkTitle'] | strip | strip_newlines }}
 
-{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
+<p style="font-size: 80%;">
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
+{%- if slot['AbstractPDFFileName'] %}<a href="media/proceedings/{{ slot['AbstractPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Extended abstract&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['SlidesPDFFileName'] %}<a href="media/proceedings/{{ slot['SlidesPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Slides&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['PosterPDFFileName'] %}<a href="media/proceedings/{{ slot['PosterPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+</p>
 
 By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {%- if presentation.Position -%}, {{ presentation.Position | strip }}{%- endif -%}
@@ -144,8 +154,13 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 
 ### {{ presentation['Title'] | strip | strip_newlines }}
 
-{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
+<p style="font-size: 80%;">
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
+{%- if slot['AbstractPDFFileName'] %}<a href="media/proceedings/{{ slot['AbstractPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Extended abstract&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['SlidesPDFFileName'] %}<a href="media/proceedings/{{ slot['SlidesPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Slides&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['PosterPDFFileName'] %}<a href="media/proceedings/{{ slot['PosterPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
 T{{ slot.SlotId }} (sub. \#{{ presentation["Submission ID"] }}), {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+</p>
 
 By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
@@ -161,8 +176,13 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 {%- assign emptySlot = false -%}
 ## Panel -- {{ panel.Title | strip | strip_newlines }}
 
-{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>.{% endif %}
+<p style="font-size: 80%;">
+{% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
+{%- if slot['AbstractPDFFileName'] %}<a href="media/proceedings/{{ slot['AbstractPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Extended abstract&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['SlidesPDFFileName'] %}<a href="media/proceedings/{{ slot['SlidesPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Slides&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
+{%- if slot['PosterPDFFileName'] %}<a href="media/proceedings/{{ slot['PosterPDFFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
 T{{ slot.SlotId }}, {{ session.DayShort  }} at {{ slot.Start }}, in {{ location }}.
+</p>
 
 {% if panel.PanelistsAndAffiliation %}
 Panelists: {{ panel.PanelistsAndAffiliation | strip }}.
