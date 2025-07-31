@@ -261,6 +261,29 @@ def main():
         return (sorted_days.get(poster['Day']),poster['Island'],poster['StantRank']) # 'Stant' is an unfortunate typo. Should be 'Stand'.
     posters.sort(key=poster_ordering)
 
+    # More bookeeping to prepare talks' table for further processing:
+    # (1) Ensure that there is a column for talks' abstracts and
+    # slides. (2) Create the actual files names for for talks
+    # abstracts and slides.
+    ensure_column(agenda,'AbstractPDFFileName')
+    ensure_column(agenda,'SlidesPDFFileName')
+    ensure_column(agenda,'PosterPDFFileName')
+    ensure_column(agenda,'FirstAuthorName')
+    create_talks_PDFs_filenames(agenda,subm,invited,panels)
+
+    # Check and import talks' slides, abstract and poster.
+    check_and_import_talks(agenda,args.submitted_pdfs,args.published_pdfs)
+
+    # Prepare talks for final publishing on the web site: (1) remove
+    # the field of the 1st author's name; (2) sort talks ordering back
+    # to day, session and slot number in the session.
+    for talk in agenda:
+        del talk['FirstAuthorName']
+    def talk_ordering(talk):
+        session_id = talk['SessionId']
+        return(session_id[0],session_id[2],talk['SlotId'])
+    agenda.sort(key=talk_ordering)
+
     # Write to posters' agenda file.
     os.makedirs(args.integrated_csvs, exist_ok=True)
     posters_agenda = os.path.join(args.integrated_csvs,posters_agenda_csv)
@@ -270,6 +293,16 @@ def main():
         writer.writeheader()
         writer.writerows(posters)
     print(f"Posters, islands and stands described in '{posters_agenda}'.")
+
+    # Write to sessions' agenda file.
+    os.makedirs(args.integrated_csvs, exist_ok=True)
+    agenda_summit = os.path.join(args.integrated_csvs,agenda_summit_csv)
+    with open(agenda_summit, mode="w", encoding='utf-8') as file:
+        header = agenda[0].keys()
+        writer = csv.DictWriter(file, fieldnames=header)
+        writer.writeheader()
+        writer.writerows(agenda)
+    print(f"Talks, that is keynotes, presenttion and demos, are described in '{agenda_summit}'.")
 
 if __name__ == "__main__":
     main()
