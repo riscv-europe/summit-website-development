@@ -63,12 +63,12 @@ def check_and_import_posters(posters, src_dir, dest_dir):
         if poster_id == "": # Some poster stands may be empty.
             continue
         poster_dir = os.path.join(src_dir,poster_id)
+        abstract_file = f"{poster_id}_Abstract.pdf"
+        poster_file   = f"{poster_id}_Poster.pdf"
         abstract_found = False
         poster_found = False
         if os.path.exists(poster_dir):
             for file in os.listdir(poster_dir):
-                abstract_file = f"{poster_id}_Abstract.pdf"
-                poster_file   = f"{poster_id}_Poster.pdf"
                 if file == abstract_file:
                     src_path  = os.path.join(src_dir,poster_id,abstract_file)
                     dest_path = os.path.join(dest_dir,poster['AbstractPDFFileName'])
