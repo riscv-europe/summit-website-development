@@ -63,7 +63,7 @@ At the conference:
     lead =  "**Keynotes**, **invited talks**, **industrial** and **technical presentations** will presented in plenary sessions in the **Gaston Berger** amphitheater. **Demos** will presented during lunches and some breaks in the **Louis Armand East** amphitheater"
 %}
 
-{% assign agenda  = site.data.summit2025.asimported.summit-agenda %}
+{% assign agenda  = site.data.summit2025.integrated.summit-agenda %}
 {% for session in sessions %}
 {% if session.Kind == "Plenary" %}
 	{% assign kind = "Plenary keynotes and presentations in Gaston Berger amphitheater (S2)." %}

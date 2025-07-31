@@ -55,7 +55,7 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 </div>
 
 {% assign talks = site.data.summit2025.asimported.talks-details | where: "Status", "OkToPublish" | sort: "Session" %}
-{% assign agenda  = site.data.summit2025.asimported.summit-agenda %}
+{% assign agenda  = site.data.summit2025.integrated.summit-agenda %}
 {% assign config  = site.data.summit2025.asimported.sessions-config %}
 {% for talk in talks %}
 {% if talk['TalkKind'] == "InvitedKeynote" or talk['TalkKind'] == "InvitedPres" or talk['TalkKind'] == "SponsorKeynote" %}
