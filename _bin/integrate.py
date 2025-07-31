@@ -95,6 +95,106 @@ def check_and_import_posters(posters, src_dir, dest_dir):
             print(f"Poster {poster_id:>3} has no poster ({poster['FirstAuthorName']}).", file=sys.stderr)
             poster['PosterPDFFileName'] = None
 
+def create_talks_PDFs_filenames(agenda, subs, talks, panels):
+    """Create the filenames for keynotes, presentations, and demos' abstracts and slides"""
+    # Reverse the various tables to index by the submission Id, or equivalent.
+    reverse_subs   = {}
+    reverse_talks  = {}
+    reverse_panels = {}
+    for sub in subs:
+        reverse_subs[sub['Submission ID']] = sub
+    for talk in talks:
+        reverse_talks[talk['SubmissId']]   = talk
+    for panel in panels:
+        reverse_panels[panel['SessionId']] = panel
+    for slot in agenda:
+        if slot['TalkId'] != "":
+            full_days = {
+                1: "2025-05-13",
+                2: "2025-05-14",
+                3: "2025-05-15"
+            }
+            full_day = full_days[int(slot['SessionId'][0])]
+            talkId = int(slot['TalkId'])
+            if talkId >= 0 and talkId < 1000: # Talk comes from CfP.
+                sub = reverse_subs[slot['TalkId']]
+                first_name = sub['1: First Name']
+                last_name  = sub['1: Last Name' ]
+            elif talkId >= 1000 and talkId < 1700: # Talk is an invited or a sponsor keynote, an invited or a lightning talk, a sponsor demo, or a summit talk.
+                invited = reverse_talks[slot['TalkId']]
+                first_name = invited['FirstName']
+                last_name  = invited['LastName']
+            elif talkId >= 1700 and talkId < 2000  : # Univ. demo. Their id is offset by 1500.
+                sub = reverse_subs[str(talkId-1500)]
+                first_name = sub['1: First Name']
+                last_name  = sub['1: Last Name' ]
+            else: # Id is at or over 2000, hence this is a pannel.
+                panel = reverse_panels[slot['TalkId']]
+                first_name, last_name = panel['ModerName'].split(' ',1)
+            first_name = first_name.strip().title()
+            last_name  = last_name .strip().upper().replace(" ","-")
+            time = slot['Start'].replace(":","h")
+            slot['AbstractPDFFileName'] = f"{full_day}-RISC-V-Summit-Europe-{time}-{last_name}-abstract.pdf"
+            slot['SlidesPDFFileName'  ] = f"{full_day}-RISC-V-Summit-Europe-{time}-{last_name}-slides.pdf"
+            slot['PosterPDFFileName'  ] = f"{full_day}-RISC-V-Summit-Europe-{time}-{last_name}-poster.pdf"
+            slot['FirstAuthorName'    ] = f"{first_name} {last_name}"
+
+def check_and_import_talks(talks, src_dir, dest_dir):
+    for talk in talks:
+        talk_id = talk['TalkId']
+        if talk_id == "":
+            continue
+        talk_dir = os.path.join(src_dir,talk_id)
+        abstract_file = f"{talk_id}_Abstract.pdf"
+        slides_file   = f"{talk_id}_Slides.pdf"
+        poster_file   = f"{talk_id}_Poster.pdf"
+        abstract_found = False
+        slides_found   = False
+        poster_found   = False
+        if os.path.exists(talk_dir):
+            for file in os.listdir(talk_dir):
+                if file == abstract_file:
+                    src_path  = os.path.join(src_dir,talk_id,abstract_file)
+                    dest_path = os.path.join(dest_dir,talk['AbstractPDFFileName'])
+                    if os.path.exists(src_path):
+                        shutil.copy(src_path,dest_path)
+                        abstract_found = True
+                    else:
+                        # Abstracts of submitted talks may exist.  So
+                        # report missing ones.
+                        print(f"No file: {src_path}")
+                elif file == slides_file:
+                    src_path  = os.path.join(src_dir,talk_id,slides_file)
+                    dest_path = os.path.join(dest_dir,talk['SlidesPDFFileName'])
+                    if os.path.exists(src_path):
+                        shutil.copy(src_path,dest_path)
+                        slides_found = True
+                    else:
+                        # Slides of talks shall exist. So report
+                        # missing ones.
+                        print(f"No file: {src_path}")
+                elif file == poster_file:
+                    src_path  = os.path.join(src_dir,talk_id,poster_file)
+                    dest_path = os.path.join(dest_dir,talk['PosterPDFFileName'])
+                    if os.path.exists(src_path):
+                        shutil.copy(src_path,dest_path)
+                        poster_found = True
+                    else:
+                        # No need to log any complaint, as posters
+                        # are not mandatory for talks anyway.
+                        pass
+                else:
+                    print(f"Submission {talk_id:>3} has unused file '{file}' ({talk['FirstAuthorName']}).", file=sys.stderr)
+        if abstract_found == False:
+            print(f"Talk {talk_id:>3} has no abstract ({talk['FirstAuthorName']}).", file=sys.stderr)
+            talk['AbstractPDFFileName'] = None
+        if slides_found == False:
+            print(f"Talk {talk_id:>3} has no slides ({talk['FirstAuthorName']}).", file=sys.stderr)
+            talk['SlidesPDFFileName'] = None
+        if poster_found == False:
+            print(f"Talk {talk_id:>3} has no poster ({talk['FirstAuthorName']}).", file=sys.stderr)
+            talk['PosterPDFFileName'] = None
+
 def main():
     """Consolidate information from CSV files before using them to generate the web site."""
     # Set up argument parser
