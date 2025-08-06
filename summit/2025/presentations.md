@@ -94,7 +94,7 @@ At the conference:
 {% assign presentation_ = presentations | where: 'Submission ID', content_s %}
 {% assign presentation  = presentation_[0] %}
 
-### {{ presentation['Title'] | strip | strip_newlines }}
+<h3 id="T{{ slot['SlotId'] | strip }}">{{ presentation['Title'] | strip | strip_newlines }}</h3>
 
 <p style="font-size: 80%;">
 {% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
@@ -117,7 +117,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 <hr style="width:50%;;margin-left:25%">
 <a id="T{{ slot.SlotId }}"></a>
 
-### {{ presentation['TalkTitle'] | strip | strip_newlines }}
+<h3 id="T{{ slot['SlotId'] | strip }}">{{ presentation['TalkTitle'] | strip | strip_newlines }}</h3>
 
 <p style="font-size: 80%;">
 {% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
@@ -152,7 +152,7 @@ By **{{ presentation.FirstName | strip }} {{ presentation.LastName | strip }}**
 {% unless presentation.Status == "OnHold" %}
 {%- assign emptySlot = false -%}
 
-### {{ presentation['Title'] | strip | strip_newlines }}
+<h3 id="T{{ slot['SlotId'] | strip }}">{{ presentation['Title'] | strip | strip_newlines }}</h3>
 
 <p style="font-size: 80%;">
 {% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
@@ -174,7 +174,7 @@ By {% assign authors = presentation['Authors with Affiliations'] | replace: ' (B
 {% unless panel.Status == "OnHold" %}
 
 {%- assign emptySlot = false -%}
-## Panel -- {{ panel.Title | strip | strip_newlines }}
+<h3 id="T{{ slot['SlotId'] | strip }}">Panel -- {{ panel.Title | strip | strip_newlines }}</h3>
 
 <p style="font-size: 80%;">
 {% if slot['YouTubeURL'] %}<a href="{{ slot['YouTubeURL'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif %}
