@@ -29,7 +29,7 @@
 	<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>.{% endif %}
 Sub. #{{ poster['Submission ID'] }}.
 {{ dayLong }}, at island {{ island.Island }} on {{ island.Level }}.
-(P{{ stand.StandId }}).</p>
+(<a href="#P{{ stand.StandId | strip }}">P{{ stand.StandId }}</a>).</p>
 
 {% assign authors = poster['Authors with Affiliations'] | replace: ' (BOSC)', ', BOSC' | replace: ' (', '**, ' | replace: '); ', '. **' | replace: ')', '.' -%}
 **{{ authors }}
