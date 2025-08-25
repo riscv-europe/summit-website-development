@@ -20,7 +20,7 @@
 {% assign poster  = poster_[0] %}
 
 <hr style="width:50%;;margin-left:25%">
-### {{ poster["Title"] | strip_newlines }}
+<h3 id="P{{ stand.StandId | strip }}">{{ poster['Title'] | strip | strip_newlines }}</h3>
 
 <p style="font-size: 80%;">
 {% if stand['PosterPDFFileName']   %}<a href="media/proceedings/{{ stand['PosterPDFFileName'] }}"   style="display: inline-flex; align-items: center; line-height: normal;">Poster&nbsp;
