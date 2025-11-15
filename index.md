@@ -15,9 +15,9 @@ layout: default
           RISC-V Summit returns to Europe in 2026. It will take place in Bologna
           on June 8-12, 2025.
         </p>
-        <div class="text-center">
-          <a href="summit/2025" class="btn btn-primary btn-lg">Learn More</a>
-        </div>
+        <!-- <div class="text-center"> -->
+        <!--   <a href="summit/2025" class="btn btn-primary btn-lg">Learn More</a> -->
+        <!-- </div> -->
       </div>
     </div>
   </div>
