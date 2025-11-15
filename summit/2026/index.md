@@ -25,14 +25,16 @@ layout: default
       <div class="card-body">
         <p class="card-text">
 		  The RISC-V Summit 2026 will take place at the Bologna
-		  *<a href="https://www.bolognacongresscenter.com">Palazzo dei Congressi</a>*.
-		  Just as as previous editions the Summit Europe 2026 will be a strong event,
+		  <a href="https://www.bolognacongresscenter.com"><i>Palazzo dei Congressi</i></a>.
+	    </p>
+		<p>
+		  Just as as previous editions, RISC-V Summit Europe 2026 will be a strong event,
 		  packed with tutorials, TWG and SIG meetings, keynotes, presentations, panels,
-		  posters, demos, side events and much more!
+		  posters, demos, booths and exhibition, side events and much more!
 	   </p>
         <p class="card-text">
-		  The call for contributions and sponsoring oportunities will soon be published
-		  here.
+		  More information, call for contributions, and sponsoring opportunities will be
+		  announced here. See you in Bologna!
         </p>
       </div>
     </div>
