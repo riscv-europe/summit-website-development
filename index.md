@@ -1,5 +1,5 @@
 ---
-title: RISC-V Europe
+title: RISC-V Summit Europe
 layout: default
 ---
 
