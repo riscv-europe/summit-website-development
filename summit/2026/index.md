@@ -6,7 +6,7 @@ layout: default
 <div class="row row-cols-1 row-cols-md-2">
   <div class="col mb-4">
     <div class="card h-100">
-        <img src="summit/2026/media/banners/banner.jpg" class="card-img-top" alt="RISC-V Summit Europe 2026 banner">
+        <img src="media/banners/banner.jpg" class="card-img-top" alt="RISC-V Summit Europe 2026 banner">
       <div class="card-body">
         <h5 class="card-title">RISC-V Summit Europe 2026</h5>
         <p class="card-text">
