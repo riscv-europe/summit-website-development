@@ -1,5 +1,5 @@
 ---
-title: RISC-V Europe 2026 - Bologna
+title: Bologna
 layout: summit2026
 ---
 
