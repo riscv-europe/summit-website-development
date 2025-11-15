@@ -7,13 +7,13 @@ layout: default
   <div class="col mb-4">
     <div class="card h-100">
       <a href="summit/2025">
-        <img src="summit/2025/media/banners/banner-official.png" class="card-img-top" alt="RISC-V Summit Europe 2025 Logo">
+        <img src="summit/2026/media/banners/banner.jpg" class="card-img-top" alt="RISC-V Summit Europe 2026 banner">
       </a>
       <div class="card-body">
-        <h5 class="card-title">RISC-V Summit Europe 2025</h5>
+        <h5 class="card-title">RISC-V Summit Europe 2026</h5>
         <p class="card-text">
-          RISC-V Summit return to Europe in 2025. It will take place in Paris
-          on May 12-15, 2025.
+          RISC-V Summit returns to Europe in 2026. It will take place in Bologna
+          on June 8-12, 2025.
         </p>
         <div class="text-center">
           <a href="summit/2025" class="btn btn-primary btn-lg">Learn More</a>
