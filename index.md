@@ -13,7 +13,7 @@ layout: default
         <h5 class="card-title">RISC-V Summit Europe 2026</h5>
         <p class="card-text">
           RISC-V Summit returns to Europe in 2026. It will take place in Bologna
-          on June 8-12, 2025.
+          on June 8-12, 2026.
         </p>
         <!-- <div class="text-center"> -->
         <!--   <a href="summit/2025" class="btn btn-primary btn-lg">Learn More</a> -->
