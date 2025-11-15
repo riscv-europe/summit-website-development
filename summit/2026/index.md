@@ -1,6 +1,6 @@
 ---
 title: RISC-V Europe 2026 - Bologna
-layout: default
+layout: summit2026
 ---
 
 <div class="row row-cols-1 row-cols-md-2">
