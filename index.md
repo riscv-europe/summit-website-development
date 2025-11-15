@@ -86,7 +86,7 @@ layout: default
           The previous editions of RISC-V Summit Europe were a great success in bringing the community together.
         </p>
         <div class="text-center mb-2">
-          <a href="summit/2024" class="btn btn-secondary btn-md">RISC-V Summit Europe 2025</a>
+          <a href="summit/2025" class="btn btn-secondary btn-md">RISC-V Summit Europe 2025</a>
         </div>
         <div class="text-center mb-2">
           <a href="summit/2024" class="btn btn-secondary btn-md">RISC-V Summit Europe 2024</a>
