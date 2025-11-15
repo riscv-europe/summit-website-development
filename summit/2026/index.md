@@ -1,0 +1,40 @@
+---
+title: RISC-V Europe 2026 - Bologna
+layout: default
+---
+
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card h-100">
+        <img src="summit/2026/media/banners/banner.jpg" class="card-img-top" alt="RISC-V Summit Europe 2026 banner">
+      <div class="card-body">
+        <h5 class="card-title">RISC-V Summit Europe 2026</h5>
+        <p class="card-text">
+          RISC-V Summit returns to Europe in 2026. It will take place in Bologna
+          on June 8-12, 2026.
+        </p>
+        <!-- <div class="text-center"> -->
+        <!--   <a href="summit/2025" class="btn btn-primary btn-lg">Learn More</a> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <div class="card-header"><h5>Bologna, 8-12 June 2026</h5></div>
+      <div class="card-body">
+        <p class="card-text">
+		  The RISC-V Summit 2026 will take place at the Bologna
+		  *<a href="https://www.bolognacongresscenter.com">Palazzo dei Congressi</a>*.
+		  Just as as previous editions the Summit Europe 2026 will be a strong event,
+		  packed with tutorials, TWG and SIG meetings, keynotes, presentations, panels,
+		  posters, demos, side events and much more!
+	   </p>
+        <p class="card-text">
+		  The call for contributions and sponsoring oportunities will soon be published
+		  here.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
