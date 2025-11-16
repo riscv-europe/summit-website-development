@@ -3,9 +3,9 @@ title: About
 layout: summit2026
 ---
 
-<!-- {% include bannerimg.html -->
-<!--     img = "media/banners/committee.jpg" -->
-<!-- %} -->
+{   % include bannerimg.html
+    img = "media/banners/committee.jpg"
+%}
 
 {% include jumboboxstart.html
     title = "About"
