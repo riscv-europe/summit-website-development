@@ -34,7 +34,7 @@ layout: summit2026
 	   </p>
         <p class="card-text">
 		  More information, call for contributions, and sponsoring opportunities will be
-		  announced here. See you in Bologna!
+		  announced here. More to come&hellip;
         </p>
       </div>
     </div>
