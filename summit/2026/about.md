@@ -123,6 +123,8 @@ The event is organized by [RISC-V International](https://riscv.org), and
 
 <div class="d-flex justify-content-center align-items-center">
     <img src="media/logos/RISC-V-logo-square.svg" height="75" class="me-5" alt="RISC-V">
+	&nbsp;
+    <img src="media/logos/UNIBO.png" height="75" class="me-5" alt="UNIBO">
 </div>
 
 {% include jumboboxend.html %}
