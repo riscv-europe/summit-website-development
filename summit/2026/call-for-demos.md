@@ -10,7 +10,7 @@ ocimage: https://riscv-europe.org/summit/2025/media/cfp.png
 
 {% include jumboboxstart.html
     title = "Showcase your work"
-    lead = "Academics Hardware and software achievemnts can be presented live at RISC-V Summit Europe in Bologna."
+    lead = "Academics hardware or software achievemnts can be presented live at RISC-V Summit Europe in Bologna."
 %}
 
 The *RISC-V Summit Europe* provides a platform to universities and
