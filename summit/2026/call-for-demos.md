@@ -95,9 +95,8 @@ the expiration of the early-bird time. The Program Committee will ask
 for the final description before the event to confirm acceptance at
 the according deadlines.
 
-Demos will follow the same structure as posters. Meaning that only
-live demonstrators will be shown at the expo area. No demo recording
-versions will be allowed during the event.
+Only live demonstrations will be shown at the expo area. No
+pre-recorded demo will be allowed during the event.
 
 ## Demo format
 
@@ -106,8 +105,10 @@ lunch break.
 
 Demo sessions will be distributed in the expo area (similar as the
 poster sessions). Instead of having one specific area for all demos,
-this year the accepted ones will have their own spot to run the demo
-(the distribution on the floorplan will be announced a few days before
-the event). To make possible live demos, the organization will provide
-one table, one back panel for a poster, and a power outlet for
-connecting material.
+this year the accepted ones will have their own spot to run the demo.
+The distribution on the floorplan will be announced a few days before
+the event. The organization will provide one table, one back panel for
+a poster, and a power outlet for connecting material.
+
+Just as for posters, the demo's abstract and poster will be publihsed
+on the RISC-V Summit Europe web site after the event.
