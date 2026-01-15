@@ -86,8 +86,9 @@ that may indicate the authors of the abstract or their
 affiliation. This information can be included in the final submission
 after acceptance.
 
-Submissions should be provided as a two page extended abstract. The
-template is available
+Submissions should be provided as a two page extended abstract.
+
+Templates are available
 [HERE](https://github.com/riscv-europe/riscv-europe-summit-templates).
 
 ### Option 2: Non-Blind submission
