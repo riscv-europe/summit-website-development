@@ -92,10 +92,9 @@ TBC
 
 - Teresa Cervero (BSC), Chair
 - Romain Dolbeau (SiPearl)
-- Wolfgang Ecker (Infineon)
-- Roger Espasa (Semidynamics)
 - Christian Fabre (CEA)
 - Frank K. Gürkaynak (ETH Zürich)
+- Nick Kossifidis (FORTH)
 - Daniel Mueller-Gritschneder (TU Wien)
 - Borja Pérez Pavon (Univ. de Cantabria)
 - Jérôme Quévremont (Thales R&T)
@@ -110,9 +109,10 @@ TBC
 - Teresa Cervero (BSC), as 2023 Local Organizer
 - Christian Fabre (CEA), as 2025 Local Organizer
 - Frank K. Gürkaynak (ETH Zürich)
+- Fabrizio Magugliani (E4)
 - Andy Moore (RISC-V International)
 - Daniel Mueller-Gritschneder (TU Wien)
-- Olivier Sentieys (INRIA)
+- Davide Rossi (University of Bologna)
 - Lori Servin (RISC-V International)
 - Stefan Wallentowitz (Munich University of Applied Sciences), as 2024 Local Organizer
 
