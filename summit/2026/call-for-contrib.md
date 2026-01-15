@@ -42,7 +42,7 @@ present:
 - Industry vertical applications of RISC-V technologies (e.g.,
   automotive, data centers, edge-AI, IoT…).
 - Technical explorations of new RISC-V based products and services
-  (not Marketing).
+  (not marketing).
 - Experiences of contributions to, or adoption of RISC-V hardware and
   software in commercial, open-source or education environments.
 - Exposure of new research topics and PhD early stages.
