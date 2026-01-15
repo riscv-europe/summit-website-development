@@ -106,21 +106,23 @@ two pages in length, or as a short technical report tackling the
 following aspects: 1. Short summary of the contribution, 2. Why is
 this important for the community/industry adoption, 3. How this work
 contributes to enable/foster the ecosystem, and 4. Target
-audience. The template is available
+audience.
+
+Templates are available
 [HERE](https://github.com/riscv-europe/riscv-europe-summit-templates).
 
 ## Important dates and instructions for submission
 
-### Important dates:
+### Important dates
 
 - Abstract submission deadline: **March 2nd,** 2026, [AOE (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
 - Author notification: **From April 17th to 24th**, 2026. - *Not all
   the notifications will be sent at the same time.*
 - Final abstract, poster, and slides deadline: **May 29th**, 2026.
-- RISC-V Summit Europe: *June 8th-12th**, 2026, in Bologna.
+- RISC-V Summit Europe: **June 8th-12th**, 2026, in Bologna.
 
-### Submission process:
+### Submission process
 
 The submission process is very easy: 
 
