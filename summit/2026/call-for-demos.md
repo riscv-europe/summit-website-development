@@ -35,7 +35,7 @@ great event. Join us!
 
 ## Call for Demo Submissions
 
-The *RISC-V University Demo Initiative* offers an opportunity for
+The **RISC-V University Demo Initiative** offers an opportunity for
 students and researchers to present their creativity, innovation and
 activities around RISC-V! Hardware prototypes, software
 demonstrations, creative applications, tools, services, or advancing
@@ -67,7 +67,7 @@ future of computing, one inspiring demo at a time!
 The submission process is very easy: 
 
 - Register on the platform: [*The submission platform is not yet online -- stay tuned!*]
-- Click “Submit a proposal” and select *Demo submission* 
+- Click “Submit a proposal” and select **Demo submission**
 - Fill the mandatory information: 
     1. Authors’ information
     2. Demo’s title
