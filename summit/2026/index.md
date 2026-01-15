@@ -20,10 +20,10 @@ future of computing in Europe. The region has been central to RISC-V's
 success, with one-third of RISC-V's global community based in Europe.
 
 **RISC-V Summit Europe** takes place in **Bologna** from **Monday 8th
-to Thursday 11th May, 2026**, with **side events** on Friday 12th. The
-combination of strong industrial and academic communities is key to
-the success of RISC-V in Europe, and for this reason the conference is
-designed to help attendees to explore both commercial and research
-applications.  *RISC-V Summit Europe* is an opportunity not to be
-missed. Come to Bologna to be part of the new wave of European
-computing innovation!
+to Thursday 11th May, 2026**, with **side events** on **Friday
+12th**. The combination of strong industrial and academic communities
+is key to the success of RISC-V in Europe, and for this reason the
+conference is designed to help attendees to explore both commercial
+and research applications.  *RISC-V Summit Europe* is an opportunity
+not to be missed. Come to Bologna to be part of the new wave of
+European computing innovation!
