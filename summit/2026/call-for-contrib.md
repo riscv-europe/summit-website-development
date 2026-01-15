@@ -5,7 +5,7 @@ ocimage: https://riscv-europe.org/summit/2025/media/cfp.png
 ---
 
 {% include bannerimg.html
-    img = "media/banners/posters.jpg"
+    img = "media/banners/banner.jpg"
 %}
 
 {% include jumboboxstart.html
