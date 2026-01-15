@@ -170,8 +170,8 @@ Preparation before the conference:
  - Make sure that the poster is easy to read from distance and
    attracts people
  - Use QR codes to link to more content.
- - **At least one author of the poster must register** for the core
-   conference (Tuesday 9th to Thursday 11th).
+ - **At least one author of the poster must register for the core
+   conference** (Tuesday 9th to Thursday 11th).
 
 <!-- At the conference: -->
 <!--  - You will mount your own poster, no own tape allowed, you will get -->
