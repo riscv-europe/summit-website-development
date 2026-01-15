@@ -118,13 +118,16 @@ TBC
 
 ### Local Organization
 
-The event is organized by [RISC-V International](https://riscv.org), and
-[Unibo](https://www.unibo.it/en/).
+The event is organized by [RISC-V International](https://riscv.org),
+[Unibo](https://www.unibo.it/en/), and
+[Planning](https://planning.it).
 
 <div class="d-flex justify-content-center align-items-center">
     <img src="media/logos/RISC-V-logo-square.svg" height="75" class="me-5" alt="RISC-V">
 	&nbsp;
     <img src="media/logos/UNIBO.png" height="75" class="me-5" alt="UNIBO">
+	&nbsp;
+    <img src="media/logos/PLANNING-IT.png" height="75" class="me-5" alt="PLANNING">
 </div>
 
 {% include jumboboxend.html %}
