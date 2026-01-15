@@ -40,7 +40,7 @@ International](https://riscv.org):
 <!-- - Julie Dumas (TIMA) -->
 <!-- - Denis Dutoit (CEA) -->
 <!-- - Angelo Garofalo (University of Bologna) -->
-<!-- - Daniel Große (Uni Linz) -->
+- Daniel Große (Univ. Linz), PC Co-Chair
 <!-- - Eyck Jentzsch (MINRES) -->
 - Nick Kossifidis (FORTH), PC Chair
 <!-- - Larry Lapides (Synopsys) -->
