@@ -1,6 +1,6 @@
 ---
 title: Sponsoring
-layout: summit2025-sponsors-first
+layout: summit2026
 ---
 
 {% include jumboboxstart.html
