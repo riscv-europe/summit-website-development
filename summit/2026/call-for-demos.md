@@ -13,14 +13,14 @@ ocimage: https://riscv-europe.org/summit/2025/media/cfp.png
     lead = "Academics hardware or software achievemnts can be presented live at RISC-V Summit Europe in Bologna."
 %}
 
-The *RISC-V Summit Europe* provides a platform to universities and
+The RISC-V Summit Europe provides **a platform to universities and
 research institutions to showcase their innovative research and
-development outcomes through hardware and software demonstrations. The
-Program Committee invites universities, research institutions, and
-those enthusiastic about open computing architectures and solutions,
-to join the *RISC-V University Demo call*. An event where academic
-innovation intersects with the world of RISC-V and open-source
-hardware and software.
+development outcomes** through hardware and software
+demonstrations. The Program Committee invites universities, research
+institutions, and those enthusiastic about open computing
+architectures and solutions, to join the *RISC-V University Demo
+call*. An event where academic innovation intersects with the world of
+RISC-V and open-source hardware and software.
 
 Are you using, developing, or designing on RISC-V? If the answer is
 “YES!” This call is for you! No matter the domain (automotive,
