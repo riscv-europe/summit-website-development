@@ -9,7 +9,7 @@ layout: summit2026
 %}
 
 
-## Sponsorship Packages
+## Sponsorship packages
 
 - Sponsorship packages will appear here soon.
 

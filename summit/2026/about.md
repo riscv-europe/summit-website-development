@@ -103,7 +103,7 @@ TBC
 - Philipp Tomsich (VRULL)
 - Stefan Wallentowitz (Hochschule München University of Applied Sciences)
 
-### Local Organization Committee
+### The Local Organization Committee
 
 - Andrea Bartolini (Unibo), Local Chair
 - Teresa Cervero (BSC), as 2023 Local Organizer
@@ -116,7 +116,7 @@ TBC
 - Lori Servin (RISC-V International)
 - Stefan Wallentowitz (Munich University of Applied Sciences), as 2024 Local Organizer
 
-### Local Organization
+### The Organizers
 
 The event is organized by [RISC-V International](https://riscv.org),
 [Unibo](https://www.unibo.it/en/), and

@@ -13,7 +13,7 @@ ocimage: https://riscv-europe.org/summit/2025/media/cfp.png
     lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe in Bologna, from Monday June 8th to Thursday June 11th 2026."
 %}
 
-## Call for technical Submissions
+## Call for technical submissions
 
 Taking place from June 8-12th, 2026, the RISC-V Summit Europe will
 have a plenary session of keynotes, panels, and technical talks,
@@ -74,7 +74,7 @@ and some selected submissions for presentations. The submitted
 extended abstracts shall be publishable standalone short papers, not
 summaries for longer upcoming papers.
 
-### Option 1: Blind Submission
+### Option 1: blind submission
 
 Blind submissions are targeting **contributions highly related with
 Research, Development, and/or innovation (R&amp;D&amp;i)**
@@ -91,7 +91,7 @@ Submissions should be provided as a two page extended abstract.
 Templates are available
 [HERE](https://github.com/riscv-europe/riscv-europe-summit-templates).
 
-### Option 2: Non-Blind submission
+### Option 2: non-blind submission
 
 Non-blind submissions are targeting contributions that are hard to
 anonymize, such as technical presentations of new commercial
@@ -161,7 +161,7 @@ for uploading the final version of the poster/presentation (limit
 20&nbsp;MB) before the event to confirm acceptance at the according
 deadlines.
 
-### Instructions for Accepted Posters
+### Instructions for accepted posters
 
 Preparation before the conference:
  - Posters shall be printed in **A0 format in portrait mode**.
