@@ -1,5 +1,5 @@
 ---
-title: Call for Contributions
+title: Call for academic demos
 layout: summit2026
 ---
 
