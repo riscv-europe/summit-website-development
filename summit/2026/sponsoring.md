@@ -3,6 +3,10 @@ title: Sponsoring
 layout: summit2026
 ---
 
+{% include bannerimg.html
+    img = "media/banners/banner.jpg"
+%}
+
 {% include jumboboxstart.html
     title = "Become a sponsor"
     lead = "By sponsoring RISC-V Summit Europe 2025, you support the global community and get recognized."
