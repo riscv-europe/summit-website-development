@@ -9,7 +9,7 @@ layout: summit2026
 
 {% include jumboboxstart.html
     title = "Become a sponsor"
-    lead = "By sponsoring RISC-V Summit Europe 2025, you support the global community and get recognized."
+    lead = "By sponsoring RISC-V Summit Europe 2026, you support the global community and get recognized."
 %}
 
 
