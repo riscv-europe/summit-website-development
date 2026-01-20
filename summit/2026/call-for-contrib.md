@@ -117,7 +117,7 @@ Templates are available
 
 - Abstract submission deadline: **March 2nd,** 2026, [AOE (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
-- Author notification: **From April 17th to 24th**, 2026. - *Not all
+- Author notification: **From April 17th to 24th**, 2026. *Not all
   the notifications will be sent at the same time.*
 - Final abstract, poster, and slides deadline: **May 29th**, 2026.
 - RISC-V Summit Europe: **June 8th-12th**, 2026, in Bologna.
