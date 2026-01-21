@@ -61,8 +61,8 @@ for the *Core Summit* are presented in the table below.
     </tr>
     <tr>
       <th>Registration date</th>
-      <th>&rarr; April 11</th>
-      <th>April 12 &rarr; May 30</th>
+      <th>&rarr; May 3</th>
+      <th>May 4 &rarr; May 30</th>
       <th>May 31&rarr; June 12</th>
     </tr>
   </thead>
