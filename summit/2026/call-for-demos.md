@@ -31,11 +31,12 @@ hardware observability, tools, etc.) you are interested in, as long as
 RISC-V is exploited.
 
 The **RISC-V University Demo Initiative** offers an opportunity for
-students and researchers to present their creativity, innovation, and
-activities around RISC-V! Hardware prototypes, software
-demonstrations, creative applications, tools, services, or advancing
-RISC-V-based IoT solutions—we are eager to know more and see your
-contributions!
+individual enthusiasts, students and researchers to present their
+creativity, innovation, and activities around RISC-V! Hardware
+prototypes, software demonstrations, creative applications, tools,
+services, or advancing RISC-V-based IoT solutions. Commercial
+companies are welcome to demonstrate their technologies through the
+[sponsoring](sponsoring) packages.
 
 Taking part in the **RISC-V University Demo Initiative** brings the
 possibility of sharing knowledge with peers, industry experts, and
