@@ -138,9 +138,9 @@ The submission process is very easy:
     5. (Optional) Activate the check box in case your submission
        should be considered for a technical talk. Only poster by
        default
-    6. (Optional) Select if you come from LMIC (Low and Medium Income
-       Country). This information will be used for statistical
-       purposes.
+    6. (Optional) Select if you come from [LMIC (Low and Medium Income
+       Country)](media/pdf/lic-mlic.pdf). This information will be
+       used for statistical purposes.
     7. Upload your contribution in pdf format (max 10&nbsp;MB)
 
 Once registered, the information might be updated until the submission

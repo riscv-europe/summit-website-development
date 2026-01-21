@@ -89,9 +89,9 @@ The submission process is very easy:
     1. Authors’ information
     2. Demo’s title
     3. Abstract (max 250 words)
-    4. (Optional) Select if you come from LMIC (Low and Medium Income
-       Country). This information will be used for statistical
-       purposes.
+    4. (Optional) Select if you come from [LMIC (Low and Medium Income
+       Country)](media/pdf/lic-mlic.pdf). This information will be
+       used for statistical purposes.
     5. Share a link to a publicly accessible short video (3 min. or
        less) of your proposed demonstration. A high quality video is
        not required, but it must be clear enough to let the Program
