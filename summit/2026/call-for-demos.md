@@ -18,10 +18,10 @@ The RISC-V Summit Europe provides a platform for universities and
 research institutions to showcase their innovative research and
 development outcomes through hardware and software demonstrations. The
 Program Committee invites universities, research institutions, and
-enthusiasts of open computing architectures and solutions to join the
-**RISC-V University Demo Initiative**. This event is where academic
-innovation intersects with the world of RISC-V and open-source
-hardware and software.
+individual enthusiasts of open computing architectures and solutions
+to join the **RISC-V University Demo Initiative**. This event is where
+academic innovation intersects with the world of RISC-V and
+open-source hardware and software.
 
 Are you using, developing, or designing on RISC-V? If the answer is
 “YES!” this call is for you! No matter the domain (automotive,
