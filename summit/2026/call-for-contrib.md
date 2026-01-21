@@ -126,8 +126,9 @@ Templates are available
 
 The submission process is very easy: 
 
-- Register on the platform: [*The submission platform is not yet online -- stay tuned!*]
-- Click “Submit a proposal” and select **Paper submission**
+- Register on the platform:
+  [`cfp.riscv-europe.org/eu-summit-2026/cfp`](https://cfp.riscv-europe.org/eu-summit-2026/cfp).
+- Click **Submit a proposal** and select **Paper submission**
 - Fill the mandatory information: 
     1. Authors’ information
     2. Submission’s title

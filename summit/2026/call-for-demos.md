@@ -82,8 +82,8 @@ your proposed demonstration.
 ### **Demo Submission**
 
 The submission process is very easy:
-- Register on the platform: [*The submission platform is not yet
-  online – stay tuned!*]
+- Register on the platform:
+  [`cfp.riscv-europe.org/eu-summit-2026/cfp`](https://cfp.riscv-europe.org/eu-summit-2026/cfp).
 - Click **Submit a proposal** and select **Demo submission**
 - Fill the mandatory information:
     1. Authors’ information
