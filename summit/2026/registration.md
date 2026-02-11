@@ -51,42 +51,44 @@ The RISC-V Summit Europe has three main periods:
 The Monday 8th TWG meetings and Tutorials are free of charge. The fees
 for the *Core Summit* are presented in the table below.
 
-<table class="riscv-sy" margin-bottom="3pt">
-  <thead>
-    <tr>
-      <th>Registration rate</th>
-      <th >Early</th>
-      <th >Regular</th>
-      <th >Late</th>
-    </tr>
-    <tr>
-      <th>Registration date</th>
-      <th>&rarr; May 3</th>
-      <th>May 4 &rarr; May 30</th>
-      <th>May 31&rarr; June 12</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Industry & Academia</td>
-      <td>540 €</td>
-      <td>610 €</td>
-      <td>680 €</td>
-    </tr>
-    <tr>
-      <td>Phd students & PostDocs</td>
-      <td>460 €</td>
-      <td>550 €</td>
-      <td>580 €</td>
-    </tr>
-    <tr>
-      <td>MSc, LIC & MLIC</td>
-      <td>270 €</td>
-      <td>305 €</td>
-      <td>340 €</td>
-    </tr>
-  </tbody>
-</table>
+**Oops... The registration fees will comme back soon. Stay tuned!**
+
+<!-- <table class="riscv-sy" margin-bottom="3pt"> -->
+<!--   <thead> -->
+<!--     <tr> -->
+<!--       <th>Registration rate</th> -->
+<!--       <th >Early</th> -->
+<!--       <th >Regular</th> -->
+<!--       <th >Late</th> -->
+<!--     </tr> -->
+<!--     <tr> -->
+<!--       <th>Registration date</th> -->
+<!--       <th>&rarr; May 3</th> -->
+<!--       <th>May 4 &rarr; May 30</th> -->
+<!--       <th>May 31&rarr; June 12</th> -->
+<!--     </tr> -->
+<!--   </thead> -->
+<!--   <tbody> -->
+<!--     <tr> -->
+<!--       <td>Industry & Academia</td> -->
+<!--       <td>540 €</td> -->
+<!--       <td>610 €</td> -->
+<!--       <td>680 €</td> -->
+<!--     </tr> -->
+<!--     <tr> -->
+<!--       <td>Phd students & PostDocs</td> -->
+<!--       <td>460 €</td> -->
+<!--       <td>550 €</td> -->
+<!--       <td>580 €</td> -->
+<!--     </tr> -->
+<!--     <tr> -->
+<!--       <td>MSc, LIC & MLIC</td> -->
+<!--       <td>270 €</td> -->
+<!--       <td>305 €</td> -->
+<!--       <td>340 €</td> -->
+<!--     </tr> -->
+<!--   </tbody> -->
+<!-- </table> -->
 
 The fees for the *Side events* will be publised latter on.
 
