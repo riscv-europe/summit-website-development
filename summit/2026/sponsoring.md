@@ -148,7 +148,7 @@ Several packages with varying features are available.
         </tr>
         <tr>
             <td></td>
-            <td class="sponsor-platinum"><strong>Upgrade available:</strong><br>6x4m booth, 20 min. keynote<br>+ 5,000 €</td>
+            <td class="sponsor-platinum"><strong>Upgrade available:</strong><br>+ 5,000 € for<br>6x4m booth,<br>20 min. keynote</td>
             <td></td>
             <td></td>
             <td></td>
