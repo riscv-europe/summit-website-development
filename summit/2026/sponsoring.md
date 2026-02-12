@@ -141,9 +141,9 @@ Several packages with varying features are available.
         </tr>
         <tr>
             <td>Cost</td>
-            <td class="sponsor-platinum"><strong>25,000 €</strong></td>
-            <td class="sponsor-gold"><strong>15,000 €</strong></td>
-            <td class="sponsor-silver"><strong>6,000 €</strong></td>
+            <td class="sponsor-platinum"><strong>27,000 €</strong><br>limit 5</td>
+            <td class="sponsor-gold"><strong>17,000 €</strong></td>
+            <td class="sponsor-silver"><strong>6,500 €</strong></td>
             <td class="sponsor-bronze"><strong>3,000 €</strong></td>
         </tr>
         <tr>
