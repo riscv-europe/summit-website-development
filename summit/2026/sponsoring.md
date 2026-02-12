@@ -35,28 +35,28 @@ Several packages with varying features are available.
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>Keynote -- 15 min.</td>
+            <td>Keynote &mdash; 15 min.</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>Keynote -- 20 min.</td>
+            <td>Keynote &mdash; 20 min.</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>Demo Theatre Presentation -- 10 min.</td>
+            <td>Demo Theatre Presentation &mdash; 10 min.</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>Lightning talk in plenary -- 2 min.</td>
+            <td>Lightning talk in plenary &mdash; 2 min.</td>
             <td class="sponsor-platinum"></td>
             <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-silver"></td>
@@ -102,7 +102,7 @@ Several packages with varying features are available.
             <td class="sponsor-platinum">10</td>
             <td class="sponsor-gold">5</td>
             <td class="sponsor-silver">3</td>
-            <td class="sponsor-bronze">-</td>
+            <td class="sponsor-bronze">&mdash;</td>
         </tr>
         <tr>
             <td>Private meeting room</td>
@@ -112,7 +112,7 @@ Several packages with varying features are available.
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>Video with RISC-V on Youtube playlist -- 2 min.</td>
+            <td>Video with RISC-V on Youtube playlist &mdash; 2 min.</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
@@ -136,15 +136,15 @@ Several packages with varying features are available.
             <td>Topic table at lunch or breaks</td>
             <td class="sponsor-platinum">2 lunches</td>
             <td class="sponsor-gold">1 break</td>
-            <td class="sponsor-silver">--</td>
-            <td class="sponsor-bronze">--</td>
+            <td class="sponsor-silver">&mdash;</td>
+            <td class="sponsor-bronze">&mdash;</td>
         </tr>
         <tr>
             <td>White paper on event web site</td>
             <td class="sponsor-platinum">2 papers</td>
             <td class="sponsor-gold">1 paper</td>
-            <td class="sponsor-silver">--</td>
-            <td class="sponsor-bronze">--</td>
+            <td class="sponsor-silver">&mdash;</td>
+            <td class="sponsor-bronze">&mdash;</td>
         </tr>
         <tr>
             <td>Cost</td>
@@ -171,15 +171,15 @@ invoice.**
 
 Beyond the sponsorship packages, there are extra sponsorships available:
 
-- 1 Lanyard sponsorship - 8 k€
-- 1 Collaboration breakfast sponsorship - 9 k€
-- 1 Premium Lounge with a charging station - 8 k€
-- 4 Lounge area sponsorships - 7 k€
-- 1 Drinks Reception sponsorship - 7.5 k€
-- 1 Demo Theatre naming right - 6 k€
-- 1 Contribution to Diversity scholarships - 2.5 k€
-- 2 Women in tech sponsor - 2.5 k€
-- 1 intro to RISC-V Sponsor - 5 k€. With optionnal upgrade for a 10 min. talking slot - 3 k€
+- 1 Lanyard sponsorship &mdash; 8 k€
+- 1 Collaboration breakfast sponsorship &mdash; 9 k€
+- 1 Premium Lounge with a charging station &mdash; 8 k€
+- 4 Lounge area sponsorships &mdash; 7 k€
+- 1 Drinks Reception sponsorship &mdash; 7.5 k€
+- 1 Demo Theatre naming right &mdash; 6 k€
+- 1 Contribution to Diversity scholarships &mdash; 2.5 k€
+- 2 Women in tech sponsor &mdash; 2.5 k€
+- 1 intro to RISC-V Sponsor &mdash; 5 k€. With optionnal upgrade for a 10 min. talking slot &mdash; 3 k€
 
 **All prices are exclusive of 22% VAT, which will be added to
 invoice.**
@@ -202,16 +202,16 @@ invoice.**
 
 ## Engagement Opportunities
 
-- **Platinum Opportunity - Premier visibility and on-stage thought
+- **Platinum Opportunity &mdash; Premier visibility and on-stage thought
   leadership.** Ideal for: companies seeking maximum visibility,
   strategic positioning and executive-level engagement.
-- **Gold Opportunity - Strong visibility with presentation
+- **Gold Opportunity &mdash; Strong visibility with presentation
   opportunities**. Ideal for: companies promoting products, platforms
   or tools to the RISC-V community.
-- **Silver Opportunity - Show floor presence and ecosystem
+- **Silver Opportunity &mdash; Show floor presence and ecosystem
   participation**.  Ideal for: growing companies and ecosystem
   contributors seeking brand visibility and networking.
-- **Bronze Opportunity - Visible support for the RISC-V
+- **Bronze Opportunity &mdash; Visible support for the RISC-V
   ecosystem**. Ideal for: startups and organizations looking to
   support and be visible within the RISC-V ecosystem.
 
