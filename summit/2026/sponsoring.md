@@ -12,144 +12,195 @@ layout: summit2026
     lead = "By sponsoring RISC-V Summit Europe 2026, you support the global community and get recognized."
 %}
 
+## Sponsorship Packages
 
-## Sponsorship packages
+Several packages with varying features are available.
 
-- Sponsorship packages will appear here soon.
+<table class="sponsor-table">
+    <thead>
+        <tr>
+            <td style="width: 40%"></td>
+            <td style="width: 15%" class="sponsor-platinum">Platinum</td>
+            <td style="width: 15%" class="sponsor-gold">Gold</td>
+            <td style="width: 15%" class="sponsor-silver">Silver</td>
+            <td style="width: 15%" class="sponsor-bronze">Bronze</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Keynote -- 15 min.</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Keynote -- 20 min.</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Demo Theatre Presentation -- 10 min.</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Lightning talk in plenary -- 2 min.</td>
+            <td class="sponsor-platinum"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>6x4m booth space (own frame or pre-fab)</td>
+            <td class="sponsor-platinum">Included in the 5 k€ upgrade</td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>3x2m booth space (own frame or pre-fab)</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>2x2m booth space (own frame or pre-fab)</td>
+            <td class="sponsor-platinum"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Tabletop and two chairs</td>
+            <td class="sponsor-platinum"></td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Full conference passes</td>
+            <td class="sponsor-platinum">10</td>
+            <td class="sponsor-gold">6</td>
+            <td class="sponsor-silver">2</td>
+            <td class="sponsor-bronze">1</td>
+        </tr>
+        <tr>
+            <td>15% discount on additional passes</td>
+            <td class="sponsor-platinum">10</td>
+            <td class="sponsor-gold">5</td>
+            <td class="sponsor-silver">3</td>
+            <td class="sponsor-bronze">-</td>
+        </tr>
+        <tr>
+            <td>Private meeting room</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Video with RISC-V on Youtube playlist -- 2 min.</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Logo on event giveaway</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
+            <td>Logo on event signage and website</td>
+            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-bronze"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+        </tr>
+        <tr>
+            <td>Topic table at lunch or breaks</td>
+            <td class="sponsor-platinum">2 lunches</td>
+            <td class="sponsor-gold">1 break</td>
+            <td class="sponsor-silver">--</td>
+            <td class="sponsor-bronze">--</td>
+        </tr>
+        <tr>
+            <td>White paper on event web site</td>
+            <td class="sponsor-platinum">2 papers</td>
+            <td class="sponsor-gold">1 paper</td>
+            <td class="sponsor-silver">--</td>
+            <td class="sponsor-bronze">--</td>
+        </tr>
+        <tr>
+            <td>Cost</td>
+            <td class="sponsor-platinum"><strong>25,000 €</strong></td>
+            <td class="sponsor-gold"><strong>15,000 €</strong></td>
+            <td class="sponsor-silver"><strong>6,000 €</strong></td>
+            <td class="sponsor-bronze"><strong>3,000 €</strong></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="sponsor-platinum"><strong>Upgrade available:</strong><br>6x4m booth, 20 min. keynote<br>+ 5,000 €</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
 
-<!-- Several packages with varying features are available. -->
+    </tbody>
+</table>
 
-<!-- <table class="sponsor-table"> -->
-<!--     <thead> -->
-<!--         <tr> -->
-<!--             <td style="width: 40%"></td> -->
-<!--             <td style="width: 15%" class="sponsor-platinum">Platinum <br/>(sold out!)</td> -->
-<!--             <td style="width: 15%" class="sponsor-gold">Gold</td> -->
-<!--             <td style="width: 15%" class="sponsor-silver">Silver</td> -->
-<!--             <td style="width: 15%" class="sponsor-bronze">Bronze</td> -->
-<!--         </tr> -->
-<!--     </thead> -->
-<!--     <tbody> -->
-<!--         <tr> -->
-<!--             <td>Keynote (15 min)</td> -->
-<!--             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-gold"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>Demo Theatre Presentation</td> -->
-<!--             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>2-minute lightning talk in plenary</td> -->
-<!--             <td class="sponsor-platinum"></td> -->
-<!--             <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>3x2m booth space</td> -->
-<!--             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-gold"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>2x2m booth space</td> -->
-<!--             <td class="sponsor-platinum"></td> -->
-<!--             <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>Tabletop and two chairs</td> -->
-<!--             <td class="sponsor-platinum"></td> -->
-<!--             <td class="sponsor-gold"></td> -->
-<!--             <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>Full conference passes</td> -->
-<!--             <td class="sponsor-platinum">10</td> -->
-<!--             <td class="sponsor-gold">6</td> -->
-<!--             <td class="sponsor-silver">2</td> -->
-<!--             <td class="sponsor-bronze">1</td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>15% discount on additional passes</td> -->
-<!--             <td class="sponsor-platinum">10</td> -->
-<!--             <td class="sponsor-gold">5</td> -->
-<!--             <td class="sponsor-silver">3</td> -->
-<!--             <td class="sponsor-bronze">-</td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>Private meeting room</td> -->
-<!--             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-gold"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>2-minute video with RISC-V on Youtube playlist</td> -->
-<!--             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-gold"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>Logo on event giveaway</td> -->
-<!--             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-gold"></td> -->
-<!--             <td class="sponsor-silver"></td> -->
-<!--             <td class="sponsor-bronze"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>Logo on event signage, slides and website</td> -->
-<!--             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-silver"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--             <td class="sponsor-bronze"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td>Cost</td> -->
-<!--             <td class="sponsor-platinum"><strong>25,000 €</strong></td> -->
-<!--             <td class="sponsor-gold"><strong>15,000 €</strong></td> -->
-<!--             <td class="sponsor-silver"><strong>6,000 €</strong></td> -->
-<!--             <td class="sponsor-bronze"><strong>3,000 €</strong></td> -->
-<!--         </tr> -->
-<!--         <tr> -->
-<!--             <td></td> -->
-<!--             <td class="sponsor-platinum"><strong>Upgrade available:</strong><br>6x4m booth, 20 minute keynote<br>+ 5,000 €</td> -->
-<!--             <td></td> -->
-<!--             <td></td> -->
-<!--             <td></td> -->
-<!--         </tr> -->
+## Extra Sponsorship
 
-<!--     </tbody> -->
-<!-- </table> -->
+Beyond the sponsorship packages, there are extra sponsorships available:
 
-<!-- ## Extra Sponsorship -->
+- 1 Lanyard sponsorship - 8 k€
+- 1 Collaboration breakfast sponsorship - 9 k€
+- 4 Lounge area sponsorships - 7 k€
+- 1 Premium Lounge with a charging station - 8 k€
+- 1 Drinks Reception sponsorship - 7.5 k€
+- 1 Demo Theatre naming right - 6 k€
+- Contribution to Diversity scholarships - 2.5 k€
+- Bulk buy of 20 tickets with logo on exhibitio
+- 1 intro to RISC-V Sponsor - 5 k€. With optionnal upgrade for a 10 min talking slot - 3 k€
 
-<!-- Beyond the sponsorship packages, there are extra sponsorships available: -->
+## More Information and Become a Sponsor
 
-<!-- - ~~Lanyard sponsorship (1)~~ (sold) - €8k -->
-<!-- - ~~WiFi sponsorship (1)~~ (sold) - €5k -->
-<!-- - Collaboration breakfast sponsorship (1) - €6k -->
-<!-- - Lounge area sponsorship (1) - €7k -->
-<!-- - Drinks Reception sponsorship (1) - €7.5k -->
-<!-- - Bulk buy of 20 tickets with logo on exhibition slide and signage: Contact for further details -->
-<!-- - Demo Theatre naming rights (1) - €6k -->
-<!-- - Contribution to Diversity scholarships - €2.5k -->
+Sponsorships go live on **Thursday, February, 19 at 6:00 am PT (3:00
+pm CET)** and will be allocated on a first-come, first-served basis,
+based on sponsorship submission via email to [Lori Servin
+](mailto:lori@riscv.org). The priority order is dependent on
+sponsorship level (including Platinum upgrade) and time of email
+submission. This will determine the order sponsors can choose from
+available slots for speaking opportunities and booth location.
 
-<!-- ## More Information and Become a Sponsor -->
+Contracts not fully signed within 1 month of execution will lose their
+sponsorship priority booth and talk slots.
 
-<!-- Sponsorships go live on Wednesday 22nd January at 6am PT / 3pm CET and will be allocated on a first-come, first-served basis, based on sponsorship form submission time. The priority order is dependent on sponsorship level (including Platinum upgrade) and time of form submission. This will determine the order sponsors can choose from available slots for keynotes and booth location. -->
+**All prices are exclusive of 22% VAT, which will be added to
+invoice.**
 
-<!-- **All prices are plus VAT,  where applicable (VAT is charged for outside EU sponsors, reverse charge for EU).** -->
+## Engagement Opportunities
+
+- **Platinum Opportunity** - *Premier visibility and on-stage thought
+  leadership.* Ideal for: companies seeking maximum visibility,
+  strategic positioning and executive-level engagement.
+- **Gold Opportunity** - *Strong visibility with presentation
+  opportunities*. Ideal for: companies promoting products, platforms
+  or tools to the RISC-V community.
+- **Silver Opportunity** - *Show floor presence and ecosystem
+  participation*.  Ideal for: growing companies and ecosystem
+  contributors seeking brand visibility and networking.
+- **Bronze Opportunity** - *Visible support for the RISC-V
+  ecosystem*. Ideal for: startups and organizations looking to support
+  and be visible within the RISC-V ecosystem.
 
 <!-- Below you can find the sponsorship flyer. Contact [Lori Servin](mailto:lori@riscv.org) for more information. -->
 
