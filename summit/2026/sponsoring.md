@@ -28,7 +28,7 @@ Several packages with varying features are available.
     </thead>
     <tbody>
         <tr>
-            <td>Sponsorships limit</td>
+            <td>*Max number of sponsorships*</td>
             <td class="sponsor-platinum">5</td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
