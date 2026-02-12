@@ -28,6 +28,13 @@ Several packages with varying features are available.
     </thead>
     <tbody>
         <tr>
+            <td>Sponsorships limit</td>
+            <td class="sponsor-platinum">5</td>
+            <td class="sponsor-gold"></td>
+            <td class="sponsor-silver"></td>
+            <td class="sponsor-bronze"></td>
+        </tr>
+        <tr>
             <td>Keynote -- 15 min.</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
@@ -141,7 +148,7 @@ Several packages with varying features are available.
         </tr>
         <tr>
             <td>Cost</td>
-            <td class="sponsor-platinum"><strong>27,000 €</strong><br>limit 5</td>
+            <td class="sponsor-platinum"><strong>27,000 €</strong></td>
             <td class="sponsor-gold"><strong>17,000 €</strong></td>
             <td class="sponsor-silver"><strong>6,500 €</strong></td>
             <td class="sponsor-bronze"><strong>3,000 €</strong></td>
