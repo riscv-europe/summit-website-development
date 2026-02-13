@@ -43,7 +43,7 @@ Several packages with varying features are available.
         </tr>
         <tr>
             <td>Keynote &mdash; 20 min.</td>
-            <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
+            <td class="sponsor-platinum">Included in the 5 k€ upgrade</td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
@@ -178,8 +178,8 @@ Beyond the sponsorship packages, there are extra sponsorships available:
 - 1 Drinks Reception sponsorship &mdash; 7.5 k€
 - 1 Demo Theatre naming right &mdash; 6 k€
 - 1 Contribution to Diversity scholarships &mdash; 2.5 k€
-- 2 Women in tech sponsor &mdash; 2.5 k€
-- 1 intro to RISC-V Sponsor &mdash; 5 k€. With optionnal upgrade for a 10 min. talking slot &mdash; 3 k€
+- 2 Women in Tech sponsor &mdash; 2.5 k€
+- 1 Intro to RISC-V Sponsor &mdash; 5 k€. Optionnal upgrade for a 10 min. talking slot &mdash; 3 k€
 
 **All prices are exclusive of 22% VAT, which will be added to
 invoice.**
@@ -200,19 +200,19 @@ sponsorship priority booth and talk slots.
 **All prices are exclusive of 22% VAT, which will be added to
 invoice.**
 
-## Engagement Opportunities
+## Sponsorship Tiers & Benefits
 
 - **Platinum Opportunity &mdash; Premier visibility and on-stage thought
-  leadership.** Ideal for: companies seeking maximum visibility,
+  leadership.**<br>Ideal for: companies seeking maximum visibility,
   strategic positioning and executive-level engagement.
 - **Gold Opportunity &mdash; Strong visibility with presentation
-  opportunities**. Ideal for: companies promoting products, platforms
+  opportunities**.<br>Ideal for: companies promoting products, platforms
   or tools to the RISC-V community.
 - **Silver Opportunity &mdash; Show floor presence and ecosystem
-  participation**.  Ideal for: growing companies and ecosystem
+  participation**.<br>Ideal for: growing companies and ecosystem
   contributors seeking brand visibility and networking.
 - **Bronze Opportunity &mdash; Visible support for the RISC-V
-  ecosystem**. Ideal for: startups and organizations looking to
+  ecosystem**.<br>Ideal for: startups and organizations looking to
   support and be visible within the RISC-V ecosystem.
 
 <!-- Below you can find the sponsorship flyer. Contact [Lori Servin](mailto:lori@riscv.org) for more information. -->
