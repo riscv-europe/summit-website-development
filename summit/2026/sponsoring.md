@@ -171,8 +171,8 @@ invoice.**
 
 Beyond the sponsorship packages, there are extra sponsorships available:
 
-- 1 Lanyard sponsorship &mdash; 8 k€
 - 1 Collaboration breakfast sponsorship &mdash; 9 k€
+- 1 Lanyard sponsorship &mdash; 8 k€
 - 1 Premium Lounge with a charging station &mdash; 8 k€
 - 1 Drinks Reception sponsorship &mdash; 7.5 k€
 - 4 Lounge area sponsorships &mdash; 7 k€
