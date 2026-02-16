@@ -174,8 +174,8 @@ Beyond the sponsorship packages, there are extra sponsorships available:
 - 1 Lanyard sponsorship &mdash; 8 k€
 - 1 Collaboration breakfast sponsorship &mdash; 9 k€
 - 1 Premium Lounge with a charging station &mdash; 8 k€
-- 4 Lounge area sponsorships &mdash; 7 k€
 - 1 Drinks Reception sponsorship &mdash; 7.5 k€
+- 4 Lounge area sponsorships &mdash; 7 k€
 - 1 Demo Theatre naming right &mdash; 6 k€
 - 1 Intro to RISC-V Sponsor &mdash; 5 k€. Optionnal upgrade for a 10 min. talking slot &mdash; 3 k€
 - 2 Women in Tech sponsor &mdash; 3 k€
