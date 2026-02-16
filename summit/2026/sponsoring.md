@@ -178,8 +178,8 @@ Beyond the sponsorship packages, there are extra sponsorships available:
 - 1 Drinks Reception sponsorship &mdash; 7.5 k€
 - 1 Demo Theatre naming right &mdash; 6 k€
 - 2 Women in Tech sponsor &mdash; 3 k€
-- 1 Contribution to Diversity scholarships &mdash; 2.5 k€
 - 1 Intro to RISC-V Sponsor &mdash; 5 k€. Optionnal upgrade for a 10 min. talking slot &mdash; 3 k€
+- 1 Contribution to Diversity scholarships &mdash; 2.5 k€
 
 **All prices are exclusive of 22% VAT, which will be added to
 invoice.**
