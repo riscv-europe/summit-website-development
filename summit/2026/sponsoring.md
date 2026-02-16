@@ -63,21 +63,21 @@ Several packages with varying features are available.
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>6x4m booth space (own frame or pre-fab)</td>
+            <td>6x4&nbsp;m booth space (own frame or pre-fab)</td>
             <td class="sponsor-platinum">Included in the 5 k€ upgrade</td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>3x2m booth space (own frame or pre-fab)</td>
+            <td>3x2&nbsp;m booth space (own frame or pre-fab)</td>
             <td class="sponsor-platinum"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
         </tr>
         <tr>
-            <td>2x2m booth space (own frame or pre-fab)</td>
+            <td>2x2&nbsp;m booth space (own frame or pre-fab)</td>
             <td class="sponsor-platinum"></td>
             <td class="sponsor-gold"><img src="/assets/icons/check-circle-fill-green.svg" height="20" alt="yes"></td>
             <td class="sponsor-silver"></td>
@@ -155,7 +155,7 @@ Several packages with varying features are available.
         </tr>
         <tr>
             <td></td>
-            <td class="sponsor-platinum"><strong>Upgrade available:</strong><br>+ 5,000 € for<br>6x4m booth,<br>20 min. keynote</td>
+            <td class="sponsor-platinum"><strong>Upgrade available:</strong><br>+ 5,000 € for<br>6x4&nbsp;m booth,<br>20 min. keynote</td>
             <td></td>
             <td></td>
             <td></td>
