@@ -115,3 +115,8 @@ the according deadlines.
 
 Only live demonstrations will be shown at the expo area. No
 pre-recorded demos will be allowed during the event.
+
+## Contact
+
+For any request about this call for demos, please mail to
+[`europe-program-committee@riscv.org`](mailto:europe-program-committee@riscv.org).

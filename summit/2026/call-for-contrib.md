@@ -173,6 +173,11 @@ Preparation before the conference:
  - **At least one author of the poster must register for the core
    conference** (Tuesday 9th to Thursday 11th).
 
+## Contact
+
+For any request about this call for contributions, please mail to
+[`europe-program-committee@riscv.org`](mailto:europe-program-committee@riscv.org).
+
 <!-- At the conference: -->
 <!--  - You will mount your own poster, no own tape allowed, you will get -->
 <!--    some. -->
