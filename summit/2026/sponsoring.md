@@ -160,7 +160,6 @@ Several packages with varying features are available.
             <td></td>
             <td></td>
         </tr>
-
     </tbody>
 </table>
 
