@@ -90,7 +90,7 @@ for the *Core Summit* are presented in the table below.
 
 The fees for the *Side events* will be publised latter on.
 
-**All prices are inclusive of VAT.**
+**Registration prices are inclusive of VAT.**
 
 ### Included in the registration fees
 
