@@ -85,12 +85,14 @@ for the *Core Summit* are presented in the table below.
       <td>340 €</td>
       <td>380 €</td>
     </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td colspan="3">**Registration prices are inclusive of VAT.**</td>
+    </tr>
   </tbody>
 </table>
 
 The fees for the *Side events* will be publised latter on.
-
-**Registration prices are inclusive of VAT.**
 
 ### Included in the registration fees
 
