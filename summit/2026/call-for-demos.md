@@ -73,7 +73,7 @@ your proposed demonstration.
 
 ### Important dates
 
-- Demo submission deadline: **March 9th** ~~March 2nd~~, 2026 [AOE (Anywhere on
+- Demo submission deadline: **March 9th** (was ~~March 2nd~~), 2026 [AOE (Anywhere on
   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
 - Author notification: **From April 17th to 24th, 2026**. *Not all the
   notifications will be sent at the same time.*
