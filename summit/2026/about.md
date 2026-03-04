@@ -30,63 +30,48 @@ International](https://riscv.org):
 
 ### The Program Committee
 
-<!-- - Jan Andersson (Frontgrade Gaisler) -->
-<!-- - Jeremy Bennett (Embecosm) -->
-<!-- - Alex Bradbury (Igalia) -->
-<!-- - Ramon Canal (UPC) -->
-<!-- <\!-- - Gregory Chadwick (LowRISC) -\-> -->
-<!-- <\!-- - Samuel Chiang (Andes) -\-> -->
-<!-- - Fabio De Ambroggi (STMicroelectronics) -->
-<!-- - Julie Dumas (TIMA) -->
-<!-- - Denis Dutoit (CEA) -->
-<!-- - Angelo Garofalo (University of Bologna) -->
-- Daniel Große (Univ. Linz), PC Co-Chair
-<!-- - Eyck Jentzsch (MINRES) -->
-- Nick Kossifidis (FORTH), PC Chair
-<!-- - Larry Lapides (Synopsys) -->
-<!-- - Nathan Ma (Nuclei) -->
-<!-- - Fabrizio Magugliani (E4CE) -->
-<!-- - Andreas Mauderer (Bosch) -->
-<!-- - Andy Moore (RISC-V International) -->
-<!-- - Daniel Mueller-Gritschneder (TU Wien) -->
-<!-- - Rihards Novickis (EDI) -->
-<!-- - Katzalin Olcoz Herrero (UCM) -->
-- Borja Pérez Pavon (Univ. de Cantabria), PC Co-Chair
-<!-- - Sandro Pinto (University of Minho) -->
-<!-- - Shawn Prestridge (IAR) -->
-<!-- - Jérôme Quévremont (Thales) -->
-<!-- - Thomas Roecker (Infineon) -->
-<!-- - Davide Rossi (University of Bologna) -->
-<!-- - Fatima Saleem (10xEngineers) -->
-<!-- - Olivier Savry (CEA) -->
-<!-- - Davide Schiavone (OpenHW Group) -->
-<!-- - Olivier Sentieys (INRIA), PC Co-Chair -->
-<!-- - Darshak Sheladiya (SYSGO) -->
-<!-- - Georg Sigl (TU Munich) -->
-<!-- - Sharad Sinha (IIT Goa) -->
-<!-- - Gabriel L. Somlo (CMU) -->
-<!-- - Philipp Tomsich (VRULL) -->
-<!-- - Stefan Wallentowitz (Munich University of Applied Sciences) -->
-<!-- - Wei Wu (ISCAS) -->
-<!-- - Jonathan Woodruff (Univ. of Cambridge) -->
-<!-- - An Xu (Beijing Institute of Open Source Chip) -->
-<!-- - Florian Zaruba (Axelera) -->
+- Xu An (Beijing Institute of Open Source Chip)
+- Jan Andersson Nerén (Frontgrade Gaisler)
+- Hassan Ashraf (10xEngineers)
+- Jeremy Bennett (Embecosm)
+- Nicolas Brunie (SiFive)
+- Ramon Canal (Universitat Politècnica de Catalunya)
+- Adrián Castelló (Universitat Politècnica de València)
+- Kashyap Chamarthy (Red Hat)
+- George Christou (Technical University of Crete)
+- Pasquale Davide Schiavone (OpenHW Group, Eclipse Foundation)
+- Fabio De Ambroggi (STMicroelectronics)
+- Andy Dellow (Qualcomm)
+- Ruud Derwig (Synopsys)
+- Julie Dumas (Grenoble INP)
+- César Fuguet (INRIA)
+- Andrea Gallo (RISC-V International)
+- Angelo Garofalo (Università di Bologna)
+- Daniel Große (Johannes Kepler Universität Linz) PC Co-Chair
+- Fatma Jebali (CEA)
+- Eyck Jentzsch (MINRES Technologies)
+- Nick Kossifidis (Foundation for Research and Technology - Hellas) PC Chair
+- Leonidas Kosmidis (Barcelona Supercomputing Center)
+- Fabrizio Magugliani (E4 Computer Engineeering)
+- Manolis Marazakis (Foundation for Research and Technology - Hellas)
+- Andreas Mauderer (Bosch)
+- Daniel Mueller-Gritschneder (TU Wien)
+- Katzalin Olcoz (Universidad Complutense de Madrid)
+- Arthur Perais (CNRS)
+- Borja Perez (Universidad de Cantabria), PC Co-Chair
+- Sandro Pinto (Universidade do Minho)
+- Jérôme Quévremont (Thales R&T)
+- Thomas Roecker (Infineon Technologies )
+- Davide Rossi (Università di Bologna)
+- Fatima Saleem (10xEngineers)
+- Olivier Savry (CEA)
+- Olivier Sentieys (INRIA)
+- Darshak Sheladiya (Sysgo)
+- Gabriel Somlo (Carnegie Mellon University)
+- Philipp Tomsich (VRULL)
+- Wei Wu (University of Chinese Academy of Sciences)
+- Florian Zaruba (Axelera AI)
 
-TBC
-
-<!-- <\!-- ### The Industry Session Committee -\-> -->
-
-<!-- <\!-- - Marc Canel (Ventana) -\-> -->
-<!-- <\!-- - Andy Moore (RISC-V International) -\-> -->
-<!-- <\!-- - Daniel Mueller-Gritschneder (TU Munich) -\-> -->
-<!-- <\!-- - Borja Pérez Pavon (Univ. de Cantabria) -\-> -->
-<!-- <\!-- - Victoria Rege (Imagination) -\-> -->
-<!-- <\!-- - Olivier Sentieys (INRIA) -\-> -->
-<!-- <\!-- - Tiffany Sparks (RISC-V International) -\-> -->
-<!-- <\!-- - Philipp Tomsich (VRULL) -\-> -->
-<!-- <\!-- - Stefan Wallentowitz (Munich University of Applied Sciences) -\-> -->
-<!-- <\!-- - An Xu (Beijing Institute of Open Source Chip) -\-> -->
-<!-- <\!-- - Itai Yarom (MIPS) -\-> -->
 
 ### The Steering Committee
 
