@@ -16,14 +16,14 @@ layout: summit2026
 
 After four days of updates on the global RISC-V ecosystem, Friday 12th
 is the perfect opportunity to propose your own workshop or to hold the
-regular meeting of your research consortium
+regular meeting of your research consortium.
 
 ## Rooms capacity and prices
 
-A number of rooms with several sizes are available to rent for such
-events.
+A variety of rooms in different sizes are available for rent to
+accommodate such events.
 
-<table class="riscv-sy" margin-bottom="3pt">
+<table class="riscv-sy" style="margin-bottom: 9pt;">
   <thead>
     <tr>
       <th rowspan="2">Type</th>
@@ -70,8 +70,6 @@ events.
     </tr>
   </tbody>
 </table>
-
-<p>&nbsp;</p>
 
 The price quoted is based on a full-day event. Unfortunately, we do
 not offer half-day room rentals.
