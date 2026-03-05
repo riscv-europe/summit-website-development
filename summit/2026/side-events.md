@@ -8,15 +8,15 @@ layout: summit2026
 %}
 
 {% include jumboboxstart.html
-    title = "Friday 12th side events: workshops & consortium meetings"
-    lead = "The last day of the RISC-V Summit Europe week is the day for your project meetings or workshops."
+    title = "Side events on Friday 12th: workshops & consortium meetings"
+    lead = "The final day of the RISC-V Summit Europe week is dedicated for your project meetings or workshops."
 %}
 
 ## Project meetings and public workshop
 
-After 4 days of RISC-V update on the worldwide ecosystem, Friday is
-the time to propose a workshop of yours, or to have the regular
-meeting of your research consortium.
+After four days of updates on the global RISC-V ecosystem, Friday 12th
+is the perfect opportunity to propose your own workshop or to hold the
+regular meeting of your research consortium
 
 ## Rooms capacity and prices
 
@@ -71,35 +71,35 @@ events.
   </tbody>
 </table>
 
-The price assumes a full day event. There is not half-day room rental.
+<p>&nbsp;</p>
+
+The price quoted is based on a full-day event. Unfortunately, we do
+not offer half-day room rentals.
 
 ## Extra registration required
 
-Participation to one or several *side events* requires individual
-**registration for Friday 12th**, and payment of the associated fees
-to covers breaks and lunch.
-
-Attendees need to book a full-day pass for Friday at **60 Euro** at
-[registration](registration).
+Participation in one or more **side events requires individual
+registration for Friday, 12th**, along with the **payment of the
+60&nbsp;€ associated fees** to cover breaks and lunch.
 
 ## Workshop Organization Details
 
 All the workshops are expected to have the same schedule, to share
 breaks and lunch:
 
-- 08:30-09:00 - welcome and late registration
+- 08:30-09:00 - Welcome and late registration
 - 09:00-10:30 - 1st morning session
-- 10:30-11:00 - break
+- 10:30-11:00 - Break
 - 11:00-12:30 - 2nd morning session
-- 12:30-13:30 - lunch
+- 12:30-13:30 - Lunch
 - 13:30-15:00 - 1st afternoon session
-- 15:00-15:30 - break
+- 15:00-15:30 - Break
 - 15:30-17:00 - 2nd afternoon session
-- 17:00-17h30 - folding and closure
+- 17:00-17:30 - Folding and closure
 
 ## Booking a room and more information
 
-For more information or to book a room for your side event, get in
-touch by emal with [Lori Servin ](mailto:lori@riscv.org).
+For more information or to book a room for your side event, please
+feel free to contact [Lori Servin ](mailto:lori@riscv.org) by email.
 
 {% include jumboboxend.html %}
