@@ -117,7 +117,7 @@ The following conditions will be applied:
 - Cancellations request received **before April 13th, 2026**: refund
   of fees **minus a 50.00 € administrative charge**.
 - Cancellations received between **April 14th and May 25th, 2026**: refund
-  of fees **minus a 50% administrative charge**.
+  of fees **minus a 50&ensp;% administrative charge**.
 - Refunds will unfortunately **no longer be possible after May 25th,
   2026**.
 
