@@ -108,6 +108,21 @@ The conference registration fees covers:
 
 ### Cancellation policy
 
-- To follow.
+Any **cancellation or change** of your registration **must be notified
+in writing by email** to PLANNING at (planning please provide the
+contact email here).
+
+The following conditions will be applied:
+
+- Cancellations request received **before April 13th, 2026**: refund
+  of fees **minus a 50.00 € administrative charge**.
+- Cancellations received between **April 14th and May 25th, 2026**: refund
+  of fees **minus a 50% administrative charge**.
+- Refunds will unfortunately **no longer be possible after May 25th,
+  2026**.
+
+Refunds will be credited only to the person or entity who paid the
+original registration. **Reimbursement to or for the benefit of third
+parties is excluded.**
 
 {% include jumboboxend.html %}
