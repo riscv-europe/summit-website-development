@@ -95,7 +95,7 @@ The fees for the *Side events* will be publised latter on.
 
 ### Included in the registration fees
 
-The conference registration:
+The conference registration fees covers:
 
  - The fees to attend the *Core summit*, from Tuesday June 9 to Thursday
    June 11 (plenaries, poster sessions, demo theater, and exhibition
