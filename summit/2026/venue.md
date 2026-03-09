@@ -28,7 +28,9 @@ the city center.
     lead = "There are plenty of accomodation options in Bologna."
 %}
 
-Accomodation suggestions will appear here soon.
+You can find more information for accomodation on the dedicated web
+page of [Bologna
+Welcome](https://www.bolognawelcome.com/en/accommodation-facilities).
 
 {% include jumboboxend.html %}
 
