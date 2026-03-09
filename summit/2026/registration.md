@@ -110,7 +110,7 @@ The conference registration fees covers:
 
 Any **cancellation or change** of your registration **must be notified
 in writing by email** to
-[Antonella](mailto:a.cantelli@planning.it?Subject=RISC-V%20Summit%20registration%20refund).
+[Antonella](mailto:a.cantelli@planning.it?Subject=RISC-V%20Summit%20registration%20refund%20request).
 
 The following conditions will be applied:
 
