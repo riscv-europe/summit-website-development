@@ -11,11 +11,15 @@ layout: summit2026
     title = "Registration"
 %}
 
-The registration form is now online:
+<p id="registration"><strong>Online regsitration is open until
+Saturday, May 30th</strong>, through the following link :</p>
 
 <div class="row justify-content-md-center my-4">
     <a href="https://webplatform.planning.it/risc2026/register" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register for the RISC-V Summit Europe 2026!<br>8-12 June 2026, Bologna</a>
 </div>
+
+**After May 30th**, registration will only be available **at the
+registration desk**, at the summit venue.
 
 ### Fees tiers
 
@@ -87,6 +91,11 @@ for the *Core Summit* are presented in the table below.
 </table>
 
 The fees for the *Side events* will be publised latter on.
+
+Please note that **online registration is available until Saturday,
+May 30th**, <a href="#registration">via the link at the top of this
+page</a>. After this date, registration will **only be possible
+on-site at the registration desk** located at the summit venue.
 
 ### Included in the registration fees
 
