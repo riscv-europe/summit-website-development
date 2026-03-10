@@ -11,16 +11,11 @@ layout: summit2026
     title = "Registration"
 %}
 
-<!-- ### Online registration form -->
+The registration form is now online:
 
-<!-- Registration for the summit is open: -->
-
-<!-- <div class="row justify-content-md-center my-4"> -->
-<!--     <a href="https://kit-react.de/portal/init?mnemonic=RV25" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register for the Summit Europe<br> 12-15 May 2025, Paris</a> -->
-<!-- </div> -->
-
-The online registration form for *RISC-V Summit Europe 2026* will open
-soon.
+<div class="row justify-content-md-center my-4">
+    <a href="https://webplatform.planning.it/risc2026/register" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Register for the RISC-V Summit Europe 2026!<br>8-12 June 2026, Bologna</a>
+</div>
 
 ### Fees tiers
 
