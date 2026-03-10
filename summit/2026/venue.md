@@ -39,6 +39,17 @@ Welcome](https://www.bolognawelcome.com/en/accommodation-facilities).
     lead = "If you do not want to carry your poster all the way to Bologna..."
 %}
 
-Print shops will appear here soon.
+If you want to **print your poster on-site** instead of bringing it
+from home to Bologna, here is a list of print shops in downtdown
+Bologna. Do not hesitate to contact them directly:
+
+- [Copisteria Belle Arti](https://copisteriabellearti.blogspot.com).
+- [Centro Stampa Zamboni](https://www.centrostampazamboni.com).
+- [University Copy](https://universitycopy.it).
+- [Copisteria Asterisco](https://www.asterisco.srl).
+- [Emergenza Tesi](https://www.emergenzatesi.it).
+
+Please note that posters must be printed in **A0 size, and in portrait
+mode**.
 
 {% include jumboboxend.html %}
