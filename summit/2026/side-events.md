@@ -100,4 +100,7 @@ shared breaks and lunch:
 For more information or to book a room for your side event, please
 feel free to contact [Lori Servin ](mailto:lori@riscv.org) by email.
 
+The deadline for side events applications is **April 17, 2026** [AOE
+(Anywhere on Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
+
 {% include jumboboxend.html %}
