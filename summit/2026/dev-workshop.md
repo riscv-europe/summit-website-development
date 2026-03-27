@@ -4,7 +4,7 @@ layout: summit2026
 ---
 
 {% include bannerimg.html
-    img = "media/banners/banner.jpg"
+    img = "media/banners/banner-dev-workshop.png"
 %}
 
 {% include jumboboxstart.html
