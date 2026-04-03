@@ -8,8 +8,8 @@ layout: summit2026
 %}
 
 {% include jumboboxstart.html
-    title = "Developer workshop"
-    lead = "The future runs on RISC-V: get hands-on, explore possibilities, build solutions!"
+    title = "The future runs on RISC-V"
+    lead = "Get hands-on, explore possibilities, build solutions!"
 %}
 
 ## Project meetings and public workshop
