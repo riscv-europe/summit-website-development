@@ -43,7 +43,7 @@ Registration Includes:
 - Lunch and Coffee Breaks
 
 <div class="row justify-content-md-center my-4">
-    <a href="http://www.riscvdeveloperworkshops2026.sched.com" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">More info., and registration for the<br>8 June Developer Workshop</a>
+    <a href="https://webplatform.planning.it/riscdeveloper/Registration" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Registration for the<br>Developer Workshops on Monday June 8</a>
 </div>
 
 
