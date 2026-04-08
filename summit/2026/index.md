@@ -27,3 +27,14 @@ conference is designed to help attendees to explore both commercial
 and research applications.  *RISC-V Summit Europe* is an opportunity
 not to be missed. Come to Bologna to be part of the new wave of
 European computing innovation!
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+title = "Summit Overview"
+lead = "Get up to speed on Monday, and start a full week of RISC-V news!<br><em>Schedule subject to minor adjustments. Updates to follow here.</em>"
+%}
+
+{% include bannerimg.html
+    img = "media/banners/schedule-full-week.png"
+%}
