@@ -38,3 +38,21 @@ lead = "Get up to speed on Monday, and start a full week of RISC-V news!<br><em>
 {% include bannerimg.html
     img = "media/banners/schedule-full-week.png"
 %}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+title = "Keynotes & Invited Talks"
+lead = "Learn about the exciting progress of RISC-V across industries and the hardware/software stack from our keynote speakers and invited talks<br><em>Check for upcoming updates!</em>"
+%}
+
+<div class="row mt-5">
+{% assign speakers = site.data.summit2026.speakers-invited-or-sponsors | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% for speaker in speakers %}
+{% if speaker['SpeakerKind'] == "InvitedKeynote" or speaker['SpeakerKind'] == "InvitedPres" or speaker['SpeakerKind'] == "SponsorKeynote" %}
+{% include summit26speaker.md speaker=speaker %}
+{% endif %}
+{% endfor %}
+</div>
+
+{% include jumboboxend.html %}
