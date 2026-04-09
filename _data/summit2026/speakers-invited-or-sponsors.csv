@@ -1,0 +1,13 @@
+SpeakerId,Status,SpeakerKind,FirstName,MiddleInitial,LastName,Company,Position,PictureFileName,Bio
+Spk001,OkToPublish,InvitedKeynote,Krste ,,Asanović,SiFive,Chief Architect,Asanovic-Krste.jpeg,"Krste Asanović is Professor Emeritus and a Professor of the Graduate School in the EECS Department at the University of California, Berkeley. He received a PhD in Computer Science from UC Berkeley in 1998 then joined the faculty at MIT, receiving tenure in 2005. He returned to join the faculty at Berkeley in 2007, where he co-founded the Berkeley Parallel Computing Laboratory (‘Par Lab’), and led the ASPIRE Lab, and co-led the ADEPT Lab and Berkeley SLICE Lab. His main research areas are computer architecture, VLSI design, parallel programming and operating system design. He has led the RISC-V open ISA project at Berkeley from its inception in 2010 and co-founded the RISC-V Foundation in 2015, which has now become RISC-V International. He is now Chief Architect at RISC-V International. He also co-founded SiFive in 2015 to commercialize RISC-V processors, where he is Chief Architect. He is an ACM Fellow and an IEEE Fellow. (CC BY 3.0 by Krste Asanovic)"
+Spk002,OkToPublish,InvitedKeynote,Greg,,Kroah-Hartman,The Linux Foundation,Fellow,Kroah-Hartman-Greg.jpeg,
+Spk003,OkToPublish,InvitedKeynote,Andrea,,Gallo,RISC-V International,CEO,Gallo-Andrea.jpg,
+Spk004,OkToPublish,InvitedKeynote,Luca,,Benini,ETH Zurich,Full Professor of Digital Circuits and Systems,Benini-Luca.jpeg,
+Spk005,OkToPublish,InvitedKeynote,Edward,,Wilford,Omdia,"Senior Research Director, Automotive",Wilford-Edward.jpeg,
+Spk006,OkToPublish,InvitedKeynote,Marcelo,,Zuffo,Escola Politécnica da USP,Full Professor,Zuffo-Marcelo.jpeg,
+Spk007,OkToPublish,InvitedKeynote,Philipp,,Tomsich,VRULL GmbH,Founder,Tomsich-Philipp.jpg,
+Spk008,OkToPublish,InvitedKeynote,Tanya,,Dadasheva,Ainekko,Co-Founder,Dadasheva-Tanya.jpeg,
+Spk009,OkToPublish,InvitedKeynote,Kushtrium,,Shala,Digital Valley Albania,Co-Founder,Shala-Kushtrim.jpg,
+Spk010,OkToPublish,InvitedKeynote,Andrew,,Dellow,Qualcomm,Director of Engineering ,Dellow-Andrew.jpeg,
+Spk011,OkToPublish,InvitedKeynote,Marco,,Fariselli ,Luxottica,Embedded AI Engineer,Fariselli-Marco.jpeg,
+Spk012,OkToPublish,InvitedKeynote,Radim,,Krcmar,Qualcomm,Engineer,Krcmar-Radim.jpg,
