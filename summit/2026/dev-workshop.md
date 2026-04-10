@@ -1,5 +1,5 @@
 ---
-title: Developer Workshop
+title: Developer Workshops
 layout: summit2026
 ---
 
@@ -12,7 +12,7 @@ layout: summit2026
     lead = "Get hands-on, explore possibilities, build solutions!"
 %}
 
-## Project meetings and public workshop
+## Project meetings and public workshops
 
 This event is for **developers currently working on RISC-V** or
 interested in increasing their knowledge in the open standard. You
