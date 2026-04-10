@@ -34,13 +34,17 @@ provide direct access to proven techniques**, maximize interaction and
 questions, and equip you with the knowledge, tools, and confidence to
 continue building long after the event.
 
-Registration Includes:
+### Registration
 
-- Hardware and Software Track
-- Workshop Materials
-- Community networking
-- Interaction with Speakers
-- Lunch and Coffee Breaks
+To participate in the workshops, **registration and payment of a fee
+of 30 €** are required.
+
+This includes:
+- Hardware and software track.
+- Workshop materials.
+- Community networking.
+- Interaction with speakers.
+- Lunch and coffee breaks.
 
 <div class="row justify-content-md-center my-4">
     <a href="https://webplatform.planning.it/riscdeveloper/Registration" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Registration for the<br>Developer Workshops on Monday June 8</a>
