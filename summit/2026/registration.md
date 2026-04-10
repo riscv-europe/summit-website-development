@@ -15,7 +15,7 @@ layout: summit2026
 Saturday, May 30th</strong>, through the following link :</p>
 
 <div class="row justify-content-md-center my-4">
-    <a href="https://webplatform.planning.it/risc2026/register" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">Register for the RISC-V Summit Europe 2026!<br>8-12 June 2026, Bologna</a>
+    <a href="https://webplatform.planning.it/risc2026/register" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">RISC-V Summit Europe 2026 in Bologna<br><em>Mon. 8 to Fri. 12 June 2026 &mdash; Register now!</em></a>
 </div>
 
 **After May 30th**, registration will only be available **at the
