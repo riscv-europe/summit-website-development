@@ -24,7 +24,7 @@ hold the regular meeting</a> of your research consortium.
 
 ### &mdash; Advancing RISC-V Adoption in HPC and Cloud Environments
 
-Organized by FORTH. Contact: <a href="mailto:maraz@ics.forth.gr?Subject=RISC-V%20Summit%20WS%20onRISC-V%20in%20Cloud%20and%20HPC ">Manolis Marazakis</a>.
+Organized by FORTH. Contact: <a href="mailto:maraz@ics.forth.gr?Subject=RISC-V%20Summit%20WS%20on%20RISC-V%20in%20Cloud%20and%20HPC ">Manolis Marazakis</a>.
 
 The goal of this workshop is to continue building the community of
 RISC-V in HPC and Cloud computing, particularly in Europe, with
