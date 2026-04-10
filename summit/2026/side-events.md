@@ -85,15 +85,15 @@ registration for Friday, 12th**, along with the **payment of the
 All workshops are expected to follow the same schedule to facilitate
 shared breaks and lunch:
 
-- **08:30-09:00 - Welcome and late registration**
-- 09:00-10:30 - 1st Morning session
-- **10:30-11:00 - Break**
-- 11:00-12:30 - 2nd Morning session
-- **12:30-13:30 - Lunch**
-- 13:30-15:00 - 1st Afternoon session
-- **15:00-15:30 - Break**
-- 15:30-17:00 - 2nd Afternoon session
-- **17:00-17:15 - Folding and closure**
+- **08:30-09:30 - Welcome and late registration**
+- 09:30-11:00 - 1st Morning session
+- **11:00-11:30 - Break**
+- 11:30-13:00 - 2nd Morning session
+- **13:30-14:00 - Lunch**
+- 14:00-15:30 - 1st Afternoon session
+- **15:30-16:00 - Break**
+- 16:00-17:30 - 2nd Afternoon session
+- **17:30-17:45 - Folding and closure**
 
 ## Booking a room and more information
 
