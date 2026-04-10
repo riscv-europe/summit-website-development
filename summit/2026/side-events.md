@@ -74,7 +74,7 @@ accommodate such events.
 The price quoted is based on a full-day event. Unfortunately, we do
 not offer half-day room rentals.
 
-## Extra registration required
+## Individual registration required
 
 Participation in one or more **side events requires individual
 registration for Friday, 12th**, along with the **payment of the
