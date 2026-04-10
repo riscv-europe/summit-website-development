@@ -47,7 +47,7 @@ This includes:
 - Lunch and coffee breaks.
 
 <div class="row justify-content-md-center my-4">
-    <a href="https://webplatform.planning.it/riscdeveloper/Registration" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y); width:50%;">Registration for the<br>Developer Workshops on Monday June 8</a>
+    <a href="https://webplatform.planning.it/riscdeveloper/Registration" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">Registration for the<br>Developer Workshops on Monday June 8</a>
 </div>
 
 

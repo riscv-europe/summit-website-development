@@ -219,7 +219,7 @@ Below you can find the sponsorship flyer. Contact [Lori Servin](mailto:lori@risc
 <div class="container">
     <div class="row">
         <div class="col-lg-6 my-2 d-flex justify-content-center align-items-center">
-            <a href="media/pdf/RISC-V-Summit-Europe-Sponsorship-2026.pdf" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: var(--riscv-y);">Download Sponsorship Flyer</a>
+            <a href="media/pdf/RISC-V-Summit-Europe-Sponsorship-2026.pdf" role="button" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black;">Download Sponsorship Flyer</a>
         </div>
     </div>
 </div>
