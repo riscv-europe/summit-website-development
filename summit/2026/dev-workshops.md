@@ -37,7 +37,7 @@ continue building long after the event.
 ### Registration
 
 To participate in the workshops, **registration and payment of a fee
-of 30 €** are required.
+of 30&nbsp;€** are required.
 
 This includes:
 - Hardware and software track.
