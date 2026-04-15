@@ -48,10 +48,28 @@ lead = "Learn about the exciting progress of RISC-V across industries and the ha
 
 <div class="row mt-5">
 {% assign speakers = site.data.summit2026.speakers-invited-or-sponsors | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% assign talks    = site.data.summit2026.talks-invited-or-sponsors    | where: "Status", "OkToPublish" %}
 {% for speaker in speakers %}
-{% if speaker['SpeakerKind'] == "InvitedKeynote" or speaker['SpeakerKind'] == "InvitedPres" or speaker['SpeakerKind'] == "SponsorKeynote" %}
-{% include summit26speaker.md speaker=speaker %}
-{% endif %}
+  {% assign talk = talks | where: "SpeakerId", speaker.SpeakerId | first %}
+  {% include summit26speaker.md speaker=speaker talk=talk %}
+{% endfor %}
+</div>
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+title = "Abstracts and bios"
+lead = "Highlights from RISC-V community ledears!<br><em>Check for upcoming updates!</em>"
+%}
+<div>
+{% assign speakers = site.data.summit2026.speakers-invited-or-sponsors | where: "Status", "OkToPublish" | sort: "LastName" %}
+{% assign talks    = site.data.summit2026.talks-invited-or-sponsors    | where: "Status", "OkToPublish" %}
+{% assign session = "" | split: "" %}
+{% assign slot    = "" | split: "" %}
+{% for speaker in speakers %}
+  {% assign talk = talks | where: "SpeakerId", speaker.SpeakerId | first %}
+  {% if talk %}
+	{% include summit26talk.md speaker=speaker talk=talk session=session slot=slot%}
+  {% endif %}
 {% endfor %}
 </div>
 
