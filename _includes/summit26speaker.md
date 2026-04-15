@@ -8,7 +8,7 @@
       <div class="col-md-12 text-center">
         <div class="pt-2">
 {% if talk %}
-          <a class="speaker" href="#{{ speaker.FirstName }}-{{ speaker.LastName }}-speaker">
+          <a class="speaker" href="#{{ speaker.FirstName }}-{{ speaker.LastName }}-talk">
 {% endif %}
 	      <h5 class="mt-4 font-weight-medium mb-1"><b>{{ speaker.FirstName }} {{ speaker.LastName }}</b><br>{{ speaker.Company }}</h5>
           <h6 class="subtitle">{{ speaker.Position }}</h6>

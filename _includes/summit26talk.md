@@ -1,4 +1,4 @@
-<h3 id="{{ talk.FirstName }}-{{ talk.LastName }}-talk">{{ talk.TalkTitle }}</h3>
+<h3 id="{{ speaker.FirstName }}-{{ speaker.LastName }}-talk">{{ talk.TalkTitle }}</h3>
 {% if false %}
 <p style="font-size: 80%;">
 {%- if slot.YouTubeURL %}<a href="{{ slot.YouTubeURL }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif -%}
