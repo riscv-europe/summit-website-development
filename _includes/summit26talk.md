@@ -16,4 +16,4 @@ T{{ slot.SlotId }}, {{ session.DayLong }} at {{ slot.Start }}, in Gaston Berger 
 
 {% if talk.TalkAbstract %}<p><strong>Abstract</strong>: {{ talk.TalkAbstract | strip_newlines }}</p>{% endif %}
 
-{% if speaker.Bio %}<p><strong>Bio</strong>: <emph>{{ speaker.Bio | strip_newlines }}</emph></p>{% endif %}
+{% if speaker.Bio %}<p><strong>Bio</strong>: <em>{{ speaker.Bio | strip_newlines }}</em></p>{% endif %}
