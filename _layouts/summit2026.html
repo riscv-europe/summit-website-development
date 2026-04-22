@@ -129,7 +129,7 @@
     <div id="cookie-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:9999; background:#1a1a2e; color:#fff; padding:16px 24px; box-shadow:0 -2px 12px rgba(0,0,0,0.4);">
       <div style="max-width:960px; margin:auto; display:flex; flex-wrap:wrap; align-items:center; gap:12px; justify-content:space-between;">
         <p style="margin:0; font-size:0.9em; flex:1 1 300px;">
-          We use analytics cookies (LinkedIn Insight Tag) to measure the reach of this event and improve future editions.
+          We use analytics cookies (LinkedIn Insight Tag, Google Tag Manager) to measure the reach of this event and improve future editions.
           You can accept or decline non-essential cookies. See our <a href="https://riscv.org/privacy-policy/" target="_blank" style="color:#f5c518;">Privacy Policy</a>.
         </p>
         <div style="display:flex; gap:8px; flex-shrink:0;">
@@ -143,7 +143,8 @@
       (function () {
         var CONSENT_KEY = 'cookie_consent_v1';
 
-        function loadLinkedIn() {
+        function loadTrackers() {
+          // LinkedIn Insight Tag
           _linkedin_partner_id = "8030538";
           window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
           window._linkedin_data_partner_ids.push(_linkedin_partner_id);
@@ -155,17 +156,26 @@
             b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
             s.parentNode.insertBefore(b, s);
           })(window.lintrk);
+
+          // Google Tag Manager
+          (function(w,d,s,l,i){
+            w[l]=w[l]||[];
+            w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+            var f=d.getElementsByTagName(s)[0], j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+            j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+            f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-TPMT5TJ5');
         }
 
         var consent = localStorage.getItem(CONSENT_KEY);
         if (consent === 'accepted') {
-          loadLinkedIn();
+          loadTrackers();
         } else if (consent === null) {
           document.getElementById('cookie-banner').style.display = 'block';
           document.getElementById('cookie-accept').addEventListener('click', function () {
             localStorage.setItem(CONSENT_KEY, 'accepted');
             document.getElementById('cookie-banner').style.display = 'none';
-            loadLinkedIn();
+            loadTrackers();
           });
           document.getElementById('cookie-decline').addEventListener('click', function () {
             localStorage.setItem(CONSENT_KEY, 'declined');
