@@ -21,7 +21,7 @@ The **list of accepted demos** will **show up here in the comming days**.
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-    title = "Showcase your work"
+    title = "Showcase your work<br>&mdash; CLOSED &mdash;"
     lead = "Live demonstrations of academic hardware or software achievements are invited to present at RISC-V Summit Europe in Bologna."
 %}
 

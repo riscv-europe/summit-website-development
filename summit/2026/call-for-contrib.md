@@ -22,7 +22,7 @@ The **list of abstracts accepted** as poster or presentation will
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-    title = "Present your work"
+    title = "Present your work<br>&mdash; CLOSED &mdash;"
     lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe in Bologna, from Monday June 8th to Thursday June 11th 2026."
 %}
 
