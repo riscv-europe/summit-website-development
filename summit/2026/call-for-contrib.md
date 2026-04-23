@@ -8,6 +8,20 @@ layout: summit2026
 %}
 
 {% include jumboboxstart.html
+	title = "Acceptance Notifications Sent!"
+	lead = "The Program Committee has finalized its selection of accepted submissions."
+%}
+
+If you have not yet received the email, **you may chek for your own
+paper** on the [submission web
+site](https://cfp.riscv-europe.org/eu-summit-2026/login/?next=%2Feu-summit-2026%2Fcfp).
+
+The **list of abstracts accepted** as poster or presentation will
+**show up here in the comming days**.
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
     title = "Present your work"
     lead = "Presentations on inspirational ideas and technical progress are invited to present at RISC-V Summit Europe in Bologna, from Monday June 8th to Thursday June 11th 2026."
 %}

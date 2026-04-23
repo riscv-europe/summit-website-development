@@ -8,6 +8,19 @@ layout: summit2026
 %}
 
 {% include jumboboxstart.html
+	title = "Acceptance Notifications Sent!"
+	lead = "The Program Committee has finalized its selection of accepted submissions."
+%}
+
+If you have not yet received the email, **you may chek for your own
+demo** on the [submission web
+site](https://cfp.riscv-europe.org/eu-summit-2026/login/?next=%2Feu-summit-2026%2Fcfp).
+
+The **list of accepted demos** will **show up here in the comming days**.
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
     title = "Showcase your work"
     lead = "Live demonstrations of academic hardware or software achievements are invited to present at RISC-V Summit Europe in Bologna."
 %}
