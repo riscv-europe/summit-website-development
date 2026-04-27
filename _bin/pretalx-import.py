@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
 """
-export_submissions_standalone.py — Export submission data for website in JSON format
+pretalix-import.py — Export submission data for website.
 
 Exports submission information including speakers for all tracks
-(blind, non-blind, demos, etc.) in a standalone script with no external dependencies.
+(blind, non-blind, demos, etc.) in a standalone script with no
+external dependencies.
 
-This script is READ-ONLY and only makes GET requests to the Pretalx API.
+This script is READ-ONLY and only makes GET requests to the Pretalx
+API.
 
 Usage:
     export PRETALX_API_KEY="your-api-key"
     export PRETALX_API_URL="https://cfp.example.com/api/events/your-event/"
-    python3 export_submissions_standalone.py [--output FILE] [--pretty]
+    python3 pretalix-import.py [--output FILE] [--pretty]
+
+First version by Nick.  Updated and fine-tuned to fit the web site
+production process by Christian.
+
 """
 
 import argparse
