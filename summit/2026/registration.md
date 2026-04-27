@@ -11,7 +11,7 @@ layout: summit2026
     title = "Registration"
 %}
 
-<p id="registration"><strong>Online regsitration is open until
+<p id="registration"><strong>Online registration is open until
 Saturday, May 30th</strong>, through the following link :</p>
 
 <div class="row justify-content-md-center my-4">
