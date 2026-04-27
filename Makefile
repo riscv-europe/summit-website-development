@@ -26,7 +26,7 @@ SUBMITTED_PDFS?=$(shell pwd)/../submitted-pdfs
 PROCEEDINGS_DIR:=summit/$(YEAR)/media/proceedings
 
 
-# Import Google drive files downloaded by Firefox.
+# Import Google drive files downloaded by Firefox, for Summit 2025.
 
 ## Remove previously downloadded files, if any. Leaving them before a
 ## new download will have the next ones being numbered by Firefox. And
@@ -48,10 +48,11 @@ gdrive-import-downloaded:
 	dos2unix $(ASIMPORTED_CSV_DIR)/*.csv
 
 
-# Integrate information from various CSV files to ease Summit's web
-# site generation.
 
-## Call the integration of all data source
+# Integrate information from various CSV files to ease 2025 Summit's
+# web site generation.
+
+## Call the integration of all data source for 2025.
 integrate:
 	mkdir -p _tmp
 	_bin/integrate.py \
