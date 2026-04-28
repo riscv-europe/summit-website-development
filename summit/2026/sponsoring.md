@@ -29,7 +29,7 @@ Several packages with varying features are available.
     <tbody>
         <tr>
             <td><em>Max number of sponsorships</em></td>
-            <td class="sponsor-platinum"><strong>3 left</strong> out of 5</td>
+            <td class="sponsor-platinum"><strong>1 left</strong> out of 5</td>
             <td class="sponsor-gold"></td>
             <td class="sponsor-silver"></td>
             <td class="sponsor-bronze"></td>
@@ -177,7 +177,7 @@ Beyond the sponsorship packages, there are extra sponsorships available:
 - 4 Lounge area sponsorships &mdash; 7 k€
 - 1 Demo Theatre naming right &mdash; **sold** ~~6 k€~~
 - 1 Intro to RISC-V Sponsor &mdash; **sold** ~~5 k€. Optionnal upgrade for a 10 min. talking slot &mdash; 3 k€~~
-- 2 Women in Tech sponsor &mdash; 3 k€
+- 2 Women in Tech sponsor &mdash; **sold** ~~3 k€~~
 - 1 Contribution to Diversity scholarships &mdash; 2.5 k€
 
 **All prices are exclusive of 22% VAT, which will be added to
