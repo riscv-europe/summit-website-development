@@ -5,6 +5,10 @@ layout: summit2026
 
 {% assign posters = site.data.summit2026.posters %}
 
+{% include bannerimg.html
+    img = "media/banners/banner.jpg"
+%}
+
 {% include jumboboxstart.html 
     title = "Posters"
     lead = "**Notes for poster presenters**"
