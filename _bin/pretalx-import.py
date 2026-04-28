@@ -25,6 +25,8 @@ import json
 import os
 import sys
 import logging
+from datetime import datetime
+import csv
 from typing import Dict, List, Iterator, Any
 
 try:
@@ -260,18 +262,23 @@ def fetch_submissions(session: requests.Session, base_url: str,
         answers = sub.get("answers", [])
         pdf_url = get_pdf_url_from_answers(answers, track_id)
 
+        # Get abstract from answers
+        abstract = sub.get("abstract", [])
+
         # Get speakers for this submission
         speakers = speaker_map.get(code, [])
         speaker_names = [s["name"] for s in speakers if s["name"]]
 
         # Build export record
         record = {
-            "id": code,
-            "title": sub.get("title", ""),
+            "Id": code,
+            "Title": sub.get("title", ""),
             "type": type_name.lower() if type_name else "unknown",
             "track": track_name,
             "abstract_url": pdf_url,
-            "speakers": speaker_names,
+            # "Authors": speaker_names,
+            "Authors": speaker_names[0] if len(speaker_names) <= 1 else ", ".join(speaker_names[:-1]) + ", and " + speaker_names[-1],
+            "Abstract": abstract,
         }
 
         export_data.append(record)
@@ -287,13 +294,25 @@ def fetch_submissions(session: requests.Session, base_url: str,
 
 def main():
     """Main entry point."""
+
+    # We assume that after August, we're talking about the Summit of
+    # next year.
+    year  = datetime.now().year
+    month = datetime.now().month
+    summitYear = year+1 if month > 8 else year
+
     parser = argparse.ArgumentParser(
-        description="Export submission data for website in JSON format (READ-ONLY)"
+        description="Export submission data for website in CSV format (READ-ONLY)"
     )
     parser.add_argument(
-        "-o", "--output",
-        default="submissions.json",
-        help="Output JSON file (default: submissions.json)"
+        "-d", "--output-dir",
+        default= f"_data/summit{summitYear}",
+        help= f"Root dir for all CSV output files (defaults to \"_data/summit{summitYear}\")"
+    )
+    parser.add_argument(
+        "-p", "--posters",
+        default="posters.csv",
+        help="CSV output file for posters (defaults to \"posters.csv\")"
     )
     parser.add_argument(
         "--pretty",
@@ -349,16 +368,33 @@ def main():
         # Sort by track and then by ID for consistent ordering
         submissions.sort(key=lambda x: (x.get("track", ""), x.get("id", "")))
 
+        # Compute the full relative path name of the posters CSV file.
+        posters_csv = f"{args.output_dir}{posters}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{args.posters}"
+
         # Write to JSON file
-        log.info(f"Writing {len(submissions)} submissions to {args.output}...")
+        log.info(f"Writing {len(submissions)} submissions to {posters_csv}...")
 
-        with open(args.output, "w", encoding="utf-8") as f:
-            if args.pretty:
-                json.dump(submissions, f, indent=2, ensure_ascii=False)
-            else:
-                json.dump(submissions, f, ensure_ascii=False)
+        with open(posters_csv, mode='w', newline='\n') as csv_file:
+            # Collect the columns names.
+            headers = submissions[0].keys() if submissions else []
 
-        log.info(f"Export complete: {args.output}")
+            # Create a DictWriter object
+            writer = csv.DictWriter(csv_file, fieldnames=headers)
+
+            # Write the header.
+            writer.writeheader()
+
+            # Write submisions
+            for sub in submissions:
+                writer.writerow(sub)
+
+        # with open(args.output, "w", encoding="utf-8") as f:
+        #     if args.pretty:
+        #         json.dump(submissions, f, indent=2, ensure_ascii=False)
+        #     else:
+        #         json.dump(submissions, f, ensure_ascii=False)
+
+        log.info(f"Export complete: {posters_csv}")
 
         # Print summary
         type_counts = {}
@@ -383,7 +419,7 @@ def main():
         for track, count in sorted(track_counts.items()):
             print(f"  {track:20} {count:3}")
         print()
-        print(f"Output file: {args.output}")
+        print(f"Output file: {posters_csv}")
         print("=" * 60)
 
     except requests.HTTPError as e:
