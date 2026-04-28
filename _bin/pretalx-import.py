@@ -374,12 +374,12 @@ def main():
         # Write to JSON file
         log.info(f"Writing {len(submissions)} submissions to {posters_csv}...")
 
-        with open(posters_csv, mode='w', newline='\n') as csv_file:
+        with open(posters_csv, mode='w') as csv_file:
             # Collect the columns names.
             headers = submissions[0].keys() if submissions else []
 
             # Create a DictWriter object
-            writer = csv.DictWriter(csv_file, fieldnames=headers)
+            writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
 
             # Write the header.
             writer.writeheader()
