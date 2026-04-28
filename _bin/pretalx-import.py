@@ -277,7 +277,7 @@ def fetch_submissions(session: requests.Session, base_url: str,
             "track": track_name,
             "abstract_url": pdf_url,
             # "Authors": speaker_names,
-            "Authors": speaker_names[0] if len(speaker_names) <= 1 else ", ".join(speaker_names[:-1]) + ", and " + speaker_names[-1],
+            "Authors": speaker_names[0] if len(speaker_names) <= 1 else ", ".join(speaker_names[:-1]) + " and " + speaker_names[-1],
             "Abstract": abstract,
         }
 
