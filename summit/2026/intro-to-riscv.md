@@ -1,5 +1,5 @@
 ---
-title: Developer Workshops
+title: Intro to RISC-V
 layout: summit2026
 ---
 
