@@ -368,15 +368,18 @@ def main():
         # Sort by track and then by ID for consistent ordering
         submissions.sort(key=lambda x: (x.get("track", ""), x.get("id", "")))
 
+        # Get only the posters.
+        posters = [sub for sub in submissions if sub['Type'] == "poster"]
+
         # Compute the full relative path name of the posters CSV file.
         posters_csv = f"{args.output_dir}{posters}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{args.posters}"
 
-        # Write to CSV file
-        log.info(f"Writing {len(submissions)} submissions to {posters_csv}...")
+        # Write posters to CSV file
+        log.info(f"Writing {len(posters)} posters to {posters_csv}...")
 
         with open(posters_csv, mode='w') as csv_file:
             # Collect the columns names.
-            headers = submissions[0].keys() if submissions else []
+            headers = posters[0].keys() if posters else []
 
             # Create a DictWriter object
             writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
@@ -385,8 +388,8 @@ def main():
             writer.writeheader()
 
             # Write submisions
-            for sub in submissions:
-                writer.writerow(sub)
+            for poster in posters:
+                writer.writerow(poster)
 
         log.info(f"Export complete: {posters_csv}")
 
