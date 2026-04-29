@@ -397,7 +397,7 @@ def main():
         type_counts = {}
         track_counts = {}
         for sub in submissions:
-            sub_type = sub["type"]
+            sub_type = sub["Type"]
             track = sub["track"]
             type_counts[sub_type] = type_counts.get(sub_type, 0) + 1
             track_counts[track] = track_counts.get(track, 0) + 1
