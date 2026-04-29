@@ -273,7 +273,7 @@ def fetch_submissions(session: requests.Session, base_url: str,
         record = {
             "Id": code,
             "Title": sub.get("title", ""),
-            "type": type_name.lower() if type_name else "unknown",
+            "Type": type_name.lower() if type_name else "unknown",
             "track": track_name,
             "abstract_url": pdf_url,
             # "Authors": speaker_names,
