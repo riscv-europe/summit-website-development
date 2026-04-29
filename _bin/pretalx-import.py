@@ -371,7 +371,7 @@ def main():
         # Compute the full relative path name of the posters CSV file.
         posters_csv = f"{args.output_dir}{posters}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{args.posters}"
 
-        # Write to JSON file
+        # Write to CSV file
         log.info(f"Writing {len(submissions)} submissions to {posters_csv}...")
 
         with open(posters_csv, mode='w') as csv_file:
