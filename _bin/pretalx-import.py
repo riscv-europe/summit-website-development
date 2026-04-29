@@ -315,6 +315,11 @@ def main():
         help="CSV output file for posters (defaults to \"posters.csv\")"
     )
     parser.add_argument(
+        "-t", "--talks",
+        default="talks.csv",
+        help="CSV output file for talks (defaults to \"talks.csv\")"
+    )
+    parser.add_argument(
         "--pretty",
         action="store_true",
         help="Pretty-print JSON with indentation"
@@ -392,6 +397,31 @@ def main():
                 writer.writerow(poster)
 
         log.info(f"Export complete: {posters_csv}")
+
+        # Get only the talks.
+        talks = [sub for sub in submissions if sub['Type'] == "talk"]
+
+        # Compute the full relative path name of the talks CSV file.
+        talks_csv = f"{args.output_dir}{talks}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{args.talks}"
+
+        # Write talks to CSV file
+        log.info(f"Writing {len(talks)} talks to {talks_csv}...")
+
+        with open(talks_csv, mode='w') as csv_file:
+            # Collect the columns names.
+            headers = talks[0].keys() if talks else []
+
+            # Create a DictWriter object
+            writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
+
+            # Write the header.
+            writer.writeheader()
+
+            # Write submisions
+            for talk in talks:
+                writer.writerow(talk)
+
+        log.info(f"Export complete: {talks_csv}")
 
         # Print summary
         type_counts = {}
