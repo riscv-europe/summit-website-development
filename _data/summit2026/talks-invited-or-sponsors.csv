@@ -8,7 +8,7 @@ Tlk006,Spk006,OkToPublish,InvitedKeynote,RISC-V for the Planet: Open-Source Micr
 
 RISC-V can be one of its most important enabling technologies.",
 Tlk007,Spk007,OkToPublish,InvitedKeynote,Matrix Extensions for RISC-V: Delivering on the Promise,,"When the RISC-V matrix extensions effort was restructured into four complementary approaches at Summit Europe 2025 in Paris, it was a bold architectural bet — that the breadth of the RISC-V ecosystem demands not one rigid solution but a family of extensions spanning from lightweight vector-matrix primitives to fully independent matrix engines. One year later, that bet is paying off. This talk reports on the rapid progress across the matrix extension family as two of the four extensions — the Integrated Matrix Extensions (IME) and the Vector Matrix Extensions (VME) — converge on specification freeze. We trace the architectural decisions that brought IME and VME from concept to maturity: algebraic tile geometry that scales naturally with VLEN, the deliberate reuse of RVV state for seamless software integration, and the introduction of dedicated accumulator registers to unlock higher computational intensity where implementations demand it. Crucially, work is starting to unify IME and VME through a common LLVM-MLIR lowering path — giving compilers and AI/ML frameworks a single abstraction that targets both extensions, ensuring that the software ecosystem scales with the hardware rather than fragmenting across it. For Europe's semiconductor industry — from research institutions and startups to established design houses — standardized, open matrix extensions represent a strategic opportunity: competitive AI/ML and HPC capability on an open ISA, free from proprietary lock-in. RISC-V matrix support is no longer a roadmap item. It is arriving.",
-Tlk008,Spk008,OkToPublish,InvitedKeynote,"Albania is a AI-Factory - How RISC-V, Education, and Open Architecture can turn a country into an engine of AI capability",,"The European AI Factory initiative aims to distribute sovereign compute capacity across the continent. But for accession countries in the Western Balkans, participation has remained largely aspirational — constrained by the assumption that AI infrastructure requires massive
+Tlk008,Spk009,OkToPublish,InvitedKeynote,"Albania is a AI-Factory - How RISC-V, Education, and Open Architecture can turn a country into an engine of AI capability",,"The European AI Factory initiative aims to distribute sovereign compute capacity across the continent. But for accession countries in the Western Balkans, participation has remained largely aspirational — constrained by the assumption that AI infrastructure requires massive
 existing semiconductor ecosystems or hyperscaler partnerships. Albania is charting a different course.
 Albania’s ICT sector today employs tens of thousands of skilled engineers, but almost entirely in software outsourcing — writing code for other countries’ products, on other countries’ architectures. It is a model that creates employment but not ownership, capability but not
 sovereignty. The age of AI demands a transformation: from consuming compute to shaping it. 
@@ -19,7 +19,7 @@ Kushtrim Shala draws on Albania’s track record in digital innovation — inclu
 what it takes to bootstrap a semiconductor culture in a country that has never had one, and makes the case that RISC-V is not merely a technical choice but a strategic instrument of digital sovereignty. The Western Balkans — with their young populations, EU ambitions, and
 hunger to move up the value chain — may be the most fertile ground in Europe for RISC-V adoption. For EU policymakers and the EuroHPC ecosystem, Albania’s approach offers a lighthouse model for how accession countries can contribute to, rather than merely consume,
 Europe’s digital sovereignty agenda.",
-Tlk009,Spk009,NotYet,InvitedKeynote,,,,
+Tlk009,Spk008,NotYet,InvitedKeynote,,,,
 Tlk010,Spk010,OkToPublish,InvitedKeynote,Beyond Privilege: The RISC‑V Isolation Toolbox from Microcontrollers to Confidential Computing,,"This talk surveys the RISC‑V isolation toolbox—spanning PMP/ePMP, SPMP, privilege levels, virtualization, Risc-V Worlds, and emerging Supervisor Domains—and shows how these mechanisms can be combined to build scalable, composable security and safety systems beyond traditional privilege separation.
 
  
@@ -33,29 +33,29 @@ Modern platforms increasingly demand fine‑grained, composable isolation rather
 This talk presents a toolbox‑oriented view of RISC‑V isolation.
 
 Supervisor Domains are introduced as an emerging architectural direction within this toolbox, exploring finer‑grained isolation within supervisor mode itself. While still evolving, Supervisor Domains illustrate the broader move beyond privilege levels toward more modular and composable execution domains and provide a useful lens for understanding how future RISC‑V systems may further decompose trusted software.",
-,Spk011,NotYet,InvitedKeynote,,,,
-,Spk012,OkToPublish,InvitedTalk,RISC-V Server Platform 1.0: One Spec to Boot Them All,,"As RISC‑V enters high‑performance computing (from traditional data‑center servers to edge infrastructure, telecom systems, and industrial compute platforms) a unified platform definition is essential. Without a consistent hardware and firmware contract, system‑software vendors face fragmented bring‑up, slowing ecosystem adoption.
+Tlk011,Spk011,NotYet,InvitedKeynote,,,,
+Tlk012,Spk012,OkToPublish,InvitedTalk,RISC-V Server Platform 1.0: One Spec to Boot Them All,,"As RISC‑V enters high‑performance computing (from traditional data‑center servers to edge infrastructure, telecom systems, and industrial compute platforms) a unified platform definition is essential. Without a consistent hardware and firmware contract, system‑software vendors face fragmented bring‑up, slowing ecosystem adoption.
 
 The RISC‑V Server Platform Specification solves this by defining a clear baseline that supports high‑performance RISC‑V platforms. Built by composing existing standards such as the RVA23 profile, Server‑class SoC requirements, UEFI/ACPI boot via BRS, SBI interfaces, and modern security foundations including roots of trust, secure boot, attestation, and BMC‑based management, the specification enables OS and hypervisor developers to target a single portable binary.
 
 This talk outlines the goals, structure, and key requirements of Server Platform Specification 1.0, explaining how it reduces fragmentation, accelerates system‑software portability, and provides a stable foundation for interoperable, production‑ready RISC‑V platforms across diverse deployment environments.",
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
-,,NotYet,InvitedKeynote,,,,
+Tlk013,,NotYet,InvitedKeynote,,,,
+Tlk014,,NotYet,InvitedKeynote,,,,
+Tlk015,,NotYet,InvitedKeynote,,,,
+Tlk016,,NotYet,InvitedKeynote,,,,
+Tlk017,,NotYet,InvitedKeynote,,,,
+Tlk018,,NotYet,InvitedKeynote,,,,
+Tlk019,,NotYet,InvitedKeynote,,,,
+Tlk020,,NotYet,InvitedKeynote,,,,
+Tlk021,,NotYet,InvitedKeynote,,,,
+Tlk022,,NotYet,InvitedKeynote,,,,
+Tlk023,,NotYet,InvitedKeynote,,,,
+Tlk024,,NotYet,InvitedKeynote,,,,
+Tlk025,,NotYet,InvitedKeynote,,,,
+Tlk026,,NotYet,InvitedKeynote,,,,
+Tlk027,,NotYet,InvitedKeynote,,,,
+Tlk028,,NotYet,InvitedKeynote,,,,
+Tlk029,,NotYet,InvitedKeynote,,,,
 ,,NotYet,InvitedKeynote,,,,
 ,,NotYet,InvitedKeynote,,,,
 ,,NotYet,InvitedKeynote,,,,
