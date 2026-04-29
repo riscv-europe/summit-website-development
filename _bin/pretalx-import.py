@@ -388,12 +388,6 @@ def main():
             for sub in submissions:
                 writer.writerow(sub)
 
-        # with open(args.output, "w", encoding="utf-8") as f:
-        #     if args.pretty:
-        #         json.dump(submissions, f, indent=2, ensure_ascii=False)
-        #     else:
-        #         json.dump(submissions, f, ensure_ascii=False)
-
         log.info(f"Export complete: {posters_csv}")
 
         # Print summary
