@@ -52,13 +52,12 @@ At the conference:
 
 {% include jumboboxstart.html 
     title = "Accepted posters"
-    lead = "In alphabetical order of first author"
+    lead = "<strong>Check this page regularly!</strong>"
 %}
 
 <p style="width:50%;text-align:center;margin-left:25%"> Posters will
 <strong>soon be dispatched over the three days</strong> of the core
-conference<br>(Tuesday 9 to Thursday 11).<br> <strong>Check this page
-regularly!</strong></p>
+conference<br>(Tuesday 9 to Thursday 11).<br></p>
 
 {% for poster in posters %}
 
