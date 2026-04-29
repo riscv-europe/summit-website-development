@@ -22,10 +22,13 @@ Preparation before the conference:
    attracts people, **use QR codes to link to more content**.
  - **At least one author of the poster must register for the core
    conference** (Tuesday 9 to Thursday 11).
- - **Update your PDF abstract** on the submission web site:
+ - Upload **ASAP an update your PDF abstract** on the submission web
+   site:
    * To **add the authors' names** if the submission was *blind*.
    * To fix typos, if any, if your submission was *non-blind*.
- - **Upload your poster PDF** on the submission web site.
+ - **Upload your poster PDF** on the submission web site before Friday
+   May 19th [AOE (Anywhere on
+   Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
 
 If you want to **print your poster on-site** instead of bringing it
 from home to Bologna, here is a list of print shops in downtdown
@@ -52,7 +55,7 @@ At the conference:
 
 {% include jumboboxstart.html 
     title = "Accepted posters"
-    lead = "<strong>Check this page regularly!</strong>"
+    lead = "<strong>Check this page regularly for the schedule and location of posters!</strong>"
 %}
 
 <p style="width:50%;text-align:center;margin-left:25%"> Posters will
