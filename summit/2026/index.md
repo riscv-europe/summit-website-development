@@ -12,12 +12,8 @@ layout: summit2026
 	lead = "The Program Committee has finalized its selection of accepted submissions."
 %}
 
-If you have not yet received the email, **you may chek for your own
-paper** on the [submission web
-site](https://cfp.riscv-europe.org/eu-summit-2026/login/?next=%2Feu-summit-2026%2Fcfp).
-
-The **list of abstracts accepted** as poster or presentation will
-**show up here in the comming days**.
+The **list of abstracts accepted** as [posters](posters) or
+[presentations](presentations) are now online!
 
 {% include jumboboxend.html %}
 
