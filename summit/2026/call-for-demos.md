@@ -12,11 +12,11 @@ layout: summit2026
 	lead = "The Program Committee has finalized its selection of accepted submissions."
 %}
 
-If you have not yet received the email, **you may chek for your own
+If you have not yet received the email, **you may check for your own
 demo** on the [submission web
 site](https://cfp.riscv-europe.org/eu-summit-2026/login/?next=%2Feu-summit-2026%2Fcfp).
 
-The **list of accepted demos** will **show up here in the comming days**.
+The **list of accepted demos** will **show up here in the coming days**.
 
 {% include jumboboxend.html %}
 
