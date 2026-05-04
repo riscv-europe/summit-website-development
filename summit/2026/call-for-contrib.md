@@ -12,7 +12,7 @@ layout: summit2026
 	lead = "The Program Committee has finalized its selection of accepted submissions."
 %}
 
-The **list of abstracts accepted** as [posters](posters) or
+The **abstracts accepted** as [posters](posters) or
 [presentations](presentations) are now online!
 
 {% include jumboboxend.html %}
