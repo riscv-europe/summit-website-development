@@ -305,7 +305,7 @@ def main():
         description="Export submission data for website in CSV format (READ-ONLY)"
     )
     parser.add_argument(
-        "-d", "--output-dir",
+        "-o", "--output-dir",
         default= f"_data/summit{summitYear}",
         help= f"Root dir for all CSV output files (defaults to \"_data/summit{summitYear}\")"
     )
