@@ -320,6 +320,11 @@ def main():
         help="CSV output file for talks (defaults to \"talks.csv\")"
     )
     parser.add_argument(
+        "-d", "--demos",
+        default="demos.csv",
+        help="CSV output file for academic demos (defaults to \"demos.csv\")"
+    )
+    parser.add_argument(
         "--pretty",
         action="store_true",
         help="Pretty-print JSON with indentation"
@@ -422,6 +427,31 @@ def main():
                 writer.writerow(talk)
 
         log.info(f"Export complete: {talks_csv}")
+
+        # Get only the demos.
+        demos = [sub for sub in submissions if sub['Type'] == "demo"]
+
+        # Compute the full relative path name of the demos CSV file.
+        demos_csv = f"{args.output_dir}{demos}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{args.demos}"
+
+        # Write demos to CSV file
+        log.info(f"Writing {len(demos)} demos to {demos_csv}...")
+
+        with open(demos_csv, mode='w') as csv_file:
+            # Collect the columns names.
+            headers = demos[0].keys() if demos else []
+
+            # Create a DictWriter object
+            writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
+
+            # Write the header.
+            writer.writeheader()
+
+            # Write submisions
+            for demo in demos:
+                writer.writerow(demo)
+
+        log.info(f"Export complete: {demos_csv}")
 
         # Print summary
         type_counts = {}
