@@ -18,7 +18,7 @@ jobs:
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
     - name: Checkout website code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
       with:
         repository: riscv-europe/summit-website
         path: site.pub
