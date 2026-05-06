@@ -38,7 +38,7 @@ provided on site to test and validate the generated bitstreams.
 ### Date and location
 
 The Community Challenge will be held on **Monday 8 June,
-14h30-17h30**, at <a
+14h00-17h30**, at <a
 href="https://www.bolognacongresscenter.com/en/palazzo-dei-congressi-2/"
 target="_blank" style="target-new: tab;"><em>Palazzo dei
 Congressi</em>.</a>
