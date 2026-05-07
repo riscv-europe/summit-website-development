@@ -27,7 +27,7 @@ Preparation before the conference:
    * To **add the authors' names** if the submission was *blind*.
    * To fix typos, if any, if your submission was *non-blind*.
  - **Upload your poster PDF** on the submission web site before Friday
-   May 19th [AOE (Anywhere on
+   May 29th [AOE (Anywhere on
    Earth)](https://en.wikipedia.org/wiki/Anywhere_on_Earth).
 
 If you want to **print your poster on-site** instead of bringing it
