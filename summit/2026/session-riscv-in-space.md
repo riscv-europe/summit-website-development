@@ -78,10 +78,11 @@ The program will include:
 
 ### Registration
 
-As *RISC-V In Space* is a thematic session of the Summit, **no special
-registration** is required to attend, besides regular
-[registration](https://riscv-europe.org/summit/2026/registration) to
-the RISC-V Summit Europe 2026 itself.
+As part of the RISC-V Summit Europe 2026, the **RISC-V in Space**
+thematic session **does not require any extra registration**. Simply
+[register for the main
+event](https://riscv-europe.org/summit/2026/registration) to gain
+access.
 
 ### Organizers
 The *RISC-V in Space* thematic session is origanized by:
