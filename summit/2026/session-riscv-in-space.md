@@ -56,7 +56,7 @@ space value chain:
 
 ### Location and schedule
 
-The session will take place at the Summit's venue, Bologna's <a
+This will take place at the Summit's venue, Bologna's <a
 href="https://www.bolognacongresscenter.com/en/palazzo-dei-congressi-2/"
 target="_blank" style="target-new: tab;"><em>Palazzo dei
 Congressi</em></a>.
