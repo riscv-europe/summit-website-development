@@ -56,25 +56,25 @@ space value chain:
 
 ### Location and schedule
 
-This will take place at the Summit's venue, Bologna's <a
-href="https://www.bolognacongresscenter.com/en/palazzo-dei-congressi-2/"
-target="_blank" style="target-new: tab;"><em>Palazzo dei
-Congressi</em></a>.
-
-The session **RISC-V in Space** thematic session will take place on
-**Wednesday June 10**, 2026 from **16:30–18:00** CET.
-
-The program will include:
-- Welcome Remarks
-- RISC-V in Space SIG Overview & Objectives
-- Keynote: The Historical Context & Strategic Fit
-- Keynote: The Hypercomputing Continuum
-- Keynote: Industrial Insights
-- Panel "**RISC-V Ready for Space**" with 
+The thematic session will take place at the Summit's venue on
+**Wednesday June 10**, from **16:30–18:00** CET, with the following
+program:
+- *16h30-16h45 &mdash; **Opening & Introduction***
+  - 16:30-16:35 &mdash; **Welcome Remarks**, Gianluca Furano (ESA)
+  - 16:35-16:45 &mdash; **RISC-V in Space SIG Overview & Objectives**,
+    Gianluca Furano (ESA) and Fabrizio Magugliani (E4 Computer
+    Engineering)
+- *16:45-17:30 &mdash; Keynote Series **The Evolution of RISC-V in Space***
+  - 16:45-17:00 &mdash; **The Historical Context & Strategic Fit**, Gianluca Furano (ESA)
+  - 17:00-17:15 &mdash; **The Hypercomputing Continuum**, Antonio Sciarappa (Leonardo)
+  - 17:15-17:30 &mdash; **Industrial Insights**, Ted Speers (Microchip) and Sandi Habin (Frontgrade Gaisler)
+- *17:30-18:00 &mdash; Round Table “**RISC-V Ready for Space**”*
   - **Gianluca Furano**, ESA
-  - **Sandi Habinc**, Frontgrade Gaisler 
+  - **Sandi Habinc**, Frontgrade Gaisler
   - **Luca Cassano**, Politecnico di Milano
   - **Ted Speers**, Microchip
+  - Representative from **NASA (remote)**
+- *18:00 &mdash; Wrap Up*
 
 ### Registration
 
