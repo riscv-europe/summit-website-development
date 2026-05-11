@@ -86,8 +86,10 @@ access.
 
 ### Organizers
 The *RISC-V in Space* thematic session is origanized by:
- - **Gianluca Furano** &mdash; European Space Agency (ESA). Chair of the
-   RISC-V in Space SIG from RISC-V International.
+ - **Gianluca Furano** &mdash; European Space Agency (ESA). Chair of
+   the [RISC-V in Space Special Interest Group
+   (SIG)](https://riscv.atlassian.net/wiki/spaces/SPC/overview) from
+   RISC-V International.
  - **Fabrizio Magugliani** &mdash; E4 Computer Engineering Spa. Vice
    Chair of the [RISC-V in Space Special Interest Group
    (SIG)](https://riscv.atlassian.net/wiki/spaces/SPC/overview) from
