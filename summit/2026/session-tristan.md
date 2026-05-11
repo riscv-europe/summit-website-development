@@ -30,7 +30,7 @@ contributions of TRISTAN to RISC-V:
 - **The role of Open Source EDA tools in RISC-V** &mdash; Bernhard
   Fischer, Siemens
 - **The Open Source Software landscape for RISC-V** &mdash; Wolfgang
-  Ecker , Infineon
+  Ecker, Infineon
 - **The Unified RISC-V repository** &mdash; Charley Mann, Eclipse
   Foundation
 - **How to build a competitive RISC-V core (CVA6) in Open-Source**
