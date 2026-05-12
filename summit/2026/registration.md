@@ -7,6 +7,20 @@ layout: summit2026
     img = "media/banners/banner.jpg"
 %}
 
+&nbsp;&nbsp;&nbsp;There are diffferent kinds of registration...
+
+{% include jumboboxstart.html
+    title = "Registration to sub-events"
+	lead = "To register for sub-events on Monday 8 or side events on Friday 12, check on their own page"
+%}
+
+- Monday 8 &mdash; [Intro to RISC-V](intro-to-riscv).
+- Monday 8 &mdash; [Developer workshops](dev-workshops)
+- Monday 8 &mdash; [Community Challenge with HaDes-V](hadesv-workshop).
+- Friday 12 &mdash; [Side events](side-events-program).
+
+{% include jumboboxend.html %}
+
 {% include jumboboxstart.html 
     title = "Registration"
 %}
