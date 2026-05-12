@@ -7,7 +7,7 @@ layout: summit2026
     img = "media/banners/banner.jpg"
 %}
 
-&nbsp;&nbsp;&nbsp;There are diffferent kinds of registration...
+&nbsp;&nbsp;&nbsp;There are different kinds of registration...
 
 {% include jumboboxstart.html
     title = "Registration to sub-events"
