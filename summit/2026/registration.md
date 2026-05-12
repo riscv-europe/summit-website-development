@@ -22,7 +22,8 @@ layout: summit2026
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html 
-    title = "Registration"
+    title = "Registration to the main event"
+	lead = "To register to the main event runing from Tuesday 9 to Thursday 11"
 %}
 
 <p id="registration"><strong>Online registration is open until
