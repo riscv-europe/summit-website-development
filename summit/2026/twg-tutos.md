@@ -20,5 +20,6 @@ For more details on the Monday activities:
 - [Intro to RISC-V](intro-to-riscv).
 - [Dev workshops](dev-workshops) (schedule and room TBD).
 - [HaDes-V Community Challenge](hadesv-workshop) (schedule and room TBD).
+- RISC-V International Member Meeting (schedule and room TBD).
 
 {% include jumboboxend.html %}
