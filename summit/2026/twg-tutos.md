@@ -16,7 +16,7 @@ layout: summit2026
     img = "media/schedule/monday.png"
 %}
 
-More details on the Monday activities through the links below:
+For more details on the Monday activities:
 - [Intro to RISC-V](intro-to-riscv).
 - [Dev workshops](dev-workshops) (schedule and room TBD).
 - [HaDes-V Community Challenge](hadesv-workshop) (schedule and room TBD).
