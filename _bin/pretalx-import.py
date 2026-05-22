@@ -25,6 +25,7 @@ import json
 import os
 import sys
 import logging
+import traceback
 from datetime import datetime
 import csv
 from typing import Dict, List, Iterator, Any
@@ -36,6 +37,16 @@ except ImportError:
     print("Install it with: pip install requests", file=sys.stderr)
     sys.exit(1)
 
+def __FILE__():
+    stack = traceback.extract_stack()
+    return stack[-2].filename
+
+def __LINE__():
+    stack = traceback.extract_stack()
+    return stack[-2].lineno
+
+# Drop print(f"At: {__FILE__()}:{__LINE__()}") wherever you want in
+# the code for quick-and-dirty, C style, old fashioned debug.
 
 # Configure logging
 logging.basicConfig(
