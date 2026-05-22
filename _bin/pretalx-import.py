@@ -281,7 +281,8 @@ def fetch_submissions(session: requests.Session, base_url: str,
 
         # Get speakers for this submission
         speakers = speaker_map.get(code, [])
-        speaker_names = [s["name"] for s in speakers if s["name"]]
+        # Some papers are written by ghosts.
+        speaker_names = "(null)" if speakers == [] else [s["name"] for s in speakers if s["name"]]
 
         # Build export record
         record = {
