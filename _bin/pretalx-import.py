@@ -244,7 +244,10 @@ def fetch_submissions(session: requests.Session, base_url: str,
     export_data = []
     skipped_count = 0
 
-    for sub in submissions:
+    for index,sub in enumerate(submissions):
+        # The counter 'index' is not used in the production code below
+        # when the dataset is sane. But might comme it handy when the
+        # dataset has inconsitencies and debug is required.
         code = sub.get("code")
         if not code:
             continue
