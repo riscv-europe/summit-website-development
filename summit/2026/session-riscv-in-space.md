@@ -65,15 +65,16 @@ program:
     Gianluca Furano (ESA) and Fabrizio Magugliani (E4 Computer
     Engineering)
 - *16:45-17:30 &mdash; Keynote Series **The Evolution of RISC-V in Space***
-  - 16:45-17:00 &mdash; **The Historical Context & Strategic Fit**, Gianluca Furano (ESA)
-  - 17:00-17:15 &mdash; **The Hypercomputing Continuum**, Antonio Sciarappa (Leonardo)
-  - 17:15-17:30 &mdash; **Industrial Insights**, Ted Speers (Microchip) and Sandi Habin (Frontgrade Gaisler)
+  - 16:45-16:55 &mdash; **The Historical Context & Strategic Fit**, Gianluca Furano (ESA)
+  - 16:55-17:05 &mdash; **The Hypercomputing Continuum**, Antonio Sciarappa (Leonardo)
+  - 17:05-17:15 &mdash; **Open Architecture, Infinite Orbit, Embracing RISC/V for Space**, Théa-Martine Gauthier (JPL)
+  - 17:15-17:30 &mdash; **Industrial Insights**, Ted Speers (Microchip) and Sandi Habinc (Frontgrade Gaisler)
 - *17:30-18:00 &mdash; Round Table “**RISC-V Ready for Space**”*
   - **Gianluca Furano**, ESA
   - **Sandi Habinc**, Frontgrade Gaisler
   - **Luca Cassano**, Politecnico di Milano
   - **Ted Speers**, Microchip
-  - Representative from **NASA (remote)**
+  - **Théa-Martine Gauthier**, JPL
 - *18:00 &mdash; Wrap Up*
 
 ### Registration
