@@ -1,0 +1,56 @@
+SponsorId,FullName,Status,SponsoringLevel,LogoFileName,URL,BoothId,OnTheBooth,Industries
+AKEANA,Akeana,OkToPublish,Silver,AKEANA.svg,https://www.akeana.com/,14,,
+ANDES,Andes,OkToPublish,Silver,ANDES.png,https://www.andestech.com/en/,18,,
+ARTERIS,Arteris,OkToPublish,Silver,ARTERIS.svg,https://www.arteris.com/,17,"Arteris is a leading provider of semiconductor technology that accelerates the creation of high-performance, power-efficient silicon with built-in safety, reliability, and security. Innovative Arteris products are designed to optimize data movement and help ease complexity in the modern AI era with network-on-chip (NoC) interconnect intellectual property (IP), system-on-chip (SoC) software for integration automation and hardware security assurance.","Aerospace & Defense, Automotive, Communications, Consumer Electronics, Enterprise Computing, Industrial"
+AXELERA,Axelera AI,OkToPublish,Silver,AXELERA.svg,https://axelera.ai/,12,,
+BAYA,Baya Systems,OkToPublish,Silver,BAYA.jpeg,https://bayasystems.com/,24,,
+BOSC,BOSC - Beijing Institute of Open Source Chip,OkToPublish,Platinium,BOSC.svg,https://www.bosc.ac.cn/,P4,,
+BOSCH,Robert Bosch GmbH,OkToPublish,Silver,BOSCH.svg,https://www.bosch.com/,5,,
+BREKER,Breker Systems,OkToPublish,Gold,BREKER.jpg,https://brekersystems.com/,G6,,
+BSC,Barcelona Supercomputing Center (BSC-CNS),OkToPublish,Silver,BSC.svg,https://www.bsc.es/,8,,
+CEA,CEA,OkToPublish,Gold,CEA.svg,http://cea.fr,G2,"CEA is a leading European player in research, development and innovation for industry, low-carbon energy, defense and security.
+Discover our RISC-V activities at our booth through the VASCO-3 demonstrator, an ASIC vehicle for integrated circuit security, the Intrinsec Secured Processor demonstrator and exclusive White Paper insights.
+Join our topic table, VASCO-3 demo theater presentation and explore 13 technical posters showcasing our latest innovations.","Automotive, AI, Security, Cloud, High-Performance Computing"
+CHIPSIT,Chips-IT,OkToPublish,Silver,CHIPS-IT.png,www.chips.it,22,,
+CIRCUITSUTRA,CircuitSutra,OkToPublish,Silver,CIRCUITSUTRA.svg,https://www.circuitsutra.com/,13,,
+DEEPCOMPUTING,DeepComputing,OkToPublish,Silver,DEEPCOMPUTING.svg,https://deepcomputing.io/,10,,
+E4,E4 Computing,OkToPublish,Platinium,E4.png,https://www.e4company.com/en/,P5,,
+EPICSEMI,Epic Semi,OkToPublish,Gold,EPICSEMI.svg,https://www.epicsemi.com/,G10,"Showcasing the world’s first RV23-based RISC-V server CPU and AI super chip, delivering next-generation high-performance computing for scalable AI and data center innovation.","AI Data Center Infrastructure, education / research, government, cloud infrastructure"
+ERGTECH,Ergtech,OkToPublish,Silver,EGTECH.jpg,https://ergtech.ch/,3,,
+ESWIN,ESWIN Computing,OkToPublish,Gold,ESWIN.png,https://www.eswincomputing.com/en/,G9,,
+GLIWA,GLIWA,OkToPublish,Silver,GLIWA.svg,https://www.gliwa.com/,6,"We will present T1, our software-based analysis solution for real-time embedded systems on RISC-V platforms.  The capabilities of T1 will be demonstrated in a live showcase featuring synchronized measurements on a dual-core RISC-V Hazard3 system and a dual-core Cortex-M33 platform, both executing a set of benchmarking workloads.	Automotive, with a growing focus on avionics and other adjacent sectors.","Automotive, with a growing focus on avionics and other adjacent sectors."
+INSPIRE,InspireSemi,OkToPublish,Silver,INSPIRE.svg,https://inspiresemi.com/,19,,
+LAUTERBACH,Lauterbach GmbH,OkToPublish,Silver,LAUTERBACH.svg,https://www.lauterbach.com/,G8,,
+LOWRISC,lowRISC C.I.C.,OkToPublish,Silver,LOWRISC.SVG,https://lowrisc.org/,16,,
+MICROCHIP,Microchip Technology,OkToPublish,Silver,MICROCHIP.svg,https://www.microchip.com/,26,,
+MIPS,MIPS,OkToPublish,Platinium,MIPS.svg,https://mips.com/,P1,,
+NEXT SILICON,NextSilicon,OkToPublish,Platinium,NEXTSILICON.svg,https://www.nextsilicon.com/about,P3,,
+NUCLEI,Nuclei System,OkToPublish,Platinium,NUCLEI.svg,https://www.nucleisys.com/,P2,,
+OMNITRUST,OmniTrust,OkToPublish,Silver,OMNITRUST.svg,https://omnitrust.com/,21,,
+PLANV,Plan V,OkToPublish,Silver,PLANV.png,https://planv.tech/,4,,
+PULP,PULP Platform,OkToPublish,Silver,PULP.png,https://pulp-platform.org/,27,PULP platform by ETH Zurich and University of Bologna have been creating open source hardware since 2013. We will be at RISC-V EU to showcase what we have done so far and give glimpse into what we are working on.,Solving energy efficient computing problems - wearables all the way to datacenters
+REALINTENT,Real Intent,OkToPublish,Silver,REALINTENT.svg,https://www.realintent.com/,9,"Real Intent is showcasing leading static sign-off tools with best performance, capacity and low output noise for fast debugging. Besides that we show new tools for shift-left DFT, connectivity checking and hardware security checking.",We serve all complex SOCs including AI and processors.
+RISE,RISE,OkToPublish,Silver,RISE.png,https://riseproject.dev/,1,"The RISE Project has successfully accelerated the availability of commercial-ready open-source software for the RISC-V architecture, raising the standard for compilers, kernels, and system libraries. Stop by our booth to explore how our funded RFPs, contractor engagements, and build infrastructure work to close gaps no single member would fund alone. Over €1M committed to engineering contracts. Let's work together!","Compilers, language runtimes, OS kernels, AI frameworks, firmware, and developer tooling"
+RIOS,RIOS Lab,OkToPublish,Silver,RIOS.SVG,https://www.rioslab.org/,23,,
+SEGGER,SEGGER,OkToPublish,Silver,SEGGER.png,https://www.segger.com/,20,"SEGGER will showcase professional tools and software for efficient RISC-V development, including debugging, tracing, real-time analysis, and production programming solutions. Demonstrations will highlight technologies, such as J-Link and J-Trace, as well as emPower OS embedded software components.","Industrial & IoT, Consumer Electronics, and Medical & Healthcare"
+SIFIVE,SiFive,OkToPublish,Gold,SIFIVE.jpg,https://www.sifive.com/,G4,,
+SPACEMIT,SpacemiT,OkToPublish,Silver,SPACEMIT.svg,https://www.spacemit.com/,25,,
+TENSTORRENT,Tenstorrent,OkToPublish,Gold,TENSTORRENT.png,https://tenstorrent.com/,G5,,
+TERAPINES,Terapines,OkToPublish,Silver,TERAPINES.svg,https://www.terapines.com/en/,7,,
+TRISTAN-ISOLDE,Tristan Isolde,OkToPublish,Gold,TRISTAN-ISOLDE.png,https://tristan-project.eu/,G3,Results from CHIPS-JU projects TRISTAN & ISOLDE,"Automotive, Industrial, Aerospace, wearables, Security, Mobile"
+XUANTIE,XuanTie,OkToPublish,Gold,,https://www.xrvm.com/,G7,,
+INFINEON,Infineon,OkToPublish,Silver,,https://www.infineon.com/,11,,
+OPENHW,OpenHW Foundation,OkToPublish,Silver,,https://openhwfoundation.org/,15,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,Platinium,,,,,
+,,NotYet,,,,,,
+,,NotYet,,,,,,
