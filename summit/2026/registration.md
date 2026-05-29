@@ -26,15 +26,16 @@ layout: summit2026
 	lead = "To register to the main event runing from Tuesday 9 to Thursday 11"
 %}
 
-<p id="registration"><strong>Online registration is open until
-Saturday, May 30th</strong>, through the following link :</p>
+<p id="registration"><strong>Online registration is open until Friday,
+June 5th</strong> end of day (was <del>May 30th</del>), through the
+following link:</p>
 
 <div class="row justify-content-md-center my-4">
     <a href="https://webplatform.planning.it/risc2026/register" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">RISC-V Summit Europe 2026 in Bologna<br><em>Mon. 8 to Fri. 12 June 2026 &mdash; Register now!</em></a>
 </div>
 
-**After May 30th**, registration will only be available **at the
-registration desk**, at the summit venue.
+**After June 5th** end of day (was ~~May 30th~~), registration will
+only be available **at the registration desk**, at the summit venue.
 
 ### Fees tiers
 
