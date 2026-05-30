@@ -267,6 +267,29 @@ def main():
     elif args.quiet:
         log.setLevel(logging.WARNING)
 
+    # Filter days for a shorthand
+    def filter_day(perf):
+        day = perf["Start (date)"]
+        if   day == "2026-06-09":
+            return "Tue"
+        elif day == "2026-06-10":
+            return "Wed"
+        elif day == "2026-06-11":
+            return "Thu"
+        else:
+            log.warning(f"Unknown day: '{day}'.")
+            return "(day?)"
+
+    def filter_blindness(perf):
+        blindness = perf ["Track"]["en"]
+        if   blindness == "Blind Submission (Default)":
+            return True
+        elif blindness == "Non-Blind submission":
+            return False
+        else:
+            log.warning(f"Unknown blindness: '{blindness}'.")
+            return False
+
     try:
         # Let's call 'performances' all the various kind of talks,
         # demo, etc.
