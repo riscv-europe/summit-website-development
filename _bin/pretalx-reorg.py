@@ -299,7 +299,58 @@ def main():
             n = 2
             for i in range (n):
                 print(f"Entry #{n}:")
-                print(json.dumps(performances[i]))
+                print(json.dumps(performances[i],indent=4, sort_keys=True))
+
+        posters = []
+        talks = []
+        keynotes = []
+        demos = []
+        invited_talks = []
+        demo_theaters = []
+        for perf in performances:
+            session_type = perf["Session type"]["en"]
+            if session_type == "Poster":
+                poster = {}
+                poster["Id"] = perf["ID"]
+                poster["Title"] = perf["Proposal title"]
+                poster["Type"] = "poster"
+                poster["track"] = ""
+                poster["abstract_url"] = ""
+                poster["Authors"] = perf["Speaker names"]
+                poster["Abstract"] = perf["Abstract"]
+                poster["Day"] = filter_day(perf)
+                poster["Blind"] = filter_blindness(perf)
+                posters = posters + [poster]
+            elif session_type == "Talk":
+                talk = {}
+                talk["Title"] = perf["Proposal title"]
+                talks = talks + [talk]
+            elif session_type == "Keynotes":
+                keynote = {}
+                keynote["Title"] = perf["Proposal title"]
+                keynotes = keynotes + [keynote]
+            elif session_type == "Demo":
+                demo = {}
+                demo["Title"] = perf["Proposal title"]
+                demos = demos + [demo]
+            elif session_type == "Invited talk":
+                invited_talk = {}
+                invited_talk["Title"] = perf["Proposal title"]
+                invited_talks = invited_talks + [invited_talk]
+            elif session_type == "Demo Theater presentation":
+                demo_theater = {}
+                demo_theater["Title"] = perf["Proposal title"]
+                demo_theaters = demo_theaters + [demo_theater]
+            else:
+                log.warning(f"Unknown session type: {repr(session_type)}.")
+
+        pprint.pprint(f"Nb posters: {len(posters)}")
+        pprint.pprint(f"Nb talk: {len(talks)}")
+        pprint.pprint(f"Nb keynotes: {len(keynotes)}")
+        pprint.pprint(f"Nb demos: {len(demos)}")
+        pprint.pprint(f"Nb invited talks: {len(invited_talks)}")
+        pprint.pprint(f"Nb demo theater pres: {len(demo_theaters)}")
+
         # for i, row in enumerate(dict_table, 1):
         #     print(f"Ligne {i}: {row}")
         # submissions.sort(key=lambda x: (x.get("track", ""), x.get("id", "")))
