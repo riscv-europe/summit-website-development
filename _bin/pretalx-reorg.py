@@ -215,44 +215,44 @@ def main():
     )
     parser.add_argument(
         "-o", "--output-dir",
-        default= f"_data/summit{summitYear}",
-        help= f"Root dir for all CSV output files (defaults to \"_data/summit{summitYear}\")"
+        default = f"_data/summit{summitYear}/integrated",
+        help= "Root dir for all CSV output files. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-p", "--posters",
         default="posters.csv",
-        help="CSV output file for posters (defaults to \"posters.csv\")"
+        help="CSV output file for posters. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-t", "--talks",
         default="talks.csv",
-        help="CSV output file for talks (defaults to \"talks.csv\")"
+        help="CSV output file for talks. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-d", "--demos",
         default="demos.csv",
-        help="CSV output file for academic demos (defaults to \"demos.csv\")"
+        help="CSV output file for academic demos. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "--pretty",
         action="store_true",
-        help="Pretty-print JSON with indentation"
+        help="Pretty-print JSON with indentation."
     )
     parser.add_argument(
         "-v", "--verbose",
         action="store_true",
-        help="Enable verbose debug logging"
+        help="Enable verbose debug logging."
     )
     parser.add_argument(
         "-q", "--quiet",
         action="store_true",
-        help="Suppress informational messages"
+        help="Suppress informational messages."
     )
 
     parser.add_argument(
         "schedule.json",
-        help="the pretalx's schedule dump as a single JSON file",
-        default="../schedule.json",
+        help="the pretalx schedule dump as a single JSON file",
+        default="../schedule.json"
     )
 
 
