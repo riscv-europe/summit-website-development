@@ -290,6 +290,29 @@ def main():
             log.warning(f"Unknown blindness for perf {perf['ID']}: '{blindness}'.")
             return False
 
+    # Auxiliary CSV writer of a given kind of performance.
+    def write_performances_to_CSV_file(perfs, csv_file_name):
+        csv_file_path = f"{args.output_dir}{csv_file_name}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{csv_file_name}"
+
+        log.info(f"{csv_file_path}: start writing...")
+
+        if len(perfs) > 0:
+            with open(csv_file_path, mode='w') as csv_file:
+                # Collect the columns names.
+                headers = perfs[0].keys()
+
+                # Create a DictWriter object
+                writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
+
+                # Write the header.
+                writer.writeheader()
+
+                # Write submisions
+                for perf in perfs:
+                    writer.writerow(perf)
+
+        log.info(f"{csv_file_path}: wrote {len(perfs)} entries.")
+
     try:
         # Let's call 'performances' all the various kind of talks,
         # demo, etc.
@@ -386,6 +409,10 @@ def main():
         print(f"Demos: {len(demos)}")
         print(f"Invited talks: {len(invited_talks)}")
         print(f"Demo theater pres: {len(demo_theaters)}")
+
+        write_performances_to_CSV_file(posters,args.posters)
+        write_performances_to_CSV_file(talks,args.talks)
+        write_performances_to_CSV_file(demos,args.demos)
 
         # for i, row in enumerate(dict_table, 1):
         #     print(f"Ligne {i}: {row}")
