@@ -261,7 +261,7 @@ def main():
     args_schedule_json = vars(args)['schedule.json']
     
     # Configure logging level
-    if True or args.verbose:
+    if args.verbose:
         log.setLevel(logging.DEBUG)
     elif args.quiet:
         log.setLevel(logging.WARNING)
@@ -380,12 +380,12 @@ def main():
             else:
                 log.warning(f"Unknown session type: {repr(session_type)}.")
 
-        pprint.pprint(f"Nb posters: {len(posters)}")
-        pprint.pprint(f"Nb talk: {len(talks)}")
-        pprint.pprint(f"Nb keynotes: {len(keynotes)}")
-        pprint.pprint(f"Nb demos: {len(demos)}")
-        pprint.pprint(f"Nb invited talks: {len(invited_talks)}")
-        pprint.pprint(f"Nb demo theater pres: {len(demo_theaters)}")
+        print(f"Posters: {len(posters)}")
+        print(f"Talks: {len(talks)}")
+        print(f"Keynotes: {len(keynotes)}")
+        print(f"Demos: {len(demos)}")
+        print(f"Invited talks: {len(invited_talks)}")
+        print(f"Demo theater pres: {len(demo_theaters)}")
 
         # for i, row in enumerate(dict_table, 1):
         #     print(f"Ligne {i}: {row}")
