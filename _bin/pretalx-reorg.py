@@ -338,12 +338,6 @@ def main():
         # demo, etc.
         performances = read_schedule_json_db(args_schedule_json)
 
-        if performances:
-            n = 2
-            for i in range (n):
-                print(f"Entry #{n}:")
-                print(json.dumps(performances[i],indent=4, sort_keys=True))
-
         posters = []
         talks = []
         keynotes = []
