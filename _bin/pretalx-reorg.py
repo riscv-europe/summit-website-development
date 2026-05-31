@@ -256,7 +256,7 @@ def main():
     )
 
 
-    # Parse CLI argguments. Note that postional arguments with a '.'
+    # Parse CLI arguments. Note that postional arguments with a '.'
     # require some hackery.
     args = parser.parse_args()
     args_schedule_json = vars(args)['schedule.json']
