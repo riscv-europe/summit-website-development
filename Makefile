@@ -44,7 +44,7 @@ PRETALX_INTEGRATE_PY:=_bin/pretalx-integrate.py
 PRETALX_INTEGRATE_LOG?=../pretalx-integrate.log
 
 ## The default path to the Pretalx schedule JSON dump file.
-PRETALX_SCHEDULE_JSON?=../eu-summit-2026_sessions.json
+PRETALX_SCHEDULE_JSON?=_data/summit2026/asimported/eu-summit-2026_sessions.json
 
 
 # Import Google drive files downloaded by Firefox, for Summit 2025.
