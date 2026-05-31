@@ -9,9 +9,63 @@ layout: summit2026
     img = "media/banners/banner.jpg"
 %}
 
+{% include jumboboxstart.html
+    title = "3 days of posters"
+    lead =  "More than 200 posters..."
+	id =    "summary"
+%}
+
+...distributed over three days and four posters islands:
+ - <a href="#Tue">Posters of Tuesday 9th</a>
+ - <a href="#Wed">Posters of Wednesday 1Oth</a>
+ - <a href="#Thu">Posters of Thursday 11th</a>
+
+The notes for posters presenters are [down below](#notes-to-presenters).
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+    title = "Tuesday 9 Posters"
+    lead =  "Sorted by poster island."
+	id =    "Tue"
+%}
+
+{% assign day = "09-Tue" %}
+{% assign dayLong = "Tuesday 9" %}
+{% include summit26posters-of-day.md day=day dayLong=dayLong posters=posters %}
+
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Wednesday 10 Posters"
+    lead =  "Sorted by poster island."
+	id =    "Wed"
+%}
+
+{% assign day = "10-Wed" %}
+{% assign dayLong = "Wednesday 10" %}
+{% include summit26posters-of-day.md day=day dayLong=dayLong posters=posters %}
+
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Thursday 11 Posters"
+    lead =  "Sorted by poster island."
+	id =    "Thu"
+%}
+
+{% assign day = "11-Thu" %}
+{% assign dayLong = "Tusrday 11" %}
+{% include summit26posters-of-day.md day=day dayLong=dayLong posters=posters %}
+
+{% include jumboboxend.html %}
+
 {% include jumboboxstart.html 
     title = "Posters"
     lead = "Notes for poster presenters"
+	id="notes-to-presenters"
 %}
 
 Preparation before the conference:
@@ -52,32 +106,3 @@ At the conference:
    conference web site.
 
 {% include jumboboxend.html %}
-
-{% include jumboboxstart.html 
-    title = "Accepted posters"
-    lead = "<strong>Check this page regularly for the schedule and location of posters!</strong>"
-%}
-
-<p style="width:50%;text-align:center;margin-left:25%"> Posters will
-<strong>soon be dispatched over the three days</strong> of the core
-conference<br>(Tuesday 9 to Thursday 11).<br></p>
-
-{% for poster in posters %}
-
-<hr style="width:50%;;margin-left:25%">
-<h3 id="P">{{ poster['Title'] }}</h3>
-
-<p style="font-size: 80%;">
-On {{ poster['Day'] }},
-at poster island {{ poster['Island']}}:
-{{ poster['Blindness'] }} submission #{{ poster['Id'] }}.
-</p>
-
-{% if poster['Authors'] %}{{ poster['Authors'] }}.{% endif %}
-
-{% if poster['Abstract'] %}**Abstract**: {{ poster['Abstract'] }} {% endif %}
-
-{% endfor %}
-
-{% include jumboboxend.html %}
-
