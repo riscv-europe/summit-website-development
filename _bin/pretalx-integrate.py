@@ -53,7 +53,7 @@ def __LINE__():
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    filename='../pretalx-reorg.log'
+    filename='../pretalx-integrate.log'
 )
 log = logging.getLogger(__name__)
 
