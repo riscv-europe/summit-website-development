@@ -396,6 +396,7 @@ def main():
                     "Id": perf["ID"],
                     "Type": "demo",
                     "Day": filter_day(perf),
+                    "Time": filter_time(perf),
                     "Title": perf["Proposal title"],
                     "Authors": format_authors(perf["Speaker names"]),
                     "abstract_url": "",
