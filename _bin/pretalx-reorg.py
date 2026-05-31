@@ -347,14 +347,15 @@ def main():
             if session_type == "Poster":
                 posters = posters + [{
                     "Id": perf["ID"],
-                    "Title": perf["Proposal title"],
                     "Type": "poster",
+                    "Island": reformat_and_accumulate_island(perf),
                     "track": "",
                     "abstract_url": "",
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "Abstract": perf["Abstract"],
                     "Day": filter_day(perf),
                     "Blind": filter_blindness(perf),
+                    "Title": perf["Proposal title"],
+                    "Authors": format_authors(perf["Speaker names"]),
+                    "Abstract": perf["Abstract"],
                 }]
             elif session_type == "Talk":
                 talks = talks + [{
