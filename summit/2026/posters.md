@@ -3,7 +3,7 @@ title: Posters
 layout: summit2026
 ---
 
-{% assign posters = site.data.summit2026.posters %}
+{% assign posters = site.data.summit2026.integrated.posters | sort: 'Island' %}
 
 {% include bannerimg.html
     img = "media/banners/banner.jpg"
@@ -68,7 +68,9 @@ conference<br>(Tuesday 9 to Thursday 11).<br></p>
 <h3 id="P">{{ poster['Title'] }}</h3>
 
 <p style="font-size: 80%;">
-Sub. #{{ poster['Id'] }}.
+On {{ poster['Day'] }},
+at poster island {{ poster['Island']}}:
+{{ poster['Blindness'] }} submission #{{ poster['Id'] }}.
 </p>
 
 {% if poster['Authors'] %}{{ poster['Authors'] }}.{% endif %}

@@ -283,9 +283,9 @@ def main():
     def filter_blindness(perf):
         blindness = perf ["Track"]["en"]
         if   blindness == "Blind Submission (Default)":
-            return True
+            return "Blind"
         elif blindness == "Non-Blind submission":
-            return False
+            return "Non-blind"
         else:
             log.warning(f"Unknown blindness for perf {perf['ID']}: '{blindness}'.")
             return False
@@ -352,7 +352,7 @@ def main():
                     "track": "",
                     "abstract_url": "",
                     "Day": filter_day(perf),
-                    "Blind": filter_blindness(perf),
+                    "Blindness": filter_blindness(perf),
                     "Title": perf["Proposal title"],
                     "Authors": format_authors(perf["Speaker names"]),
                     "Abstract": perf["Abstract"],
