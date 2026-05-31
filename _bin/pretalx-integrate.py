@@ -389,12 +389,12 @@ def main():
             elif session_type == "Demo":
                 demos = demos + [{
                     "Id": perf["ID"],
-                    "Title": perf["Proposal title"],
                     "Type": "demo",
-                    "abstract_url": "",
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "Abstract": perf["Abstract"],
                     "Day": filter_day(perf),
+                    "Title": perf["Proposal title"],
+                    "Authors": format_authors(perf["Speaker names"]),
+                    "abstract_url": "",
+                    "Abstract": perf["Abstract"],
                 }]
             elif session_type == "Invited talk":
                 invited_talks = invited_talks + [{
