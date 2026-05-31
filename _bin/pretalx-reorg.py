@@ -308,6 +308,11 @@ def main():
         invited_talks = []
         demo_theaters = []
         for perf in performances:
+            if (perf["Proposal state"] == "rejected" or
+                perf["Proposal state"] == "withdrawn" or
+                perf["Proposal state"] == "canceled"):
+                continue
+
             session_type = perf["Session type"]["en"]
             if session_type == "Poster":
                 poster = {}
