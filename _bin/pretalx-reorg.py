@@ -290,6 +290,13 @@ def main():
             log.warning(f"Unknown blindness for perf {perf['ID']}: '{blindness}'.")
             return False
 
+    # Auxiliary formating of authors, from a table to a string
+    def format_authors(authors):
+        if len(authors) <= 2:
+            return " and ".join(authors)
+        else:
+            return f"{', '.join(authors[:-1])}, and {authors[-1]}"
+
     # Auxiliary CSV writer of a given kind of performance.
     def write_performances_to_CSV_file(perfs, csv_file_name):
         csv_file_path = f"{args.output_dir}{csv_file_name}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{csv_file_name}"
