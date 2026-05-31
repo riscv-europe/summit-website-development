@@ -255,7 +255,6 @@ def main():
         default="../schedule.json"
     )
 
-
     # Parse CLI arguments. Note that postional arguments with a '.'
     # require some hackery.
     args = parser.parse_args()
@@ -267,7 +266,7 @@ def main():
     elif args.quiet:
         log.setLevel(logging.WARNING)
 
-    # Filter days for a shorthand
+    # Auxiliary conversion of days to a shorthand
     def filter_day(perf):
         day = perf["Start (date)"]
         if   day == "2026-06-09":
@@ -280,6 +279,7 @@ def main():
             log.warning(f"Unknown day: '{day}'.")
             return "(day?)"
 
+    # Auxiliary filter of blindness submission status.
     def filter_blindness(perf):
         blindness = perf ["Track"]["en"]
         if   blindness == "Blind Submission (Default)":
