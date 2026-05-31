@@ -328,23 +328,54 @@ def main():
                 posters = posters + [poster]
             elif session_type == "Talk":
                 talk = {}
+                talk["Id"] = perf["ID"]
                 talk["Title"] = perf["Proposal title"]
+                talk["Type"] = "talk"
+                talk["track"] = ""
+                talk["abstract_url"] = ""
+                talk["Authors"] = perf["Speaker names"]
+                talk["Abstract"] = perf["Abstract"]
+                talk["Day"] = filter_day(perf)
+                talk["Blind"] = filter_blindness(perf)
                 talks = talks + [talk]
             elif session_type == "Keynotes":
                 keynote = {}
+                keynote["Id"] = perf["ID"]
                 keynote["Title"] = perf["Proposal title"]
+                keynote["Type"] = "keynote"
+                keynote["abstract_url"] = ""
+                keynote["Authors"] = perf["Speaker names"]
+                keynote["Abstract"] = perf["Abstract"]
+                keynote["Day"] = filter_day(perf)
                 keynotes = keynotes + [keynote]
             elif session_type == "Demo":
                 demo = {}
+                demo["Id"] = perf["ID"]
                 demo["Title"] = perf["Proposal title"]
+                demo["Type"] = "demo"
+                demo["abstract_url"] = ""
+                demo["Authors"] = perf["Speaker names"]
+                demo["Abstract"] = perf["Abstract"]
+                demo["Day"] = filter_day(perf)
                 demos = demos + [demo]
             elif session_type == "Invited talk":
                 invited_talk = {}
+                invited_talk["Id"] = perf["ID"]
                 invited_talk["Title"] = perf["Proposal title"]
+                invited_talk["Type"] = "invited_talk"
+                invited_talk["abstract_url"] = ""
+                invited_talk["Authors"] = perf["Speaker names"]
+                invited_talk["Abstract"] = perf["Abstract"]
+                invited_talk["Day"] = filter_day(perf)
                 invited_talks = invited_talks + [invited_talk]
             elif session_type == "Demo Theater presentation":
                 demo_theater = {}
+                demo_theater["Id"] = perf["ID"]
                 demo_theater["Title"] = perf["Proposal title"]
+                demo_theater["Type"] = "demo_theater"
+                demo_theater["Authors"] = perf["Speaker names"]
+                demo_theater["Abstract"] = perf["Abstract"]
+                demo_theater["Day"] = filter_day(perf)
                 demo_theaters = demo_theaters + [demo_theater]
             else:
                 log.warning(f"Unknown session type: {repr(session_type)}.")
