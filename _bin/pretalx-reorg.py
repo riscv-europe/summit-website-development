@@ -271,11 +271,11 @@ def main():
     def filter_day(perf):
         day = perf["Start (date)"]
         if   day == "2026-06-09":
-            return "Tue"
+            return "09-Tue"
         elif day == "2026-06-10":
-            return "Wed"
+            return "10-Wed"
         elif day == "2026-06-11":
-            return "Thu"
+            return "11-Thu"
         else:
             log.warning(f"Unknown day: '{day}'.")
             return "(day?)"
