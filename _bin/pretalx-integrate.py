@@ -283,6 +283,11 @@ def main():
             log.warning(f"Unknown day for perf {perf['ID']}: '{day}'.")
             return "(day?)"
 
+    # Auxiliary conversion of time to 5 chars.
+    def filter_time(perf):
+        time = perf["Start (time)"]
+        return time[0:5].replace(':','h')
+
     # Auxiliary filter of blindness submission status.
     def filter_blindness(perf):
         blindness = perf ["Track"]["en"]
