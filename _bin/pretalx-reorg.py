@@ -276,7 +276,7 @@ def main():
         elif day == "2026-06-11":
             return "11-Thu"
         else:
-            log.warning(f"Unknown day: '{day}'.")
+            log.warning(f"Unknown day for perf {perf['ID']}: '{day}'.")
             return "(day?)"
 
     # Auxiliary filter of blindness submission status.
@@ -287,7 +287,7 @@ def main():
         elif blindness == "Non-Blind submission":
             return False
         else:
-            log.warning(f"Unknown blindness: '{blindness}'.")
+            log.warning(f"Unknown blindness for perf {perf['ID']}: '{blindness}'.")
             return False
 
     try:
