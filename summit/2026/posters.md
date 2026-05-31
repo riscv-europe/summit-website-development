@@ -25,7 +25,7 @@ The notes for posters presenters are [down below](#notes-to-presenters).
 {% include jumboboxend.html %}
 
 {% include jumboboxstart.html
-    title = "Tuesday 9 Posters"
+    title = "Tuesday 9 posters"
     lead =  "Sorted by poster island."
 	id =    "Tue"
 %}
@@ -38,7 +38,7 @@ The notes for posters presenters are [down below](#notes-to-presenters).
 
 
 {% include jumboboxstart.html
-    title = "Wednesday 10 Posters"
+    title = "Wednesday 10 posters"
     lead =  "Sorted by poster island."
 	id =    "Wed"
 %}
@@ -51,7 +51,7 @@ The notes for posters presenters are [down below](#notes-to-presenters).
 
 
 {% include jumboboxstart.html
-    title = "Thursday 11 Posters"
+    title = "Thursday 11 posters"
     lead =  "Sorted by poster island."
 	id =    "Thu"
 %}
