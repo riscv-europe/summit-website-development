@@ -38,10 +38,10 @@ PRETALX_IMPORT_PY:=_bin/pretalx-import.py
 
 ## The script to pull the schedule as JOSN dump and turn it into CSVs
 ## files for the liquid templates."
-PRETALX_REORG_PY:=_bin/pretalx-reorg.py
+PRETALX_INTEGRATE_PY:=_bin/pretalx-integrate.py
 
 ## The script's default log file.
-PRETALX_REORG_LOG?=../pretalx-reorg.log
+PRETALX_INTEGRATE_LOG?=../pretalx-integrate.log
 
 ## The default path to the Pretalx schedule JSON dump file.
 PRETALX_SCHEDULE_JSON?=../eu-summit-2026_sessions.json
@@ -97,9 +97,9 @@ integrate:
 pretalx-import:
 	( set -a && source $(PRETALX_APIKEY) && set +a && $(PRETALX_IMPORT_PY) --pretty )
 
-pretalx-reorg:
-	rm -f $(PRETALX_REORG_LOG)
-	$(PRETALX_REORG_PY) $(PRETALX_SCHEDULE_JSON)
+pretalx-integrate:
+	rm -f $(PRETALX_INTEGRATE_LOG)
+	$(PRETALX_INTEGRATE_PY) $(PRETALX_SCHEDULE_JSON)
 
 # A couple of shorthands to Jekyll production management.
 
