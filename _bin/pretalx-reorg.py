@@ -197,6 +197,10 @@ def read_schedule_json_db(json_file_path):
         print(f"Error: unexpected error {e} occured")
         return []
 
+
+# The list of poster islands, build while parsing the database.
+islands = []
+
 # ============================================================================
 # Main
 # ============================================================================
@@ -319,6 +323,15 @@ def main():
                     writer.writerow(perf)
 
         log.info(f"{csv_file_path}: wrote {len(perfs)} entries.")
+
+    # Auxliary function to stream line and accumulate poster islands
+    # names.
+    def reformat_and_accumulate_island(perf):
+        # Islands are named like "Poster Island A". We just keep the "A".
+        island = str(perf["Room"]["en"][-1])
+        if island not in islands:
+            islands.append(island)
+        return island
 
     try:
         # Let's call 'performances' all the various kind of talks,
