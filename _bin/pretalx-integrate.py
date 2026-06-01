@@ -407,12 +407,13 @@ def main():
             elif session_type == "Invited talk":
                 invited_talks = invited_talks + [{
                     "Id": perf["ID"],
-                    "Title": perf["Proposal title"],
-                    "Type": "invited_talk",
-                    "abstract_url": "",
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "Abstract": perf["Abstract"],
+                    "Type": "keynote",
                     "Day": filter_day(perf),
+                    "Time": filter_time(perf),
+                    "Title": perf["Proposal title"],
+                    "Authors": format_authors(perf["Speaker names"]),
+                    "abstract_url": "",
+                    "Abstract": perf["Abstract"],
                 }]
             elif session_type == "Demo Theater presentation":
                 demo_theaters = demo_theaters + [{
@@ -427,15 +428,15 @@ def main():
                 log.warning(f"Unknown session type: {repr(session_type)}.")
 
         # We fold talks and keynotes into a single table.
-        presentations = talks + keynotes
+        presentations = talks + keynotes + invited_talks
 
-        print(f"Posters: {len(posters)}")
         print(f"Talks: {len(talks)}")
         print(f"Keynotes: {len(keynotes)}")
-        print(f"Demos: {len(demos)}")
         print(f"Invited talks: {len(invited_talks)}")
+        print(f"Presentations (keynotes+talk+invited_talks): {len(presentations)}")
+        print(f"Posters: {len(posters)}")
+        print(f"Demos: {len(demos)}")
         print(f"Demo theater pres: {len(demo_theaters)}")
-        print(f"Presentations (keynotes+talk): {len(presentations)}")
 
         write_performances_to_CSV_file(posters,args.posters)
         write_performances_to_CSV_file(demos,args.demos)
