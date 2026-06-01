@@ -36,12 +36,12 @@
     "Room": {
       "en": "Poster Island D"
     },
-    "Start": "2026-06-09T15:40:00+02:00",
+    "Start": "2026-06-09T15:30:00+02:00",
     "Start (date)": "2026-06-09",
-    "Start (time)": "15:40:00",
-    "End": "2026-06-09T15:50:00+02:00",
+    "Start (time)": "15:30:00",
+    "End": "2026-06-09T15:40:00+02:00",
     "End (date)": "2026-06-09",
-    "End (time)": "15:50:00",
+    "End (time)": "15:40:00",
     "Median score": "31.00",
     "Average (mean) score": 31.0,
     "Resources": [
@@ -588,12 +588,12 @@
     "Room": {
       "en": "Devzone"
     },
-    "Start": "2026-06-09T14:00:00+02:00",
-    "Start (date)": "2026-06-09",
-    "Start (time)": "14:00:00",
-    "End": "2026-06-09T14:30:00+02:00",
-    "End (date)": "2026-06-09",
-    "End (time)": "14:30:00",
+    "Start": "2026-06-11T10:30:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "10:30:00",
+    "End": "2026-06-11T11:00:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "11:00:00",
     "Median score": "40.75",
     "Average (mean) score": 40.8,
     "Resources": [],
@@ -990,12 +990,12 @@
     "Room": {
       "en": "Poster Island D"
     },
-    "Start": "2026-06-09T15:50:00+02:00",
+    "Start": "2026-06-09T15:40:00+02:00",
     "Start (date)": "2026-06-09",
-    "Start (time)": "15:50:00",
-    "End": "2026-06-09T16:00:00+02:00",
+    "Start (time)": "15:40:00",
+    "End": "2026-06-09T15:50:00+02:00",
     "End (date)": "2026-06-09",
-    "End (time)": "16:00:00",
+    "End (time)": "15:50:00",
     "Median score": "32.00",
     "Average (mean) score": 32.0,
     "Resources": [],
@@ -1269,54 +1269,6 @@
     "Consider this submission for a technical talk": "Yes"
   },
   {
-    "ID": "8QKWEG",
-    "Proposal title": "Partial-VL is a First-Class Optimization Tool: Fastest CRC for DPDK on RISC-V",
-    "Proposal state": "accepted",
-    "Pending proposal state": null,
-    "Session type": {
-      "en": "Poster"
-    },
-    "Track": {
-      "en": "Blind Submission (Default)"
-    },
-    "Created": "2026-03-08T19:02:18.028928+00:00",
-    "Tags": [
-      "performance_analysis",
-      "vector_processing",
-      "compiler_optimization",
-      "crypto"
-    ],
-    "Abstract": "We present an optimised CRC32/CRC16 implementation for DPDK using the Zvbc vector carry-less multiply extension. For  infrastructure silicon \u2014 including SmartNICs targeting AI networking workloads where RDMA-capable packet processing must keep GPUs fed \u2014  DPDK on RISC-V needs CRC performance at parity with x86 and Arm.\r\n\r\n  Starting from a direct port of the Arm NEON folding-and-Barrett-reduction  approach, we apply a series of RISC-V-specific refinements that reframe  RVV's variable vector length (VL) and tail-undisturbed policy as  **general-purpose optimization mechanisms** \u2014 not merely loop-length  controls. The tail-undisturbed Barrett reduction eliminates two 128-bit  mask-constant loads, two `vand` instructions, and one `vxor` compared to  the Arm NEON source, removing 32 bytes of constant data.  VL=1 carry-less multiply eliminates ~5-instruction scalar register-file  round-trips at each call site. These refinements **cascade**: each narrows  the set of live elements, enabling further simplifications \u2014 128-bit  byte-shifts become 64-bit bit-shifts; stack-allocated sequences for CRC seed injection and short-data handling become  register-only using tail-undisturbed loads and construction.\r\n\r\n  The unifying insight is that **VL serves as a first-class control knob**  equivalent to PCLMULQDQ's `imm8` lane selector on x86 and explicit mask  constants on Arm \u2014 but applicable to *every* vector instruction, not just  one opcode. The implementation requires only Zvbc with VLEN\u2265128 (both  mandated by RVA23), uses LMUL=1, and integrates into DPDK's existing  multi-backend CRC framework with no API changes.",
-    "Description": "CRC computation sits on the critical path of every DPDK-processed packet:  Ethernet CRC32, hash-based flow distribution, and storage protocols all  depend on it. On x86 and Arm, dedicated carry-less multiply instructions  (PCLMULQDQ, PMULL) make CRC close to free. **This paper closes the gap  for RISC-V \u2014 and demonstrates that RISC-V's vector model enables  optimizations unavailable on either competing ISA.**\r\n\r\n  We implement the standard folding-and-Barrett-reduction CRC algorithm  over the Zvbc extension, then show that a straight port from Arm NEON  leaves significant performance on the table. Three families of  RISC-V-specific refinements \u2014 **tail-undisturbed sub-register  manipulation**, **VL=1 element selection**, and **VL-limited loads** \u2014  collectively eliminate all mask-constant loads, remove scalar\r\n  register-file round-trips, shorten the Barrett reduction critical path,  and remove 48 bytes of read-only data per polynomial.\r\n\r\n  The key insight is that RVV's variable VL and tail-undisturbed policy  replace **three distinct mechanisms from prior ISAs** (lane-selection  immediates, explicit mask constants, scalar extraction/reinsertion) with  one unified approach. Each refinement cascades into the next, yielding  compounding improvements invisible from a straight port.\r\n\r\n  The techniques transfer directly to any sub-register-width algorithm:  AES-GCM's GHASH, polynomial hashing, and finite-field arithmetic all  benefit from the same patterns.",
-    "Notes": "### Novelty\r\n\r\n  1. **VL and tail policy as general-purpose optimization tools.** We     demonstrate that RVV's variable VL and tail-undisturbed policy serve     as a universal replacement for three distinct mechanisms in prior ISAs:     lane-selection immediates (x86 PCLMULQDQ's `imm8`), explicit mask     constants (Arm NEON `vand` with loaded 128-bit constants), and scalar     extraction/reinsertion. One general-purpose mechanism replaces all     three, applicable to *every* vector instruction rather than a single     opcode.\r\n\r\n  2. **Tail-undisturbed Barrett reduction.** The Barrett reduction step is     re-expressed using `_tu` operations and VL=1, eliminating two 128-bit     mask loads, two `vand` instructions, and one `vxor` compared to the     Arm NEON approach. A further `vxor` is eliminated as a cascading     consequence \u2014 the tail-undisturbed XOR leaves element 1 as zero,     making the subsequent XOR a no-op on the only element extracted.     32 bytes of constant data are removed from the binary.\r\n\r\n  3. **Cascading optimizations from VL-aware rewriting.** Each VL-aware     refinement narrows the set of live elements, enabling further     simplifications invisible from the starting point: VL=1 carry-less     multiply makes 128-bit byte-shifts reducible to 64-bit bit-shifts     (only element 0 feeds the multiply); tail-undisturbed vector     construction eliminates stack round-trips for CRC seed injection     (`vmv.v.x` + `vmv.s.x_tu` replaces `memset`/`memcpy`/`vle64`);     VL-limited loads with tail-undisturbed policy replace     `memset`/`memcpy`/`vle64` for sub-16-byte tail blocks.\r\n\r\n  4. **Practical demonstration on a shipping profile.** The implementation     requires only Zvbc (mandated by RVA23), assumes VLEN \u2265 128, uses     LMUL=1 throughout, and integrates into DPDK's existing multi-backend     CRC framework with no API changes. Both CRC32-Ethernet and     CRC16-CCITT share a single parameterized core function \u2014 adding a new     polynomial requires only six precomputed constants.\r\n\r\n  ### Impact\r\n\r\n  1. **DPDK CRC parity on RISC-V.** Brings RISC-V's DPDK CRC performance     in line with the mature x86 SSE4.2/PCLMULQDQ and Arm NEON/PMULL     paths, removing a concrete gap for RISC-V in packet-processing     workloads including SmartNICs targeting AI networking infrastructure.\r\n\r\n  2. **Transferable optimization patterns.** The VL=1 and tail-undisturbed     techniques apply to any algorithm that manipulates sub-register     fields \u2014 not just CRC. Cryptographic primitives (AES-GCM's GHASH is     also based on carry-less multiplication), polynomial hashing, and     finite-field arithmetic in error-correcting codes all involve the     same pattern of selecting specific elements, masking bit ranges, and     constructing partially-initialized vectors.\r\n\r\n  3. **Reduced code size and memory traffic.** Eliminating mask constants     removes 48 bytes of read-only data per polynomial and the associated     cache-line fetches on every CRC call \u2014 meaningful in the     packets-per-second regime where DPDK operates.\r\n\r\n  4. **RVA23 profile validation.** Demonstrates that the RVA23 mandatory     extension set (specifically Zvbc with VLEN \u2265 128) is sufficient for     competitive packet-processing primitives without optional or     vendor-specific extensions, confirming that the profile baseline is a     practical target for infrastructure software.\r\n\r\n  5. **Portability with per-ISA improvement.** The same fold-and-Barrett     mathematical structure runs on x86, Arm, and RISC-V with identical     precomputed constants. Portability does not mean identical     implementations: RVV's variable-VL model yields compounding     advantages over a straight port, demonstrating that ISA-aware     optimization produces systematically better results than mechanical     translation.",
-    "Internal notes": "",
-    "Duration": 10,
-    "Slot Count": 1,
-    "Language": "en",
-    "Show this session in public list of featured sessions.": false,
-    "Don\u2019t record this session.": false,
-    "Session image": "",
-    "Speaker IDs": [
-      "XNGHCM"
-    ],
-    "Speaker names": [
-      "Dr. Philipp Tomsich"
-    ],
-    "Room": {
-      "en": "Poster Island C"
-    },
-    "Start": "2026-06-09T10:50:00+02:00",
-    "Start (date)": "2026-06-09",
-    "Start (time)": "10:50:00",
-    "End": "2026-06-09T11:00:00+02:00",
-    "End (date)": "2026-06-09",
-    "End (time)": "11:00:00",
-    "Median score": "38.50",
-    "Average (mean) score": 34.7,
-    "Resources": [],
-    "Consider this submission for a technical talk": "Yes"
-  },
-  {
     "ID": "8VDLDD",
     "Proposal title": "Loom: An Open-Source Toolchain for Automatic FPGA Emulation of Simulation-Grade SystemVerilog",
     "Proposal state": "confirmed",
@@ -1445,13 +1397,15 @@
     "Speaker names": [
       "Marcelo Zuffo"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-11T09:30:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "09:30:00",
+    "End": "2026-06-11T10:00:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "10:00:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -2349,13 +2303,15 @@
     "Speaker names": [
       "Dr. Philipp Tomsich"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T14:30:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "14:30:00",
+    "End": "2026-06-10T14:45:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "14:45:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -2390,13 +2346,15 @@
     "Speaker names": [
       "Greg Kroah-Hartman"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T11:30:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "11:30:00",
+    "End": "2026-06-09T12:00:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "12:00:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -2929,13 +2887,15 @@
     "Speaker names": [
       "Luca Benini"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T10:00:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "10:00:00",
+    "End": "2026-06-10T10:30:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "10:30:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -3123,13 +3083,15 @@
     "Speaker names": [
       "Yiftach Gilad"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T09:45:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "09:45:00",
+    "End": "2026-06-10T10:00:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "10:00:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -3524,12 +3486,12 @@
     "Room": {
       "en": "Poster Island D"
     },
-    "Start": "2026-06-09T15:30:00+02:00",
+    "Start": "2026-06-09T14:20:00+02:00",
     "Start (date)": "2026-06-09",
-    "Start (time)": "15:30:00",
-    "End": "2026-06-09T15:40:00+02:00",
+    "Start (time)": "14:20:00",
+    "End": "2026-06-09T14:30:00+02:00",
     "End (date)": "2026-06-09",
-    "End (time)": "15:40:00",
+    "End (time)": "14:30:00",
     "Median score": "29.00",
     "Average (mean) score": 29.9,
     "Resources": [
@@ -3567,13 +3529,15 @@
     "Speaker names": [
       "Tanya Dadasheva"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-11T09:00:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "09:00:00",
+    "End": "2026-06-11T09:30:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "09:30:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -4668,14 +4632,14 @@
       "Tanuj Khandelwal"
     ],
     "Room": {
-      "en": "Poster Island A"
+      "en": "Poster Island C"
     },
-    "Start": "2026-06-10T11:10:00+02:00",
-    "Start (date)": "2026-06-10",
-    "Start (time)": "11:10:00",
-    "End": "2026-06-10T11:20:00+02:00",
-    "End (date)": "2026-06-10",
-    "End (time)": "11:20:00",
+    "Start": "2026-06-11T13:40:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "13:40:00",
+    "End": "2026-06-11T13:50:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "13:50:00",
     "Median score": "30.00",
     "Average (mean) score": 26.5,
     "Resources": [],
@@ -4757,13 +4721,15 @@
     "Speaker names": [
       "Bob Hu"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T09:30:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "09:30:00",
+    "End": "2026-06-10T09:45:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "09:45:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -5267,13 +5233,15 @@
     "Speaker names": [
       "Edward Wilford"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T16:30:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "16:30:00",
+    "End": "2026-06-10T16:45:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "16:45:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -5353,13 +5321,15 @@
       "XU AN",
       "YUNGANG BAO"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T10:15:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "10:15:00",
+    "End": "2026-06-09T10:30:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "10:30:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -5564,7 +5534,10 @@
     "End (time)": "12:30:00",
     "Median score": "37.50",
     "Average (mean) score": 35.2,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/HC7JS8/resources/RIVIERA_A_Programmab_ps5tmyb.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/HC7JS8/resources/RIVIERA_A_Programmab_MRCzFUJ.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -6051,12 +6024,12 @@
     "Room": {
       "en": "Poster Island A"
     },
-    "Start": "2026-06-10T11:20:00+02:00",
+    "Start": "2026-06-10T11:10:00+02:00",
     "Start (date)": "2026-06-10",
-    "Start (time)": "11:20:00",
-    "End": "2026-06-10T11:30:00+02:00",
+    "Start (time)": "11:10:00",
+    "End": "2026-06-10T11:20:00+02:00",
     "End (date)": "2026-06-10",
-    "End (time)": "11:30:00",
+    "End (time)": "11:20:00",
     "Median score": "30.00",
     "Average (mean) score": 30.6,
     "Resources": [
@@ -6142,13 +6115,15 @@
     "Speaker names": [
       "Sam Grove"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T09:40:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "09:40:00",
+    "End": "2026-06-09T10:00:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "10:00:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -7032,7 +7007,8 @@
     "Median score": "32.50",
     "Average (mean) score": 33.0,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MKBAZS/resources/ctvs-riscv-gem5-abst_gQtYgUD.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MKBAZS/resources/ctvs-riscv-gem5-abst_gQtYgUD.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MKBAZS/resources/ctvs-riscv-gem5-post_vhIGtI7.pdf"
     ],
     "Consider this submission for a technical talk": null
   },
@@ -7171,12 +7147,12 @@
     "Room": {
       "en": "Plenary"
     },
-    "Start": "2026-06-10T17:30:00+02:00",
-    "Start (date)": "2026-06-10",
-    "Start (time)": "17:30:00",
-    "End": "2026-06-10T17:45:00+02:00",
-    "End (date)": "2026-06-10",
-    "End (time)": "17:45:00",
+    "Start": "2026-06-11T16:30:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "16:30:00",
+    "End": "2026-06-11T16:45:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "16:45:00",
     "Median score": "40.00",
     "Average (mean) score": 38.2,
     "Resources": [
@@ -7266,13 +7242,15 @@
     "Speaker names": [
       "John Holland"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-11T14:30:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "14:30:00",
+    "End": "2026-06-11T14:45:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "14:45:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -7356,13 +7334,15 @@
     "Speaker names": [
       "Krste Asanovi\u0107"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T09:00:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "09:00:00",
+    "End": "2026-06-10T09:30:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "09:30:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -8664,12 +8644,12 @@
     "Room": {
       "en": "Devzone"
     },
-    "Start": "2026-06-11T10:30:00+02:00",
-    "Start (date)": "2026-06-11",
-    "Start (time)": "10:30:00",
-    "End": "2026-06-11T11:00:00+02:00",
-    "End (date)": "2026-06-11",
-    "End (time)": "11:00:00",
+    "Start": "2026-06-09T14:00:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "14:00:00",
+    "End": "2026-06-09T14:30:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "14:30:00",
     "Median score": "32.25",
     "Average (mean) score": 32.2,
     "Resources": [],
@@ -9194,12 +9174,12 @@
     "Room": {
       "en": "Plenary"
     },
-    "Start": "2026-06-11T16:30:00+02:00",
-    "Start (date)": "2026-06-11",
-    "Start (time)": "16:30:00",
-    "End": "2026-06-11T16:45:00+02:00",
-    "End (date)": "2026-06-11",
-    "End (time)": "16:45:00",
+    "Start": "2026-06-10T17:30:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "17:30:00",
+    "End": "2026-06-10T17:45:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "17:45:00",
     "Median score": "35.50",
     "Average (mean) score": 37.0,
     "Resources": [],
@@ -9835,12 +9815,12 @@
     "Room": {
       "en": "Poster Island D"
     },
-    "Start": "2026-06-09T14:20:00+02:00",
+    "Start": "2026-06-09T15:50:00+02:00",
     "Start (date)": "2026-06-09",
-    "Start (time)": "14:20:00",
-    "End": "2026-06-09T14:30:00+02:00",
+    "Start (time)": "15:50:00",
+    "End": "2026-06-09T16:00:00+02:00",
     "End (date)": "2026-06-09",
-    "End (time)": "14:30:00",
+    "End (time)": "16:00:00",
     "Median score": "32.00",
     "Average (mean) score": 29.8,
     "Resources": [
@@ -9925,13 +9905,15 @@
     "Speaker names": [
       "Radim Kr\u010dm\u00e1\u0159"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T14:30:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "14:30:00",
+    "End": "2026-06-09T14:45:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "14:45:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -10067,13 +10049,15 @@
     "Speaker names": [
       "Cosimo Damiano Gianfreda"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T10:00:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "10:00:00",
+    "End": "2026-06-09T10:15:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "10:15:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -10164,12 +10148,12 @@
     "Room": {
       "en": "Poster Island C"
     },
-    "Start": "2026-06-09T10:40:00+02:00",
+    "Start": "2026-06-09T10:50:00+02:00",
     "Start (date)": "2026-06-09",
-    "Start (time)": "10:40:00",
-    "End": "2026-06-09T10:50:00+02:00",
+    "Start (time)": "10:50:00",
+    "End": "2026-06-09T11:00:00+02:00",
     "End (date)": "2026-06-09",
-    "End (time)": "10:50:00",
+    "End (time)": "11:00:00",
     "Median score": "36.00",
     "Average (mean) score": 34.5,
     "Resources": [
@@ -10661,13 +10645,15 @@
     "Speaker names": [
       "Andrew dellow"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T16:45:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "16:45:00",
+    "End": "2026-06-09T17:00:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "17:00:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -11359,13 +11345,15 @@
     "Speaker names": [
       "Marco Fariselli"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T11:30:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "11:30:00",
+    "End": "2026-06-10T12:00:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "12:00:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -11556,13 +11544,15 @@
     "Speaker names": [
       "Andrea Gallo"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T09:15:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "09:15:00",
+    "End": "2026-06-09T09:40:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "09:40:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -12054,11 +12044,9 @@
     "Don\u2019t record this session.": false,
     "Session image": "",
     "Speaker IDs": [
-      "GKMLCM",
       "E8FNRH"
     ],
     "Speaker names": [
-      "Borja Perez",
       "Aitor Echevarr\u00eda"
     ],
     "Room": {
@@ -12359,12 +12347,12 @@
     "Room": {
       "en": "Poster Island C"
     },
-    "Start": "2026-06-09T10:30:00+02:00",
+    "Start": "2026-06-09T10:40:00+02:00",
     "Start (date)": "2026-06-09",
-    "Start (time)": "10:30:00",
-    "End": "2026-06-09T10:40:00+02:00",
+    "Start (time)": "10:40:00",
+    "End": "2026-06-09T10:50:00+02:00",
     "End (date)": "2026-06-09",
-    "End (time)": "10:40:00",
+    "End (time)": "10:50:00",
     "Median score": "29.00",
     "Average (mean) score": 27.7,
     "Resources": [
