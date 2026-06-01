@@ -404,7 +404,7 @@ def main():
                 else:
                     invited_talks = invited_talks + [{
                         "Id": perf["ID"],
-                        "Type": "invited_talk",
+                        "Type": "invited talk",
                         "Blindness": filter_blindness(perf),
                         "Day": filter_day(perf),
                         "Time": filter_time(perf),
