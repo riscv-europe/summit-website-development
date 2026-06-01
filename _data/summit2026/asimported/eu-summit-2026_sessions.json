@@ -2283,7 +2283,7 @@
       "en": "Invited talk"
     },
     "Track": {
-      "en": "Keynotes"
+      "en": "Invited Talks"
     },
     "Created": "2026-05-31T17:40:25.608393+00:00",
     "Tags": null,
@@ -2721,7 +2721,7 @@
   {
     "ID": "C39D8K",
     "Proposal title": "Ascalon\u2122 S: A RISC-V CPU for the Emerging Agentic AI Market",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Demo Theater presentation"
@@ -3143,10 +3143,53 @@
     "Median score": "38.00",
     "Average (mean) score": 37.5,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/sllides_yR16Rca.pptx",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/sllides_5bC9flK.pptx",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/extended_abstract_DFx5yVk.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
+  },
+  {
+    "ID": "DBG3FA",
+    "Proposal title": "Delivering the Future of Software Enablement for RISC-V",
+    "Proposal state": "confirmed",
+    "Pending proposal state": null,
+    "Session type": {
+      "en": "Panel"
+    },
+    "Track": {
+      "en": "Panel"
+    },
+    "Created": "2026-06-01T09:45:51.672102+00:00",
+    "Tags": null,
+    "Abstract": "Across applications from low-power embedded to High Performance Computing, the success of the RISC-V ISA is directly tied to the maturity of software support and enablement. In this panel we bring experts together from across the RISC-V ecosystem and beyond, to debate the current state of the RISC-V software enablement and discuss future priorities.\r\n\r\nRISC-V already has strong compiler support, but what have been the most recent performance optimizations, and what do we need to prioritize in terms of next developments?\r\nWhat does compiler support look like for specific use cases, like safety certification for automotive, or vectorization for AI? \r\nRust is increasing in use across Linux and Zephyr. What is the status of RUST support on RISC-V\r\nHow can the RISC-V ecosystem and the Linux development team work together more efficiently? \r\nHow mature is the support for the open source software ecosystem beyond compilers?\r\nWhat software infrastructure are we missing and what should we prioritize?\r\nWhat does software support look like as we move beyond profiles to platforms?\r\nWhat does software compatibility look like for a single ISA that scales from MCU to HPC, but relies on specific profiles and extensions?\r\nHow will the use of AI in software development accelerate porting to RISC-V?\r\n\r\nWith representatives from the Linux kernel team, the RISE project and the broader software ecosystem, this panel will provide broad insight into the future of the software enablement on RISC-V!",
+    "Description": "",
+    "Notes": "",
+    "Internal notes": "",
+    "Duration": 45,
+    "Slot Count": 1,
+    "Language": "en",
+    "Show this session in public list of featured sessions.": false,
+    "Don\u2019t record this session.": false,
+    "Session image": "",
+    "Speaker IDs": [
+      "QC9SC8"
+    ],
+    "Speaker names": [
+      "TBD"
+    ],
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T14:45:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "14:45:00",
+    "End": "2026-06-09T15:30:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "15:30:00",
+    "Median score": null,
+    "Average (mean) score": null,
+    "Resources": [],
+    "Consider this submission for a technical talk": null
   },
   {
     "ID": "DHQPQB",
@@ -5213,7 +5256,7 @@
       "en": "Invited talk"
     },
     "Track": {
-      "en": "Keynotes"
+      "en": "Invited Talks"
     },
     "Created": "2026-05-31T17:48:17.864502+00:00",
     "Tags": null,
@@ -6872,7 +6915,7 @@
   {
     "ID": "MEXBCF",
     "Proposal title": "AIA, IOMMU and Other Flash Points: Driving RISC-V Sub-System Verification",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Demo Theater presentation"
@@ -7222,7 +7265,7 @@
       "en": "Invited talk"
     },
     "Track": {
-      "en": "Keynotes"
+      "en": "Invited Talks"
     },
     "Created": "2026-05-31T18:20:51.994482+00:00",
     "Tags": null,
@@ -7464,7 +7507,7 @@
       "compiler_optimization",
       "embedded_edge"
     ],
-    "Abstract": "In this work, we optimize LLM inference on edge RISC-V CPUs using vector extension instructions. We leverage 4-bit vector load and efficient 8-bit dot-product instructions to accelerate quantized and repacked 4-bit kernels in llama.cpp. In addition, we implement RVV support for tiled flash attention, which further improves performance in the prefill stage. Experimental results show that the proposed optimizations achieve 1.76x-2.14x speedup over the upstream implementation while maintaining near-linear scaling for prefill workloads on an RVV-enabled multi-core platform.",
+    "Abstract": "In this work, we optimize LLM inference on edge RISC-V CPUs using vector extension instructions. We leverage 4-bit vector load and efficient 8-bit dot-product instructions to accelerate quantized and repacked 4-bit kernels in llama.cpp. In addition, we implement RVV support for tiled flash attention, which further improves performance in the prefill stage. Experimental results show that the proposed optimizations achieve 1.72x-2.14x speedup over the upstream implementation while maintaining near-linear scaling for prefill workloads on an RVV-enabled multi-core platform.",
     "Description": "",
     "Notes": "",
     "Internal notes": null,
@@ -7492,8 +7535,8 @@
     "Median score": "33.50",
     "Average (mean) score": 34.4,
     "Resources": [
-      "https://drive.google.com/file/d/1voUcXUfa6GNHkPVeEjDGXUu6jv0zk7fZ/view?usp=drive_link",
-      "https://drive.google.com/file/d/1yDsMVrlz9rzNuDMXKTi7SifMhaDuAmAa/view?usp=drive_link"
+      "https://drive.google.com/file/d/1ThT2FSdFkqKza3HhmGkWN94YXF2cOzc2/view?usp=drive_link",
+      "https://drive.google.com/file/d/1x9D9BZmfeZleWjaVa7HZFGFtY99BL2Qn/view?usp=drive_link"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -9490,7 +9533,7 @@
   {
     "ID": "RXLUGR",
     "Proposal title": "Utilizing the RISC V Architecture to Accelerate Real Time Motor Control Applications",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Demo Theater presentation"
@@ -9629,6 +9672,49 @@
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/S3LMTB/resources/RISCV-Summit-EU_ZHAW_Gz3g8eJ.pdf",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/S3LMTB/resources/RISCV_SUMMIT_Poster__Zur8Wom.pdf"
     ],
+    "Consider this submission for a technical talk": null
+  },
+  {
+    "ID": "S7F8CK",
+    "Proposal title": "Realising the Future of European Computing from Research to Industry",
+    "Proposal state": "confirmed",
+    "Pending proposal state": null,
+    "Session type": {
+      "en": "Panel"
+    },
+    "Track": {
+      "en": "Panel"
+    },
+    "Created": "2026-06-01T09:46:59.667774+00:00",
+    "Tags": null,
+    "Abstract": "Europe has been a key contributor to the development of modern computing, inventing fundamental hardware and software technologies, and growing highly successful companies with worldwide reach. But in a new era of AI and Cloud computing, how can Europe redefine its approach and put itself at the forefront of computing innovation and success? \r\n\r\nThis panel will debate the European approach to computing and how RISC-V can be a powerful tool for delivering an innovative, successful, and uniquely European vision of the future of computing.\r\n\r\nWhat is the vision of European computing sovereignty, and to what extent is this becoming reality? \r\nWhat is the role of the policy makers on the European strategy and the relative influence of European organizations, national entities and venture capitals/investors?\r\nWhat are the main differences between the US, Asia, and Europe in terms of sustainability of the industrial ecosystem? \r\nHow do the laws and rules of Europe influence our success?\r\nWhat are the technologies and applications Europe needs to deliver?\r\nWhere are its strengths and high potential application spaces?\r\nHow can we close the gap regarding maximizing the technology transfer between research/academia to industry?\r\nHow can we train the highly skilled workers needed?\r\nWhat is the balance between addressing domestic needs and an international market?\r\n\r\nJoin us to get an insight into a new era of European computing, underpinned by the RISC-V architecture!",
+    "Description": "",
+    "Notes": "",
+    "Internal notes": "",
+    "Duration": 45,
+    "Slot Count": 1,
+    "Language": "en",
+    "Show this session in public list of featured sessions.": false,
+    "Don\u2019t record this session.": false,
+    "Session image": "",
+    "Speaker IDs": [
+      "QC9SC8"
+    ],
+    "Speaker names": [
+      "TBD"
+    ],
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-10T14:45:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "14:45:00",
+    "End": "2026-06-10T15:30:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "15:30:00",
+    "Median score": null,
+    "Average (mean) score": null,
+    "Resources": [],
     "Consider this submission for a technical talk": null
   },
   {
@@ -9885,7 +9971,7 @@
       "en": "Invited talk"
     },
     "Track": {
-      "en": "Keynotes"
+      "en": "Invited Talks"
     },
     "Created": "2026-05-30T17:28:31.884524+00:00",
     "Tags": null,
@@ -10163,6 +10249,49 @@
     "Consider this submission for a technical talk": null
   },
   {
+    "ID": "TNUMV7",
+    "Proposal title": "It's a RISC-V World: Innovation, Collaboration, Competition, and Deployment on a Global Stage",
+    "Proposal state": "confirmed",
+    "Pending proposal state": null,
+    "Session type": {
+      "en": "Panel"
+    },
+    "Track": {
+      "en": "Panel"
+    },
+    "Created": "2026-06-01T09:47:55.285689+00:00",
+    "Tags": null,
+    "Abstract": "The global nature of RISC-V is one of its greatest strengths. The RISC-V Instruction Set Architecture (ISA) is constantly developed and evolved by member organizations worldwide, with contributors working together on new features and capabilities across geographies and time zones. In turn, the RISC-V ISA provides the basis for the future of global computing innovation, addressing the diverse needs of countries, companies, educators and individuals.\r\n\r\nIn this session we bring together representatives of the RISC-V community from different continents to discuss the nature of a worldwide ecosystem. We will discuss the realities of RISC-V in different geographies:\r\nHow the ISA drives innovation and solves specific local problems \r\nHow RISC-V unlocks the potential of a global marketplace. \r\nThe importance of digital sovereignty, and different approaches to research, education and training a new generation of engineers. \r\nExplore the tension between collaboration and competition. \r\nHow are RISC-V members working together and supporting each other? Where does their location give them a competitive edge?\r\nOpportunities and challenges in cross-continent collaboration. Lessons learnt.  \r\n\r\nJoin us to learn the global lessons of RISC-V deployment!",
+    "Description": "",
+    "Notes": "",
+    "Internal notes": "",
+    "Duration": 45,
+    "Slot Count": 1,
+    "Language": "en",
+    "Show this session in public list of featured sessions.": false,
+    "Don\u2019t record this session.": false,
+    "Session image": "",
+    "Speaker IDs": [
+      "QC9SC8"
+    ],
+    "Speaker names": [
+      "TBD"
+    ],
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-11T14:45:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "14:45:00",
+    "End": "2026-06-11T15:30:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "15:30:00",
+    "Median score": null,
+    "Average (mean) score": null,
+    "Resources": [],
+    "Consider this submission for a technical talk": null
+  },
+  {
     "ID": "TTPKFR",
     "Proposal title": "Cycle-Accurate IOPMP Reference Model with Configurable Interfaces, Integration Tests, and a CVA6 SoC Implementation",
     "Proposal state": "confirmed",
@@ -10380,7 +10509,7 @@
   {
     "ID": "U8VMUY",
     "Proposal title": "Nuclei RISC-V Automotive Solutions: ASIL-D Safety & Full-Spectrum IP for Next-Gen Vehicles",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Demo Theater presentation"
@@ -10625,7 +10754,7 @@
       "en": "Invited talk"
     },
     "Track": {
-      "en": "Keynotes"
+      "en": "Invited Talks"
     },
     "Created": "2026-05-30T17:34:20.511050+00:00",
     "Tags": null,
