@@ -338,6 +338,14 @@ def main():
             islands.append(island)
         return island
 
+    # Auxiliary function to make the difference bewteeen keynotes
+    # (boths sponsors and invited) and invited talks.
+    def is_a_keynote(perf):
+        if perf["Track"]["en"] == "Keynotes":
+            return True
+        else:
+            return False
+
     try:
         # Let's call 'performances' all the various kind of talks,
         # demo, etc.
