@@ -656,7 +656,7 @@
   {
     "ID": "7DSDWG",
     "Proposal title": "SoCMake: Modular RISC-V SoCs for Radiation-Harsh and Safety-Critical Environments",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Poster"
@@ -980,7 +980,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/8ALWHG/superscalar_4YAcjuP_MRnM6eK.webp",
+    "Session image": "/media/eu-summit-2026/submissions/8ALWHG/superscalar_4YAcjuP_MRnM6eK_R_mueuCJe.webp",
     "Speaker IDs": [
       "789VLD"
     ],
@@ -998,7 +998,11 @@
     "End (time)": "15:50:00",
     "Median score": "32.00",
     "Average (mean) score": 32.0,
-    "Resources": [],
+    "Resources": [
+      "https://arxiv.org/abs/2605.30377",
+      "https://github.com/robgiorgi/freess",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/8ALWHG/resources/Giorgi260609-poster-_vpFLejX.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -3539,7 +3543,7 @@
     "Average (mean) score": 29.9,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EDH9EE/resources/HBENCH__RISC_V_Micro_TCJvPTk.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EDH9EE/resources/HBENCH-poster-templa_XL5ijO3.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EDH9EE/resources/HBENCH-poster-templa_zk02R7X.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -4348,7 +4352,7 @@
   {
     "ID": "FGEDJB",
     "Proposal title": "PQCUARK: A Scalar RISC-V ISA Extension for ML-KEM and ML-DSA",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Poster"
