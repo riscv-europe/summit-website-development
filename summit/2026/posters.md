@@ -11,7 +11,7 @@ layout: summit2026
 
 {% include jumboboxstart.html
     title = "3 days of posters"
-    lead =  "More than 200 posters..."
+    lead =  "About 200 posters on RISC-V..."
 	id =    "summary"
 %}
 
