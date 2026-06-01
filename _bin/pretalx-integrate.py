@@ -433,7 +433,7 @@ def main():
         print(f"Talks: {len(talks)}")
         print(f"Keynotes: {len(keynotes)}")
         print(f"Invited talks: {len(invited_talks)}")
-        print(f"Presentations (keynotes+talk+invited_talks): {len(presentations)}")
+        print(f"Presentations (keynotes+talks+invited_talks): {len(presentations)}")
         print(f"Posters: {len(posters)}")
         print(f"Demos: {len(demos)}")
         print(f"Demo theater pres: {len(demo_theaters)}")
