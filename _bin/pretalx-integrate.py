@@ -382,7 +382,7 @@ def main():
                     "Abstract": perf["Abstract"],
                 }]
             elif session_type == "Keynotes":
-                talks = talks + [{
+                keynotes = keynotes + [{
                     "Id": perf["ID"],
                     "Type": "keynote",
                     "Blind": filter_blindness(perf),
