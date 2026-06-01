@@ -372,24 +372,26 @@ def main():
             elif session_type == "Talk":
                 talks = talks + [{
                     "Id": perf["ID"],
-                    "Title": perf["Proposal title"],
                     "Type": "talk",
-                    "track": "",
-                    "abstract_url": "",
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "Abstract": perf["Abstract"],
-                    "Day": filter_day(perf),
                     "Blind": filter_blindness(perf),
+                    "Day": filter_day(perf),
+                    "Time": filter_time(perf),
+                    "Title": perf["Proposal title"],
+                    "Authors": format_authors(perf["Speaker names"]),
+                    "abstract_url": "",
+                    "Abstract": perf["Abstract"],
                 }]
             elif session_type == "Keynotes":
-                keynotes = keynotes + [{
+                talks = talks + [{
                     "Id": perf["ID"],
-                    "Title": perf["Proposal title"],
                     "Type": "keynote",
-                    "abstract_url": "",
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "Abstract": perf["Abstract"],
+                    "Blind": filter_blindness(perf),
                     "Day": filter_day(perf),
+                    "Time": filter_time(perf),
+                    "Title": perf["Proposal title"],
+                    "Authors": format_authors(perf["Speaker names"]),
+                    "abstract_url": "",
+                    "Abstract": perf["Abstract"],
                 }]
             elif session_type == "Demo":
                 demos = demos + [{
@@ -424,16 +426,21 @@ def main():
             else:
                 log.warning(f"Unknown session type: {repr(session_type)}.")
 
+        # We fold talks and keynotes into a single table.
+        presentations = talks + keynotes
+
         print(f"Posters: {len(posters)}")
         print(f"Talks: {len(talks)}")
         print(f"Keynotes: {len(keynotes)}")
         print(f"Demos: {len(demos)}")
         print(f"Invited talks: {len(invited_talks)}")
         print(f"Demo theater pres: {len(demo_theaters)}")
+        print(f"Presentations (keynotes+talk): {len(presentations)}")
 
         write_performances_to_CSV_file(posters,args.posters)
         write_performances_to_CSV_file(talks,args.talks)
         write_performances_to_CSV_file(demos,args.demos)
+        write_performances_to_CSV_file(presentations,"presentations.csv")
 
         # for i, row in enumerate(dict_table, 1):
         #     print(f"Ligne {i}: {row}")
