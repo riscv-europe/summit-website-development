@@ -6,7 +6,9 @@
 <hr style="width:50%;;margin-left:25%">
 <h3 id="P-{{  }}">{{ presentation['Title'] | strip | strip_newlines }}</h3>
 
-{%- if presentation['Type'] == "talk" -%}{{ presentation[Blindness'] }} submission {{ presentation['Id'] }}. {% endif -%}
+{%- if presentation['Type'] == "talk" -%}{{ presentation['Blindness'] }} submission #{{ presentation['Id'] }}. {% endif -%}
+{%- if presentation['Type'] == "keynote" -%}Keynote. {% endif -%}
+{%- if presentation['Type'] == "invited talk" -%}Invited talk. {% endif -%}
 On {{ dayLong }}, at {{ presentation['Time'] }}.
 
 {% if presentation['Authors'] %}{{ presentation['Authors'] }}.{% endif %}
