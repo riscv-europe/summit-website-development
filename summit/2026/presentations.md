@@ -3,7 +3,7 @@ title: Presentations
 layout: summit2026
 ---
 
-{% assign posters = site.data.summit2026.talks %}
+{% assign presentations = site.data.summit2026.integrated.presentations %}
 
 {% include bannerimg.html
     img = "media/banners/banner.jpg"
@@ -48,20 +48,47 @@ At the conference:
 talks</strong> into consistent pleanary sessions, over the three days
 of the core conference.<br>(Tuesday 9 to Thursday 11).<br></p>
 
-{% for poster in posters %}
-
-<hr style="width:50%;;margin-left:25%">
-<h3 id="P">{{ poster['Title'] }}</h3>
-
-<p style="font-size: 80%;">
-Sub. #{{ poster['Id'] }}.
-</p>
-
-{% if poster['Authors'] %}{{ poster['Authors'] }}.{% endif %}
-
-{% if poster['Abstract'] %}**Abstract**: {{ poster['Abstract'] }} {% endif %}
-
-{% endfor %}
+Distributed over three days:
+ - <a href="#Tue">Presentations of Tuesday 9th</a>
+ - <a href="#Wed">Presentations of Wednesday 1Oth</a>
+ - <a href="#Thu">Presentations of Thursday 11th</a>
 
 {% include jumboboxend.html %}
 
+{% include jumboboxstart.html
+    title = "Tuesday 9 presentations"
+    lead =  "Sorted by start time."
+	id =    "Tue"
+%}
+
+{% assign day = "09-Tue" %}
+{% assign dayLong = "Tuesday 9" %}
+{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
+
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Wednesday 10 presentations"
+    lead =  "Sorted by start time."
+	id =    "Wed"
+%}
+
+{% assign day = "10-Wed" %}
+{% assign dayLong = "Wednesday 10" %}
+{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
+
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Thursday 11 presentations"
+    lead =  "Sorted by start time."
+	id =    "Thu"
+%}
+
+{% assign day = "11-Thu" %}
+{% assign dayLong = "Thusrday 11" %}
+{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
+
+{% include jumboboxend.html %}
