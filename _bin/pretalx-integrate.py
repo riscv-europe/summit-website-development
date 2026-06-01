@@ -381,30 +381,7 @@ def main():
                 talks = talks + [{
                     "Id": perf["ID"],
                     "Type": "talk",
-                    "Blind": filter_blindness(perf),
-                    "Day": filter_day(perf),
-                    "Time": filter_time(perf),
-                    "Title": perf["Proposal title"],
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "abstract_url": "",
-                    "Abstract": perf["Abstract"],
-                }]
-            elif session_type == "Keynotes":
-                keynotes = keynotes + [{
-                    "Id": perf["ID"],
-                    "Type": "keynote",
-                    "Blind": filter_blindness(perf),
-                    "Day": filter_day(perf),
-                    "Time": filter_time(perf),
-                    "Title": perf["Proposal title"],
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "abstract_url": "",
-                    "Abstract": perf["Abstract"],
-                }]
-            elif session_type == "Demo":
-                demos = demos + [{
-                    "Id": perf["ID"],
-                    "Type": "demo",
+                    "Blindness": filter_blindness(perf),
                     "Day": filter_day(perf),
                     "Time": filter_time(perf),
                     "Title": perf["Proposal title"],
@@ -413,9 +390,33 @@ def main():
                     "Abstract": perf["Abstract"],
                 }]
             elif session_type == "Invited talk":
-                invited_talks = invited_talks + [{
+                if is_a_keynote(perf):
+                    keynotes = keynotes + [{
+                        "Id": perf["ID"],
+                        "Type": "keynote",
+                        "Day": filter_day(perf),
+                        "Time": filter_time(perf),
+                        "Title": perf["Proposal title"],
+                        "Authors": format_authors(perf["Speaker names"]),
+                        "abstract_url": "",
+                        "Abstract": perf["Abstract"],
+                    }]
+                else:
+                    invited_talks = invited_talks + [{
+                        "Id": perf["ID"],
+                        "Type": "invited_talk",
+                        "Blindness": filter_blindness(perf),
+                        "Day": filter_day(perf),
+                        "Time": filter_time(perf),
+                        "Title": perf["Proposal title"],
+                        "Authors": format_authors(perf["Speaker names"]),
+                        "abstract_url": "",
+                        "Abstract": perf["Abstract"],
+                    }]
+            elif session_type == "Demo":
+                demos = demos + [{
                     "Id": perf["ID"],
-                    "Type": "keynote",
+                    "Type": "demo",
                     "Day": filter_day(perf),
                     "Time": filter_time(perf),
                     "Title": perf["Proposal title"],
