@@ -438,7 +438,6 @@ def main():
         print(f"Presentations (keynotes+talk): {len(presentations)}")
 
         write_performances_to_CSV_file(posters,args.posters)
-        write_performances_to_CSV_file(talks,args.talks)
         write_performances_to_CSV_file(demos,args.demos)
         write_performances_to_CSV_file(presentations,"presentations.csv")
 
