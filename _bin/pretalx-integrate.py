@@ -355,6 +355,10 @@ def main():
         else:
             return False
 
+    # Auxiliary function to reformat abstracts.
+    def format_abstract(session):
+        return session["Abstract"].replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').strip()
+
     try:
         sessions = read_JSON_db_from_file(args.sessions)
         speakers = read_JSON_db_from_file(args.speakers)
@@ -400,7 +404,7 @@ def main():
                     "PosterFileName": f"{base_file_name}-poster.pdf",
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session["Speaker names"]),
-                    "Abstract": session["Abstract"],
+                    "Abstract": format_abstract(session),
                     "Bio": find_speaker_bio(session["Speaker IDs"][0]),
                 }]
             elif session_type == "Talk":
@@ -415,7 +419,7 @@ def main():
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
-                    "Abstract": session["Abstract"],
+                    "Abstract": format_abstract(session),
                     "Bio": find_speaker_bio(session["Speaker IDs"][0]),
                 }]
             elif session_type == "Invited talk":
@@ -430,7 +434,7 @@ def main():
                         "Title": session["Proposal title"],
                         "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
-                        "Abstract": session["Abstract"],
+                        "Abstract": format_abstract(session),
                         "Bio": find_speaker_bio(session["Speaker IDs"][0]),
                     }]
                 else:
@@ -445,7 +449,7 @@ def main():
                         "Title": session["Proposal title"],
                         "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
-                        "Abstract": session["Abstract"],
+                        "Abstract": format_abstract(session),
                         "Bio": find_speaker_bio(session["Speaker IDs"][0]),
                     }]
             elif session_type == "Demo":
@@ -458,7 +462,7 @@ def main():
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
-                    "Abstract": session["Abstract"],
+                    "Abstract": format_abstract(session),
                     "Bio": find_speaker_bio(session["Speaker IDs"][0]),
                 }]
             elif session_type == "Demo Theater presentation":
@@ -467,7 +471,7 @@ def main():
                     "Title": session["Proposal title"],
                     "Type": "demo_theater",
                     "Authors": format_authors(session["Speaker names"]),
-                    "Abstract": session["Abstract"],
+                    "Abstract": format_abstract(session),
                     "Day": filter_day(session),
                     "Bio": find_speaker_bio(session["Speaker IDs"][0]),
                 }]
