@@ -164,7 +164,7 @@ def fetch_submissions(session: requests.Session, base_url: str,
 
 import json
 
-def read_json_db(json_file_path):
+def read_JSON_db(json_file_path):
     """
     Read a JSON shedule
 
@@ -358,8 +358,8 @@ def main():
     try:
         # Let's call 'performances' all the various kind of talks,
         # demo, etc.
-        performances = read_json_db(args.sessions)
-        speakers     = read_json_db(args.speakers)
+        performances = read_JSON_db(args.sessions)
+        speakers     = read_JSON_db(args.speakers)
 
         posters = []
         talks = []
