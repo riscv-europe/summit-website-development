@@ -11,11 +11,11 @@ layout: summit2026
 
 {% include jumboboxstart.html
     title = "3 days of posters"
-    lead =  "About 200 posters on RISC-V..."
+    lead =  "More than 190 posters on RISC-V&hellip;"
 	id =    "summary"
 %}
 
-...distributed over three days and four posters islands:
+&hellip;distributed over three days and four posters islands!
  - <a href="#Tue">Posters of Tuesday 9th</a>
  - <a href="#Wed">Posters of Wednesday 1Oth</a>
  - <a href="#Thu">Posters of Thursday 11th</a>
