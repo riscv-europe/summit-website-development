@@ -316,7 +316,7 @@ def main():
             return f"{', '.join(authors[:-1])}, and {authors[-1]}"
 
     # Auxiliary CSV writer of a given kind of performance.
-    def write_performances_to_CSV_file(perfs, csv_file_name):
+    def write_db_to_CSV(perfs, csv_file_name):
         csv_file_path = f"{args.output_dir}{csv_file_name}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{csv_file_name}"
 
         log.info(f"{csv_file_path}: start writing...")
@@ -471,9 +471,9 @@ def main():
         print(f"Demos: {len(demos)}")
         print(f"Demo theater pres: {len(demo_theaters)}")
 
-        write_performances_to_CSV_file(posters,args.posters)
-        write_performances_to_CSV_file(demos,args.demos)
-        write_performances_to_CSV_file(presentations,"presentations.csv")
+        write_db_to_CSV(posters,args.posters)
+        write_db_to_CSV(demos,args.demos)
+        write_db_to_CSV(presentations,"presentations.csv")
 
     except requests.HTTPError as e:
         log.error(f"HTTP Error: {e}")
