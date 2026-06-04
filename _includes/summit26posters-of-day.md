@@ -12,6 +12,8 @@
 
 {% if poster['Abstract'] %}**Abstract**: {{ poster['Abstract'] }} {% endif %}
 
+{% if poster['Bio'] %}**Bio**: *{{ poster['Bio'] }}* {% endif %}
+
 <p align="center" style="font-size: 0.8em">
 <a class="backnavigation" href="#summary">To page top</a> &mdash;
 <a href="#Tue" class="backnavigation">To posters of Tuesday 9</a> &mdash;
