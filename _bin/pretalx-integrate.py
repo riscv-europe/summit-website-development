@@ -363,6 +363,12 @@ def main():
                 perf["Proposal state"] == "canceled"):
                 continue
 
+            # We take the last word of the first speaker full name as
+            # the last name for file name (quite some names, isnt'it).
+            last_name_for_file_name = perf['Speaker names'][0].split()[-1].upper() if perf['Speaker names'] else "NONAME"
+
+            base_file_name = f"{perf['Start (date)']}-RISC-V-Summit-Europe-{filter_time(perf)}-{last_name_for_file_name}"
+
             session_type = perf["Session type"]["en"]
             if session_type == "Poster":
                 posters = posters + [{
@@ -370,9 +376,10 @@ def main():
                     "Type": "poster",
                     "Island": reformat_and_accumulate_island(perf),
                     "track": "",
-                    "abstract_url": "",
                     "Day": filter_day(perf),
                     "Blindness": filter_blindness(perf),
+                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
+                    "PosterFileName": f"{base_file_name}-poster.pdf",
                     "Title": perf["Proposal title"],
                     "Authors": format_authors(perf["Speaker names"]),
                     "Abstract": perf["Abstract"],
@@ -384,6 +391,8 @@ def main():
                     "Blindness": filter_blindness(perf),
                     "Day": filter_day(perf),
                     "Time": filter_time(perf),
+                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
+                    "SlidesFileName": f"{base_file_name}-slides.pdf",
                     "Title": perf["Proposal title"],
                     "Authors": format_authors(perf["Speaker names"]),
                     "abstract_url": "",
@@ -396,6 +405,8 @@ def main():
                         "Type": "keynote",
                         "Day": filter_day(perf),
                         "Time": filter_time(perf),
+                        "AbstractFileName": f"{base_file_name}-abstract.pdf",
+                        "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": perf["Proposal title"],
                         "Authors": format_authors(perf["Speaker names"]),
                         "abstract_url": "",
@@ -408,6 +419,8 @@ def main():
                         "Blindness": filter_blindness(perf),
                         "Day": filter_day(perf),
                         "Time": filter_time(perf),
+                        "AbstractFileName": f"{base_file_name}-abstract.pdf",
+                        "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": perf["Proposal title"],
                         "Authors": format_authors(perf["Speaker names"]),
                         "abstract_url": "",
@@ -419,6 +432,7 @@ def main():
                     "Type": "demo",
                     "Day": filter_day(perf),
                     "Time": filter_time(perf),
+                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "Title": perf["Proposal title"],
                     "Authors": format_authors(perf["Speaker names"]),
                     "abstract_url": "",
