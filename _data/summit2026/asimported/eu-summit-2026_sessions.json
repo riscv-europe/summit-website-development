@@ -178,7 +178,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/3EZXZV/vpoline_scheme_SIIxKoQ_rwSBB0_KN4mmdv.webp",
+    "Session image": "/media/eu-summit-2026/submissions/3EZXZV/vpoline_scheme_SIIxKoQ_rwSBB0_3BSEBN2.webp",
     "Speaker IDs": [
       "J3M3VC",
       "D7VHGA",
@@ -836,14 +836,14 @@
       "I\u00f1igo D\u00edez de Ulzurrun"
     ],
     "Room": {
-      "en": "Poster Island A"
+      "en": "Poster Island C"
     },
-    "Start": "2026-06-11T11:20:00+02:00",
-    "Start (date)": "2026-06-11",
-    "Start (time)": "11:20:00",
-    "End": "2026-06-11T11:30:00+02:00",
-    "End (date)": "2026-06-11",
-    "End (time)": "11:30:00",
+    "Start": "2026-06-09T16:00:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "16:00:00",
+    "End": "2026-06-09T16:10:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "16:10:00",
     "Median score": "36.50",
     "Average (mean) score": 35.0,
     "Resources": [
@@ -951,7 +951,7 @@
     "Median score": "38.00",
     "Average (mean) score": 38.2,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/88TJXG/resources/poster_small_bniTDP1.jpg"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/88TJXG/resources/poster_yzh_Y0OOb8b.jpg"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -1166,7 +1166,8 @@
     "Median score": "34.50",
     "Average (mean) score": 32.0,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/8LUM7U/resources/RISCV-Summit-EU-ExtA_BcBKwuM.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/8LUM7U/resources/RISCV-Summit-EU-ExtA_BcBKwuM.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/8LUM7U/resources/RISC-V_Custom_Instru_pCH62vB.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -1521,7 +1522,7 @@
     "Average (mean) score": 27.3,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/9GW78U/resources/paper_9OSxh2K.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/9GW78U/resources/poster_bQHyhRv.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/9GW78U/resources/poster_gBKnG7X.pdf"
     ],
     "Consider this submission for a technical talk": null
   },
@@ -2209,7 +2210,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/B7EASJ/RVA23_Mandatory_Extension_-_L_vOu6YpM.webp",
+    "Session image": "/media/eu-summit-2026/submissions/B7EASJ/RVA23_Mandatory_Extension_-_L_tHmdoAy.webp",
     "Speaker IDs": [
       "AX7YYX",
       "UDTNKQ"
@@ -2229,7 +2230,9 @@
     "End (time)": "12:15:00",
     "Median score": "32.50",
     "Average (mean) score": 31.7,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/B7EASJ/resources/RVA23-Kernel-Support_9WVbEJt.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -2751,13 +2754,15 @@
     "Speaker names": [
       "Gary Martz"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-09T13:55:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "13:55:00",
+    "End": "2026-06-09T14:05:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "14:05:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -3147,8 +3152,8 @@
     "Median score": "38.00",
     "Average (mean) score": 37.5,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/sllides_5bC9flK.pptx",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/extended_abstract_DFx5yVk.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/extended_abstract_DFx5yVk.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/presentation_summit_EdTA7f1.pptx"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -3264,7 +3269,7 @@
     "Abstract": "The RISC-V instruction set architecture (ISA) has seen rapid adoption over the past few years. Despite\r\nthis growth, the software ecosystem remains a major challenge to broader adoption. In contrast to x86 and ARM platforms, where precompiled binaries are widely available, RISC-V developers often face a significant software availability gap. Consequently, many packages, libraries, or applications must be built from source, requiring substantial expertise in build systems and target architectures. This process is largely manual and time-consuming, creating a significant barrier to widespread adoption of the RISC-V. To address this critical gap, this paper presents ATESOR, a multi-stage LLM-based framework for autonomous RISC-V software porting. The framework uses large language models to plan build requirements, compile packages, debug failures, and test generated binaries in RISC-V sandboxed environments. ATESOR supports both containerized RISC-V environment and native execution on RISC-V hardware such as the Banana Pi BPI-F3 and Milk-V Pioneer, provided by Cloud-V. ATESOR is trained on an internal dataset of more than 500 manually ported packages spanning build systems including CMake, Make, Ninja, and Go. For 100 CMake and Go-based packages, ATESOR demonstrated a 80% successful porting rate and experiment completed in approximately 1.5 hours, corresponding to an average porting time of about 54 seconds per package.",
     "Description": "Software porting often requires deep expertise in target architectures, build systems, and toolchain integration, skills that are not widely available and impose significant manual effort\r\nand time costs. To address these challenges, this paper introduces ATESOR, multi-stage, LLM-based framework for autonomous RISC-V software porting. ATESOR uses LLMs with tool-use capabilities to execute a four-stage pipeline: (1) analysis and planning of architecture specific requirements, (2) autonomous generation of build plans and corresponding patches, (3) execution\r\nof the build in a RISC-V sandbox environment with automated issue resolution, and (4) verification of build steps and resulting binaries to ensure correctness and reproducibility. \r\n\r\nTo the best of our knowledge, ATESOR is the first LLM-based framework specifically designed for RISC\u0002V software porting. The system is trained on an internal dataset comprising over 500 manually ported\r\npackages, libraries, and applications, covering a variety of build systems including CMake, Make, and\r\nGo, enabling robust learning of architecture-specific\r\nbuild patterns and porting strategies.",
     "Notes": "",
-    "Internal notes": null,
+    "Internal notes": "",
     "Duration": 10,
     "Slot Count": 1,
     "Language": "en",
@@ -3288,7 +3293,9 @@
     "End (time)": "16:20:00",
     "Median score": "27.00",
     "Average (mean) score": 27.5,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/DMVSJ8/resources/atesor-ai-poster-rv-_5u5mwHV.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -3542,7 +3549,7 @@
     "Median score": "29.00",
     "Average (mean) score": 29.9,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EDH9EE/resources/HBENCH__RISC_V_Micro_TCJvPTk.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EDH9EE/resources/HBENCH__RISC_V_Micro_wsby52z.pdf",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EDH9EE/resources/HBENCH-poster-templa_zk02R7X.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
@@ -3869,13 +3876,15 @@
     "Speaker names": [
       "Raffele Montella"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-10T13:15:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "13:15:00",
+    "End": "2026-06-10T13:25:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "13:25:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -4574,7 +4583,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/FRDLL7/chakra_flow_MMZJQtC_xnihweE.webp",
+    "Session image": "/media/eu-summit-2026/submissions/FRDLL7/chakra_flow_MMZJQtC_xnihweE_w_6iRkmHg.webp",
     "Speaker IDs": [
       "AMGGLL",
       "UUME9J"
@@ -5307,7 +5316,7 @@
     },
     "Created": "2026-03-04T03:44:30.864319+00:00",
     "Tags": null,
-    "Abstract": "Historically, several architectures have explored running ILP32 software on 64-bit ISAs - including \u00d786-X32, MIPS-N32, and Arm64-ILP32 - yet only Arm64-ILP32 reached commercial adoption, exclusively within Apple Watch OS as a closed-source implementation.\r\nWe now present a new landmark: the first open-source commercial deployment of\r\nRV64ILP32, realized on the Allwinner V881 Al Glasses SoC (Dual-Core XuanTie\r\n(907).\r\n1. Product-Level Demo (V881-based): An Al Glasses device running with\r\nRV64ILP32 Linux kernel. Benchmarks against traditional RV32 Linux kernel demonstrate substantial gains - perf throughput improves by 1.5\u00d7, while eBPF performance achieves 2-7\u00d7 speedups across test cases\r\n2. Community-Level Demo (QEMU-based): For the first time, LP64 applications execute on an RV64ILP32 Linux kernel, which provides \u20212 GB of separate address spaces, revealing new possibilities for mixed-ABI workloads on RISC-V (20% memory footprint saved v.s. traditional RV64 Linux kernel).\r\n\r\nTogether, these demonstrations mark a significant milestone: delivering 64-bit RISC-V performance advantages to resource-constrained embedded AI devices, while preserving ILP32 memory/cache efficiency - entirely on an open-source software stack.",
+    "Abstract": "Historically, several architectures have explored running ILP32 software on 64-bit ISAs - including \u00d786-X32, MIPS-N32, and Arm64-ILP32 - yet only Arm64-ILP32 reached commercial adoption, exclusively within Apple Watch OS as a closed-source implementation.\r\nWe now present a new landmark: the first open-source commercial deployment of\r\nRV64ILP32, realized on the Allwinner V881 Al Glasses SoC (Dual-Core XuanTie\r\n(907).\r\n1. Product-Level Demo (V881-based): An Al Glasses device running with\r\nRV64ILP32 Linux kernel. Benchmarks against traditional RV32 Linux kernel demonstrate substantial gains - iperf loopback test throughput improves by 1.5\u00d7, while eBPF performance achieves up to 5.7\u00d7 speedups across test cases\r\n2. Community-Level Demo (QEMU-based): For the first time, LP64 applications execute on an RV64ILP32 Linux kernel, which provides \u20212 GB of separate address spaces, revealing new possibilities for mixed-ABI workloads on RISC-V (20% memory footprint saved v.s. traditional RV64 Linux kernel).\r\n\r\nTogether, these demonstrations mark a significant milestone: delivering 64-bit RISC-V performance advantages to resource-constrained embedded AI devices, while preserving ILP32 memory/cache efficiency - entirely on an open-source software stack.",
     "Description": "",
     "Notes": "",
     "Internal notes": "",
@@ -5316,7 +5325,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/GQUDKS/rv64ilp32-v881_ZPE92T7_Hy1rOyn.webp",
+    "Session image": "/media/eu-summit-2026/submissions/GQUDKS/rv64ilp32-v881_ZPE92T7_Hy1rOy_sAoxZy1.webp",
     "Speaker IDs": [
       "ZAFG7Q"
     ],
@@ -5361,11 +5370,9 @@
     "Don\u2019t record this session.": false,
     "Session image": "",
     "Speaker IDs": [
-      "TF3DDV",
       "MNCKPX"
     ],
     "Speaker names": [
-      "XU AN",
       "YUNGANG BAO"
     ],
     "Room": {
@@ -5519,7 +5526,7 @@
       "Kajetan N\u00fcrnberger"
     ],
     "Room": {
-      "en": "Poster Island C"
+      "en": "Poster Island D"
     },
     "Start": "2026-06-09T16:00:00+02:00",
     "Start (date)": "2026-06-09",
@@ -6038,7 +6045,7 @@
   },
   {
     "ID": "KBLECB",
-    "Proposal title": "Functional Verification Strategy of the CORE-V Floating-Point Unit (CVFPU) for RISC-V cores",
+    "Proposal title": "Functional Verification Strategy of the CORE-V Floating-Point Unit (CVFPU) for RISC-V Cores",
     "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
@@ -6913,7 +6920,9 @@
     "End (time)": "13:50:00",
     "Median score": "28.50",
     "Average (mean) score": 27.5,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MD7RVM/resources/RISC-V_Summit_RV64Y__OOPryqT.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -6945,13 +6954,15 @@
     "Speaker names": [
       "Adnan Hamid"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-09T13:25:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "13:25:00",
+    "End": "2026-06-09T13:35:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "13:35:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [
@@ -7036,11 +7047,13 @@
     "Session image": "",
     "Speaker IDs": [
       "CHURPA",
-      "YTZUWE"
+      "YTZUWE",
+      "V7MLHW"
     ],
     "Speaker names": [
       "Vasileios Karakostas",
-      "Alexandros Ntyrkai"
+      "Alexandros Ntyrkai",
+      "Dimitris Gizopoulos"
     ],
     "Room": {
       "en": "Poster Island A"
@@ -7206,6 +7219,49 @@
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MUFY8Z/resources/petrot-rv128_f8r31Gg.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
+  },
+  {
+    "ID": "MUMV3G",
+    "Proposal title": "High performance RISC-V Image Processing Chip EAI8800",
+    "Proposal state": "confirmed",
+    "Pending proposal state": null,
+    "Session type": {
+      "en": "Demo Theater presentation"
+    },
+    "Track": {
+      "en": "Demo Theater"
+    },
+    "Created": "2026-06-02T11:19:25.564238+00:00",
+    "Tags": null,
+    "Abstract": "The EAI8800 is an automotive-grade high-performance dedicated chip for CMS electronic mirrors built on the RISC-V CPU developed by ESWIN Computing. Adopting a heterogeneous multi-core RISC-V CPU consisting of two large cores and one small core, ESWIN computing self-developed ISP and tightly-coupled video processing architecture. This single chip realizes the full-link workflow of collection, processing and display, addressing the pain points of traditional general-purpose chips such as high latency, high power consumption and high costs.\r\nIt boasts outstanding core performances: the camera-to-panel latency is no more than 16.6ms with power consumption below 500mw. It supports 1920\u00d71080@60FPS as well as HDR and night vision enhancement, conforms to ASIL-B functional safety standards.",
+    "Description": "",
+    "Notes": "",
+    "Internal notes": null,
+    "Duration": 10,
+    "Slot Count": 1,
+    "Language": "en",
+    "Show this session in public list of featured sessions.": false,
+    "Don\u2019t record this session.": false,
+    "Session image": "",
+    "Speaker IDs": [
+      "SHBJ9K"
+    ],
+    "Speaker names": [
+      "Changqing Li"
+    ],
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-10T13:25:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "13:25:00",
+    "End": "2026-06-10T13:35:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "13:35:00",
+    "Median score": null,
+    "Average (mean) score": null,
+    "Resources": [],
+    "Consider this submission for a technical talk": null
   },
   {
     "ID": "MYRD9A",
@@ -7598,7 +7654,8 @@
     "Median score": "28.75",
     "Average (mean) score": 28.8,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/NHUVSR/resources/wuehans_abstract-v20_V6a6kts.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/NHUVSR/resources/wuehans_abstract-v20_V6a6kts.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/NHUVSR/resources/WueHANS_nj2VV9M.pptx"
     ],
     "Consider this submission for a technical talk": null
   },
@@ -7894,7 +7951,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/PC8KYU/Tariq_and_Jas_nwV9KR3_dumiFps_eeAHdJJ.webp",
+    "Session image": "/media/eu-summit-2026/submissions/PC8KYU/Tariq_and_Jas_nwV9KR3_dumiFps_OJoaPz6.webp",
     "Speaker IDs": [
       "NPHGQ7"
     ],
@@ -7912,7 +7969,9 @@
     "End (time)": "17:15:00",
     "Median score": "29.00",
     "Average (mean) score": 25.3,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/PC8KYU/resources/Tariq_Kurd_CHERI_and_QaH2g3F.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -8604,7 +8663,10 @@
     "End (time)": "15:40:00",
     "Median score": "34.50",
     "Average (mean) score": 30.8,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/QLUGPK/resources/Compiler-Aided_Autov_wlJtgDs.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/QLUGPK/resources/Compiler-Aided_Autov_XTqfhkC.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -8782,13 +8844,15 @@
       "XU AN",
       "Yinan Xu"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-10T10:55:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "10:55:00",
+    "End": "2026-06-10T11:05:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "11:05:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -8985,7 +9049,9 @@
     "End (time)": "18:00:00",
     "Median score": "42.00",
     "Average (mean) score": 42.0,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/R7MK7D/resources/cva6multicore-riscv-_fIcxYHS.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -9563,13 +9629,15 @@
     "Speaker names": [
       "Sean Murphy"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-10T10:35:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "10:35:00",
+    "End": "2026-06-10T10:45:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "10:45:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [
@@ -10317,7 +10385,7 @@
     "Abstract": "In RISC-V based systems, a key security mecha-\r\nnism is the Input-Output Physical Memory Protection (IOPMP)\r\nsubsystem, which enables controlled access to shared memory\r\nand peripherals by non-core initiators [1]. While the specification\r\ndefines functional behavior, the availability of a publicly available\r\ncycle-accurate reference model will encourage early SoC-level\r\nintegration.\r\nThis paper presents an open-source cycle-accurate IOPMP\r\nreference model consisting of a SystemVerilog wrapper integrated\r\nwith a C-based functional reference model. The SystemVer-\r\nilog wrapper models pipeline timing, transaction ordering, and\r\nstandard bus interfaces, while the C-based reference model\r\nprovides specification-compliant functional evaluation of address\r\nmatching, permission checking, and priority resolution. The\r\ncombined architecture enables both functional correctness and\r\ntiming-accurate system-level validation.\r\nThe model supports AMBA AXI4 for transaction enforcement\r\nand AMBA AHB3-Lite for configuration, to enables seamless re-\r\nplacement with actual RTL. A reusable suite of architectural-level\r\nbare-metal tests is provided, and the approach is demonstrated\r\nthrough integration in an open-source CVA6-based SoC [4].\r\nIndex Terms\u2014RISC-V, IOPMP, SoC Security, Reference\r\nModel, Cycle-Accurate Modeling",
     "Description": "",
     "Notes": "",
-    "Internal notes": null,
+    "Internal notes": "",
     "Duration": 10,
     "Slot Count": 1,
     "Language": "en",
@@ -10341,7 +10409,9 @@
     "End (time)": "15:40:00",
     "Median score": "28.00",
     "Average (mean) score": 28.0,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/TTPKFR/resources/IOPMP_Reference_Mode_VAuemJ3.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -10376,11 +10446,13 @@
     "Speaker IDs": [
       "DV3CZU",
       "GWHRLJ",
-      "BSUVAG"
+      "BSUVAG",
+      "LTSQMR"
     ],
     "Speaker names": [
       "Taimur Ahmad",
       "Adeel Ahmad",
+      "Ahsan Jalil",
       "Ahsan Jalil"
     ],
     "Room": {
@@ -10506,7 +10578,7 @@
     "Median score": "35.50",
     "Average (mean) score": 35.5,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/U38PRX/resources/5657D1C5-A5C2-4818-A_NqsK8vX.jpg"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/U38PRX/resources/2026_v6LMAim.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -10539,13 +10611,15 @@
     "Speaker names": [
       "Jianying Peng"
     ],
-    "Room": null,
-    "Start": null,
-    "Start (date)": null,
-    "Start (time)": null,
-    "End": null,
-    "End (date)": null,
-    "End (time)": null,
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-09T13:15:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "13:15:00",
+    "End": "2026-06-09T13:25:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "13:25:00",
     "Median score": null,
     "Average (mean) score": null,
     "Resources": [],
@@ -10696,7 +10770,9 @@
     "End (time)": "12:15:00",
     "Median score": "27.00",
     "Average (mean) score": 26.0,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/UCYLJC/resources/RISC_V_BolognaSummit_9n89KRn.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -10728,7 +10804,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/UMWQJ8/whole_design_of_riscvml.drawi_2pgW9jr.webp",
+    "Session image": "/media/eu-summit-2026/submissions/UMWQJ8/whole_design_of_riscvml.drawi_oJl8YBg.webp",
     "Speaker IDs": [
       "7VGCP3"
     ],
@@ -10898,6 +10974,49 @@
     "Consider this submission for a technical talk": null
   },
   {
+    "ID": "V7W33B",
+    "Proposal title": "Albania is an AI-Factory",
+    "Proposal state": "confirmed",
+    "Pending proposal state": null,
+    "Session type": {
+      "en": "Invited talk"
+    },
+    "Track": {
+      "en": "Keynotes"
+    },
+    "Created": "2026-06-02T09:25:30.650192+00:00",
+    "Tags": null,
+    "Abstract": "The European AI Factory initiative aims to distribute sovereign compute capacity across Europe, but participation from Western Balkans accession countries has remained largely aspirational. Albania is charting a different course.\r\nAlbania's ICT sector employs tens of thousands of skilled engineers, but almost entirely in software outsourcing\u2014writing code for other countries' products on other countries' architectures. This model creates employment but not ownership, capability but not sovereignty. The age of AI demands transformation: from consuming compute to shaping it.\r\nThis talk presents a strategy to establish one of Europe's first RISC-V-native AI compute facilities. The initiative is designed not only to serve Albania's public-sector AI needs but to act as a regional compute hub for the Western Balkans and a gateway for Middle Eastern partners seeking EU-aligned AI infrastructure.\r\nCritically, the strategy begins in the classroom. By embedding RISC-V into Albanian computer science and engineering education, the initiative connects that talent pipeline directly to a sovereign AI compute facility, transforming a generation of outsourcing engineers into architects of AI infrastructure.\r\nKushtrim Shala draws on Albania's track record in digital innovation to show how small, agile countries can move faster than larger member states in adopting open ISA infrastructure. The talk addresses what it takes to bootstrap a semiconductor culture and makes the case that RISC-V is not merely a technical choice but a strategic instrument of digital sovereignty\u2014one that smaller nations can leverage to build resilient, independent AI capacity.",
+    "Description": "",
+    "Notes": "",
+    "Internal notes": "",
+    "Duration": 30,
+    "Slot Count": 1,
+    "Language": "en",
+    "Show this session in public list of featured sessions.": false,
+    "Don\u2019t record this session.": false,
+    "Session image": "",
+    "Speaker IDs": [
+      "PAYXDE"
+    ],
+    "Speaker names": [
+      "Kushtrim Shala"
+    ],
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-11T11:30:00+02:00",
+    "Start (date)": "2026-06-11",
+    "Start (time)": "11:30:00",
+    "End": "2026-06-11T12:00:00+02:00",
+    "End (date)": "2026-06-11",
+    "End (time)": "12:00:00",
+    "Median score": null,
+    "Average (mean) score": null,
+    "Resources": [],
+    "Consider this submission for a technical talk": null
+  },
+  {
     "ID": "VPNYEP",
     "Proposal title": "From Profiling to Performance: Optimizing Small  Language Models on RISC\u2011V Architectures",
     "Proposal state": "confirmed",
@@ -11003,7 +11122,7 @@
   },
   {
     "ID": "VVBBMK",
-    "Proposal title": "kepler-formal: Open Logic Equivalence Checking for RISC-V CI Workflows",
+    "Proposal title": "kepler-formal: Open source Formal Equivalence Checking for Industrial Grade designs",
     "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
@@ -11018,8 +11137,8 @@
       "open_source_design",
       "verification"
     ],
-    "Abstract": "The rapid expansion of the RISC-V ecosystem has led to an increasing number of open hardware projects hosted on collaborative platforms such as GitHub. While modern software development benefits from mature continuous integration and continuous deployment (CI/CD) methodologies, equivalent automated verification infrastructure remains limited for hardware design. In particular, formal verification tools such as logic equivalence checking (LEC) remain largely restricted to proprietary EDA solutions.\r\nThis work explores the use of lightweight open-source EDA tools as scalable verification agents for open hardware development workflows. We present an open-source logic equivalence checking tool designed to operate efficiently within CI environments for RISC-V projects. Built on a high-performance C++ infrastructure for netlist representation and analysis, the tool enables rapid equivalence verification between different RTL transformations and synthesized netlists. Experimental results on open RISC-V designs demonstrate that automated equivalence checks can be integrated into CI pipelines with execution times compatible with typical pull request validation workflows. This approach provides a practical first verification gate for open hardware repositories before deeper sign-off verification using commercial tools.",
-    "Description": "The rapid growth of the RISC-V ecosystem has led to an increasing number of open hardware projects developed collaboratively through platforms such as GitHub. While software development widely benefits from automated continuous integration (CI) workflows, equivalent verification infrastructure for hardware design remains limited, particularly for formal verification tasks such as logic equivalence checking (LEC). Most industrial LEC tools remain proprietary and difficult to integrate into distributed open development environments.\r\n\r\nThis work presents kepler-formal, an open-source logic equivalence checking tool designed to operate efficiently within CI pipelines for RISC-V hardware development. Built on top of the Naja infrastructure for hierarchical netlist representation and analysis, the tool enables fast equivalence verification between synthesized or transformed netlists. Runtime experiments on open RISC-V designs demonstrate that equivalence checks can be executed within seconds, making them suitable for automated pull-request validation workflows.\r\n\r\nThe tool is integrated into open silicon flows including OpenROAD where it acts as an automated verification gate during development. By enabling lightweight formal verification in collaborative workflows, this approach helps bridge modern software engineering practices and open hardware development.",
+    "Abstract": "The RISC-V ecosystem is expanding rapidly, with many open hardware projects now developed collaboratively on platforms such as GitHub. Yet while software enjoys mature continuous integration and deployment (CI/CD) practices, hardware design lacks equivalent automated verification: formal tools such as logic equivalence checking (LEC) stay confined to proprietary EDA solutions whose per-run license costs make them impractical to run on every pull request. This gap is now acute, as AI-assisted agents that modify RTL are emerging without fast, open tools to verify their output, sharpening the need for automated formal verification inside the development loop.\r\nWe present kepler-formal, an open-source formal equivalence checking tool that runs efficiently in CI for RISC-V projects. Built on a high-performance C++ netlist engine with a Python interface, it checks equivalence between RTL transformations and synthesized netlists. It is evolving from combinational LEC toward Sequential Equivalence Checking (SEC): since RTL contains registers, pipelines, and state machines, SEC's cycle-by-cycle modeling is the sound method for proving equivalence at the RTL level.\r\nOn open RISC-V designs (CVA6, BlackParrot, MegaBoom, up to ~3.9M primitives), checks complete within typical pull request budgets, from under two to under ten minutes. Running license-free and fast enough for per-commit use, kepler-formal delivers both the inner-loop verification AI agents need and a practical first formal gate before commercial sign-off.",
+    "Description": "The rapid growth of the RISC-V ecosystem has produced an increasing number of open hardware projects developed collaboratively through platforms such as GitHub. While software development widely benefits from automated continuous integration (CI) workflows, equivalent verification infrastructure for hardware design remains limited, particularly for formal verification tasks such as logic equivalence checking (LEC). Most industrial LEC tools are proprietary and difficult to integrate into distributed, open development environments.\r\nThis work presents kepler-formal, an open-source logic equivalence checking tool designed to operate efficiently within CI pipelines for RISC-V hardware development. Built on the Naja infrastructure for hierarchical netlist representation and analysis, it enables fast equivalence verification between synthesized and transformed netlists. Runtime experiments on open RISC-V designs show that equivalence checks complete within seconds to minutes, making them suitable for automated pull request validation.\r\nThe tool is integrated into open silicon flows such as OpenROAD, where it acts as an automated verification gate during development. By enabling lightweight formal verification in collaborative workflows, this approach helps bring modern software engineering practices to open hardware development.",
     "Notes": "",
     "Internal notes": null,
     "Duration": 10,
@@ -11047,7 +11166,9 @@
     "End (time)": "13:20:00",
     "Median score": "27.00",
     "Average (mean) score": 27.2,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/VVBBMK/resources/kepler-formal-poster_HdYoxWY.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -11080,10 +11201,14 @@
     "Don\u2019t record this session.": false,
     "Session image": "",
     "Speaker IDs": [
-      "VGW7EE"
+      "VGW7EE",
+      "V7MLHW",
+      "QMJBN3"
     ],
     "Speaker names": [
-      "Ramon Canal"
+      "Ramon Canal",
+      "Dimitris Gizopoulos",
+      "Stefano Di Carlo"
     ],
     "Room": {
       "en": "Poster Island C"
@@ -11098,7 +11223,8 @@
     "Average (mean) score": 33.2,
     "Resources": [
       "https://github.com/vitamin-v-software",
-      "https://www.vitamin-v.eu"
+      "https://www.vitamin-v.eu",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/VVJ8FY/resources/RISC_V_Summit_2026___ZccaqD6.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -11997,56 +12123,6 @@
     "Consider this submission for a technical talk": null
   },
   {
-    "ID": "XUGKLJ",
-    "Proposal title": "Enabling Ultra Low Power Signal Processing on RISC V with Micro-DSP Enhanced Microcontrollers",
-    "Proposal state": "accepted",
-    "Pending proposal state": null,
-    "Session type": {
-      "en": "Poster"
-    },
-    "Track": {
-      "en": "Non-Blind submission"
-    },
-    "Created": "2026-03-09T22:34:27.791169+00:00",
-    "Tags": [
-      "isa_extensions",
-      "embedded_edge",
-      "energy_efficiency",
-      "backup_industry"
-    ],
-    "Abstract": "While RISC-V\u2019s modular and efficient design is well suited for cost sensitive, low power systems, modern sensor centric workloads increasingly demand digital signal processing (DSP) and control capability on a single core. Although the RISC-V P extension significantly advances integer based DSP through packed SIMD operations, its breadth and complexity can be prohibitive for ultra low power and highly constrained MCUs. This paper presents the \u00b5DSP extension, a lightweight set of SIMD DSP instructions designed to accelerate fixed point signal processing while preserving minimal area and power overhead. Integrated directly into a compact 3 stage in order RISC V pipeline, \u00b5DSP targets common sensor processing kernels such as filtering, accumulation, and FFTs. The proposed approach complements the evolving RISC-V ecosystem for deeply constrained embedded sensor-based applications.",
-    "Description": "",
-    "Notes": "",
-    "Internal notes": "",
-    "Duration": 10,
-    "Slot Count": 1,
-    "Language": "en",
-    "Show this session in public list of featured sessions.": false,
-    "Don\u2019t record this session.": false,
-    "Session image": "",
-    "Speaker IDs": [
-      "RRB97F",
-      "Z8WNSG"
-    ],
-    "Speaker names": [
-      "Revi Ofir",
-      "Dmitry Utyansky"
-    ],
-    "Room": {
-      "en": "Poster Island D"
-    },
-    "Start": "2026-06-10T14:00:00+02:00",
-    "Start (date)": "2026-06-10",
-    "Start (time)": "14:00:00",
-    "End": "2026-06-10T14:10:00+02:00",
-    "End (date)": "2026-06-10",
-    "End (time)": "14:10:00",
-    "Median score": "36.25",
-    "Average (mean) score": 36.2,
-    "Resources": [],
-    "Consider this submission for a technical talk": "Yes"
-  },
-  {
     "ID": "XVSFHN",
     "Proposal title": "\"One Student One Chip\" Initiative: Learn to Build RISC-V Chips from Scratch with MOOC",
     "Proposal state": "confirmed",
@@ -12393,6 +12469,49 @@
     "Consider this submission for a technical talk": null
   },
   {
+    "ID": "YVHUED",
+    "Proposal title": "No Fab Required: Monetizing RISC-V Designs in the Cloud",
+    "Proposal state": "confirmed",
+    "Pending proposal state": null,
+    "Session type": {
+      "en": "Invited talk"
+    },
+    "Track": {
+      "en": "Keynotes"
+    },
+    "Created": "2026-06-03T23:07:06.507893+00:00",
+    "Tags": null,
+    "Abstract": "The open-standard RISC-V instruction set architecture (ISA) represents a paradigm shift in processor design and development, with its modular and customizable nature enabling a new era of processors uniquely tailored to their software workload. At RISC-V Summit 2025, AWS explored the potential of hardware / software co-design in the cloud for advanced testing and simulation, enabled by scalable, cloud-based solutions that combine high-performance FPGA instances with advanced emulation capabilities. This talk will give an update on how this democratized access is accelerating innovation cycles, reducing costs, and enabling organizations of all sizes to participate in RISC-V development, and addresses how RISC-V core developers can use AWS to monetize their designs in the cloud without the need to go to silicon.",
+    "Description": "",
+    "Notes": "",
+    "Internal notes": "",
+    "Duration": 15,
+    "Slot Count": 1,
+    "Language": "en",
+    "Show this session in public list of featured sessions.": false,
+    "Don\u2019t record this session.": false,
+    "Session image": "",
+    "Speaker IDs": [
+      "RSBFVT"
+    ],
+    "Speaker names": [
+      "Jeremy Dahan"
+    ],
+    "Room": {
+      "en": "Plenary"
+    },
+    "Start": "2026-06-09T16:30:00+02:00",
+    "Start (date)": "2026-06-09",
+    "Start (time)": "16:30:00",
+    "End": "2026-06-09T16:45:00+02:00",
+    "End (date)": "2026-06-09",
+    "End (time)": "16:45:00",
+    "Median score": null,
+    "Average (mean) score": null,
+    "Resources": [],
+    "Consider this submission for a technical talk": null
+  },
+  {
     "ID": "YXSRKX",
     "Proposal title": "CVA6 Optimization",
     "Proposal state": "confirmed",
@@ -12570,7 +12689,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/ZBWEM7/Diapositive1_DXqfQ7Q_u4Kohey_vdrYidO.webp",
+    "Session image": "/media/eu-summit-2026/submissions/ZBWEM7/IPECC-CVA6-2026_7tilc25_pZ2knF4.webp",
     "Speaker IDs": [
       "MJMRGD"
     ],
