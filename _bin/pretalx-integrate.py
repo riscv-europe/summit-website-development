@@ -164,7 +164,7 @@ def fetch_submissions(session: requests.Session, base_url: str,
 
 import json
 
-def read_schedule_json_db(json_file_path):
+def read_json_db(json_file_path):
     """
     Read a JSON shedule
 
@@ -213,6 +213,8 @@ def main():
     year  = datetime.now().year
     month = datetime.now().month
     summitYear = year+1 if month > 8 else year
+    default_output_dir = f"_data/summit{summitYear}/integrated"
+    default_input_dir  = f"_data/summit{summitYear}/asimported"
 
     parser = argparse.ArgumentParser(
         description="Export submission data for website in CSV format (READ-ONLY)"
@@ -221,6 +223,11 @@ def main():
         "-o", "--output-dir",
         default = f"_data/summit{summitYear}/integrated",
         help= "Root dir for all CSV output files. Defaults to \"%(default)s\"."
+    )
+    parser.add_argument(
+        "-i", "--input-dir",
+        default=f"_data/summit{summitYear}/asimported",
+        help="Root dir for all CSV inoput files. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-p", "--posters",
@@ -252,18 +259,20 @@ def main():
         action="store_true",
         help="Suppress informational messages."
     )
-
     parser.add_argument(
-        "schedule.json",
-        help="the pretalx schedule dump as a single JSON file",
-        default="../schedule.json"
+        "--sessions",
+        default=f"{default_input_dir}/eu-summit-2026_sessions.json",
+        help=f"the pretalx sessions dump as a single JSON file. Defaults to \"%(default)s\""
+    )
+    parser.add_argument(
+        "--speakers",
+        default=f"{default_input_dir}/eu-summit-2026_speakers.json",
+        help=f"the pretalx speakers dump as a single JSON file. Defaults to \"%(default)s\""
     )
 
-    # Parse CLI arguments. Note that postional arguments with a '.'
-    # require some hackery.
+    # Parse CLI arguments.
     args = parser.parse_args()
-    args_schedule_json = vars(args)['schedule.json']
-    
+
     # Configure logging level
     if args.verbose:
         log.setLevel(logging.DEBUG)
@@ -349,7 +358,8 @@ def main():
     try:
         # Let's call 'performances' all the various kind of talks,
         # demo, etc.
-        performances = read_schedule_json_db(args_schedule_json)
+        performances = read_json_db(args.sessions)
+        speakers     = read_json_db(args.speakers)
 
         posters = []
         talks = []
