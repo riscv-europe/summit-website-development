@@ -280,8 +280,8 @@ def main():
         log.setLevel(logging.WARNING)
 
     # Auxiliary conversion of days to a shorthand
-    def filter_day(perf):
-        day = perf["Start (date)"]
+    def filter_day(session):
+        day = session["Start (date)"]
         if   day == "2026-06-09":
             return "09-Tue"
         elif day == "2026-06-10":
@@ -289,23 +289,23 @@ def main():
         elif day == "2026-06-11":
             return "11-Thu"
         else:
-            log.warning(f"Unknown day for perf {perf['ID']}: '{day}'.")
+            log.warning(f"Unknown day for session {session['ID']}: '{day}'.")
             return "(day?)"
 
     # Auxiliary conversion of time to 5 chars.
-    def filter_time(perf):
-        time = perf["Start (time)"]
+    def filter_time(session):
+        time = session["Start (time)"]
         return time[0:5].replace(':','h')
 
     # Auxiliary filter of blindness submission status.
-    def filter_blindness(perf):
-        blindness = perf ["Track"]["en"]
+    def filter_blindness(session):
+        blindness = session ["Track"]["en"]
         if   blindness == "Blind Submission (Default)":
             return "Blind"
         elif blindness == "Non-Blind submission":
             return "Non-blind"
         else:
-            log.warning(f"Unknown blindness for perf {perf['ID']}: '{blindness}'.")
+            log.warning(f"Unknown blindness for session {session['ID']}: '{blindness}'.")
             return False
 
     # Auxiliary formating of authors, from a table to a string
@@ -315,16 +315,16 @@ def main():
         else:
             return f"{', '.join(authors[:-1])}, and {authors[-1]}"
 
-    # Auxiliary CSV writer of a given kind of performance.
-    def write_db_to_CSV(perfs, csv_file_name):
+    # Auxiliary CSV writer of a given kind of sessionormance.
+    def write_db_to_CSV(sessions, csv_file_name):
         csv_file_path = f"{args.output_dir}{csv_file_name}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{csv_file_name}"
 
         log.info(f"{csv_file_path}: start writing...")
 
-        if len(perfs) > 0:
+        if len(sessions) > 0:
             with open(csv_file_path, mode='w') as csv_file:
                 # Collect the columns names.
-                headers = perfs[0].keys()
+                headers = sessions[0].keys()
 
                 # Create a DictWriter object
                 writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
@@ -333,33 +333,31 @@ def main():
                 writer.writeheader()
 
                 # Write submisions
-                for perf in perfs:
-                    writer.writerow(perf)
+                for session in sessions:
+                    writer.writerow(session)
 
-        log.info(f"{csv_file_path}: wrote {len(perfs)} entries.")
+        log.info(f"{csv_file_path}: wrote {len(sessions)} entries.")
 
     # Auxliary function to stream line and accumulate poster islands
     # names.
-    def reformat_and_accumulate_island(perf):
+    def reformat_and_accumulate_island(session):
         # Islands are named like "Poster Island A". We just keep the "A".
-        island = str(perf["Room"]["en"][-1])
+        island = str(session["Room"]["en"][-1])
         if island not in islands:
             islands.append(island)
         return island
 
     # Auxiliary function to make the difference bewteeen keynotes
     # (boths sponsors and invited) and invited talks.
-    def is_a_keynote(perf):
-        if perf["Track"]["en"] == "Keynotes":
+    def is_a_keynote(session):
+        if session["Track"]["en"] == "Keynotes":
             return True
         else:
             return False
 
     try:
-        # Let's call 'performances' all the various kind of talks,
-        # demo, etc.
-        performances = read_JSON_db_from_file(args.sessions)
-        speakers     = read_JSON_db_from_file(args.speakers)
+        sessions = read_JSON_db_from_file(args.sessions)
+        speakers = read_JSON_db_from_file(args.speakers)
 
         posters = []
         talks = []
@@ -367,95 +365,95 @@ def main():
         demos = []
         invited_talks = []
         demo_theaters = []
-        for perf in performances:
-            if (perf["Proposal state"] == "rejected" or
-                perf["Proposal state"] == "withdrawn" or
-                perf["Proposal state"] == "canceled"):
+        for session in sessions:
+            if (session["Proposal state"] == "rejected" or
+                session["Proposal state"] == "withdrawn" or
+                session["Proposal state"] == "canceled"):
                 continue
 
             # We take the last word of the first speaker full name as
             # the last name for file name (quite some names, isnt'it).
-            last_name_for_file_name = perf['Speaker names'][0].split()[-1].upper() if perf['Speaker names'] else "NONAME"
+            last_name_for_file_name = session['Speaker names'][0].split()[-1].upper() if session['Speaker names'] else "NONAME"
 
-            base_file_name = f"{perf['Start (date)']}-RISC-V-Summit-Europe-{filter_time(perf)}-{last_name_for_file_name}"
+            base_file_name = f"{session['Start (date)']}-RISC-V-Summit-Europe-{filter_time(session)}-{last_name_for_file_name}"
 
-            session_type = perf["Session type"]["en"]
+            session_type = session["Session type"]["en"]
             if session_type == "Poster":
                 posters = posters + [{
-                    "Id": perf["ID"],
+                    "Id": session["ID"],
                     "Type": "poster",
-                    "Island": reformat_and_accumulate_island(perf),
+                    "Island": reformat_and_accumulate_island(session),
                     "track": "",
-                    "Day": filter_day(perf),
-                    "Blindness": filter_blindness(perf),
+                    "Day": filter_day(session),
+                    "Blindness": filter_blindness(session),
                     "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "PosterFileName": f"{base_file_name}-poster.pdf",
-                    "Title": perf["Proposal title"],
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "Abstract": perf["Abstract"],
+                    "Title": session["Proposal title"],
+                    "Authors": format_authors(session["Speaker names"]),
+                    "Abstract": session["Abstract"],
                 }]
             elif session_type == "Talk":
                 talks = talks + [{
-                    "Id": perf["ID"],
+                    "Id": session["ID"],
                     "Type": "talk",
-                    "Blindness": filter_blindness(perf),
-                    "Day": filter_day(perf),
-                    "Time": filter_time(perf),
+                    "Blindness": filter_blindness(session),
+                    "Day": filter_day(session),
+                    "Time": filter_time(session),
                     "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "SlidesFileName": f"{base_file_name}-slides.pdf",
-                    "Title": perf["Proposal title"],
-                    "Authors": format_authors(perf["Speaker names"]),
+                    "Title": session["Proposal title"],
+                    "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
-                    "Abstract": perf["Abstract"],
+                    "Abstract": session["Abstract"],
                 }]
             elif session_type == "Invited talk":
-                if is_a_keynote(perf):
+                if is_a_keynote(session):
                     keynotes = keynotes + [{
-                        "Id": perf["ID"],
+                        "Id": session["ID"],
                         "Type": "keynote",
-                        "Day": filter_day(perf),
-                        "Time": filter_time(perf),
+                        "Day": filter_day(session),
+                        "Time": filter_time(session),
                         "AbstractFileName": f"{base_file_name}-abstract.pdf",
                         "SlidesFileName": f"{base_file_name}-slides.pdf",
-                        "Title": perf["Proposal title"],
-                        "Authors": format_authors(perf["Speaker names"]),
+                        "Title": session["Proposal title"],
+                        "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
-                        "Abstract": perf["Abstract"],
+                        "Abstract": session["Abstract"],
                     }]
                 else:
                     invited_talks = invited_talks + [{
-                        "Id": perf["ID"],
+                        "Id": session["ID"],
                         "Type": "invited talk",
-                        "Blindness": filter_blindness(perf),
-                        "Day": filter_day(perf),
-                        "Time": filter_time(perf),
+                        "Blindness": filter_blindness(session),
+                        "Day": filter_day(session),
+                        "Time": filter_time(session),
                         "AbstractFileName": f"{base_file_name}-abstract.pdf",
                         "SlidesFileName": f"{base_file_name}-slides.pdf",
-                        "Title": perf["Proposal title"],
-                        "Authors": format_authors(perf["Speaker names"]),
+                        "Title": session["Proposal title"],
+                        "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
-                        "Abstract": perf["Abstract"],
+                        "Abstract": session["Abstract"],
                     }]
             elif session_type == "Demo":
                 demos = demos + [{
-                    "Id": perf["ID"],
+                    "Id": session["ID"],
                     "Type": "demo",
-                    "Day": filter_day(perf),
-                    "Time": filter_time(perf),
+                    "Day": filter_day(session),
+                    "Time": filter_time(session),
                     "AbstractFileName": f"{base_file_name}-abstract.pdf",
-                    "Title": perf["Proposal title"],
-                    "Authors": format_authors(perf["Speaker names"]),
+                    "Title": session["Proposal title"],
+                    "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
-                    "Abstract": perf["Abstract"],
+                    "Abstract": session["Abstract"],
                 }]
             elif session_type == "Demo Theater presentation":
                 demo_theaters = demo_theaters + [{
-                    "Id": perf["ID"],
-                    "Title": perf["Proposal title"],
+                    "Id": session["ID"],
+                    "Title": session["Proposal title"],
                     "Type": "demo_theater",
-                    "Authors": format_authors(perf["Speaker names"]),
-                    "Abstract": perf["Abstract"],
-                    "Day": filter_day(perf),
+                    "Authors": format_authors(session["Speaker names"]),
+                    "Abstract": session["Abstract"],
+                    "Day": filter_day(session),
                 }]
             else:
                 log.warning(f"Unknown session type: {repr(session_type)}.")
