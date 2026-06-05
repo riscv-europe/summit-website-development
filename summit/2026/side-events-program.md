@@ -12,19 +12,18 @@ layout: summit2026
     lead = "The final day of the RISC-V Summit Europe week is dedicated to project meetings and workshops."
 %}
 
-## Project meetings and public workshops
+#### Project meetings and public workshops
 
 After four days of updates on the global RISC-V ecosystem, Friday 12th
 is the perfect opportunity to <a
 href="side-events.html">propose your own workshop or to
 hold the regular meeting</a> of your research consortium.
 
-## Side events organized on Friday 12 June
-
-
 ### &mdash; Advancing RISC-V Adoption in HPC and Cloud Environments
 
 Organized by FORTH. Contact: <a href="mailto:maraz@ics.forth.gr?Subject=RISC-V%20Summit%20WS%20on%20RISC-V%20in%20Cloud%20and%20HPC ">Manolis Marazakis</a>.
+
+#### Introduction
 
 The goal of this workshop is to continue building the community of
 RISC-V in HPC and Cloud computing, particularly in Europe, with
