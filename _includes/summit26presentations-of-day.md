@@ -8,6 +8,7 @@
 
 {%- if presentation['Type'] == "talk" -%}{{ presentation['Blindness'] }} submission #{{ presentation['Id'] }}. {% endif -%}
 {%- if presentation['Type'] == "keynote" -%}Keynote. {% endif -%}
+{%- if presentation['Type'] == "steering" -%}Organizers' annoucement. {% endif -%}
 {%- if presentation['Type'] == "invited talk" -%}Invited talk. {% endif -%}
 On {{ dayLong }}, at {{ presentation['Time'] }}.
 
