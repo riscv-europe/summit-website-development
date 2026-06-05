@@ -384,6 +384,8 @@ def main():
         sessions = read_JSON_db_from_file(args.sessions)
         speakers = read_JSON_db_from_file(args.speakers)
 
+        # Auxiliary function to search a speaker's bio from the
+        # speakers file.
         def find_speaker_bio(session):
             id = session["Speaker IDs"][0]
             for speaker in speakers:
