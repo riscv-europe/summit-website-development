@@ -525,6 +525,7 @@ def main():
         sys.exit(1)
     except Exception as e:
         log.error(f"Error: {e}")
+        log.error(traceback.format_exc())
         sys.exit(1)
 
 
