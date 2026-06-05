@@ -310,7 +310,7 @@ def main():
             return "Non-blind"
         else:
             log.warning(f"Unknown blindness for session {session['ID']}: '{blindness}'.")
-            return False
+            return "(no track)"
 
     # Auxiliary formating of authors, from a table to a string
     def format_authors(authors):
