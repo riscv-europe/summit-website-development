@@ -400,6 +400,8 @@ def main():
         demos = []
         invited_talks = []
         demo_theaters = []
+        panels = []
+
         for session in sessions:
             if (session["Proposal state"] == "rejected" or
                 session["Proposal state"] == "withdrawn" or
@@ -509,11 +511,24 @@ def main():
                     "Day": filter_day(session),
                     "Bio": find_speaker_bio(session),
                 }]
+            elif is_a_panel(session):
+                panels = panels + [{
+                    "Id": session["ID"],
+                    "Type": "panel",
+                    "Day": filter_day(session),
+                    "Time": filter_time(session),
+                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
+                    "Title": session["Proposal title"],
+                    "Authors": format_authors(session["Speaker names"]),
+                    "abstract_url": "",
+                    "Abstract": format_abstract(session),
+                    "Bio": find_speaker_bio(session),
+                }]
             else:
                 log.warning(f"Unknown session type: {repr(session_type)}.")
 
         # We fold talks and keynotes into a single table.
-        presentations = talks + keynotes + invited_talks + steerings
+        presentations = talks + keynotes + invited_talks + steerings + panels
 
         print(f"Talks: {len(talks)}")
         print(f"Keynotes: {len(keynotes)}")
