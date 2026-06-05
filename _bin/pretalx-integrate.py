@@ -450,6 +450,19 @@ def main():
                         "Abstract": format_abstract(session),
                         "Bio": find_speaker_bio(session),
                     }]
+                elif is_a_steering(session):
+                    keynotes = keynotes + [{
+                        "Id": session["ID"],
+                        "Type": "steering",
+                        "Day": filter_day(session),
+                        "Time": filter_time(session),
+                        "SlidesFileName": f"{base_file_name}-slides.pdf",
+                        "Title": session["Proposal title"],
+                        "Authors": format_authors(session["Speaker names"]),
+                        "abstract_url": "",
+                        "Abstract": format_abstract(session),
+                        "Bio": find_speaker_bio(session),
+                    }]
                 else: # Is an invited talk
                     invited_talks = invited_talks + [{
                         "Id": session["ID"],
