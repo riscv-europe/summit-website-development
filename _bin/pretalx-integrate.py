@@ -385,7 +385,12 @@ def main():
 
     # Auxiliary function to reformat abstracts.
     def format_abstract(session):
-        return session["Abstract"].replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').strip()
+        if session["Session type"]["en"] != "Panel":
+            return session["Abstract"].replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').strip()
+        else: # Currently, the last line of panels are the moderators
+              # and panelsits as plain strings. So keep the formating
+              # for readbility for now.
+            return session["Abstract"]
 
     try:
         sessions = read_JSON_db_from_file(args.sessions)
