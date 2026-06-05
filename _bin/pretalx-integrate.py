@@ -46,6 +46,10 @@ def __LINE__():
     stack = traceback.extract_stack()
     return stack[-2].lineno
 
+def __HERE__():
+    stack = traceback.extract_stack()
+    print(f"At: {stack[-2].filename}:{stack[-2].lineno}")
+
 # Drop print(f"At: {__FILE__()}:{__LINE__()}") wherever you want in
 # the code for quick-and-dirty, C style, old fashioned debug.
 
