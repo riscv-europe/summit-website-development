@@ -389,6 +389,7 @@ def main():
         posters = []
         talks = []
         keynotes = []
+        steerings = []
         demos = []
         invited_talks = []
         demo_theaters = []
@@ -451,7 +452,7 @@ def main():
                         "Bio": find_speaker_bio(session),
                     }]
                 elif is_a_steering(session):
-                    keynotes = keynotes + [{
+                    steerings = steerings + [{
                         "Id": session["ID"],
                         "Type": "steering",
                         "Day": filter_day(session),
@@ -505,7 +506,7 @@ def main():
                 log.warning(f"Unknown session type: {repr(session_type)}.")
 
         # We fold talks and keynotes into a single table.
-        presentations = talks + keynotes + invited_talks
+        presentations = talks + keynotes + invited_talks + steerings
 
         print(f"Talks: {len(talks)}")
         print(f"Keynotes: {len(keynotes)}")
