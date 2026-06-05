@@ -6,12 +6,13 @@
 <hr style="width:50%;;margin-left:25%">
 <h3 id="P-{{ presentation['Id'] }}">{{ presentation['Title'] | strip | strip_newlines }}</h3>
 
-{%- if presentation['Type'] == "talk" -%}{{ presentation['Blindness'] }} submission #{{ presentation['Id'] }}. {% endif -%}
-{%- if presentation['Type'] == "keynote" -%}Keynote. {% endif -%}
-{%- if presentation['Type'] == "steering" -%}Organizers' annoucement. {% endif -%}
-{%- if presentation['Type'] == "invited talk" -%}Invited talk. {% endif -%}
-{%- if presentation['Type'] == "panel" -%}Panel. {% endif -%}
-On {{ dayLong }}, at {{ presentation['Time'] }}.
+{%- if presentation['Type'] == "talk" -%}{{ presentation['Blindness'] }} submission #{{ presentation['Id'] }} {% endif -%}
+{%- if presentation['Type'] == "keynote" -%}Keynote {% endif -%}
+{%- if presentation['Type'] == "steering" -%}Organizers' annoucement {% endif -%}
+{%- if presentation['Type'] == "invited talk" -%}Invited talk {% endif -%}
+{%- if presentation['Type'] == "panel" -%}Panel {% endif -%}
+{%- if presentation['Room'] %} in **{{ presentation['Room'] }}**{% endif -%}.
+On {{ dayLong }}, at **{{ presentation['Time'] }}**.
 
 {% if presentation['Type'] == "panel" %}
 {% if presentation['Modetaror'] %}Moderator: {{ presentation['Moderator'] }}.{% endif %}
