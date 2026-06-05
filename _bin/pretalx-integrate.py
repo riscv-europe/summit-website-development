@@ -328,7 +328,9 @@ def main():
         if len(sessions) > 0:
             with open(csv_file_path, mode='w') as csv_file:
                 # Collect the columns names.
-                headers = sessions[0].keys()
+                headers = set()
+                for session in sessions:
+                    headers.update(session.keys())
 
                 # Create a DictWriter object
                 writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
