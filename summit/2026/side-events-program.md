@@ -62,7 +62,7 @@ standards and collaboration.
 - 14:00-14:30: **Post Quantum Cryptography for RISC-V Space Systems**,
   Leonidas Kosmidis, BSC
 - 14:30-15:30: **Panel on "*Alternative futures towards full systems
-  based on open standards*"**.
+  based on open standards*"**
 - *15:30-16:00: Coffee break & end of side event*
 
 <div class="row justify-content-md-center my-4">
