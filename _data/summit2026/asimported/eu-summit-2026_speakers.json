@@ -725,7 +725,7 @@
   },
   {
     "ID": "9DLUD8",
-    "Name": "Teresa",
+    "Name": "Teresa Cervero",
     "Email": "teresa.cervero@bsc.es",
     "Biography": "",
     "Picture": "",
@@ -1164,6 +1164,20 @@
     "I come from a Low Income Country": null
   },
   {
+    "ID": "BDLEYS",
+    "Name": "Chloe Jian Ma",
+    "Email": "chloe@epicsemi.com",
+    "Biography": "Chloe Jian Ma is a strategic technology executive with more than 20 years of experience in AI, semiconductors, and cloud infrastructure. As Chief Business Officer at Epic Semi, she leads global growth, commercialization, and ecosystem initiatives that enable chipmakers and system innovators through agile semiconductor solutions. Prior to Epic Semi, Chloe led Edge AI and Robotics go-to-market strategy at Arm, driving strong revenue growth and expanding AI adoption across sectors including smart vision, robotics, and industrial IoT. She has also held leadership positions at SiFive, Intel, Mellanox, Juniper Networks, and Cisco Systems, where she helped build high-growth product businesses and strategic partnerships with leading cloud and AI providers. Chloe holds an MBA from the Wharton School and an MSEE from the University of Southern California. She is widely recognized for her industry leadership and commitment to advancing innovation across the global AI and semiconductor ecosystem.",
+    "Picture": "https://cfp.riscv-europe.org/media/avatars/BDLEYS_iMHbr0X.webp",
+    "Proposal IDs": [
+      "AUJXLA"
+    ],
+    "Proposal titles": [
+      "Epic Contrail AIX for RISC-V Developers"
+    ],
+    "I come from a Low Income Country": null
+  },
+  {
     "ID": "BEPSUB",
     "Name": "Heinig",
     "Email": "andy.heinig@iis.fraunhofer.de",
@@ -1575,7 +1589,7 @@
     "ID": "CUDA7T",
     "Name": "Margherita Rossi",
     "Email": "m.rossi@unibo.it",
-    "Biography": "",
+    "Biography": "Margherita Rossi received her M.Sc. degree in Electronic Engineering from the University of Bologna, Italy, in 2025. She is currently pursuing her Ph.D. in Electronics, Telecommunications, and Information Technologies Engineering at the University of Bologna, under the supervision of Prof. Simone Benatti. Her work focuses on the design and deployment of energy-efficient embedded systems for wearable biomedical applications, with particular interest in on-device machine learning and real-time human-machine interaction.",
     "Picture": "",
     "Proposal IDs": [
       "QEAHWX"
@@ -1892,6 +1906,22 @@
       "Designing a Voice-First Mental Health Companion"
     ],
     "I come from a Low Income Country": "Yes"
+  },
+  {
+    "ID": "DZHELQ",
+    "Name": "Andrea Bartolini",
+    "Email": "a.bartolini@unibo.it",
+    "Biography": null,
+    "Picture": "",
+    "Proposal IDs": [
+      "YYCRFS",
+      "JJJHHY"
+    ],
+    "Proposal titles": [
+      "Welcome to the RISC-V Summit Europe 2026!",
+      "Farewell and closing remarks"
+    ],
+    "I come from a Low Income Country": null
   },
   {
     "ID": "E899MZ",
@@ -2581,7 +2611,7 @@
     "ID": "HTBKA7",
     "Name": "Yenkai Wang",
     "Email": "ykwang@google.com",
-    "Biography": "",
+    "Biography": "Yenkai Wang is a Senior Software Engineer at Google working on RISC-V architectural validation and system simulation. His professional experience is in the areas of HW/SW co-design, system verification, FPGA validation, and performance modeling.\u00a0Yenkai earned a Master of Computer Science from the University of California, Irvine. He also holds an M.S. in Computer Engineering from National Yang Ming Chiao Tung University.",
     "Picture": "",
     "Proposal IDs": [
       "JKTENR"
@@ -2876,6 +2906,22 @@
     "I come from a Low Income Country": null
   },
   {
+    "ID": "K3QBWD",
+    "Name": "Nick Kossifidis",
+    "Email": "mick@ics.forth.gr",
+    "Biography": null,
+    "Picture": "",
+    "Proposal IDs": [
+      "YYCRFS",
+      "JJJHHY"
+    ],
+    "Proposal titles": [
+      "Welcome to the RISC-V Summit Europe 2026!",
+      "Farewell and closing remarks"
+    ],
+    "I come from a Low Income Country": null
+  },
+  {
     "ID": "K789YK",
     "Name": "Vincent Pierre",
     "Email": "pierre.vincent44@orange.fr",
@@ -2914,6 +2960,20 @@
     ],
     "Proposal titles": [
       "Enhancing Boot Time Security in RISC-V Leveraging Keccak Hardware Accelerator"
+    ],
+    "I come from a Low Income Country": null
+  },
+  {
+    "ID": "KG98CG",
+    "Name": "Li Chenxi",
+    "Email": "lcx02466056@alibaba-inc.com",
+    "Biography": "Accelerating the Future Computing with RISC-V",
+    "Picture": "",
+    "Proposal IDs": [
+      "NUAMY9"
+    ],
+    "Proposal titles": [
+      "Accelerating the Future Computing with RISC-V"
     ],
     "I come from a Low Income Country": null
   },
@@ -3554,6 +3614,22 @@
     "I come from a Low Income Country": "Yes"
   },
   {
+    "ID": "NJGSSR",
+    "Name": "Alessandro Savino",
+    "Email": "alessandro.savino@polito.it",
+    "Biography": null,
+    "Picture": "",
+    "Proposal IDs": [
+      "CEW33C",
+      "ZZ7ADW"
+    ],
+    "Proposal titles": [
+      "InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment",
+      "Microarchitectural Side-Channel Attack on RISC-V"
+    ],
+    "I come from a Low Income Country": null
+  },
+  {
     "ID": "NNBQLT",
     "Name": "Fr\u00e9d\u00e9ric P\u00e9trot",
     "Email": "frederic.petrot@univ-grenoble-alpes.fr",
@@ -3964,10 +4040,14 @@
     "Biography": "Stefano Di Carlo is a full professor of computer engineering at Politecnico di Torino, Department of Control and Computer Engineering, Italy. He received his Ph.D. and M.S. degrees in Computer Engineering from Politecnico di Torino in 1999 and 2003, respectively.\r\n\r\nHe has authored over 300 publications in major journals and conference proceedings on a wide range of topics. Major topics include dependable computing, artificial intelligence systems, and computational biology. His current research interests include emerging computing paradigms for reliable, energy-efficient computing; computer architectures; neuromorphic computing; systems; and computational biology.",
     "Picture": "https://cfp.riscv-europe.org/media/avatars/QMJBN3_QnPmwS8.webp",
     "Proposal IDs": [
-      "VVJ8FY"
+      "VVJ8FY",
+      "CEW33C",
+      "ZZ7ADW"
     ],
     "Proposal titles": [
-      "Vitamin-V: Results and Lessons Learnt"
+      "Vitamin-V: Results and Lessons Learnt",
+      "InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment",
+      "Microarchitectural Side-Channel Attack on RISC-V"
     ],
     "I come from a Low Income Country": null
   },
@@ -4548,6 +4628,20 @@
     "I come from a Low Income Country": null
   },
   {
+    "ID": "TQBWUF",
+    "Name": "RVI",
+    "Email": "rvi@test.com",
+    "Biography": null,
+    "Picture": "",
+    "Proposal IDs": [
+      "PREGXV"
+    ],
+    "Proposal titles": [
+      "Lightning Round"
+    ],
+    "I come from a Low Income Country": null
+  },
+  {
     "ID": "TRGRUX",
     "Name": "Giorgio Marletta",
     "Email": "giorgio.marletta@st.com",
@@ -4669,7 +4763,7 @@
     "ID": "UMVFWV",
     "Name": "Ivan Sarno",
     "Email": "ivan.sarno@cea.fr",
-    "Biography": "",
+    "Biography": "Ivan Sarno received the B.Sc. degree in Computer Science and the M.Sc. degree in Cybersecurity from the University of Pisa, Italy. He is currently pursuing the Ph.D. degree at the University of Grenoble Alpes, conducting his research at CEA List and TIMA Laboratory, Grenoble, France. His research focuses on secure hardware/software implementation of post-quantum cryptography on RISC-V platforms, including custom ISA extensions for cryptographic acceleration.",
     "Picture": "https://cfp.riscv-europe.org/media/avatars/UMVFWV_vt1sXHx.webp",
     "Proposal IDs": [
       "QLUGPK",
@@ -4795,7 +4889,7 @@
     "ID": "UZZQXC",
     "Name": "Andrea Helga Bernardi",
     "Email": "andreahelga.bernardi@unibo.it",
-    "Biography": "",
+    "Biography": "Andrea Helga Bernardi received her master\u2019s degree with honors in Electronic Engineering from the University of Bologna, Italy, in 2024. She is currently enrolled in a PhD program under the supervision of Prof. Simone Benatti at the Energy-Efficient Embedded Systems Laboratory (EEES Lab), DEI Department, University of Bologna. Her research focuses on biosignal processing and the development of real-time\u00a0human-machine interfaces based on smart glasses.",
     "Picture": "https://cfp.riscv-europe.org/media/avatars/UZZQXC_anPTgen.webp",
     "Proposal IDs": [
       "LMUL9F"
@@ -5666,20 +5760,6 @@
     ],
     "Proposal titles": [
       "Window-Level Telemetry for Runtime Performance and Reliability Monitoring in RISC-V Systems"
-    ],
-    "I come from a Low Income Country": null
-  },
-  {
-    "ID": "ZBYQTZ",
-    "Name": "Bruno Bodin",
-    "Email": "bbodin@acm.org",
-    "Biography": null,
-    "Picture": "",
-    "Proposal IDs": [
-      "DMYH7U"
-    ],
-    "Proposal titles": [
-      "Fully Automated RISC-V ArchitecturalExploration with Chipyard and A-DECA"
     ],
     "I come from a Low Income Country": null
   },
