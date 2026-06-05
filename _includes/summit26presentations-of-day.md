@@ -10,9 +10,16 @@
 {%- if presentation['Type'] == "keynote" -%}Keynote. {% endif -%}
 {%- if presentation['Type'] == "steering" -%}Organizers' annoucement. {% endif -%}
 {%- if presentation['Type'] == "invited talk" -%}Invited talk. {% endif -%}
+{%- if presentation['Type'] == "panel" -%}Panel. {% endif -%}
 On {{ dayLong }}, at {{ presentation['Time'] }}.
 
+{% if presentation['Type'] == "panel" %}
+{% if presentation['Modetaror'] %}Moderator: {{ presentation['Moderator'] }}.{% endif %}
+
+{% if presentation['Panelists'] %}Panelists: {{ presentation['Penelists'] }}.{% endif %}
+{% else %}
 {% if presentation['Authors'] %}{{ presentation['Authors'] }}.{% endif %}
+{% endif %}
 
 {% if presentation['Abstract'] %}**Abstract**: {{ presentation['Abstract'] }} {% endif %}
 
