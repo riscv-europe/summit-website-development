@@ -221,32 +221,32 @@ def main():
     default_input_dir  = f"_data/summit{summitYear}/asimported"
 
     parser = argparse.ArgumentParser(
-        description="Export submission data for website in CSV format (READ-ONLY)"
+        description="Export submission data for website in JSON format (READ-ONLY)"
     )
     parser.add_argument(
         "-o", "--output-dir",
         default = f"_data/summit{summitYear}/integrated",
-        help= "Root dir for all CSV output files. Defaults to \"%(default)s\"."
+        help= "Root dir for all JSON output files. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-i", "--input-dir",
         default=f"_data/summit{summitYear}/asimported",
-        help="Root dir for all CSV inoput files. Defaults to \"%(default)s\"."
+        help="Root dir for all JSON input files. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-p", "--posters",
-        default="posters.csv",
-        help="CSV output file for posters. Defaults to \"%(default)s\"."
+        default="posters.json",
+        help="JSON output file for posters. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-t", "--talks",
-        default="talks.csv",
-        help="CSV output file for talks. Defaults to \"%(default)s\"."
+        default="talks.json",
+        help="JSON output file for talks. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "-d", "--demos",
-        default="demos.csv",
-        help="CSV output file for academic demos. Defaults to \"%(default)s\"."
+        default="demos.json",
+        help="JSON output file for academic demos. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "--pretty",
@@ -319,30 +319,16 @@ def main():
         else:
             return f"{', '.join(authors[:-1])}, and {authors[-1]}"
 
-    # Auxiliary CSV writer of a given kind of sessionormance.
-    def write_db_to_CSV(sessions, csv_file_name):
-        csv_file_path = f"{args.output_dir}{csv_file_name}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{csv_file_name}"
+    # Auxiliary JSON writer of a given kind of sessionormance.
+    def write_db_to_JSON(sessions, json_file_name):
+        json_file_path = f"{args.output_dir}{json_file_name}" if args.output_dir[:-1] == '/' else f"{args.output_dir}/{json_file_name}"
 
-        log.info(f"{csv_file_path}: start writing...")
+        log.info(f"{json_file_path}: start writing...")
 
-        if len(sessions) > 0:
-            with open(csv_file_path, mode='w') as csv_file:
-                # Collect the columns names.
-                headers = set()
-                for session in sessions:
-                    headers.update(session.keys())
+        with open(json_file_path, 'w') as json_file:
+            json.dump(sessions, json_file, indent=4)
 
-                # Create a DictWriter object
-                writer = csv.DictWriter(csv_file, fieldnames=headers, lineterminator="\n")
-
-                # Write the header.
-                writer.writeheader()
-
-                # Write submisions
-                for session in sessions:
-                    writer.writerow(session)
-
-        log.info(f"{csv_file_path}: wrote {len(sessions)} entries.")
+        log.info(f"{json_file_path}: wrote {len(sessions)} entries.")
 
     # Auxliary function to stream line and accumulate poster islands
     # names.
@@ -561,9 +547,9 @@ def main():
         print(f"Demos: {len(demos)}")
         print(f"Demo theater pres: {len(demo_theaters)}")
 
-        write_db_to_CSV(posters,args.posters)
-        write_db_to_CSV(demos,args.demos)
-        write_db_to_CSV(presentations,"presentations.csv")
+        write_db_to_JSON(posters,args.posters)
+        write_db_to_JSON(demos,args.demos)
+        write_db_to_JSON(presentations,"presentations.json")
 
     except requests.HTTPError as e:
         log.error(f"HTTP Error: {e}")
