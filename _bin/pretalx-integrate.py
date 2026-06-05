@@ -376,6 +376,13 @@ def main():
         else:
             return False
 
+    # Auxiliary function to get the room name.
+    def filter_room(session):
+        if session["Room"]["en"] == "Plenary":
+            return "Europa"
+        else:
+            return session["Room"]["en"]
+
     # Auxiliary function to reformat abstracts.
     def format_abstract(session):
         return session["Abstract"].replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').strip()
