@@ -367,6 +367,13 @@ def main():
         else:
             return False
 
+    # Auxiliary function to check if the session is a panel.
+    def is_a_panel(session):
+        if session["Track"]["en"] ==  "Panel":
+            return True
+        else:
+            return False
+
     # Auxiliary function to reformat abstracts.
     def format_abstract(session):
         return session["Abstract"].replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').strip()
