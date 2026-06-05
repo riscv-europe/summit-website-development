@@ -359,8 +359,8 @@ def main():
         else:
             return False
 
-    # Auxiliary function to make the difference bewteeen keynotes
-    # (boths sponsors and invited) and invited talks.
+    # Auxiliary function to check if the session is from the
+    # organizers.
     def is_a_steering(session):
         if session["Track"]["en"] ==  "Steering Committee":
             return True
