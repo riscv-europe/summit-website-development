@@ -351,10 +351,18 @@ def main():
             islands.append(island)
         return island
 
-    # Auxiliary function to make the difference bewteeen keynotes
-    # (boths sponsors and invited) and invited talks.
+    # Auxiliary function to check if the session is a keynote (boths
+    # sponsors and invited).
     def is_a_keynote(session):
         if session["Track"]["en"] == "Keynotes":
+            return True
+        else:
+            return False
+
+    # Auxiliary function to make the difference bewteeen keynotes
+    # (boths sponsors and invited) and invited talks.
+    def is_a_steering(session):
+        if session["Track"]["en"] ==  "Steering Committee":
             return True
         else:
             return False
