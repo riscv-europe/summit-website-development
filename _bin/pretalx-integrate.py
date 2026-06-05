@@ -367,7 +367,8 @@ def main():
         sessions = read_JSON_db_from_file(args.sessions)
         speakers = read_JSON_db_from_file(args.speakers)
 
-        def find_speaker_bio(id):
+        def find_speaker_bio(session):
+            id = session["Speaker IDs"][0]
             for speaker in speakers:
                 if speaker["ID"] == id:
                     bio = speaker["Biography"]
@@ -409,7 +410,7 @@ def main():
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session["Speaker names"]),
                     "Abstract": format_abstract(session),
-                    "Bio": find_speaker_bio(session["Speaker IDs"][0]),
+                    "Bio": find_speaker_bio(session),
                 }]
             elif session_type == "Talk":
                 talks = talks + [{
@@ -424,7 +425,7 @@ def main():
                     "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
-                    "Bio": find_speaker_bio(session["Speaker IDs"][0]),
+                    "Bio": find_speaker_bio(session),
                 }]
             elif session_type == "Invited talk":
                 if is_a_keynote(session):
@@ -439,9 +440,9 @@ def main():
                         "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
-                        "Bio": find_speaker_bio(session["Speaker IDs"][0]),
+                        "Bio": find_speaker_bio(session),
                     }]
-                else:
+                else: # Is an invited talk
                     invited_talks = invited_talks + [{
                         "Id": session["ID"],
                         "Type": "invited talk",
@@ -454,7 +455,7 @@ def main():
                         "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
-                        "Bio": find_speaker_bio(session["Speaker IDs"][0]),
+                        "Bio": find_speaker_bio(session),
                     }]
             elif session_type == "Demo":
                 demos = demos + [{
@@ -467,7 +468,7 @@ def main():
                     "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
-                    "Bio": find_speaker_bio(session["Speaker IDs"][0]),
+                    "Bio": find_speaker_bio(session),
                 }]
             elif session_type == "Demo Theater presentation":
                 demo_theaters = demo_theaters + [{
@@ -477,7 +478,7 @@ def main():
                     "Authors": format_authors(session["Speaker names"]),
                     "Abstract": format_abstract(session),
                     "Day": filter_day(session),
-                    "Bio": find_speaker_bio(session["Speaker IDs"][0]),
+                    "Bio": find_speaker_bio(session),
                 }]
             else:
                 log.warning(f"Unknown session type: {repr(session_type)}.")
