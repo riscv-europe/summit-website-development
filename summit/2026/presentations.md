@@ -10,9 +10,66 @@ layout: summit2026
 %}
 
 {% include jumboboxstart.html 
-    title = "Presentations"
-    lead = "Notes for speakers"
+    title = "More than 50 keynotes, talks, panels, etc."
+    lead = "An event packed with news, results, discussions, and demos..."
 %}
+
+
+...distributed over three days:
+ - <a href="#Tue">Presentations of Tuesday 9th</a>
+ - <a href="#Wed">Presentations of Wednesday 1Oth</a>
+ - <a href="#Thu">Presentations of Thursday 11th</a>
+
+Notes for speakers are [down below](#notes).
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html
+    title = "Tuesday 9"
+    lead =  "Presentations sorted by start time."
+	id =    "Tue"
+%}
+
+{% assign day = "09-Tue" %}
+{% assign dayLong = "Tuesday 9" %}
+{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
+
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Wednesday 10"
+    lead =  "Presentations sorted by start time."
+	id =    "Wed"
+%}
+
+{% assign day = "10-Wed" %}
+{% assign dayLong = "Wednesday 10" %}
+{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
+
+{% include jumboboxend.html %}
+
+
+{% include jumboboxstart.html
+    title = "Thursday 11"
+    lead =  "Presentations sorted by start time."
+	id =    "Thu"
+%}
+
+{% assign day = "11-Thu" %}
+{% assign dayLong = "Thusrday 11" %}
+{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
+
+{% include jumboboxend.html %}
+
+{% include jumboboxstart.html 
+    title = "Notes for speakers"
+	id= "notes"
+%}
+
+Blind and non-blind accepted presentations have been associated with
+keynotes and invited talks into consistent pleanary sessions, spaning
+the three days of the core conference.
 
 Preparation before the conference:
  - **At least one author of the presentation must register for the
@@ -36,59 +93,11 @@ At the conference:
    * The **poster, if any,** slightly before, of **at the Summit's opening**.
    * The **slides** will be pushed online **after** the Summit.
 
-{% include jumboboxend.html %}
-
-{% include jumboboxstart.html 
-    title = "Accepted presentations"
-    lead = "<strong>Check this page regularly for the final schedule!</strong>"
-%}
-
-<p style="width:50%;text-align:center;margin-left:25%"> Accepted
-<strong>presentations will be associated with keynotes and invited
-talks</strong> into consistent pleanary sessions, over the three days
-of the core conference.<br>(Tuesday 9 to Thursday 11).<br></p>
-
-Distributed over three days:
- - <a href="#Tue">Presentations of Tuesday 9th</a>
- - <a href="#Wed">Presentations of Wednesday 1Oth</a>
- - <a href="#Thu">Presentations of Thursday 11th</a>
-
-{% include jumboboxend.html %}
-
-{% include jumboboxstart.html
-    title = "Tuesday 9 presentations"
-    lead =  "Sorted by start time."
-	id =    "Tue"
-%}
-
-{% assign day = "09-Tue" %}
-{% assign dayLong = "Tuesday 9" %}
-{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
-
-{% include jumboboxend.html %}
-
-
-{% include jumboboxstart.html
-    title = "Wednesday 10 presentations"
-    lead =  "Sorted by start time."
-	id =    "Wed"
-%}
-
-{% assign day = "10-Wed" %}
-{% assign dayLong = "Wednesday 10" %}
-{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
-
-{% include jumboboxend.html %}
-
-
-{% include jumboboxstart.html
-    title = "Thursday 11 presentations"
-    lead =  "Sorted by start time."
-	id =    "Thu"
-%}
-
-{% assign day = "11-Thu" %}
-{% assign dayLong = "Thusrday 11" %}
-{% include summit26presentations-of-day.md day=day dayLong=dayLong presentations=presentations %}
+<p align="center" style="font-size: 0.8em">
+<a class="backnavigation" href="#summary">To page top</a> &mdash;
+<a href="#Tue" class="backnavigation">To presentations of Tuesday 9</a> &mdash;
+<a href="#Wed" class="backnavigation">To presentations of Wednesday 10</a> &mdash;
+<a href="#Thu" class="backnavigation">To presentations of Thursday 11</a>
+</p>
 
 {% include jumboboxend.html %}
