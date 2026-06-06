@@ -398,12 +398,13 @@ def main():
             # Now we know how many bios there are.
             if bios == []:
                 return None
-            elif len(bios) > 1:
+            elif ( len(bios) > 1 ) or ( len(bios) != len(session["Speaker IDs"]) ):
                 # Some bios do not mention any name. When there are
                 # several authors, hence several bios, this can be
-                # confusing. So, if there are more than one bios, add
-                # the name of each person before the bio, when the
-                # last name can't be found in the bio proper.
+                # confusing. So, if there are more than one bios, or
+                # less bios than authors, add the name of each person
+                # before the bio when the first and last names can't
+                # be found in the bio proper.
                 for auth in range(len(bios)):
                     # Assume the first word of the name is the first
                     # name and the last word is the last name...
