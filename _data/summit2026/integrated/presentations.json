@@ -821,5 +821,131 @@
         "abstract_url": "",
         "Abstract": "The global nature of RISC-V is one of its greatest strengths. The RISC-V Instruction Set Architecture (ISA) is constantly developed and evolved by member organizations worldwide, with contributors working together on new features and capabilities across geographies and time zones. In turn, the RISC-V ISA provides the basis for the future of global computing innovation, addressing the diverse needs of countries, companies, educators and individuals.\r\n\r\nIn this session we bring together representatives of the RISC-V community from different continents to discuss the nature of a worldwide ecosystem. We will discuss the realities of RISC-V in different geographies:\r\nHow the ISA drives innovation and solves specific local problems \r\nHow RISC-V unlocks the potential of a global marketplace. \r\nThe importance of digital sovereignty, and different approaches to research, education and training a new generation of engineers. \r\nExplore the tension between collaboration and competition. \r\nHow are RISC-V members working together and supporting each other? Where does their location give them a competitive edge?\r\nOpportunities and challenges in cross-continent collaboration. Lessons learnt.  \r\n\r\nJoin us to learn the global lessons of RISC-V deployment!\r\n\r\nModerator:\r\nFlorian Wolhrab - Open Hardware Foundation\r\n\r\nPanelists:\r\nP. Hari  -  C-DAC \r\nTeresa Cervero - Barcelona Supercomputing Center\r\nMarcelo Zuffo - University of Sao Paulo\r\nJing Yang - Damo Academy",
         "Bio": null
+    },
+    {
+        "Id": "AUJXLA",
+        "Title": "Epic Contrail AIX for RISC-V Developers",
+        "Type": "demo_theater",
+        "Authors": "Chloe Jian Ma",
+        "Room": "Demo Theater",
+        "Abstract": "Contrail AIX\u2122 is the world's first RISC-V AI Execution Platform, purpose-built for the next phase of artificial intelligence as the industry transitions from training models to deploying and executing intelligent applications at scale. Unlike traditional AI infrastructure, which separates CPUs for system management and GPUs for model processing, Contrail AIX is designed to support emerging workloads such as AI inference, reasoning, agentic AI, retrieval-augmented generation (RAG), autonomous systems, and physical AI, all of which require continuous orchestration, memory management, information retrieval, and workflow execution. Built on an open RISC-V architecture, the platform combines high-performance compute, AI acceleration, and a modern cloud-native software ecosystem, supporting technologies such as Ubuntu, Kubernetes, Docker, LLVM, GCC, MLIR, IREE, Ceph, and SPDK. By enabling intelligent agents to collaborate, access tools, retrieve knowledge, and execute complex tasks efficiently, Contrail AIX provides a unified and scalable foundation for the emerging AI Execution Era, where the ability to execute intelligence becomes as critical as the ability to train it.",
+        "Day": "09-Tue",
+        "Time": "15h45",
+        "Bios": [
+            "Chloe Jian Ma is a strategic technology executive with more than 20 years of experience in AI, semiconductors, and cloud infrastructure. As Chief Business Officer at Epic Semi, she leads global growth, commercialization, and ecosystem initiatives that enable chipmakers and system innovators through agile semiconductor solutions. Prior to Epic Semi, Chloe led Edge AI and Robotics go-to-market strategy at Arm, driving strong revenue growth and expanding AI adoption across sectors including smart vision, robotics, and industrial IoT. She has also held leadership positions at SiFive, Intel, Mellanox, Juniper Networks, and Cisco Systems, where she helped build high-growth product businesses and strategic partnerships with leading cloud and AI providers. Chloe holds an MBA from the Wharton School and an MSEE from the University of Southern California. She is widely recognized for her industry leadership and commitment to advancing innovation across the global AI and semiconductor ecosystem."
+        ]
+    },
+    {
+        "Id": "C39D8K",
+        "Title": "Ascalon\u2122 S: A RISC-V CPU for the Emerging Agentic AI Market",
+        "Type": "demo_theater",
+        "Authors": "Gary Martz",
+        "Room": "Demo Theater",
+        "Abstract": "As AI systems evolve from inference engines toward agentic architectures\u2014orhcestration and execution\u2014the CPU's role is fundamentally changing. Agentic workloads mix branchy control-plane logic with latency-sensitive execution across heterogeneous compute. This shift creates a distinct class of CPU demand: high-throughput, compute-dense, power-efficient cores tuned for real-world AI system integration.  Tenstorrent's perspective comes from operational experience. The company ships AI workstations, servers, and software today, with RISC-V deployed at scale. Ascalon S is the product of that system-level experience applied to CPU microarchitecture.  Ascalon S is Tenstorrent's answer to the orchestration and exectuion heavy demands of agentic AI\u2014a power and area-efficient RISC-V CPU IP core ideally built for execution swarm roles that define modern AI systems. Paired with Tenstorrent's Innovation License, it gives customers access to RTL and key design collateral, enabling workload-specific customization, roadmap ownership, and reduced vendor lock-in.  Come learn how Ascalon S and Tenstorrent's broader IP portfolio\u2014spanning RISC-V CPU, AI acceleration, system IP, and system interconnect\u2014can help you own and differentiate your silicon future.",
+        "Day": "09-Tue",
+        "Time": "13h55",
+        "Bios": [
+            "Gary Martz is Head of IP Ecosystem Strategy and IP Marketing at Tenstorrent, where he leads the company's go-to-market and ecosystem development for its RISC-V CPU and AI IP portfolio. A veteran of the semiconductor industry, Gary previously served as Senior Director of Corporate Strategy and Ventures at Intel, where he drove initiatives in advanced technology standards for Communications Technologies, Consumer & Industrial IoT, and Automotive. He also serves on the advisory board of the University of Washington's Industrial & Systems Engineering program and is an active senior leader in the RISC-V community. Gary holds a B.S. in Industrial Engineering from the University of Washington and an MBA in Entrepreneurial Studies from the University of Michigan."
+        ]
+    },
+    {
+        "Id": "ETKP89",
+        "Title": "\u201cPRG32: Teaching RISC-V Through Playable Game Cartridges\"",
+        "Type": "demo_theater",
+        "Authors": "Raffele Montella",
+        "Room": "Demo Theater",
+        "Abstract": "PRG32 is an open-source educational platform that teaches RISC-V programming by developing playable 32-bit game cartridges. Inspired by retro-gaming consoles, PRG32 allows students to write small games in RISC-V assembly or C, package them as .prg32 cartridges, and run them on a lightweight runtime targeting RISC-V hardware and emulated environments.  The demo presents the complete PRG32 workflow: writing a simple game, building the cartridge, loading it into the runtime, and executing it as an interactive program with graphics, input, and game logic. By turning low-level programming concepts into tangible, playable outcomes, PRG32 helps students understand registers, memory, control flow, graphics buffers, input handling, compilation, and system interfaces in a practical, engaging way.  The platform is designed for computer architecture, systems programming, and introductory embedded computing courses. It supports both assembly-first and C-based teaching paths, enabling instructors to connect abstract RISC-V concepts with hands-on experimentation. The demo will show how PRG32 can be used in the classroom to make RISC-V programming more accessible, motivating, and fun.",
+        "Day": "10-Wed",
+        "Time": "13h15",
+        "Bios": [
+            "Raffaele Montella is an Associate Professor with tenure in Computer Science at the Department of Science and Technologies (DiST), University of Naples \u201cParthenope\u201d (UNP), Italy."
+        ]
+    },
+    {
+        "Id": "MEXBCF",
+        "Title": "AIA, IOMMU and Other Flash Points: Driving RISC-V Sub-System Verification",
+        "Type": "demo_theater",
+        "Authors": "Adnan Hamid",
+        "Room": "Demo Theater",
+        "Abstract": "As more complex RISC-V devices emerge, the verification of the sub-systems in which they are integrated becomes more of a concern.  Ensuring that overall system-level operation executes correctly is as critical as the behavior of the devices themselves. Sub-system verification is generally a complex procedure that involves multiple components, issues such as load-store behavior, coherency, performance bottlenecks and hazards, and other factors in addition to the functional behavior of the components operating together. Verifying these issues requires advanced test solutions. This talk will discuss how the requirements of this verification process may be met, which could involve processor providers and end-users. Interaction around the AIA and the IOMMU sub-system components will be leveraged to show examples of sub-system behavior verification.",
+        "Day": "09-Tue",
+        "Time": "13h25",
+        "Bios": [
+            "Adnan is the President and CTO of Breker and the inventor of its core technology.    He has over 30 years of experience in functional verification automation. Prior to Breker, he managed AMD\u2019s System Logic Division, and also led their verification team to create the first test case generator providing 100% coverage for an x86-class microprocessor. In addition, Adnan spent several years at Cadence Design Systems and served as the subject matter expert in system-level verification, developing solutions for Texas Instruments, Siemens/Infineon, Motorola/Freescale, and General Motors.   Adnan holds more than 20 patents in test case generation and synthesis. He received BS degrees in Electrical Engineering and Computer Science from Princeton University, and an MBA from the University of Texas at Austin."
+        ]
+    },
+    {
+        "Id": "MUMV3G",
+        "Title": "High performance RISC-V Image Processing Chip EAI8800",
+        "Type": "demo_theater",
+        "Authors": "Changqing Li",
+        "Room": "Demo Theater",
+        "Abstract": "The EAI8800 is an automotive-grade high-performance dedicated chip for CMS electronic mirrors built on the RISC-V CPU developed by ESWIN Computing. Adopting a heterogeneous multi-core RISC-V CPU consisting of two large cores and one small core, ESWIN computing self-developed ISP and tightly-coupled video processing architecture. This single chip realizes the full-link workflow of collection, processing and display, addressing the pain points of traditional general-purpose chips such as high latency, high power consumption and high costs. It boasts outstanding core performances: the camera-to-panel latency is no more than 16.6ms with power consumption below 500mw. It supports 1920\u00d71080@60FPS as well as HDR and night vision enhancement, conforms to ASIL-B functional safety standards.",
+        "Day": "10-Wed",
+        "Time": "13h25",
+        "Bios": null
+    },
+    {
+        "Id": "NUAMY9",
+        "Title": "Accelerating the Future Computing with RISC-V",
+        "Type": "demo_theater",
+        "Authors": "Li Chenxi",
+        "Room": "Demo Theater",
+        "Abstract": "Accelerating the Future Computing with RISC-V",
+        "Day": "09-Tue",
+        "Time": "13h35",
+        "Bios": [
+            "Accelerating the Future Computing with RISC-V"
+        ]
+    },
+    {
+        "Id": "QUEMGA",
+        "Title": "DiffTest-H: FPGA-Accelerated RISC-V Co-simulation Verification Beyond 10 MHz",
+        "Type": "demo_theater",
+        "Authors": "XU AN and Yinan Xu",
+        "Room": "Demo Theater",
+        "Abstract": "Verification has become one of the most time-consuming stages in modern high-performance processor development. Co-simulation compares the Design Under Test (DUT) against a reference model (REF) at instruction granularity, providing strong debuggability, but existing software-based solutions are limited to KHz-level speeds and cannot meet industrial-scale verification demands. FPGA platforms can accelerate processor simulation to tens of MHz; however, massive and frequent hardware-software communication between the FPGA-hosted DUT and software REF still constrains co-simulation throughput.  We present DiffTest-H, an FPGA-accelerated co-simulation framework for industrial-scale RISC-V processor verification. By exploiting the structural, ordering, and behavioral characteristics of verification data, DiffTest-H optimizes communication through compression and packaging while preserving instruction-level comparison and debugging capability. It reduces communication overhead by up to 99.7% with 3.2% additional area overhead on Xilinx VU19P, achieving co-simulation speeds beyond 10 MHz and enabling faster verification iteration.  DiffTest-H has been deployed to verify XiangShan, a high-performance out-of-order RISC-V processor, covering interrupts, memory hierarchy behaviors, vector extensions, and virtualization. Across FPGA and emulator platforms, it has helped uncover more than 151 complex bugs in XiangShan, demonstrating its effectiveness for large-scale industrial processor verification.",
+        "Day": "10-Wed",
+        "Time": "10h55",
+        "Bios": [
+            "Yinan Xu is an Assistant Professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). He received his B.Eng. degree from the University of Chinese Academy of Sciences in 2019 and his Ph.D. degree from ICT, CAS in 2025. He is a core developer of the XiangShan open-source high-performance RISC-V processor, where he has pioneered several agile design and verification techniques that have been successfully integrated into the project. His work has been recognized with the CAS President\u2019s Special Award, the ICT Director\u2019s Special Award (Xia Peisu Award), and the National Scholarship. His research contributions have been published in leading venues such as MICRO, HPCA, DAC, and JCST. Notably, XiangShan and its agile design methodology were selected as one of 2022 IEEE Micro Top Picks, recognizing it as one of the year\u2019s most influential conference papers to computer architecture."
+        ]
+    },
+    {
+        "Id": "RXLUGR",
+        "Title": "Utilizing the RISC V Architecture to Accelerate Real Time Motor Control Applications",
+        "Type": "demo_theater",
+        "Authors": "Sean Murphy",
+        "Room": "Demo Theater",
+        "Abstract": "In this talk, I will present a novel approach for accelerating real-time motor control applications using a MIPS defined trigonometric math custom instruction extension on RISC V. One of the most widely used algorithms in motor control is Field Oriented Control (FOC). Within the FOC loop, the Park and Inverse Park transformations require repeated sine and cosine computations, which can be a significant performance bottleneck in software-based implementations.  I will walk through a simple software implementation of the FOC loop and demonstrate the minimal code changes required to take advantage of custom trigonometric instructions. By offloading these operations to dedicated execution units integrated directly into the CPU pipeline, the solution delivers substantial performance improvements at the algorithm and system level while maintaining a software-friendly programming model.  The talk will also discuss why tightly integrated custom execution units can provide better performance, power efficiency, and area utilization compared to traditional accelerators or heterogeneous compute approaches. Using RISC V custom instructions, software developers can access application-specific hardware acceleration with minimal complexity and without rewriting core algorithms.  I will conclude by showing how accelerating motor control algorithms enables more precise, faster, lighter, and more efficient motors\u2014benefiting applications in robotics, industrial automation, electric vehicles, and emerging real-time AI systems.",
+        "Day": "10-Wed",
+        "Time": "10h35",
+        "Bios": null
+    },
+    {
+        "Id": "TEUJU8",
+        "Title": "VASCO: ASIC Test Platform for Hardware Security on FD-SOI",
+        "Type": "demo_theater",
+        "Authors": "Stefano Di Matteo",
+        "Room": "Demo Theater",
+        "Abstract": "As cybersecurity threats continue to evolve, hardware security has become a critical issue in the design of electronic devices. The advent of quantum computing has forced standardization bodies to rethink cryptographic foundations, leading to the rise of Post-Quantum Cryptography (PQC) as a strategic priority. At the same time, the RISC-V open-source instruction set architecture is emerging as a key enabler of secure hardware, offering new opportunities to design intrinsically secure microarchitectures. To address these research opportunities, CEA has developed VASCO, an ASIC platform designed to innovate, implement and characterize secure hardware primitives. It supports the development of robust countermeasures against side-channel attacks, fault injection and other physical security threats. In addition, VASCO Is adopted for characterization of security primitives such as True Random Numbers Generators (TRNGs) and Physically Unclonable Functions (PUFs). VASCO focuses also on PQC, which requires specialized hardware accelerators to achieve efficient and secure implementations. This demo will present the latest advancements made with VASCO#3, which was fabricated in 2025.",
+        "Day": "10-Wed",
+        "Time": "10h45",
+        "Bios": [
+            "Stefano Di Matteo received his M.Sc. (2019) and Ph.D. (2023) respectively in Electronic Engineering and Information Engineering from the University of Pisa. He is currently a tenure-track researcher in hardware implementation of Post-Quantum Cryptography at CEA in Grenoble. His research interests include hardware implementation of PQC with countermeasures against physical attacks, RISC-V architectures, and Instruction Set Extensions for PQC"
+        ]
+    },
+    {
+        "Id": "U8VMUY",
+        "Title": "Nuclei RISC-V Automotive Solutions: ASIL-D Safety & Full-Spectrum IP for Next-Gen Vehicles",
+        "Type": "demo_theater",
+        "Authors": "Jianying Peng",
+        "Room": "Demo Theater",
+        "Abstract": "This presentation introduces Nuclei\u2019s RISC-V automotive ecosystem, delivering ISO 26262 ASIL-D safety and full-spectrum CPU IP for modern vehicle electronics. As a leading Chinese RISC-V provider, Nuclei offers scalable cores from ultra-low-power N-class to high-performance UX-class, plus NA-series automotive cores meeting ASIL-B/D requirements. With 18+ customers, 5+ mass-production projects, Nuclei\u2019s solutions power LiDAR, radar, MCU, and ADAS applications, enabling safe, scalable RISC-V adoption for next-generation automotive systems.",
+        "Day": "09-Tue",
+        "Time": "13h15",
+        "Bios": [
+            "CEO of  Nuclei System Technology Ph.D. in Microelectronics, Zhejiang University; 20\u2011year CPU design & management veteran (ex\u2011Synopsys/Marvell). Co\u2011founded Nuclei (at 2018) to lead China\u2019s RISC\u2011V IP innovation, delivering full\u2011spectrum cores and ASIL\u2011D certified automotive solutions. Key community leader driving RISC\u2011V ecosystem development and domestic semiconductor advancement."
+        ]
     }
 ]
