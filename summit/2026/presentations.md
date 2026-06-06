@@ -11,11 +11,11 @@ layout: summit2026
 
 {% include jumboboxstart.html 
     title = "More than 50 keynotes, talks, panels, etc."
-    lead = "An event packed with news, results, discussions, and demos..."
+    lead = "An event packed with news, results, demos, and networking opportunities!"
 %}
 
 
-...distributed over three days:
+The three days' program of the core conference:
  - <a href="#Tue">Presentations of Tuesday 9th</a>
  - <a href="#Wed">Presentations of Wednesday 1Oth</a>
  - <a href="#Thu">Presentations of Thursday 11th</a>
