@@ -412,11 +412,12 @@ def main():
                     last_name  = names[auth].split()[-1]
                     bio = bios[auth]
                     if (first_name.casefold() not in bio.casefold()) and (last_name.casefold() not in bio.casefold()):
-                        # If neither the first name nor the last name
-                        # can be found in the bio, prepend the name to
-                        # the nameless bio.
+                        # If neither the first nor the last name can
+                        # be found in the bio, prepend the name to the
+                        # nameless bio.
                         bios[auth] = f"({names[auth]}). {bios[auth]}"
-            # We did nothing special if there was a single bio.
+            # We did nothing special if there was a single bio and the
+            # firts or last name was in the bios.
             return bios
 
         posters = []
