@@ -24,7 +24,11 @@ On {{ dayLong }}, at **{{ presentation['Time'] }}**.
 
 {% if presentation['Abstract'] %}**Abstract**: {{ presentation['Abstract'] }} {% endif %}
 
-{% if presentation['Bio'] %}**Bio**: *{{ presentation['Bio'] }}* {% endif %}
+{% if presentation['Bios'] %}
+
+{% for bio in presentation['Bios'] %}**Bio**: *{{ bio }}*<br>{% endfor %}
+
+{% endif %}
 
 <p align="center" style="font-size: 0.8em">
 <a class="backnavigation" href="#summary">To page top</a> &mdash;

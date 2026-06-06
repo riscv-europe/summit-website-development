@@ -382,18 +382,41 @@ def main():
         sessions = read_JSON_db_from_file(args.sessions)
         speakers = read_JSON_db_from_file(args.speakers)
 
-        # Auxiliary function to search a speaker's bio from the
-        # speakers file.
-        def find_speaker_bio(session):
-            id = session["Speaker IDs"][0]
-            for speaker in speakers:
-                if speaker["ID"] == id:
-                    bio = speaker["Biography"]
-                    if bio:
-                        return bio.replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').strip()
-                    else:
-                        return ""
-            return ""
+        # Auxiliary function to search speakers' bios. Proper
+        # rendering is much more tricky than it seems.
+        def find_speakers_bios(session):
+            bios = []
+            names = []
+            for rank in range(len(session["Speaker IDs"])):
+                id = session["Speaker IDs"][rank]
+                for speaker in speakers:
+                    if speaker["ID"] == id:
+                        bio = speaker["Biography"]
+                        if bio: # Just forget speakers without bio.
+                            names += [ speaker["Name"] ]
+                            bios  += [ bio.replace('\r\n', ' ').replace('\n', ' ').replace('\r', ' ').strip() ]
+            # Now we know how many bios there are.
+            if bios == []:
+                return None
+            elif len(bios) > 1:
+                # Some bios do not mention any name. When there are
+                # several authors, hence several bios, this can be
+                # confusing. So, if there are more than one bios, add
+                # the name of each person before the bio, when the
+                # last name can't be found in the bio proper.
+                for auth in range(len(bios)):
+                    # Assume the first word of the name is the first
+                    # name and the last word is the last name...
+                    first_name = names[auth].split()[0]
+                    last_name  = names[auth].split()[-1]
+                    bio = bios[auth]
+                    if (first_name.casefold() not in bio.casefold()) and (last_name.casefold() not in bio.casefold()):
+                        # If neither the first name nor the last name
+                        # can be found in the bio, prepend the name to
+                        # the nameless bio.
+                        bios[auth] = f"({names[auth]}). {bios[auth]}"
+            # We did nothing special if there was a single bio.
+            return bios
 
         posters = []
         talks = []
@@ -430,7 +453,7 @@ def main():
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session["Speaker names"]),
                     "Abstract": format_abstract(session),
-                    "Bio": find_speaker_bio(session),
+                    "Bios": find_speakers_bios(session),
                 }]
             elif session_type == "Talk":
                 talks = talks + [{
@@ -446,7 +469,7 @@ def main():
                     "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
-                    "Bio": find_speaker_bio(session),
+                    "Bios": find_speakers_bios(session),
                 }]
             elif session_type == "Invited talk":
                 if is_a_keynote(session):
@@ -462,7 +485,7 @@ def main():
                         "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
-                        "Bio": find_speaker_bio(session),
+                        "Bios": find_speakers_bios(session),
                     }]
                 elif is_a_steering(session):
                     steerings = steerings + [{
@@ -476,7 +499,7 @@ def main():
                         "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
-                        "Bio": find_speaker_bio(session),
+                        "Bios": find_speakers_bios(session),
                     }]
                 else: # Is an invited talk
                     invited_talks = invited_talks + [{
@@ -492,7 +515,7 @@ def main():
                         "Authors": format_authors(session["Speaker names"]),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
-                        "Bio": find_speaker_bio(session),
+                        "Bios": find_speakers_bios(session),
                     }]
             elif session_type == "Demo":
                 demos = demos + [{
@@ -506,7 +529,7 @@ def main():
                     "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
-                    "Bio": find_speaker_bio(session),
+                    "Bios": find_speakers_bios(session),
                 }]
             elif session_type == "Demo Theater presentation":
                 demo_theaters = demo_theaters + [{
@@ -517,7 +540,7 @@ def main():
                     "Room": filter_room(session),
                     "Abstract": format_abstract(session),
                     "Day": filter_day(session),
-                    "Bio": find_speaker_bio(session),
+                    "Bios": find_speakers_bios(session),
                 }]
             elif is_a_panel(session):
                 panels = panels + [{
@@ -531,7 +554,7 @@ def main():
                     "Authors": format_authors(session["Speaker names"]),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
-                    "Bio": find_speaker_bio(session),
+                    "Bio": find_speakers_bios(session),
                 }]
             else:
                 log.warning(f"Unknown session type: {repr(session_type)}.")
