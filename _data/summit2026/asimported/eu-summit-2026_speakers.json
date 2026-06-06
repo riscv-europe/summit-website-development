@@ -1318,12 +1318,14 @@
     "Proposal IDs": [
       "PB9JGQ",
       "QLUGPK",
-      "YQDVJU"
+      "YQDVJU",
+      "TEUJU8"
     ],
     "Proposal titles": [
       "Cost-Benefit Analysis of a 22nm ASIC ML-KEM Accelerator for RISC-V Secure Elements",
       "Compiler-Aided Autovectorization of PQC on RISC-V Vector Extensions",
-      "ML-KEM on a 22\u202fnm ASIC: Protected, Unprotected, and Hardware-Accelerated Implementations"
+      "ML-KEM on a 22\u202fnm ASIC: Protected, Unprotected, and Hardware-Accelerated Implementations",
+      "VASCO: ASIC Test Platform for Hardware Security on FD-SOI"
     ],
     "I come from a Low Income Country": null
   },

@@ -2124,7 +2124,9 @@
     "End (time)": "15:55:00",
     "Median score": null,
     "Average (mean) score": null,
-    "Resources": [],
+    "Resources": [
+      "https://epicsemi-my.sharepoint.com/:p:/p/shahzad/IQBFOnxFhlcJQJ1q-RM4ZnfiAbFoBf6T8DK_1KxNicJCjm8?e=zyA4aE"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -10455,6 +10457,49 @@
     "Consider this submission for a technical talk": "Yes"
   },
   {
+    "ID": "TEUJU8",
+    "Proposal title": "VASCO: ASIC Test Platform for Hardware Security on FD-SOI",
+    "Proposal state": "confirmed",
+    "Pending proposal state": null,
+    "Session type": {
+      "en": "Demo Theater presentation"
+    },
+    "Track": {
+      "en": "Demo Theater"
+    },
+    "Created": "2026-06-06T04:59:17.890195+00:00",
+    "Tags": null,
+    "Abstract": "As cybersecurity threats continue to evolve, hardware security has become a critical issue in the design of electronic devices. The advent of quantum computing has forced standardization bodies to rethink cryptographic foundations, leading to the rise of Post-Quantum Cryptography (PQC) as a strategic priority. At the same time, the RISC-V open-source instruction set architecture is emerging as a key enabler of secure hardware, offering new opportunities to design intrinsically secure microarchitectures.\r\nTo address these research opportunities, CEA has developed VASCO, an ASIC platform designed to innovate, implement and characterize secure hardware primitives. It supports the development of robust countermeasures against side-channel attacks, fault injection and other physical security threats. In addition, VASCO Is adopted for characterization of security primitives such as True Random Numbers Generators (TRNGs) and Physically Unclonable Functions (PUFs). VASCO focuses also on PQC, which requires specialized hardware accelerators to achieve efficient and secure implementations. This demo will present the latest advancements made with VASCO#3, which was fabricated in 2025.",
+    "Description": "",
+    "Notes": "",
+    "Internal notes": "",
+    "Duration": 10,
+    "Slot Count": 1,
+    "Language": "en",
+    "Show this session in public list of featured sessions.": false,
+    "Don\u2019t record this session.": false,
+    "Session image": "",
+    "Speaker IDs": [
+      "BT8HDF"
+    ],
+    "Speaker names": [
+      "Stefano Di Matteo"
+    ],
+    "Room": {
+      "en": "Demo Theater"
+    },
+    "Start": "2026-06-10T10:45:00+02:00",
+    "Start (date)": "2026-06-10",
+    "Start (time)": "10:45:00",
+    "End": "2026-06-10T10:55:00+02:00",
+    "End (date)": "2026-06-10",
+    "End (time)": "10:55:00",
+    "Median score": null,
+    "Average (mean) score": null,
+    "Resources": [],
+    "Consider this submission for a technical talk": null
+  },
+  {
     "ID": "TMWG8J",
     "Proposal title": "Loop Optimization Practices for RISC-V",
     "Proposal state": "confirmed",
@@ -11510,7 +11555,9 @@
     "End (time)": "13:10:00",
     "Median score": "35.00",
     "Average (mean) score": 34.5,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/W3ANF8/resources/PosterV0_4_4tVeU2X.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
