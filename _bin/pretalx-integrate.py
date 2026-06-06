@@ -366,6 +366,8 @@ def main():
     def filter_room(session):
         if session["Room"]["en"] == "Plenary":
             return "Europa"
+        elif session["Room"]["en"] == "Devzone":
+            return "Dev Zone"
         else:
             return session["Room"]["en"]
 

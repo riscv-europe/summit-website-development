@@ -6,7 +6,8 @@
 <hr style="width:50%;;margin-left:25%">
 <h3 id="P-{{  }}">{{ demo['Title'] | strip | strip_newlines }}</h3>
 
-On {{ dayLong }}, at {{ demo['Time'] }}.
+{%- if demo['Room'] %}Academic demo in **{{ demo['Room'] }}**. {% endif -%}
+On {{ dayLong }}, at **{{ demo['Time'] }}**.
 
 {% if demo['Authors'] %}{{ demo['Authors'] }}.{% endif %}
 
