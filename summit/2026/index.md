@@ -8,16 +8,6 @@ layout: summit2026
 %}
 
 {% include jumboboxstart.html
-	title = "Acceptance Notifications Sent!"
-	lead = "The Program Committee has finalized its selection of accepted submissions."
-%}
-
-The **abstracts accepted** as [posters](posters) or
-[presentations](presentations) are now online!
-
-{% include jumboboxend.html %}
-
-{% include jumboboxstart.html
 	title = "Welcome"
 	lead = "The *RISC-V Summit Europe* is the premier event that connects the European movers and shakers – from industry, government, research, academia and ecosystem support – that are building the future of innovation on RISC-V."
 %}
