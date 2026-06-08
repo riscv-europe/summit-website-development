@@ -1,0 +1,224 @@
+Code,Day,Island,Title,Poster ID,Holder,Position in the holder
+3JPLFW,Tuesday 9,A,A Decoupled IOPMP Architecture: Open-Source Implementation with Distributed Bridges for Multi-Master SoCs,1,1,1
+RQP9GP,Tuesday 9,A,Memory Protection for MMU-less RISC-V: Current Status of SPMP and vSPMP,2,1,2
+3X9NJV,Tuesday 9,A,CHERI-VP: Evaluating CHERI Early for Embedded RISC-V Systems with Virtual Prototypes,3,1,3
+ZZ7ADW,Tuesday 9,A,Microarchitectural Side-Channel Attack on RISC-V,4,1,4
+SPL3GT,Tuesday 9,A,CVA6-CFI: A First Glance at RISC-V Control-Flow Integrity Extensions,5,1,5
+YLJJMH,Tuesday 9,A,CHERI RVY development support platform,6,1,6
+HZQQP9,Tuesday 9,A,RISCY Prefetchers,7,1,7
+JFUNQZ,Tuesday 9,A,Bao-CHERI: A Pure-Capability RISC-V Hypervisor,8,1,8
+ZJXLJD,Tuesday 9,A,CHERI for RISC-V: From Academic Breakthrough to Industry-Scale Ecosystem Adoption,9,1,9
+RZD9L9,Tuesday 9,A,DASICS: Efficient In-process Protection with Hardware-assisted Dynamic Compartmentalization,10,1,10
+9S7HBH,Tuesday 9,A,The art of zeroing on CHERI RISC-V systems,11,2,1
+A9JD3J,Tuesday 9,A,Exhaustive Security Verification of Access Control in Processors,12,2,2
+MD7RVM,Tuesday 9,A,RV64Y Temporal Safety Exploration,13,2,3
+ZBWRKF,Tuesday 9,A,Distinguishing Exploit Failure from Effective CHERI Protection on RISC-V,14,2,4
+MKBAZS,Tuesday 9,A,Evaluating the Vulnerability of RISC-V CPUs Against Cache Timing Attacks,15,2,5
+DZKKKP,Tuesday 9,A,Beyond Bare-Metal: A Lightweight Cross-Privilege Framework for RISC-V RTL Security Evaluation,16,2,6
+CEW33C,Tuesday 9,A,InjectV: Modeling Fault Injection Attacks in RISC-V Simulation Environment,17,2,7
+EFXQQP,Tuesday 9,A,From Leakage to Exploitability: Empirical Study of Cross-Process L1 Prime+Probe on RISC-V,18,2,8
+BVHAVM,Tuesday 9,B,Enhancing Boot Time Security in RISC-V Leveraging Keccak Hardware Accelerator,19,3,1
+SXGTPT,Tuesday 9,B,CIRCE: CROSS Integrated RISC-V Cryptographic Extension,20,3,2
+AMVGWA,Tuesday 9,B,Shield-XS: A Lightweight Dynamic Security Isolation for RISC-V,21,3,3
+QGKMZ7,Tuesday 9,B,Improving ChaCha20 by RISC-V Vector Extension: Design and Engineering Implementation,22,3,4
+ACRS3G,Tuesday 9,B,CHIMERA: Cryptographic Hardware for Integrated Multipurpose Engine on RISC-V with ASCON,23,3,5
+QLUGPK,Tuesday 9,B,Compiler-Aided Autovectorization of PQC on RISC-V Vector Extensions,24,3,6
+ZE8LDR,Tuesday 9,B,Performance Characterization and Profiling of HQC Autovectorization on RISC-V Vector cores,25,3,7
+WEQNRM,Tuesday 9,B,PQC4eMRTD: Post Quantum Cryptography for Resource Constrained RISC-V Systems,26,3,8
+3Y7HQP,Tuesday 9,B,Quantum Computing Simulation on RISC-V: Vector and Multithreaded Evaluation,27,3,9
+RT7JWV,Tuesday 9,B,A Low Latency Real-Time RISC-V MCU for TEE,28,3,10
+ZBWEM7,Tuesday 9,B,ANSSI IPECC-Accelerated ECC on CVA6 RISC-V SoC: Integration and Benchmarking,29,4,1
+H87VUG,Tuesday 9,B,CAGE-V: Confidential Computing Architecture supporting Guest Enclaves for RISC-V,30,4,2
+NA9Q9H,Tuesday 9,B,ACE: Atomic Cryptography Extension for RISC-V,31,4,3
+ZZQYRH,Tuesday 9,B,HORCRUX: a Post-Quantum Cryptography Instruction Set Extension,32,4,4
+FLFBGM,Tuesday 9,B,An Open-Source RISC-V VM-Level TEE Architecture Implemented on XiangShan Processor,33,4,5
+FGEDJB,Tuesday 9,B,PQCUARK: A Scalar RISC-V ISA Extension for ML-KEM and ML-DSA,34,4,6
+PB9JGQ,Tuesday 9,B,Cost-Benefit Analysis of a 22nm ASIC ML-KEM Accelerator for RISC-V Secure Elements,35,4,7
+NEMJHQ,Tuesday 9,B,Integrating AES Cryptographic Acceleration with RISC-V Cryptography Extensions in 32-bit processors,36,4,8
+M8ABDU,Tuesday 9,B,Towards a Secure RISC-V Platform: The Environment Around the CVA6-Core,37,5,1
+MHEXB7,Tuesday 9,B,The Practical Security Rules Proposal to HW RoT in Security Requirement RISC-V Server Specification,38,5,2
+WHMPM8,Tuesday 9,C,ONNX Runtime Convolution Acceleration on RISC-V via RVV,39,5,3
+Z8GZYW,Tuesday 9,C,RVV Tips & Tricks,40,5,4
+DMVSJ8,Tuesday 9,C,ATESOR: A Multi-Stage LLM-based Framework for Autonomous RISC-V Software Porting,41,5,5
+C8TUDR,Tuesday 9,C,High-performance code generation for early and future RISC-V vector systems,42,5,6
+BYLQDM,Tuesday 9,C,XSCC: A High-Performance Compiler for RISC-V,43,5,7
+CH97A7,Tuesday 9,C,End-to-End AI Compilation for RISC-V: A Multi-Level Optimization Approach,44,5,8
+AHPSLC,Tuesday 9,C,InterFinder: A Framework for Memory Interference Analysis in RISC-V Vectors,45,6,1
+A77QAQ,Tuesday 9,C,"Priority-Aware Scheduling of Multi-Model, Multi-Precision DNN Inference on Multi-Cores RISC-V",46,6,2
+8QKTQW,Tuesday 9,C,Locality-Aware Sparse Matrix Multiplication on RISC-V RVV,47,6,3
+8BXPC9,Tuesday 9,C,AI inference on bare-metal RISC-V Microcontrollers: A comparison of ExecuTorch and IREE/MLIR,48,6,4
+7TD7TB,Tuesday 9,C,An Embedded RISC-V Vector Extension for Edge-Oriented Acceleration,49,6,5
+QUURJD,Tuesday 9,C,Accelerating Myers' Bit-Vector Alignment With RISC-V Vector Intrinsics,50,6,6
+QPZCJG,Tuesday 9,C,RISC-V Architecture innovations need software stack innovations,51,6,7
+QB3TNY,Tuesday 9,C,Why Edges Matter: A Case Study on Performance Improvements for OpenBLAS GEMM on RISC-V,52,6,8
+PUPQJF,Tuesday 9,C,End-to-End ML Graph Compiler Fused with Triton Kernel Compiler for RISC-V,53,6,9
+TMWG8J,Tuesday 9,C,Loop Optimization Practices for RISC-V,54,6,10
+VPNYEP,Tuesday 9,C,From Profiling to Performance: Optimizing Small Language Models on RISC-V Architectures,55,7,1
+NFYQCV,Tuesday 9,C,Accelerating LLM Inference on Edge RISC-V CPUs via Vector Extension Instructions and Flash Attention,56,7,2
+XTDV7A,Tuesday 9,C,RISC-V Vector 1.0 code Generation in MLIR-xDSL,57,7,3
+K9TL88,Tuesday 9,D,RuyiSDK Package Manager - A Unified Package Management and Development Environment for RISC-V,58,7,4
+HAZPKR,Tuesday 9,D,Code size reduction by advanced near addressing modes,59,7,5
+SFZSB9,Tuesday 9,D,Rust on RISC-V: Alignment and Friction at the Hardware-Software Boundary,60,7,6
+NJKQXQ,Tuesday 9,D,openEuler for RVA23: Building a RISC-V Server OS with Ecosystem Partners,61,7,7
+XDQWMR,Tuesday 9,D,Sail-RISCV-WASM A Browser-Native RISC-V Toolchain and Debugging Workbench,62,7,8
+XMBLRH,Tuesday 9,D,RISE and Yocto: Building a RISC-V Board Farm,63,8,1
+TAK7KZ,Tuesday 9,D,Deep Dive into Upstream RISC-V Boot Chain,64,8,2
+RGDVRL,Tuesday 9,D,Beyond the Basics: Elevating Eclipse ThreadX to a First-Class RTOS for RISC-V,65,8,3
+L98NW8,Tuesday 9,D,openKylin: Empowering the RISC-V AI Ecosystem,66,8,4
+EDH9EE,Tuesday 9,D,HBENCH: RISC-V Microbenchmark Suite,67,8,5
+9GW78U,Tuesday 9,D,RoRiV: Porting the RTOS RODOS on RISC-V for future satellite missions,68,8,6
+8ALWHG,Tuesday 9,D,FREESS: A Web-Based Educational Simulator for a RISC-V-Inspired Superscalar Processor Tomasulo-Style,69,8,7
+7FMCFX,Tuesday 9,D,Unlocking High-Performance AVX2 Emulation with RVV 1.0,70,8,8
+33798M,Tuesday 9,D,CREATOR: A RISC-V web simulator based on Sail specification language,71,8,9
+9G3V9G,Tuesday 9,D,Implementation of Open RAN software in a RISC-V platform,72,8,10
+YAEZRU,Tuesday 9,D,Revisiting x86-64 to RISC-V Binary Translation: A Hardware/Software Co-Design Path,73,,
+,,,,,,
+33SLKJ,Wednesday 10,A,AdaMut-RV: FPGA-Accelerated RISC-V Fuzzing with Adaptive Mutation Operator Scheduling,74,1,1
+QZVQMY,Wednesday 10,A,RISC-V Tournament: Battle of HDLs,75,1,2
+RP8QNP,Wednesday 10,A,Scalable Symbolic Quick Error Detection using Lightweight Processor-Level Abstraction,76,1,3
+NTCH3P,Wednesday 10,A,Coverage-Directed Smoke Regression Optimization via Greedy Set Cover for RISC-V Verification,77,1,4
+KBLECB,Wednesday 10,A,Functional Verification Strategy of the CORE-V Floating-Point Unit (CVFPU) for RISC-V Cores,78,1,5
+FFPCHP,Wednesday 10,A,Concolic Execution Guided Hybrid Whitebox Fuzzing for RISC-V Processors,79,1,6
+87KRJS,Wednesday 10,A,Pre-silicon Robustness Assessment of RISC-V Cores using bit-accurate FPGA fault injection,80,1,7
+97EAVY,Wednesday 10,A,Simulation-Driven Framework for Custom RISC-V HW/SW Co-Development and Debug,81,1,8
+8VDLDD,Wednesday 10,A,Loom: An Open-Source Toolchain for Automatic FPGA Emulation of Simulation-Grade SystemVerilog,82,1,9
+VVBBMK,Wednesday 10,A,kepler-formal: Open source Formal Equivalence Checking for Industrial Grade designs,83,1,10
+JZAHPN,Wednesday 10,A,A Hardware-Software Heterogeneous Framework for Agile RISC-V Verification with Model-Based Processor Fuzzing,84,2,1
+XANKHZ,Wednesday 10,A,Reproducibility in open-source RISC-V HW flows,85,2,2
+BREVML,Wednesday 10,A,LLM-Driven Multi-Agent Framework for Automated RISC-V Verification Stimulus Generation,86,2,3
+GJMGHA,Wednesday 10,A,UCAgent: An End-to-End Agent for Block-Level Functional Verification,87,2,4
+FYCK9P,Wednesday 10,A,Spike-RTL: Two technologies for fast and accurate SW-RTL co-simulation,88,2,5
+NMX7W7,Wednesday 10,A,An Efficient Approach to Apply the RISC-V Sail Model to Chip Verification,89,2,6
+WWSLLF,Wednesday 10,A,Sail-RISC-V and Spike for RISC-V Vector: Toward Consistent Golden Reference Behavior,90,2,7
+CBLJYX,Wednesday 10,A,AI-Driven Testlist Generation for RISC-V Core Verification,91,2,8
+DMYH7U,Wednesday 10,A,Fully Automated RISC-V Architectural Exploration with Chipyard and A-DECA,92,3,1
+SCCL9S,Wednesday 10,B,Virtual Prototyping of Pixel Detector Architecture via Co-Simulation of PixESL and GVSoC,93,3,2
+DVVW8V,Wednesday 10,B,Window-Level Telemetry for Runtime Performance and Reliability Monitoring in RISC-V Systems,94,3,3
+PTSN7C,Wednesday 10,B,Holographic Execution: A Hyperdimensional Computing Approach for Robust RISC-V Instruction Decoding,95,3,4
+TTPKFR,Wednesday 10,B,"Cycle-Accurate IOPMP Reference Model with Configurable Interfaces, Integration Tests, and a CVA6 SoC Implementation",96,3,5
+F7UKA3,Wednesday 10,B,Hardware-Synthesized Monitor-Actuator Design Patterns: a Proof-of-Concept Application,97,3,6
+BWUHVG,Wednesday 10,B,Unleashing the Penguin: Programmable Device Model for verifying RISC-V IOMMU using Linux,98,3,7
+F39Y3T,Wednesday 10,B,EMiX: Emulating Beyond Single-FPGA Limits,99,3,8
+ESQB3N,Wednesday 10,B,"Open E-Trace Infrastructure: Tooling for Evaluation, Analysis, and Research",100,3,9
+ZBRZ7X,Wednesday 10,B,Benchmarking the Vortex RISC-V GPU for Sparse Workloads,101,3,10
+B8BJHQ,Wednesday 10,B,GPU-Accelerated Parallel Simulation for RISC-V Multi-Core IP Verification,102,4,1
+ALLVDR,Wednesday 10,B,STRiVe-VP: LLVM-based performance simulator for RISC-V processors,103,4,2
+RUUDYM,Wednesday 10,B,Transaction-Level Analysis and Optimization of Decision Diagram Packages on RISC-V,104,4,3
+RWGSHJ,Wednesday 10,B,RETrace EX: Interactive Trace Analysis Framework for RISC-V Hardware Optimization,105,4,4
+N7AVZD,Wednesday 10,B,QUICK: QEMU Internal Checkpointing for Gem5,106,4,5
+3AVQMT,Wednesday 10,B,The RISC-V test platform; an extension of the omnipresent RISC-V test environments,107,4,6
+GE87GD,Wednesday 10,B,Machine Learning-Based Performance Estimation for RISC-V Virtual Prototypes,108,4,7
+LWYLAF,Wednesday 10,B,C-Trace: An Open-Source RISC-V Trace Encoder and its Ecosystem,109,4,8
+LSXU7K,Wednesday 10,B,Wolvrix: A SystemVerilog-Native Graph Infrastructure for RTL Research,110,5,1
+LZ7U8Y,Wednesday 10,B,Using RISC-V E-Trace for effective insights for RISC-V Vector Optimizations,111,5,2
+LNBB8V,Wednesday 10,B,RISCV-Perf: A Performance Modeling Framework for RISC-V Processors Integrated with Spike,112,5,3
+MQJFNF,Wednesday 10,C,From Architecture to GDS: Introducing the X200 a Market-Ready High-Performance RISC-V Core,113,5,4
+TYLEYW,Wednesday 10,C,"Fault-Tolerant Open-Source CVA6 Core for Automotive, Aeronautics and Space",114,5,5
+HMZYAS,Wednesday 10,C,Vishwa: A Scalable RISC-V Based GPGPU,115,5,6
+G7YQKR,Wednesday 10,C,Integration Challenges in RISC-V System Prototyping: The RISER Microserver Platform,116,5,7
+G8FEKT,Wednesday 10,C,Flying V: A Radiation-Hardened L1 Data Cache for RISC-V Aerospace Processors,117,5,8
+VVJ8FY,Wednesday 10,C,Vitamin-V: Results and Lessons Learnt,118,6,1
+DSMVHN,Wednesday 10,C,CVA6-RT: an Open-Source Time-Predictable RV64 Processor for Mixed-Criticality Systems,119,6,2
+DHQPQB,Wednesday 10,C,From Open Architecture to Open Silicon: Taping out CORE-ET Many-Core RISC-V Platform,120,6,3
+ZTNLUP,Wednesday 10,C,A RISC-V Dual-Core Microcontroller Architecture for Flight Control OSD: A Single-Chip Implementation,121,6,4
+XXQJQF,Wednesday 10,C,The ISOLDE Space Demonstrator: a RISC-V Ecosystem for Low-Power On-board Inference,122,6,5
+7DSDWG,Wednesday 10,C,SoCMake: Modular RISC-V SoCs for Radiation-Harsh and Safety-Critical Environments,123,6,6
+3XNCRH,Wednesday 10,C,Conflict to Compliance: RISC-V Extension Migration Across Spec HW and SW,124,6,7
+ZFT38M,Wednesday 10,C,HyperCroc: Open-Source RISC-V MCU with Plug-In Interface for Domain-Specific Accelerators,125,6,8
+XSLFRB,Wednesday 10,C,Monte Cimone v3: Where RISC-V Stands in High-Performance Computing,126,6,9
+RCLLZH,Wednesday 10,C,TOXOS: A RISC-V Coprocessor for Non Linear Function Acceleration,127,6,10
+PRU8TZ,Wednesday 10,C,PicoNut/RISC-V: One Educational Platform for Hardware and Software Development,128,7,1
+RRK9ZJ,Wednesday 10,C,Cincoranch: A Heterogeneous Multi-Microarchitecture RISC-V Test Chip – Silicon Bring-Up,129,7,2
+SED3UJ,Wednesday 10,C,"RISC-V Silicon at Scale in Academia: Designing ""Big"" Open-Source Chips on PULP Platform",130,7,3
+WDXS8R,Wednesday 10,C,Toward an open-source platform for multi-lead Embedded ECG Processing on RISC-V processors,131,7,4
+MKEL9U,Wednesday 10,D,RISC-V Address-Encoded Byte Order Extension,132,7,5
+LNTKNT,Wednesday 10,D,Heterogeneous Interrupts for Ultra-Low Latency Embedded RISC-V Systems,133,7,6
+LQRAW3,Wednesday 10,D,SMSIC: Software-Interrupt MSI Controller for RISCV AIA in Large-Scale NoC Systems,134,7,7
+HKZX8R,Wednesday 10,D,Towards Open User-Space Power-Management Communication Interfaces,135,7,8
+SFGFJE,Wednesday 10,D,Who Checks the Checker? End-to-End Architectural SEU Tolerance for RISC-V Microcontroller Protection,136,8,1
+PTWGKY,Wednesday 10,D,Implementing and Optimizing an Open-Source SD-card Host Controller for RISC-V SoCs,137,8,2
+NWCNCN,Wednesday 10,D,ALPES: Advanced Low-Power Edge Skeleton,138,8,3
+PYSBZM,Wednesday 10,D,Low-power Floating Point Unit for RISC-V Processors using FPHUB format,139,8,4
+VXCZWW,Wednesday 10,D,The Next Generation RISC-V SoCs for Space Communications,140,8,5
+UCSJXG,Wednesday 10,D,Bringing Cloud-Connected Automotive Workloads to RISC-V: A CVA6-Based FPGA Case Study,141,8,6
+UZ9UMQ,Wednesday 10,D,RISC-V vs. ARM in an Embedded Real-Time System,142,8,7
+FMQNTD,Wednesday 10,D,Advanced Interrupt Latency Optimization Approaches in RISC-V Interrupt Architectures,143,8,8
+EZCAXM,Wednesday 10,D,A Lightweight Multi-Context Architecture for Mixed-Criticality Systems on RISC-V Processors,144,8,9
+8MCLHT,Wednesday 10,D,Runtime Reconfiguration of Decoders in Minimal-area RISC-V Cores,145,8,10
+7AQXJK,Wednesday 10,D,Generator-Driven Functional Safety for RISC-V SoCs with Formal Assurance,146,,
+3TQ3K9,Wednesday 10,D,Maximizing Performance at Low Area Cost in RISC-V Processors Leveraging Fine-Grained Multithreading,147,,
+ZFMXUE,Wednesday 10,D,1W Envelope: Area-Energy Trade-offs of Scalable RISC-V Systolic Arrays in Sky130,148,,
+YXSRKX,Wednesday 10,D,CVA6 Optimization,149,,
+,,,,,,
+3HRCLU,Thursday 11,A,A RISC-V Accelerator for Convex Optimisation,150,1,1
+3MEHL7,Thursday 11,A,Improving DSP Performance in Processors by Repurposing Existing Multiplier Architectures,151,1,2
+88TJXG,Thursday 11,A,High-Performance CRC/EC Acceleration for RISC-V Server Storage via Novel ISA Extensions,152,1,3
+KGMSLQ,Thursday 11,A,Lessons Learned from Designing Decoupled-Access Hardware Accelerators in a RISC-V Framework,153,1,4
+VRKMGE,Thursday 11,A,RISC-V Hardware Accelerator for 2-D Discrete Cosine Transform,154,1,5
+G93SVJ,Thursday 11,A,Accelerating the Poseidon2 S-box in a RISC-V SoC with a 4x4 CGRA,155,1,6
+LP7WTL,Thursday 11,A,Energy-Efficiency Optimization of a RISC-V Floating-Point Unit for HPC-Oriented Architectures,156,1,7
+MARKW9,Thursday 11,A,FPGA Lifecycle Management for RISC-V Systems,157,1,8
+FWGCHN,Thursday 11,A,APEX: Accelerating FFT on CVA6 with a Tightly Coupled CV-X-IF Co-processor,158,1,9
+H8SWVM,Thursday 11,A,Integration of CVA6 in ESP for ISA extensions and coherent multicore: with FFT-butterfly instruction,159,1,10
+ZTDS9J,Thursday 11,A,A Fully Integrated FPGA-Based Reconfigurable Intelligent Surface Controller using an Embedded RISC-V Core,160,2,1
+ETWYRB,Thursday 11,A,RISC-V Based SoC for Event-Based Sparse Convolutions,161,2,2
+EHJ3MR,Thursday 11,A,MAGIA-V: A Heterogeneous Zve32d+GEMM Tile for Emerging Mesh-of-Tiles Accelerators,162,2,3
+,,,,,2,4
+,,,,,2,5
+,,,,,2,6
+,,,,,2,7
+,,,,,2,8
+U38PRX,Thursday 11,B,A Holistic Approach to Attached Matrix Extension on RISC-V From ISA to Software Stack,163,3,1
+V33F9K,Thursday 11,B,Exploring AI Acceleration Paradigms for Automotive RISC-V Platforms,164,3,2
+EZY7K8,Thursday 11,B,Co-optimizing Custom Instructions RISC-V and LLM Specialized Accelerator for Attention-Based Edge AI,165,3,3
+PSCKCE,Thursday 11,B,An Open Heterogeneous RISC-V AI Acceleration Architecture for Next-Generation Space Computers,166,3,4
+WVYG7T,Thursday 11,B,Evaluating the Impact of Vector Co-Processors on Memory Hierarchies through Hybrid Simulation,167,3,5
+A8BV3C,Thursday 11,B,Architectural Scalability Trade-Offs in an RISC-V Vector Processor for Communication Kernels,168,3,6
+ADHZLM,Thursday 11,B,Revisiting Transputers with RISC-V,169,3,7
+9PWJCZ,Thursday 11,B,Energy-Efficient RISC-V based neuromorphic SoC for Edge AI Applications,170,3,8
+RTYDA8,Thursday 11,B,RISC-V Instruction-Subset Processors for Extreme Edge Machine Learning.,171,3,9
+BSGU8Y,Thursday 11,B,Tightly Coupled Near-Memory Matrix Unit for RISC-V Embedded Computing,172,3,10
+PRQ9ES,Thursday 11,B,NoC and Memory Subsystems for AI Employing RISC-V Processors with Vector or Matrix Extensions,173,4,1
+XYRVET,Thursday 11,B,Bicameral+: re-assessing split vector and scalar cache designs for increased efficiency,174,4,2
+W3ANF8,Thursday 11,B,Profiling and Optimizing AME for Matrix Multiplication,175,4,3
+FP7AUZ,Thursday 11,B,AME-PIM: Breaking the Memory Wall with RISC-V Matrix Extensions and HBM-PIM,176,4,4
+,,,,,4,5
+,,,,,4,6
+,,,,,4,7
+,,,,,4,8
+MYRD9A,Thursday 11,C,Optimizing IREE Compilation and End-to-End Object Detection Pipeline for RISC-V,177,5,1
+FWXFHU,Thursday 11,C,Functional Verification Strategy for a CVA6 MMU,178,5,2
+ELYZEY,Thursday 11,C,Towards Efficient Utilization of RISC-V Long Vector Register Files: A Characterization Study,179,5,3
+BXQ73A,Thursday 11,C,STARBUG: RISC-V Hint Instructions for Lightweight VLIW Execution on Embedded DSP Workloads,180,5,4
+9MT9QK,Thursday 11,C,Custom RISC-V SIMD Matrix Extensions with LLVM Support,181,5,5
+7NKZ8A,Thursday 11,C,A RISC-V based Coarse-Grained Reconfigurable Architecture to Unify Signal and AI Processing,182,5,6
+YCVWTV,Thursday 11,C,Towards a Modern Packed SIMD Architecture for RISC-V: Learning from Production Of ET-SIMD,183,5,7
+QBSVKB,Thursday 11,C,Accelerating neural networks using SIMD ISA-Extension for RISC-V processor platforms: A complete toolflow,184,5,8
+QM3SVB,Thursday 11,C,An Open-Source Framework to Enable Float16 On-Device Training on RISC-V Single-Core,185,6,1
+S3LMTB,Thursday 11,C,RISC-V Packed-SIMD Acceleration for Quantized Edge-AI Inference on Space-Qualified Platforms,186,6,2
+WKS77D,Thursday 11,C,Hardware support in RISC-V for ternary LLMs,187,6,3
+,,,,,6,4
+,,,,,6,5
+,,,,,6,6
+,,,,,6,7
+,,,,,6,8
+,,,,,6,9
+,,,,,6,10
+LCDXJK,Thursday 11,D,X-HEEP: An Open Hardware Platform Enabling Research and Education in RISC-V SoC Design,188,7,1
+GLCJSG,Thursday 11,D,A Doom Demo Journey: Tenstorrent's Ascalon CPU on Synopsys emulation and prototyping systems,189,7,2
+RXFF98,Thursday 11,D,UnifiedDB: Status and Plans for Fast and Rigorous RISC-V Development,190,7,3
+UMWQJ8,Thursday 11,D,RISCVML: Teaching RISC-V Embedded ML with Rust — From ESP32-C3 to ESP32-P4,191,7,4
+C3QQBZ,Thursday 11,D,From Fragmentation to Systematization: A Standardized Quality Selection and Reconstruction Approach for RISC-V Courses,192,7,5
+B3ASBU,Thursday 11,D,Integrating RISC-V into University Education: A Full-Stack Approach to Teaching System Security,193,7,6
+8CYVSX,Thursday 11,D,Integrated Development Environment Features for Unified Database Specification Development,194,7,7
+XVSFHN,Thursday 11,D,One Student One Chip Initiative: Learn to Build RISC-V Chips from Scratch with MOOC,195,7,8
+,,,,,8,1
+,,,,,8,2
+,,,,,8,3
+,,,,,8,4
+,,,,,8,5
+,,,,,8,6
+,,,,,8,7
+,,,,,8,8
+,,,,,8,9
+,,,,,8,10
