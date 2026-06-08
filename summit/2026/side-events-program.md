@@ -21,7 +21,7 @@ hold the regular meeting</a> of your research consortium.
 
 ### &mdash; Advancing RISC-V Adoption in HPC and Cloud Environments
 
-Organized by FORTH. Contact: <a href="mailto:maraz@ics.forth.gr?Subject=RISC-V%20Summit%20WS%20on%20RISC-V%20in%20Cloud%20and%20HPC ">Manolis Marazakis</a>.
+Organized by FORTH. Contact: <a href="mailto:maraz@ics.forth.gr?Subject=RISC-V%20Summit%20WS%20on%20RISC-V%20in%20Cloud%20and%20HPC">Manolis Marazakis</a>.
 
 #### Introduction
 
@@ -65,7 +65,7 @@ standards and collaboration.
 - *15:30-16:00: Coffee break & end of side event*
 
 Additional information about the workshop is available at:
-https://www.riser-project.eu/join-us-at-the-risc-v-summit-europe-2026-advancing-risc-v-adoption-in-hpc-and-cloud-environments-workshop/
+[`https://www.riser-project.eu/join-us-at-the-risc-v-summit-europe-2026-advancing-risc-v-adoption-in-hpc-and-cloud-environments-workshop/`](https://www.riser-project.eu/join-us-at-the-risc-v-summit-europe-2026-advancing-risc-v-adoption-in-hpc-and-cloud-environments-workshop/)
 
 <div class="row justify-content-md-center my-4">
     <a href="https://webplatform.planning.it/riscvsideevents/register" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">Advancing RISC-V Adoption in HPC and Cloud Environments<br><em>Side event on Friday June 12 &mdash; Register now!</em></a>
