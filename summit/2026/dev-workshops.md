@@ -47,7 +47,7 @@ This includes:
 - Lunch and coffee breaks.
 
 <div class="row justify-content-md-center my-4">
-    <a href="https://webplatform.planning.it/riscdeveloper/Registration" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">Developer Workshops<br><em>Monday June 8 &mdash; Register now!</em></a>
+    <a href="https://community.riscv.org/events/details/risc-v-international-risc-v-academy-presents-risc-v-developer-workshops-at-risc-v-summit-europe/" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">Developer Workshops<br><em>Monday June 8 &mdash; Register now!</em></a>
 </div>
 
 
