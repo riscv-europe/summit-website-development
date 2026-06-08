@@ -6,7 +6,7 @@
 <hr style="width:50%;;margin-left:25%">
 <h3 id="P-{{  }}">{{ poster['Title'] | strip | strip_newlines }}</h3>
 
-{{ poster['Blindness'] }} submission #{{ poster['Id'] }} at poster <strong>island {{ poster['Island']}}</strong> on {{ dayLong }}.
+{{ poster['Blindness'] }} submission #{{ poster['Id'] }} at poster <strong>island {{ poster['Island']}}/{{ poster['Slot']}}</strong> on {{ dayLong }}.
 
 {% if poster['Authors'] %}{{ poster['Authors'] }}.{% endif %}
 
