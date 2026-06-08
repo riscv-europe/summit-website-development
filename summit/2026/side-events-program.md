@@ -44,26 +44,28 @@ standards and collaboration.
 - 09:40-10:30: **Exploring next generation of vector architectures
   with hardware-software co-design in the DARE project** &mdash;
   Teresa Cervero and Paul Carpenter, BSC
-- 10:30-11:00: **Towards European RISC-V Systems: Integration
-  Experiences from the RISER Project** &mdash; Manolis Marazakis ,
-  FORTH
+- 10:30-11:00: **RISC-V Accelerators: Experiences from the European
+  PILOT Project** &mdash; Carlos Puchol, BSC.
 - *11:00-11:30: Coffee break*
-- 11:30-12:00: **Exploiting RISC-V Vector Processors for HPC and Cloud
-  Workloads: Experiences from the OpenCUBE Project** &mdash; Ivy Peng
-  , KTH
+- 11:30-12:00: **Integration of RISC-V Security Standards in the
+  HIGHER Project** &mdash; — Nick Kossifidis, FORTH
 - 12:00-12:30: **Composable Heterogeneous Edge Infrastructure in CAPE:
   From Edge AI to RISC-V Acceleration** &mdash; Christian Klarhorst ,
   Bielefeld University
 - 12:30-13:00: **An Operating System for RISC-V based SSD
   Controllers** &mdash; Philippe Bonnet, University of Copenhagen
 - *13:00-13:30: Lunch break*
-- 13:30-14:00: **Integration of RISC-V Security Standards in the
-  HIGHER Project** &mdash; Nick Kossifidis, FORTH
+- 13:30-14:00: **Exploiting RISC-V Vector Processors for HPC and Cloud
+  Workloads: Experiences from the OpenCUBE Project** &mdash; Ivy Peng,
+  KTH
 - 14:00-14:30: **Post Quantum Cryptography for RISC-V Space Systems**,
   Leonidas Kosmidis, BSC
-- 14:30-15:30: **Panel on "*Alternative futures towards full systems
-  based on open standards*"**
+- 14:30-15:30: **Panel on “*Alternative futures towards full systems
+  based on open standards“***
 - *15:30-16:00: Coffee break & end of side event*
+
+Additional information about the workshop is available at:
+https://www.riser-project.eu/join-us-at-the-risc-v-summit-europe-2026-advancing-risc-v-adoption-in-hpc-and-cloud-environments-workshop/
 
 <div class="row justify-content-md-center my-4">
     <a href="https://webplatform.planning.it/riscvsideevents/register" class="btn btn-lg" style="background-color: var(--riscv-y); border-color: black; width:50%;">Advancing RISC-V Adoption in HPC and Cloud Environments<br><em>Side event on Friday June 12 &mdash; Register now!</em></a>
