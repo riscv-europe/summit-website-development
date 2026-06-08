@@ -202,7 +202,35 @@ def read_JSON_db_from_file(json_file_path):
         return []
 
 
+def read_CSV_db_from_file(csv_file_path):
+    """
+    Read a CSV file
+
+    Args:
+        csv_file_path (str): path to the CSV file.
+
+    Returns:
+        list: list of dict, representing the CSV file content.
+    """
+    try:
+        with open(csv_file_path, mode='r', encoding='utf-8') as file:
+            csv_reader = csv.DictReader(file)
+            return list(csv_reader)
+
+    except FileNotFoundError:
+        print(f"Error: file '{json_file_path}' not found.")
+        return []
+    except json.JSONDecodeError:
+        print(f"Error: file {json_file_path} is not a valid JSON file.")
+        return []
+    except Exception as e:
+        print(f"Error: unexpected error {e} occured")
+        return []
+
+
+
 # The list of poster islands, build while parsing the database.
+
 islands = []
 
 # ============================================================================
@@ -247,6 +275,11 @@ def main():
         "-d", "--demos",
         default="demos.json",
         help="JSON output file for academic demos. Defaults to \"%(default)s\"."
+    )
+    parser.add_argument(
+        "--islands",
+        default=f"{default_input_dir}/islands.csv",
+        help="CSV input file for posters location within islands. Defaults to \"%(default)s\"."
     )
     parser.add_argument(
         "--pretty",
@@ -383,7 +416,11 @@ def main():
     try:
         sessions = read_JSON_db_from_file(args.sessions)
         speakers = read_JSON_db_from_file(args.speakers)
+        islands  = read_CSV_db_from_file(args.islands)
 
+        for island in islands:
+            pprint.pprint(island)
+        
         # Auxiliary function to search speakers' bios. Proper
         # rendering is much more tricky than it seems.
         def find_speakers_bios(session):
@@ -422,6 +459,12 @@ def main():
             # firts or last name was in the bios.
             return bios
 
+        def find_poster_island_and_slot(session):
+            for island in islands:
+                if island['Code'].strip() == session['ID'].strip():
+                    return island['Island'], island['Poster ID']
+            return None, None
+        
         posters = []
         talks = []
         keynotes = []
@@ -445,10 +488,12 @@ def main():
 
             session_type = session["Session type"]["en"]
             if session_type == "Poster":
+                island, slot = find_poster_island_and_slot(session)
                 posters = posters + [{
                     "Id": session["ID"],
                     "Type": "poster",
-                    "Island": reformat_and_accumulate_island(session),
+                    "Island": island,
+                    "Slot": slot,
                     "track": "",
                     "Day": filter_day(session),
                     "Blindness": filter_blindness(session),
