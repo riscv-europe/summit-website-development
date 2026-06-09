@@ -98,3 +98,36 @@ At the conference:
 </p>
 
 {% include jumboboxend.html %}
+
+<button id="jump-to-now" title="Jump to the session happening now"
+        style="display:none; position:fixed; bottom:24px; right:24px; z-index:1000;
+               padding:12px 18px; border:none; border-radius:24px; cursor:pointer;
+               background:#f5c518; color:#000; font-weight:bold; font-size:0.95em;
+               box-shadow:0 2px 10px rgba(0,0,0,0.35);">
+  &#9679; Now
+</button>
+
+<script>
+  (function () {
+    var btn = document.getElementById('jump-to-now');
+    var blocks = [].slice.call(document.querySelectorAll('.schedule-block-title[data-start]'));
+    if (!blocks.length) return;
+
+    function currentBlock() {
+      var now = Date.now();
+      var target = blocks[0];              // before the event -> first block
+      for (var i = 0; i < blocks.length; i++) {
+        // data-start carries the +02:00 offset, so this compares absolute instants;
+        // the visitor's local timezone is irrelevant.
+        if (Date.parse(blocks[i].dataset.start) <= now) target = blocks[i];
+        else break;                        // blocks are in chronological DOM order
+      }
+      return target;
+    }
+
+    btn.style.display = 'inline-block';
+    btn.addEventListener('click', function () {
+      currentBlock().scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  })();
+</script>

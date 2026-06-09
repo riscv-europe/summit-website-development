@@ -17,7 +17,7 @@
 {% when 'demo_theater' %}{% assign blockclass = 'social' %}{% assign blockname = 'Demo theater' %}
 {% else %}{% assign blockclass = 'technical' %}{% assign blockname = 'Talks' %}
 {% endcase %}
-<div class="schedule-block-title {{ blockclass }}">
+<div class="schedule-block-title {{ blockclass }}" data-start="2026-06-{{ presentation['Day'] | split: '-' | first }}T{{ presentation['Time'] | replace: 'h', ':' }}:00+02:00">
 <span class="schedule-block-time">{{ presentation['Time'] }}</span><br/><span class="schedule-block-name">{{ blockname }}</span>
 </div>
 <div class="schedule-block">
