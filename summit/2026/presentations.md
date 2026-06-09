@@ -26,7 +26,6 @@ Notes for speakers are [down below](#notes).
 
 {% include jumboboxstart.html
     title = "Tuesday 9"
-    lead =  "Presentations sorted by start time."
 	id =    "Tue"
 %}
 
@@ -39,7 +38,6 @@ Notes for speakers are [down below](#notes).
 
 {% include jumboboxstart.html
     title = "Wednesday 10"
-    lead =  "Presentations sorted by start time."
 	id =    "Wed"
 %}
 
@@ -52,7 +50,6 @@ Notes for speakers are [down below](#notes).
 
 {% include jumboboxstart.html
     title = "Thursday 11"
-    lead =  "Presentations sorted by start time."
 	id =    "Thu"
 %}
 

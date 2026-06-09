@@ -1,6 +1,34 @@
 
 {% assign presentations_ = presentations | where: 'Day', day | sort: 'Time' %}
 
+<div class="schedule">
+{% assign current_type = "" %}
+{% for presentation in presentations_ %}
+{% if presentation['Type'] != current_type %}
+{% unless forloop.first %}
+</div>
+{% endunless %}
+{% assign current_type = presentation['Type'] %}
+{% case presentation['Type'] %}
+{% when 'keynote' %}{% assign blockclass = 'keynote' %}{% assign blockname = 'Keynotes' %}
+{% when 'invited talk' %}{% assign blockclass = 'keynote' %}{% assign blockname = 'Invited talks' %}
+{% when 'panel' %}{% assign blockclass = 'technical' %}{% assign blockname = 'Panels' %}
+{% when 'steering' %}{% assign blockclass = 'org' %}{% assign blockname = "Events" %}
+{% when 'demo_theater' %}{% assign blockclass = 'social' %}{% assign blockname = 'Demo theater' %}
+{% else %}{% assign blockclass = 'technical' %}{% assign blockname = 'Talks' %}
+{% endcase %}
+<div class="schedule-block-title {{ blockclass }}">
+<span class="schedule-block-time">{{ presentation['Time'] }}</span><br/><span class="schedule-block-name">{{ blockname }}</span>
+</div>
+<div class="schedule-block">
+{% endif %}
+<div class="schedule-entry">
+{% if presentation['Time'] %}<span class="schedule-time">{{ presentation['Time'] }}</span> - {% endif %}<span class="schedule-title">{{ presentation['Title'] | strip | strip_newlines }}</span>{% if presentation['Authors'] %} - <span class="schedule-author">{{ presentation['Authors'] }}</span>{% endif %} <a href="#P-{{ presentation['Id'] }}"><img src="/assets/icons/card-text.svg"> Details</a>
+</div>
+{% endfor %}
+</div>
+</div>
+
 {% for presentation in presentations_ %}
 
 <hr style="width:50%;;margin-left:25%">
