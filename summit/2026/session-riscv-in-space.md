@@ -9,7 +9,7 @@ layout: summit2026
 
 {% include jumboboxstart.html 
     title = "RISC-V in space"
-    lead = "Thematic session of the RISC-V Summit Europe 2026 about RISC-V in space<br>Wednesday 10, 16h30-18h00"
+    lead = "Thematic session of the RISC-V Summit Europe 2026 about RISC-V in space<br>Wednesday 10, <strong>16h30-18h00</strong> in <strong>Italia theater</strong>"
 %}
 
 ### About the RISC-V in Space session

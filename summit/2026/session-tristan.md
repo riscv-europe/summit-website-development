@@ -9,7 +9,7 @@ layout: summit2026
 
 {% include jumboboxstart.html 
     title = "TRISTAN contributions to RISC-V"
-    lead = "Thursday 11, 16h30-18h00"
+    lead = "Thursday 11, <strong>16h30-18h00</strong>, in <strong>Italia theater</strong>"
 %}
 
 ### About TRISTAN
