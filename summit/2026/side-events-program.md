@@ -50,7 +50,7 @@ standards and collaboration.
   Fraunhofer IIS & ITWM.
 - *11:15-11:45: Coffee break*
 - 11:45-12:15: **Integration of RISC-V Security Standards in the
-  HIGHER Project** &mdash; — Nick Kossifidis, FORTH
+  HIGHER Project** &mdash; Nick Kossifidis, FORTH
 - 12:15-12:45: **Composable Heterogeneous Edge Infrastructure in CAPE:
   From Edge AI to RISC-V Acceleration** &mdash; Christian Klarhorst ,
   Bielefeld University
@@ -63,8 +63,8 @@ standards and collaboration.
 - 14:15-14:45: **Towards European RISC-V Systems: Integration
   Experiences from the RISER Project** &mdash; Manolis Marazakis,
   FORTH
-- 14:45-15:00: **Post Quantum Cryptography for RISC-V Space Systems**,
-  Leonidas Kosmidis, BSC
+- 14:45-15:00: **Post Quantum Cryptography for RISC-V Space Systems**
+  &mdash; Leonidas Kosmidis, BSC
 - 14:30-15:30: **Panel on “*Alternative futures towards full systems
   based on open standards“***
 - *15:45-16:15: Coffee break & end of side event*
