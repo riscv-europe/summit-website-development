@@ -46,23 +46,28 @@ standards and collaboration.
   Teresa Cervero and Paul Carpenter, BSC
 - 10:30-11:00: **RISC-V Accelerators: Experiences from the European
   PILOT Project** &mdash; Carlos Puchol, BSC.
-- *11:00-11:30: Coffee break*
-- 11:30-12:00: **Integration of RISC-V Security Standards in the
+- 11:00-11:15: **STXMOD SoC Overview** &mdash; Norbert Schuhmann,
+  Fraunhofer IIS & ITWM.
+- *11:15-11:45: Coffee break*
+- 11:45-12:15: **Integration of RISC-V Security Standards in the
   HIGHER Project** &mdash; — Nick Kossifidis, FORTH
-- 12:00-12:30: **Composable Heterogeneous Edge Infrastructure in CAPE:
+- 12:15-12:45: **Composable Heterogeneous Edge Infrastructure in CAPE:
   From Edge AI to RISC-V Acceleration** &mdash; Christian Klarhorst ,
   Bielefeld University
-- 12:30-13:00: **An Operating System for RISC-V based SSD
+- 12:45-13:15: **An Operating System for RISC-V based SSD
   Controllers** &mdash; Philippe Bonnet, University of Copenhagen
-- *13:00-13:30: Lunch break*
-- 13:30-14:00: **Exploiting RISC-V Vector Processors for HPC and Cloud
+- *13:15-13:45: Lunch break*
+- 13:45-14:15: **Exploiting RISC-V Vector Processors for HPC and Cloud
   Workloads: Experiences from the OpenCUBE Project** &mdash; Ivy Peng,
   KTH
-- 14:00-14:30: **Post Quantum Cryptography for RISC-V Space Systems**,
+- 14:15-14:45: **Towards European RISC-V Systems: Integration
+  Experiences from the RISER Project** &mdash; Manolis Marazakis,
+  FORTH
+- 14:45-15:00: **Post Quantum Cryptography for RISC-V Space Systems**,
   Leonidas Kosmidis, BSC
 - 14:30-15:30: **Panel on “*Alternative futures towards full systems
   based on open standards“***
-- *15:30-16:00: Coffee break & end of side event*
+- *15:45-16:15: Coffee break & end of side event*
 
 Additional information about the workshop is available at:
 [`https://www.riser-project.eu/join-us-at-the-risc-v-summit-europe-2026-advancing-risc-v-adoption-in-hpc-and-cloud-environments-workshop/`](https://www.riser-project.eu/join-us-at-the-risc-v-summit-europe-2026-advancing-risc-v-adoption-in-hpc-and-cloud-environments-workshop/)
