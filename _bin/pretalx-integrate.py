@@ -346,7 +346,10 @@ def main():
             return "(no track)"
 
     # Auxiliary formating of authors, from a table to a string
-    def format_authors(authors):
+    def format_authors(session):
+        # Get the authors by name.
+        authors = session ["Speaker names"]
+        # Build the authors list.
         if len(authors) <= 2:
             return " and ".join(authors)
         else:
@@ -500,7 +503,7 @@ def main():
                     "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "PosterFileName": f"{base_file_name}-poster.pdf",
                     "Title": session["Proposal title"],
-                    "Authors": format_authors(session["Speaker names"]),
+                    "Authors": format_authors(session),
                     "Abstract": format_abstract(session),
                     "Bios": find_speakers_bios(session),
                 }]
@@ -515,7 +518,7 @@ def main():
                     "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "SlidesFileName": f"{base_file_name}-slides.pdf",
                     "Title": session["Proposal title"],
-                    "Authors": format_authors(session["Speaker names"]),
+                    "Authors": format_authors(session),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
                     "Bios": find_speakers_bios(session),
@@ -531,7 +534,7 @@ def main():
                         "AbstractFileName": f"{base_file_name}-abstract.pdf",
                         "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": session["Proposal title"],
-                        "Authors": format_authors(session["Speaker names"]),
+                        "Authors": format_authors(session),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
                         "Bios": find_speakers_bios(session),
@@ -545,7 +548,7 @@ def main():
                         "Time": filter_time(session),
                         "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": session["Proposal title"],
-                        "Authors": format_authors(session["Speaker names"]),
+                        "Authors": format_authors(session),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
                         "Bios": find_speakers_bios(session),
@@ -561,7 +564,7 @@ def main():
                         "AbstractFileName": f"{base_file_name}-abstract.pdf",
                         "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": session["Proposal title"],
-                        "Authors": format_authors(session["Speaker names"]),
+                        "Authors": format_authors(session),
                         "abstract_url": "",
                         "Abstract": format_abstract(session),
                         "Bios": find_speakers_bios(session),
@@ -575,7 +578,7 @@ def main():
                     "Room": filter_room(session),
                     "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "Title": session["Proposal title"],
-                    "Authors": format_authors(session["Speaker names"]),
+                    "Authors": format_authors(session),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
                     "Bios": find_speakers_bios(session),
@@ -585,7 +588,7 @@ def main():
                     "Id": session["ID"],
                     "Title": session["Proposal title"],
                     "Type": "demo_theater",
-                    "Authors": format_authors(session["Speaker names"]),
+                    "Authors": format_authors(session),
                     "Room": filter_room(session),
                     "Abstract": format_abstract(session),
                     "Day": filter_day(session),
@@ -601,7 +604,7 @@ def main():
                     "Room": filter_room(session),
                     "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "Title": session["Proposal title"],
-                    "Authors": format_authors(session["Speaker names"]),
+                    "Authors": format_authors(session),
                     "abstract_url": "",
                     "Abstract": format_abstract(session),
                     "Bio": find_speakers_bios(session),
