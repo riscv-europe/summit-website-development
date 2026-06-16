@@ -178,7 +178,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/3EZXZV/vpoline_scheme_SIIxKoQ_rwSBB0_3BSEBN2.webp",
+    "Session image": "/media/eu-summit-2026/submissions/3EZXZV/vpoline_scheme_SIIxKoQ_rwSBB0_RuOP9Ce.webp",
     "Speaker IDs": [
       "J3M3VC",
       "D7VHGA",
@@ -200,7 +200,10 @@
     "End (time)": "18:00:00",
     "Median score": "37.50",
     "Average (mean) score": 37.8,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/3EZXZV/resources/riscv_summit_2026_vp_utQ0V88.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/3EZXZV/resources/RISC-V_Summit_Europe_c8TetxL.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -647,7 +650,6 @@
     "Median score": "25.00",
     "Average (mean) score": 25.0,
     "Resources": [
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/7AQXJK/resources/Generator-Driven_Fun_89znkea.pdf",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/7AQXJK/resources/Generator-Driven_Fun_icwyDil.pdf",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/7AQXJK/resources/Generator-Driven_Fun_cWFJLUS.pdf"
     ],
@@ -755,7 +757,7 @@
   {
     "ID": "7NKZ8A",
     "Proposal title": "A RISC-V based Coarse-Grained Reconfigurable Architecture to Unify Signal and AI Processing",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Poster"
@@ -1167,7 +1169,7 @@
     "Average (mean) score": 32.0,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/8LUM7U/resources/RISCV-Summit-EU-ExtA_BcBKwuM.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/8LUM7U/resources/RISC-V_Custom_Instru_pCH62vB.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/8LUM7U/resources/RISC-V_Custom_Instru_lcHen43.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -1575,7 +1577,10 @@
     "End (time)": "11:00:00",
     "Median score": "29.50",
     "Average (mean) score": 30.1,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/9MT9QK/resources/NXP_IMT_RV_Summit_EU_SjMzjqK.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/9MT9QK/resources/RISC_V_SUMMIT_POSTER_JqZHnPg.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -2171,7 +2176,9 @@
     "End (time)": "11:00:00",
     "Median score": "30.50",
     "Average (mean) score": 30.5,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/AVMPST/resources/RISC-V_POWERED_QUANT_yD1AStm.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -2226,7 +2233,9 @@
     "End (time)": "10:40:00",
     "Median score": "38.50",
     "Average (mean) score": 38.0,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/B3ASBU/resources/riscv_teaching_syste_7vjSFft.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -2262,7 +2271,7 @@
     ],
     "Speaker names": [
       "Guodong Xu",
-      "Charlie"
+      "Charlie Jenkins"
     ],
     "Room": {
       "en": "Plenary"
@@ -2698,10 +2707,12 @@
     "Don\u2019t record this session.": false,
     "Session image": "",
     "Speaker IDs": [
-      "JJFUJU"
+      "JJFUJU",
+      "8GWNJH"
     ],
     "Speaker names": [
-      "Leo Marek"
+      "Leo Marek",
+      "Jun Han Chen"
     ],
     "Room": {
       "en": "Poster Island C"
@@ -2714,7 +2725,9 @@
     "End (time)": "11:20:00",
     "Median score": "25.00",
     "Average (mean) score": 24.8,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/BXQ73A/resources/Starbug_RISC-V_Europ_ND00HNc.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -2772,7 +2785,7 @@
   },
   {
     "ID": "C39D8K",
-    "Proposal title": "Ascalon\u2122 S: A RISC-V CPU for the Emerging Agentic AI Market",
+    "Proposal title": "Control your core.  Own your future",
     "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
@@ -2783,21 +2796,21 @@
     },
     "Created": "2026-05-30T18:11:25.439434+00:00",
     "Tags": null,
-    "Abstract": "As AI systems evolve from inference engines toward agentic architectures\u2014orhcestration and execution\u2014the CPU's role is fundamentally changing. Agentic workloads mix branchy control-plane logic with latency-sensitive execution across heterogeneous compute. This shift creates a distinct class of CPU demand: high-throughput, compute-dense, power-efficient cores tuned for real-world AI system integration.\r\n\r\nTenstorrent's perspective comes from operational experience. The company ships AI workstations, servers, and software today, with RISC-V deployed at scale. Ascalon S is the product of that system-level experience applied to CPU microarchitecture.\r\n\r\nAscalon S is Tenstorrent's answer to the orchestration and exectuion heavy demands of agentic AI\u2014a power and area-efficient RISC-V CPU IP core ideally built for execution swarm roles that define modern AI systems. Paired with Tenstorrent's Innovation License, it gives customers access to RTL and key design collateral, enabling workload-specific customization, roadmap ownership, and reduced vendor lock-in.\r\n\r\nCome learn how Ascalon S and Tenstorrent's broader IP portfolio\u2014spanning RISC-V CPU, AI acceleration, system IP, and system interconnect\u2014can help you own and differentiate your silicon future.",
+    "Abstract": "Tenstorrent is bringing a differentiated RISC-V story to market by combining open, licensable CPU IP with the real-world experience of building and shipping AI systems at scale. This presentation highlights how Tenstorrent turned an internal need for high-performance, customizable compute into a broader IP business, and why that matters for customers seeking greater roadmap control, architectural flexibility, and freedom from vendor lock-in. Backed by proven silicon, production systems, and RISC-V deployments measured in the millions of cores, Tenstorrent\u2019s approach shows how open IP can move beyond theory to enable scalable, production-ready innovation across CPUs, AI accelerators, chiplets, and full-system platforms.",
     "Description": "",
     "Notes": "",
-    "Internal notes": null,
+    "Internal notes": "",
     "Duration": 10,
     "Slot Count": 1,
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/C39D8K/Gary_Martz_4cGve5g_0HR9pPW.webp",
+    "Session image": "",
     "Speaker IDs": [
-      "XKV9ZP"
+      "SMMNDS"
     ],
     "Speaker names": [
-      "Gary Martz"
+      "Troy Jones"
     ],
     "Room": {
       "en": "Demo Theater"
@@ -3202,7 +3215,8 @@
     "Average (mean) score": 37.5,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/extended_abstract_DFx5yVk.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/presentation_summit_EdTA7f1.pptx"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/OpenFOAM_RVV_RISC_V__332MkWt.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/D3TVFS/resources/final_presentation_cHTfbVB.pptx"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -3395,7 +3409,9 @@
     "End (time)": "15:40:00",
     "Median score": "27.00",
     "Average (mean) score": 27.0,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/DMYH7U/resources/A_DECA_RISC_V_Summit_iEqlb7y.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -3986,7 +4002,9 @@
     "End (time)": "12:15:00",
     "Median score": "42.00",
     "Average (mean) score": 42.5,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/ETWPMQ/resources/SummitEU-AllTheScali_jWJHtn2.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -4090,7 +4108,7 @@
     "Average (mean) score": 41.8,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EXN7PD/resources/eusummitMPT_1_aDfcJpV.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EXN7PD/resources/eusummit_HAOYUANLIU_xiBD2Dr.pptx"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/EXN7PD/resources/eusummitliuhaoyuan_KNsC2FM.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -4606,7 +4624,7 @@
   },
   {
     "ID": "FRDLL7",
-    "Proposal title": "CHAKRA-GP: A Retargetable Compiler Framework for RISC-V GPGPU Architectures",
+    "Proposal title": "CHAKRA-GP: A Retargetable Compiler Framework for RISC-V GPGPU Architecture",
     "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
@@ -4624,8 +4642,8 @@
       "compiler_optimization",
       "talk"
     ],
-    "Abstract": "The emergence of RISC-V as an open and extensible instruction set architecture has enabled the development of domain-specific accelerators and General-Purpose Graphics Processing Units (GPGPUs). While the RISC-V ISA provides support for scalar instructions and the RISC-V Vector Extension (RVV) enables data-parallel vector execution, these models do not directly support the Single-Instruction Multiple-Thread (SIMT) execution paradigm required by modern GPU architectures. Consequently, efficient software enablement for RISC-V\u2013based GPUs requires compiler support capable of generating SIMT-oriented instruction sequences and managing massively parallel execution. This proposal talks about CHAKRA-GP, a hardware-optimized compiler framework for RISC-V\u2013based GPGPU architectures. Built upon LLVM and MLIR infrastructures, CHAKRA-GP provides a scalable compilation pipeline enabling efficient kernel generation, memory optimization, and parallel execution mapping for massively parallel workloads. The compiler targets custom RISC-V GPGPU platforms and enables efficient execution of HPC, scientific computing, and AI workloads. The work demonstrates how an extensible compiler infrastructure can bridge the gap between the RISC-V ISA and SIMT-based GPU execution models, enabling efficient compilation for customizable RISC-V GPGPU architectures.",
-    "Description": "This work presents CHAKRA-GP, a compiler framework targeting RISC-V\u2013based GPGPUs that combines domain-specific optimization pipelines with unified LLVM-based code generation. HPC workloads are compiled through a direct LLVM [5] optimization flow that generates SIMT [6][7] execution and custom memory instructions optimized for throughput-oriented computation. AI workloads are processed using an MLIR-based [8] pipeline that preserves tensor semantics and performs structured transformations before lowering to LLVM IR for final instruction generation targeting tensor and matrix compute cores.\r\nBy integrating MLIR-driven high-level optimization with LLVM\u2019s mature backend infrastructure, CHAKRA-GP enables efficient mapping of heterogeneous workloads onto customizable RISC-V GPU architectures while maintaining retargetability across evolving designs. The proposed approach demonstrates how compiler architecture can support co-design of open GPU hardware and software ecosystems for next-generation HPC and AI platforms.",
+    "Abstract": "The emergence of RISC-V as an open and extensible instruction set architecture has enabled the development of domain-specific accelerators and General-Purpose Graphics Processing Units (GPGPUs). While the RISC-V ISA provides support for scalar instructions and the RISC-V Vector Extension (RVV) enables data-parallel vector execution, these models do not directly support the Single-Instruction Multiple-Thread (SIMT) execution paradigm required by modern GPU architectures. Consequently, efficient software enablement for RISC-V\u2013based GPUs requires compiler support capable of generating SIMT-oriented instruction sequences and managing massively parallel execution. This proposal talks about CHAKRA-GP, a hardware-optimized compiler framework for a custom RISC-V\u2013based GPGPU architecture. Built upon LLVM and MLIR infrastructures, CHAKRA-GP provides a scalable compilation pipeline enabling efficient kernel generation, memory optimization, and parallel execution mapping for massively parallel workloads. The compiler targets a custom RISC-V GPGPU platform and enables efficient execution of HPC, scientific computing, and AI workloads. The work demonstrates how an extensible compiler infrastructure can bridge the gap between the RISC-V ISA and SIMT-based GPU execution models, enabling efficient compilation for a custom RISC-V GPGPU architecture.",
+    "Description": "This work presents CHAKRA-GP, a compiler framework targeting RISC-V\u2013based custom GPGPU that combines domain-specific optimization pipelines with unified LLVM-based code generation. HPC workloads are compiled through a direct LLVM optimization flow that generates SIMT execution and custom memory instructions optimized for throughput-oriented computation. AI workloads are processed using an MLIR-based pipeline that preserves tensor semantics and performs structured transformations before lowering to LLVM IR for final instruction generation targeting tensor and matrix compute cores.\r\nBy integrating MLIR-driven high-level optimization with LLVM\u2019s mature backend infrastructure, CHAKRA-GP enables efficient mapping of heterogeneous workloads onto a custom RISC-V GPU architecture. The proposed approach demonstrates how compiler architecture can support co-design of open GPU hardware and software ecosystems for next-generation HPC and AI platforms.",
     "Notes": "",
     "Internal notes": "",
     "Duration": 15,
@@ -4633,7 +4651,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/FRDLL7/chakra_flow_MMZJQtC_xnihweE_w_6iRkmHg.webp",
+    "Session image": "/media/eu-summit-2026/submissions/FRDLL7/chakra_flow_MMZJQtC_xnihweE_w_YUHGa8k.webp",
     "Speaker IDs": [
       "AMGGLL",
       "UUME9J"
@@ -4653,7 +4671,9 @@
     "End (time)": "13:00:00",
     "Median score": "41.50",
     "Average (mean) score": 39.3,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/FRDLL7/resources/CHAKRA_GP_RISCV_Summ_pqRZzAj.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -4943,7 +4963,6 @@
     "Average (mean) score": 37.5,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/G7Y79Q/resources/Poster_ARCANE_RVSUMM_kRtuJE4.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/G7Y79Q/resources/ARCANE_RV_summit_Bol_6jONsxF.pdf",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/G7Y79Q/resources/ARCANE_summit_6_66ov0R5.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
@@ -5487,7 +5506,9 @@
     "End (time)": "11:00:00",
     "Median score": "30.00",
     "Average (mean) score": 31.8,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/H87VUG/resources/isec-poster_B1oK2S6.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -5797,7 +5818,9 @@
     "End (time)": "12:45:00",
     "Median score": "35.50",
     "Average (mean) score": 35.2,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/HNQPKX/resources/2026_06_11-E4-Comput_8DWLSLP.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -6261,7 +6284,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "",
+    "Session image": "/media/eu-summit-2026/submissions/KHW8H3/MIPS_ARC_Logo_FINAL_RGB_copy_LcwQY8w.png",
     "Speaker IDs": [
       "E8UVJ9"
     ],
@@ -6824,7 +6847,9 @@
     "End (time)": "10:40:00",
     "Median score": "28.50",
     "Average (mean) score": 29.8,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/LZ7U8Y/resources/rvi_etrace_hvh_XHYtM8e.svg"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -6953,7 +6978,7 @@
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/MCBEUE/lev_EnYwpTD_mnONbmA_6mvnL6H_P_EhYu4i7.webp",
+    "Session image": "/media/eu-summit-2026/submissions/MCBEUE/lev_EnYwpTD_mnONbmA_6mvnL6H_P_ddlcH9B.webp",
     "Speaker IDs": [
       "ZLVBEP"
     ],
@@ -7167,7 +7192,7 @@
     "Average (mean) score": 33.0,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MKBAZS/resources/ctvs-riscv-gem5-abst_oJbUdIZ.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MKBAZS/resources/ctvs-riscv-gem5-post_cs9nOAE.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MKBAZS/resources/ctvs-riscv-gem5-post_mAitsdl.pdf"
     ],
     "Consider this submission for a technical talk": null
   },
@@ -7223,7 +7248,7 @@
   {
     "ID": "MQJFNF",
     "Proposal title": "From Architecture to GDS: Introducing the X200, a Market-Ready, High-Performance RISC-V Core",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Poster"
@@ -7455,7 +7480,9 @@
     "End (time)": "14:45:00",
     "Median score": null,
     "Average (mean) score": null,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/MZ9RFR/resources/RISC-V_at_Scale_11JU_KNgRS5O.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -8041,14 +8068,14 @@
     "Speaker IDs": [
       "BT8HDF",
       "UMVFWV",
-      "TUKUZV",
-      "LWR8VL"
+      "LWR8VL",
+      "TUKUZV"
     ],
     "Speaker names": [
       "Stefano Di Matteo",
       "Ivan Sarno",
-      "Emanuele Valea",
-      "Hack"
+      "Hack",
+      "Emanuele Valea"
     ],
     "Room": {
       "en": "Poster Island B"
@@ -8162,7 +8189,7 @@
   {
     "ID": "PRQ9ES",
     "Proposal title": "NoC and Memory Subsystems for AI Employing RISC-V Processors with Vector or Matrix Extensions",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Poster"
@@ -8589,11 +8616,13 @@
     "Session image": "",
     "Speaker IDs": [
       "Q3CSBZ",
-      "FSJUJT"
+      "FSJUJT",
+      "8WEUVU"
     ],
     "Speaker names": [
       "Chip Kerchner",
-      "Rama Malladi"
+      "Rama Malladi",
+      "Aditi Pandey"
     ],
     "Room": {
       "en": "Poster Island C"
@@ -9042,7 +9071,9 @@
     "End (time)": "11:05:00",
     "Median score": null,
     "Average (mean) score": null,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/QUEMGA/resources/20260610DiffTest-H_l8jClWP.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -9743,7 +9774,7 @@
   {
     "ID": "RXFF98",
     "Proposal title": "UnifiedDB : Status and Plans for Fast and Rigorous  RISC-V Development",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Poster"
@@ -10122,7 +10153,10 @@
     "End (time)": "10:40:00",
     "Median score": "35.50",
     "Average (mean) score": 31.8,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/SFGFJE/resources/template_oOXOff1.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/SFGFJE/resources/WhoChecksPoster_cLfNBFI.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -10383,18 +10417,18 @@
     "Abstract": "Drawing from hands-on experience building Europe's first RISC-V HPC cluster (Monte Cimone), E4 Computer Engineering argues that RISC-V's main barrier to industrial adoption is no longer hardware, but mindset. The community must evolve from an ISA-focused culture to a full ecosystem vision: industry-grade CPUs and accelerators, robust OS and tooling support, a solid certification program, application porting, and active engagement with industrial users, ISVs, ODMs and OEMs. Only by combining a developer-first with a customer-first approach and actively listening to industrial users can RISC-V make the leap to mainstream adoption.",
     "Description": "",
     "Notes": "",
-    "Internal notes": null,
+    "Internal notes": "",
     "Duration": 15,
     "Slot Count": 1,
     "Language": "en",
     "Show this session in public list of featured sessions.": false,
     "Don\u2019t record this session.": false,
-    "Session image": "/media/eu-summit-2026/submissions/SY39HX/Cosimo_D_Gianfreda_E4_CEO_128_OQPLzL9.webp",
+    "Session image": "",
     "Speaker IDs": [
-      "SB9VQA"
+      "3SS3QJ"
     ],
     "Speaker names": [
-      "Cosimo Damiano Gianfreda"
+      "Giordano Mancini"
     ],
     "Room": {
       "en": "Plenary"
@@ -10407,7 +10441,9 @@
     "End (time)": "10:15:00",
     "Median score": null,
     "Average (mean) score": null,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/SY39HX/resources/Keynote_E4_RISCV_Sum_5ea5Uba.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -10453,7 +10489,10 @@
     "End (time)": "11:20:00",
     "Median score": "28.50",
     "Average (mean) score": 29.2,
-    "Resources": [],
+    "Resources": [
+      "https://www.codethink.co.uk/articles/2026/deep-dive-into-upstream-risc-v-boot-chain.html",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/TAK7KZ/resources/Deep_Dive_into_Upstr_ZEkrmBp.pdf"
+    ],
     "Consider this submission for a technical talk": "Yes"
   },
   {
@@ -10700,7 +10739,8 @@
     "Average (mean) score": 37.2,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/TX9SGW/resources/RISC_V_Summit_Europe_Copnt98.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/TX9SGW/resources/RISCV_Summit_Europe__oQAWRsq.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/TX9SGW/resources/RISCV_Summit_Europe__oQAWRsq.pdf",
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/TX9SGW/resources/RISC_V_Summit_Europe_HG4qb4Z.pdf"
     ],
     "Consider this submission for a technical talk": "Yes"
   },
@@ -11281,13 +11321,15 @@
       "9KLNMW",
       "FSJUJT",
       "CB8LYV",
-      "Q3CSBZ"
+      "Q3CSBZ",
+      "8WEUVU"
     ],
     "Speaker names": [
       "Dongjie Xie",
       "Rama Malladi",
       "Jose Arnau",
-      "Chip Kerchner"
+      "Chip Kerchner",
+      "Aditi Pandey"
     ],
     "Room": {
       "en": "Poster Island C"
@@ -11333,10 +11375,12 @@
     "Don\u2019t record this session.": false,
     "Session image": "",
     "Speaker IDs": [
-      "A3AXVK"
+      "A3AXVK",
+      "SLM8ZR"
     ],
     "Speaker names": [
-      "Andrei Stan"
+      "Andrei Stan",
+      "Cosmin-Andrei Popovici"
     ],
     "Room": {
       "en": "Poster Island A"
@@ -11349,7 +11393,9 @@
     "End (time)": "13:20:00",
     "Median score": "25.00",
     "Average (mean) score": 25.5,
-    "Resources": [],
+    "Resources": [
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/VRKMGE/resources/PosterFdct2d_v1_2_TeVU3IH.pdf"
+    ],
     "Consider this submission for a technical talk": null
   },
   {
@@ -11953,6 +11999,8 @@
     "Median score": "40.00",
     "Average (mean) score": 38.5,
     "Resources": [
+      "https://github.com/ics-jku/RVVTS",
+      "https://github.com/ics-jku/RVVTS_SailRV_Spike",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/WWSLLF/resources/2026RISC-V_Summit_Eu_lYPV4Ja.pdf",
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/WWSLLF/resources/2026RISC-V_Summit_Eu_JIi5G4j.pdf"
     ],
@@ -12793,7 +12841,7 @@
     "Average (mean) score": 32.2,
     "Resources": [
       "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/YXSRKX/resources/CVA6_Optimization_Po_N8KsC5y.pdf",
-      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/YXSRKX/resources/CVA6_Optimization_uxmPM4P.pdf"
+      "https://cfp.riscv-europe.org/media/eu-summit-2026/submissions/YXSRKX/resources/CVA6_Optimization_JQFw7Dd.pdf"
     ],
     "Consider this submission for a technical talk": null
   },
@@ -13300,7 +13348,7 @@
   {
     "ID": "ZTNLUP",
     "Proposal title": "A RISC-V Dual-Core Microcontroller Architecture for Flight Control OSD: A Single-Chip Implementation",
-    "Proposal state": "accepted",
+    "Proposal state": "confirmed",
     "Pending proposal state": null,
     "Session type": {
       "en": "Poster"
