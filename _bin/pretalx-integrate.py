@@ -349,11 +349,6 @@ def main():
     def format_authors(session):
         # Get the authors by name.
         authors = session ["Speaker names"]
-        # Special cases, per explicit email request.
-        if session["ID"] == "VPNYEP":
-            authors = [ "Aditi Pandey" ] + authors
-        if session["ID"] == "QB3TNY":
-            authors = authors + [ "Aditi Pandey" ]
         # Build the authors list.
         if len(authors) <= 2:
             return " and ".join(authors)
