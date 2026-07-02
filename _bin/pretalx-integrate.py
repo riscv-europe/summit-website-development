@@ -229,6 +229,34 @@ def read_CSV_db_from_file(csv_file_path):
 
 
 
+def scan_proceedings(proc_root_dir):
+    proceedings = {}
+    for d in os.listdir(proc_root_dir):
+        d_path = os.path.join(proc_root_dir, d)
+        if os.path.isdir(d_path):
+            proceeding = {}
+
+            for f in os.listdir(d_path):
+                f_path = os.path.join(d_path, f)
+                if os.path.isfile(f_path):
+                    if not f.lower().endswith('.pdf'):
+                        print(f"File '{d}/{f}' does not seem to be a PDF.")
+                    elif 'poster' in f.lower():
+                        proceeding['Poster'] = f
+                    elif 'slides' in f.lower():
+                        proceeding['Slides'] = f
+                    elif 'abstract' in f.lower():
+                        proceeding['Abstract'] = f
+                    else:
+                        print(f"File '{d}/{f}' is neither an abstract, a set of slides, nor a poster.")
+
+            # If any proceeding material was found for this talk, add
+            # them to the list.
+            if proceeding:
+                proceedings[d] = proceeding
+    # Return back a sorted dictionary.
+    return { key: val for key, val in sorted(proceedings.items()) }
+
 # The list of poster islands, build while parsing the database.
 
 islands = []
@@ -485,6 +513,9 @@ def main():
         invited_talks = []
         demo_theaters = []
         panels = []
+
+        # Fetch the various proceedings available in their own repo.
+        proceedings = scan_proceedings(args.procrepo+'/integrated')
 
         for session in sessions:
             if (session["Proposal state"] == "rejected" or
