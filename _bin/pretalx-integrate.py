@@ -247,6 +247,7 @@ def main():
     summitYear = year+1 if month > 8 else year
     default_output_dir = f"_data/summit{summitYear}/integrated"
     default_input_dir  = f"_data/summit{summitYear}/asimported"
+    default_proceedings_repo = f"../summit-proceedings-{summitYear}"
 
     parser = argparse.ArgumentParser(
         description="Export submission data for website in JSON format (READ-ONLY)"
@@ -305,6 +306,11 @@ def main():
         "--speakers",
         default=f"{default_input_dir}/eu-summit-2026_speakers.json",
         help=f"the pretalx speakers dump as a single JSON file. Defaults to \"%(default)s\""
+    )
+    parser.add_argument(
+        "--procrepo",
+        default=f"{default_proceedings_repo}",
+        help=f"the local repo for proceedings after their consistent renaming. Defaults to \"%(default)s\""
     )
 
     # Parse CLI arguments.
