@@ -242,11 +242,11 @@ def scan_proceedings(proc_root_dir):
                     if not f.lower().endswith('.pdf'):
                         print(f"File '{d}/{f}' does not seem to be a PDF.")
                     elif 'poster' in f.lower():
-                        proceeding['Poster'] = f
+                        proceeding['PosterFileName'] = f
                     elif 'slides' in f.lower():
-                        proceeding['Slides'] = f
+                        proceeding['SlidesFileName'] = f
                     elif 'abstract' in f.lower():
-                        proceeding['Abstract'] = f
+                        proceeding['AbstractFileName'] = f
                     else:
                         print(f"File '{d}/{f}' is neither an abstract, a set of slides, nor a poster.")
 
