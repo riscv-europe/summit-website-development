@@ -504,7 +504,8 @@ def main():
                 if island['Code'].strip() == session['ID'].strip():
                     return island['Island'], island['Poster ID']
             return None, None
-        
+
+        # Let us start do real work...
         posters = []
         talks = []
         keynotes = []
