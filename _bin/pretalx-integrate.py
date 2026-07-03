@@ -541,8 +541,6 @@ def main():
                     "track": "",
                     "Day": filter_day(session),
                     "Blindness": filter_blindness(session),
-                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
-                    "PosterFileName": f"{base_file_name}-poster.pdf",
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session),
                     "Abstract": format_abstract(session),
@@ -556,8 +554,6 @@ def main():
                     "Room": filter_room(session),
                     "Day": filter_day(session),
                     "Time": filter_time(session),
-                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
-                    "SlidesFileName": f"{base_file_name}-slides.pdf",
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session),
                     "abstract_url": "",
@@ -572,8 +568,6 @@ def main():
                         "Day": filter_day(session),
                         "Room": filter_room(session),
                         "Time": filter_time(session),
-                        "AbstractFileName": f"{base_file_name}-abstract.pdf",
-                        "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": session["Proposal title"],
                         "Authors": format_authors(session),
                         "abstract_url": "",
@@ -587,7 +581,6 @@ def main():
                         "Day": filter_day(session),
                         "Room": filter_room(session),
                         "Time": filter_time(session),
-                        "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": session["Proposal title"],
                         "Authors": format_authors(session),
                         "abstract_url": "",
@@ -602,8 +595,6 @@ def main():
                         "Day": filter_day(session),
                         "Time": filter_time(session),
                         "Room": filter_room(session),
-                        "AbstractFileName": f"{base_file_name}-abstract.pdf",
-                        "SlidesFileName": f"{base_file_name}-slides.pdf",
                         "Title": session["Proposal title"],
                         "Authors": format_authors(session),
                         "abstract_url": "",
@@ -617,7 +608,6 @@ def main():
                     "Day": filter_day(session),
                     "Time": filter_time(session),
                     "Room": filter_room(session),
-                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session),
                     "abstract_url": "",
@@ -643,7 +633,6 @@ def main():
                     "Day": filter_day(session),
                     "Time": filter_time(session),
                     "Room": filter_room(session),
-                    "AbstractFileName": f"{base_file_name}-abstract.pdf",
                     "Title": session["Proposal title"],
                     "Authors": format_authors(session),
                     "abstract_url": "",
@@ -655,6 +644,12 @@ def main():
 
         # We fold talks and keynotes into a single table.
         presentations = talks + keynotes + invited_talks + steerings + panels + demo_theaters
+
+        # We add the filenames, if any, to each presentation.
+        for presentation in presentations:
+            id = presentation['Id']
+            if id in proceedings:
+                presentation |= proceedings[id]
 
         print(f"Talks: {len(talks)}")
         print(f"Keynotes: {len(keynotes)}")
