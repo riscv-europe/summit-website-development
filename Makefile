@@ -98,6 +98,9 @@ pretalx-integrate:
 	rm -f $(PRETALX_INTEGRATE_LOG)
 	$(PRETALX_INTEGRATE_PY) $(PRETALX_INTEGRATE_OPT)
 
+pull-proceedings:
+	( cd ../summit-proceedings-2026 && git pull )
+
 # A couple of shorthands to Jekyll production management.
 
 ## To compile and publish the web site on a local web server.
