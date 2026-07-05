@@ -24,6 +24,7 @@ import argparse
 import pprint
 import json
 import os
+import shutil
 import sys
 import logging
 import traceback
@@ -229,7 +230,8 @@ def read_CSV_db_from_file(csv_file_path):
 
 
 
-def scan_proceedings(proc_root_dir):
+def scan_proceedings(proc_root_dir, proc_target_dir):
+    os.makedirs(proc_target_dir, exist_ok=True)
     proceedings = {}
     for d in os.listdir(proc_root_dir):
         d_path = os.path.join(proc_root_dir, d)
@@ -243,10 +245,13 @@ def scan_proceedings(proc_root_dir):
                         print(f"File '{d}/{f}' does not seem to be a PDF.")
                     elif 'poster' in f.lower():
                         proceeding['PosterFileName'] = f
+                        shutil.copy2(os.fsencode(proc_root_dir+'/'+d+'/'+f),os.fsencode(proc_target_dir+'/'+f))
                     elif 'slides' in f.lower():
                         proceeding['SlidesFileName'] = f
+                        shutil.copy2(os.fsencode(proc_root_dir+'/'+d+'/'+f),os.fsencode(proc_target_dir+'/'+f))
                     elif 'abstract' in f.lower():
                         proceeding['AbstractFileName'] = f
+                        shutil.copy2(os.fsencode(proc_root_dir+'/'+d+'/'+f),os.fsencode(proc_target_dir+'/'+f))
                     else:
                         print(f"File '{d}/{f}' is neither an abstract, a set of slides, nor a poster.")
 
@@ -522,7 +527,7 @@ def main():
         panels = []
 
         # Fetch the various proceedings available in their own repo.
-        proceedings = scan_proceedings(args.procrepo+'/integrated')
+        proceedings = scan_proceedings(args.procrepo+'/integrated',args.procdest)
 
         for session in sessions:
             if (session["Proposal state"] == "rejected" or
