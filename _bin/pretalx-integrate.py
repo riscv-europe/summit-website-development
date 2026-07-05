@@ -276,6 +276,7 @@ def main():
     default_output_dir = f"_data/summit{summitYear}/integrated"
     default_input_dir  = f"_data/summit{summitYear}/asimported"
     default_proceedings_repo = f"../summit-proceedings-{summitYear}"
+    default_proceedings_dest = f"summit/{summitYear}/media/proceedings"
 
     parser = argparse.ArgumentParser(
         description="Export submission data for website in JSON format (READ-ONLY)"
@@ -339,6 +340,11 @@ def main():
         "--procrepo",
         default=f"{default_proceedings_repo}",
         help=f"the local repo for proceedings after their consistent renaming. Defaults to \"%(default)s\""
+    )
+    parser.add_argument(
+        "--procdest",
+        default=f"{default_proceedings_dest}",
+        help=f"the destination for proceedings when pulled from their onw repo. Defaults to \"%(default)s\""
     )
 
     # Parse CLI arguments.
