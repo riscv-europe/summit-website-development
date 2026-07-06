@@ -258,7 +258,7 @@ def scan_proceedings(proc_root_dir, proc_target_dir):
             if proceeding:
                 proceedings[d] = proceeding
     # Return back a sorted dictionary.
-    return { key: val for key, val in sorted(proceedings.items()) }
+    return dict(sorted(proceedings.items()))
 
 # The list of poster islands, build while parsing the database.
 
