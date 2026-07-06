@@ -237,7 +237,6 @@ def scan_proceedings(proc_root_dir, proc_target_dir):
         d_path = os.path.join(proc_root_dir, d)
         if os.path.isdir(d_path):
             proceeding = {}
-
             for f in os.listdir(d_path):
                 f_path = os.path.join(d_path, f)
                 if os.path.isfile(f_path):
@@ -254,7 +253,6 @@ def scan_proceedings(proc_root_dir, proc_target_dir):
                         shutil.copy2(os.fsencode(proc_root_dir+'/'+d+'/'+f),os.fsencode(proc_target_dir+'/'+f))
                     else:
                         print(f"File '{d}/{f}' is neither an abstract, a set of slides, nor a poster.")
-
             # If any proceeding material was found for this talk, add
             # them to the list.
             if proceeding:
