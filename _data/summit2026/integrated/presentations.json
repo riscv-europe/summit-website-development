@@ -92,7 +92,8 @@
         "Bios": [
             "Dr. Philipp Tomsich is Chief Technologist and Founder of VRULL GmbH, providing strategic R&D for semiconductor companies. He chairs the RISC-V Applications & Tools Committee, serves on the RISC-V Board of Directors, and is Vice-Chair of the Technical Steering Committee, where he champions software ecosystem growth and standards alignment, including efforts to publish RISC-V under ISO.  He instigated the standards-development matrix operations and AI/ML, serving as principal editor of the Integrated Matrix Extension and as the Vice-chair of the Attached Matrix TG.",
             "Dr. Erich Focht is a system architect and physicist currently working as a Senior Fellow at Openchip, where he leads the Accelerator-AI architecture group and focuses on the development of Artificial Intelligence (AI) and High-Performance Computing (HPC) accelerators. He holds a Ph.D. in theoretical physics from RWTH Aachen and has a professional background that spans computational physics, numeric algorithms, distributed systems software, parallel file systems and hardware-software co-design. Before his current role at Openchip, Erich spent over 25 years at NEC HPC Europe where he contributed to the system design of dozens of supercomputers, most of them present in the TOP500 list. Within the RISC-V open-source ecosystem, Dr. Focht contributes to the standardization of matrix operations as an active member of the IME TG, focusing on RISC-V matrix implementations. He also represents Openchip in the RVI Technical Steering Committee."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h00-TOMSICH-slides.pdf"
     },
     {
         "Id": "EXN7PD",
@@ -122,7 +123,8 @@
         "Abstract": "The emergence of RISC-V as an open and extensible instruction set architecture has enabled the development of domain-specific accelerators and General-Purpose Graphics Processing Units (GPGPUs). While the RISC-V ISA provides support for scalar instructions and the RISC-V Vector Extension (RVV) enables data-parallel vector execution, these models do not directly support the Single-Instruction Multiple-Thread (SIMT) execution paradigm required by modern GPU architectures. Consequently, efficient software enablement for RISC-V\u2013based GPUs requires compiler support capable of generating SIMT-oriented instruction sequences and managing massively parallel execution. This proposal talks about CHAKRA-GP, a hardware-optimized compiler framework for a custom RISC-V\u2013based GPGPU architecture. Built upon LLVM and MLIR infrastructures, CHAKRA-GP provides a scalable compilation pipeline enabling efficient kernel generation, memory optimization, and parallel execution mapping for massively parallel workloads. The compiler targets a custom RISC-V GPGPU platform and enables efficient execution of HPC, scientific computing, and AI workloads. The work demonstrates how an extensible compiler infrastructure can bridge the gap between the RISC-V ISA and SIMT-based GPU execution models, enabling efficient compilation for a custom RISC-V GPGPU architecture.",
         "Bios": [
             "Ms. Prachi Pandey is a Senior Compiler Engineer at C-DAC, where she works on MLIR/LLVM-based compiler development for indigenous processors, GPUs, and AI accelerators. She has nearly two decades of experience in HPC, parallel programming, compilers, and runtime systems. Her research interests include compiler optimization techniques, automatic parallelizing compilers, performance portability for heterogeneous architectures, and parallelization strategies for HPC and AI workloads."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h45-PANDEY-slides.pdf"
     },
     {
         "Id": "G7Y79Q",
@@ -137,7 +139,8 @@
         "Abstract": "Modern data-centric workloads increasingly expose the limitations of traditional von Neumann architectures, where excessive data movement limits throughput and energy efficiency.         While hardware accelerators improve performance, they often lack flexibility and still require costly memory transfers.         Existing compute in- and near-memory solutions reduce the memory bottleneck but introduce usability challenges related to constraints on data placement.         ARCANE is a cache architecture that doubles as a tightly-coupled near-memory coprocessor.         The embedded RISC-V cache controller executes custom instructions offloaded by the host CPU relying on near-memory vector processing units within the cache memory subsystem. This architecture hides memory synchronization and data mapping from application software, while offering software-based Instruction Set Architecture extensibility.         Evaluations demonstrate up to an 84x speedup on 8-bit convolution layers over a traditional system-on-chip, incurring only a 41.3\\% area overhead.",
         "Bios": [
             "Flavia Guella is a Ph.D. student in Electronics and Communications Engineering at Politecnico di Torino, under the supervision of Prof. Maurizio Martina. Her research interests include RISC-V based in-cache computing, and co-design methodologies for the efficient deployment of neural networks on low-power systems."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h25-GUELLA-slides.pdf"
     },
     {
         "Id": "G7YSXG",
@@ -180,7 +183,8 @@
         "Abstract": "We implemented an N-body astrophysical simulation code and offloaded its most computationally intensive kernel to Tenstorrent RISC-V\u2013based accelerators using the TT-Metalium programming interface. Performance was assessed on the Wormhole n300 card in terms of execution time and energy consumption, and compared with both an optimized CPU implementation and a CUDA version. The TT-Metalium implementation achieves a speedup of 2\u00d7 over the CPU baseline, although its performance still slightly lags behind the CUDA implementation. Finally, we investigated strategies for scaling the application across multiple Tenstorrent accelerators, evaluating configurations with up to four devices.",
         "Bios": [
             "Elisabetta Boella received her M.Sc. degree in Energy and Nuclear Engineering in 2009 from Politecnico di Torino (Turin, Italy) and her Ph.D. in Computational Plasma Physics in 2014 from the same institution. She currently works as HPC product specialist at E4 Computer Engineering (Scandiano, Italy), where she leads the company effort in several European projects, including MaX, SPACE and EoCoE. Her research interests include numerical modelling, parallel programming, and co-design practices. She has a long-time experience in the development and optimisation of parallel codes using the Message Passing Interface protocol. She is one of the main developers of the massively parallel plasma code ECsim. She also has extensive experience in Graphical Processing Unit (GPU) programming and off-loading of legacy codes to GPU."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h30-BOELLA-slides.pdf"
     },
     {
         "Id": "JKTENR",
@@ -227,7 +231,8 @@
         "Abstract": "A small lunar rover named \"LEV-1\" made surface mobility exploration on the Moon in January 2024. This was the first lunar exploration robot in our country. LEV-1 was installed in the lunar lander \"SLIM\" and was deployed onto the Moon surface just before landing.  LEV-1 explored over the landing area fully autonomously after the deployment. The obained data inclusing images were directly transmitted to the Ground with no relay by the lander.  The onboard computer of the rover used a RISC-V soft-core CPU implemented within the FPGA. The system is one of the world's first onboard computers using a RISC-V processor being operated on the Moon.  This paper describes the configuration of the RISC-V controller installed on LEV-1 rover as well as the technical background for using RISC-V in space applications.",
         "Bios": [
             "He is a professor at the Institute of Space and Astronautical Science (ISAS) of the Japan Aerospace Exploration Agency (JAXA). He is engaged in solar system exploration, particularly research on planetary exploration rovers for celestial surfaces. As principal investigator, he developed the MINERVA and MINERVA-II rovers for the asteroid sample return missions of the Hayabusa and Hayabusa2 spacecraft. He has also been involved in multiple lunar exploration missions, including the OMOTENASHI CubeSat and the SLIM landing mission. He served as principal investigator for the LEV-1 rover for the SLIM mission."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-10h00-YOSHIMITSU-slides.pdf"
     },
     {
         "Id": "MUFY8Z",
@@ -364,7 +369,8 @@
         "Abstract": "We present Bianbu LXQt, a user-oriented desktop environment for RISC-V platforms built on a deeply adapted LXQt software stack, optimized for real hardware such as SpacemiT\u2019s K1 and K3 SoCs. Unlike straightforward ports that assume x86-like hardware standardization, this work addresses common RISC-V Linux challenges, including fragmented peripheral support and the absence of a unified hardware abstraction layer. SpacemiT's CPUs integrate AI-oriented instruction extensions such as IME, enabling CPU-based inference without discrete GPUs or NPUs, requiring coordinated adaptation across the OS and AI frameworks. Preserving LXQt\u2019s lightweight design, we redesigned the UI and interaction logic to improve responsiveness and visual consistency on resource-constrained RISC-V systems. Development was accelerated using AI-assisted tooling, while continuous feedback from educators and early adopters guided iterative fixes for lag, crashes, and complex configuration\u2014letting users focus on creation, learning, and development rather than system tuning. The full software stack is open source with reproducible builds and modular components. We proved educational AI examples covering image recognition, speech processing, video analysis, and large language model inference,  all with intuitive GUIs. Frameworks including ONNX Runtime, llama.cpp, and Ollama run reliably, demonstrating the feasibility of RISC-V systems for AI deployment and local AI development. Through practical system integration, community-driven iteration, and accessible AI tooling, this work shows RISC-V can deliver a polished, daily-driver desktop environment\u2014moving beyond a demo into a trusted open platform for developers, educators, and innovators.",
         "Bios": [
             "Senior Software Engineer at SpacemiT, specializing in system application development and customer support."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-10h15-FAN-slides.pdf"
     },
     {
         "Id": "WWT8EV",
@@ -406,7 +412,8 @@
         "Authors": "Marcelo Zuffo",
         "abstract_url": "",
         "Abstract": "Climate change and environmental degradation demand new approaches for large-scale, continuous, and intelligent sensing of natural ecosystems. The Internet of Trees proposes a distributed infrastructure where smart environmental probes deployed in forest environments become active nodes in a real-time environmental intelligence network\u2014requiring computing platforms that are low-power, secure, adaptable, and affordable.  RISC-V offers a powerful foundation for next-generation environmental sensing systems. As an open-source ISA, it enables technological flexibility, design transparency, and long-term digital sovereignty, while allowing customized processors tailored to edge AI, wireless sensor networks, secure communication, and ultra-low-power operation. These features are especially critical for climate-oriented deployments in remote, resource-constrained environments.  This keynote presents the Internet of Trees as a case study for the strategic use of open-source microprocessor technology, discussing how RISC-V supports distributed sensing, local data processing, trusted operation, and scalable integration with cloud-based environmental platforms. Beyond technical efficiency, open microprocessor ecosystems can strengthen local innovation and sustainable semiconductor capacity\u2014making RISC-V not merely a processor architecture, but an instrument for building resilient, sovereign infrastructures for planetary monitoring.  The Internet of Trees illustrates how open silicon can connect sustainability, intelligence, and environmental stewardship, a perspective particularly relevant for emerging economies seeking both climate action and technological autonomy. The convergence of open hardware and environmental intelligence may define a new class of digital infrastructure for the living world.  RISC-V can be one of its most important enabling technologies.",
-        "Bios": null
+        "Bios": null,
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-09h30-ZUFFO-slides.pdf"
     },
     {
         "Id": "BQWHMQ",
@@ -460,7 +467,8 @@
         "Abstract": "Ainekko\u2019s Agentic SoC is an open, full-stack approach to AI-native silicon that treats hardware as a programmable, composable substrate for model execution rather than a fixed target. Built on a many-core RISC-V architecture with tile-based compute and memory, the platform enables automated model-to-hardware mapping, dynamic quantization, and workload-specific system composition at packaging time, eliminating the need for per-model tape-outs.  We invert the traditional stack: models define the hardware. Our approach sits between FPGA flexibility and etching models into ASIC-level efficiency, delivering high performance and practical economics while remaining fully programmable to adapt to rapidly evolving models and architectures.  Our programmable RISC-V fabric has been validated with a 1,088-core tape-out and is designed to scale to 4,000+ cores. On top of this foundation, we have built a set of open building blocks across RTL, compiler, and runtime, which we are open-sourcing through the OpenHW Foundation (CORE-ET project) and AIFoundry. This open ecosystem enables developers, researchers, and AI agents to co-design across the full stack and directly optimize execution on hardware. This openness is essential: supporting fast-moving models, heterogeneous edge workloads, and agent-driven development requires a system where new kernels, quantization strategies, and architectural innovations can be introduced and composed without vendor constraints.",
         "Bios": [
             "Tanya is a co-founder of Ainekko: a 100% open-source company on a mission to democratize inference and fine-tuning of all popular open-weight models with a hardware/software product.  Tanya also has started AIFoundry open source ecosystem of AI projects and engineers working on different building blocks of these stacks while maintaining the common goals and compatibility.  Before that Tanya has been involved in the tech world and open source in many different roles. She is an ex-VC @Almaz Capital with OSS and RISC-V portfolio, ex-OSS policy maker, working to integrate developing countries into the global scene while building local independent infrastructure, founder of project helping tech companies affected by the wars to leverage OSS for freedom of tech from politics."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-09h00-DADASHEVA-slides.pdf"
     },
     {
         "Id": "FYEFSR",
@@ -544,7 +552,8 @@
         "Abstract": "The European AI Factory initiative aims to distribute sovereign compute capacity across Europe, but participation from Western Balkans accession countries has remained largely aspirational. Albania is charting a different course. Albania's ICT sector employs tens of thousands of skilled engineers, but almost entirely in software outsourcing\u2014writing code for other countries' products on other countries' architectures. This model creates employment but not ownership, capability but not sovereignty. The age of AI demands transformation: from consuming compute to shaping it. This talk presents a strategy to establish one of Europe's first RISC-V-native AI compute facilities. The initiative is designed not only to serve Albania's public-sector AI needs but to act as a regional compute hub for the Western Balkans and a gateway for Middle Eastern partners seeking EU-aligned AI infrastructure. Critically, the strategy begins in the classroom. By embedding RISC-V into Albanian computer science and engineering education, the initiative connects that talent pipeline directly to a sovereign AI compute facility, transforming a generation of outsourcing engineers into architects of AI infrastructure. Kushtrim Shala draws on Albania's track record in digital innovation to show how small, agile countries can move faster than larger member states in adopting open ISA infrastructure. The talk addresses what it takes to bootstrap a semiconductor culture and makes the case that RISC-V is not merely a technical choice but a strategic instrument of digital sovereignty\u2014one that smaller nations can leverage to build resilient, independent AI capacity.",
         "Bios": [
             "Kushtrim Shala is an Albanian technology entrepreneur, innovation strategist, and ecosystem builder with over 15 years of experience in ICT, digital transformation, and startup development. He holds a degree in Computing Sciences from the University of Tirana and an MBA from the University of New York Tirana. As Co-founder and Executive Director of ALBICT (Albanian ICT Association) and Co-founder of Digital Valley Albania (DiVA), an official European Digital Innovation Hub, Kushtrim has built bridges between technology, policy, and entrepreneurship across the Western Balkans. Under his leadership, ALBICT has supported more than 100 startups through eight accelerator cohorts. He is also co-founder of the Uplift Startup Accelerator, ICTSlab, and the Albanian ICT Awards. Recognized with the Golden Bee Award by the Prime Minister's Office of Albania, he currently focuses on open hardware ecosystems, RISC-V, AI infrastructure, and digital sovereignty strategies for emerging European economies."
-        ]
+        ],
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-11h30-SHALA-slides.pdf"
     },
     {
         "Id": "WLDTDU",
@@ -629,7 +638,8 @@
         "Authors": "John Holland",
         "abstract_url": "",
         "Abstract": "RISC\u2011V has emerged as one of the most important new architectures in decades, achieving widespread adoption in embedded systems and shipping at massive scale. But as the industry looks beyond embedded into application processors, a new set of challenges\u2014and opportunities\u2014comes into focus.  This talk explores where RISC\u2011V stands today, what makes its next phase of growth fundamentally different, and why its future is likely to unfold unevenly across markets. It highlights key inflection points that will shape adoption and outlines where RISC\u2011V is poised to gain traction next.",
-        "Bios": null
+        "Bios": null,
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-14h30-HOLLAND-slides.pdf"
     },
     {
         "Id": "SPMRUA",
