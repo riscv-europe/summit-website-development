@@ -467,9 +467,6 @@ def main():
         speakers = read_JSON_db_from_file(args.speakers)
         islands  = read_CSV_db_from_file(args.islands)
 
-        for island in islands:
-            pprint.pprint(island)
-        
         # Auxiliary function to search speakers' bios. Proper
         # rendering is much more tricky than it seems.
         def find_speakers_bios(session):
