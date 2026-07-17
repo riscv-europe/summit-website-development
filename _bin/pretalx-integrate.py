@@ -340,6 +340,11 @@ def main():
         help=f"the pretalx speakers dump as a single JSON file. Defaults to \"%(default)s\""
     )
     parser.add_argument(
+        "--videos",
+        default=f"{default_input_dir}/videos-links.csv",
+        help=f"the videos links for on-stage presentations. Defaults to \"%(default)s\""
+    )
+    parser.add_argument(
         "--procrepo",
         default=f"{default_proceedings_repo}",
         help=f"the local repo for proceedings after their consistent renaming. Defaults to \"%(default)s\""
@@ -466,6 +471,7 @@ def main():
         sessions = read_JSON_db_from_file(args.sessions)
         speakers = read_JSON_db_from_file(args.speakers)
         islands  = read_CSV_db_from_file(args.islands)
+        videos   = { video['Id']: video['YouTube'] for video in read_CSV_db_from_file(args.videos) }
 
         # Auxiliary function to search speakers' bios. Proper
         # rendering is much more tricky than it seems.
@@ -656,6 +662,8 @@ def main():
             id = presentation['Id']
             if id in proceedings:
                 presentation |= proceedings[id]
+            if id in videos:
+                presentation |= { "YouTube": videos[id] }
 
         print(f"Talks: {len(talks)}")
         print(f"Keynotes: {len(keynotes)}")
