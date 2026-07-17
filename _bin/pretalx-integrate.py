@@ -219,10 +219,10 @@ def read_CSV_db_from_file(csv_file_path):
             return list(csv_reader)
 
     except FileNotFoundError:
-        print(f"Error: file '{json_file_path}' not found.")
+        print(f"Error: file '{csv_file_path}' not found.")
         return []
-    except json.JSONDecodeError:
-        print(f"Error: file {json_file_path} is not a valid JSON file.")
+    except csv.Error:
+        print(f"Error: file {csv_file_path} is not a valid CSV file.")
         return []
     except Exception as e:
         print(f"Error: unexpected error {e} occured")
