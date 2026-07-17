@@ -13,7 +13,8 @@
         "Bios": [
             "Iacopo Colonnelli is an Assistant Professor in the [Department of Computer Science](https://www.cs.unito.it/do/home.pl) at the University of Turin. He serves on the Technical Committee of the [Common Workflow Language](https://www.commonwl.org/) (CWL), and is a founding coordinator of the [CWL4HPC](https://www.commonwl.org/working-groups/cwl4hpc) working group. He has co-authored over 40 peer-reviewed publications in national and international journals and conferences, and has contributed to more than 10 funded research projects. He is currently the local Principal Investigator for the [DARE European project](https://dare-riscv.eu/) (total budget: e240M). His research interests include workflow modeling and management in heterogeneous distributed architectures, high-performance computing and I/O, distributed confidential computing, and large-scale data science.",
             "Marco Edoardo Santimaria is a Ph.D. student in Modeling and Data Science at the University of Turin, where I focus on developing methods and tools to optimize the performance of file-based scientific workflows. His research centers on the CAPIO methodology (born out of a collaboration between the University of Turin and the University of Pisa), which consists of two main components: the CAPIO middleware, a scientific tool designed to enhance I/O performance by enabling transparent streaming capabilities and providing a distributed, in-memory file system without requiring modifications to the workflow\u2019s source code\u2014and CAPIO-CL, a coordination language developed to express file dependencies and annotate streaming semantics across workflow steps."
-        ]
+        ],
+        "YouTube": "https://youtu.be/QIo8T_I43IQ?si=EUn7AFMYS3UmqVKo"
     },
     {
         "Id": "8LUM7U",
@@ -29,7 +30,8 @@
         "Bios": [
             "Andreas Mauderer received the diploma degree in computer science from the University of Karlsruhe, Germany, in 2009. He received his PhD in computer science at the University of Tuebingen in 2014. He is working at Bosch since 2009 in the business unit Mobility Electronics in the field of Virtual Prototyping and on-chip processors for automotive ICs. Furthermore, he is active in various publicly funded projects regarding these topics.",
             "Zdenek received the PhD degree from the Brno University of Technology, Czechia, where he played a significant role in the research related to processor development automation. It enabled the creation of the processor development tools, Codasip Studio, that he has been driving ever since at Codasip. Zdenek has continued working as the chief architect of Codasip Studio for more than 12 years. He has also been the architect of diverse processor cores, including but not limited to 16/32-bit architectures for IoT, 32/64bit DSP-oriented architectures, or Linux capable architectures. All of these architectures were developed using Codasip Studio, and many of them were based on the RISC-V ISA. Zdenek has been also involved in embedded systems design (software and hardware) and driving R&D activities for many years."
-        ]
+        ],
+        "YouTube": "https://youtu.be/27I03rUdzkE?si=SqJQOCi97-oL0vx2"
     },
     {
         "Id": "B7EASJ",
@@ -45,7 +47,8 @@
         "Bios": [
             "Guodong Xu is a RISC-V International Advocate and Director of Software Engineering at RISCstar Solutions, with over 20 years of Linux kernel development experience. Previously at Motorola (mobile phone low-level software) and Linaro (Sr. Tech Lead, 10+ years), he now works on RISC-V upstream kernel enablement \u2014 including SpacemiT K1/K3 SoC support and RVA23 profile extensions.",
             "Charlie has been a contributor to the Linux kernel for the last 3 years, focusing on bringing RISC-V support to be on-par with x86 and ARM."
-        ]
+        ],
+        "YouTube": "https://youtu.be/kDV-avIs4kU?si=dY8Dsm02SxPB4M6C "
     },
     {
         "Id": "BTUW3M",
@@ -60,7 +63,8 @@
         "Abstract": "The RISC-V software ecosystem has grown steadily over the last few years. For embedded software it is reasonably complete, with good compiler, RTOS, and IDE support. The Linux kernel is also well supported, with RISC-V long having upstream support, and RVA23 now supported too. Canonical moved to requiring RVA23 with the release of Ubuntu 25.10, ready for the next generation of RISC-V silicon. But building out a data center takes more than just a good desktop experience. This poster/paper will examine the other elements required including provisioning, hypervisors, containers, orchestration, and also discusses how to manage custom instructions, security, maintenance. Going beyond theory, it discusses the data center Canonical will be building to include RISC-V RVA23 silicon supporting the Launchpad.net community website as well as other uses.",
         "Bios": [
             "Jon has 25 years of experience in the semiconductor and software industries and has been involved with RISC-V since 2019. He is currently product manager for RISC-V at Canonical driving product development to strengthen the RISC-V ecosystem."
-        ]
+        ],
+        "YouTube": "https://youtu.be/iHqwGwf1YZI?si=7u6h6GyvLnbDl9BL"
     },
     {
         "Id": "D3TVFS",
@@ -110,7 +114,8 @@
         "Abstract": "Memory Protection Tables (MPT) is an emerging RISC-V extension under community discussion that enables fine-grained multi-supervisor domain physical memory isolation and access control for multi-tenant computing, addressing the security and isolation limitations of the traditional PMP mechanisms. This work presents the first open-source hardware implementation of the MPT draft specification (v0.4). Our design features a multi-level cache for accelerated permission checking and an L1TLB extension to reduce query frequency, with a decoupled architecture for portability. Evaluation shows only 2.32\\% average SPEC06 performance overhead and a 0.244\\% core area overhead, providing a hardware reference for SMMPT standardization.",
         "Bios": [
             "Haoyuan Liu, a Digital Design Engineer at the Beijing Institute of Open Source Chip (BOSC), specializes in RISC-V security areas such as MPT, CFI, and PMP. He actively contributes to the XiangShan open-source RISC-V CPU."
-        ]
+        ],
+        "YouTube": "https://youtu.be/ithLOLR_Bu0?si=vYbezcXzBdz45_dL"
     },
     {
         "Id": "FRDLL7",
@@ -159,7 +164,8 @@
         "Abstract": "Energy saving is a top priority for STMicroelectronics products. For the STxP5 embedded CPU based on the RISC-V architecture, there is a particular focus on minimizing static power when the core is inactive. Additionally, it is important to optimize the CPU restart time, silicon area, implementation complexity, and software overhead. The Ultra Low Power Retention with Warm Restart Mode addresses these challenges by maximizing power savings and reducing drawbacks typically associated with resuming operation. This solution leverages the modular, scalable, customizable, and extensible nature of the RISC-V architecture by defining and implementing a custom RISC-V extension and tailored microarchitecture.",
         "Bios": [
             "Anne Merlande is a processor architect at STMicroelectronics in Grenoble, within the Computing and Compilers Center. As Senior Member of Technical Staff, her expertise field covers processor and system architecture, CPU microarchitecture and frontend design, low power and energy efficient subsystems, security and functional safety. She graduated from Institut Sup\u00e9rieur d\u2019\u00c9lectronique de Paris in 1995 and joined STMicroelectronics in 1999, after four years as an ASIP designer at Matra. At STMicroelectronics, she has led the design of the ST200 processor families, acted as technical lead for ARM Cortex A subsystem frontend design, and led top level integration for automotive SoCs. She currently works as Processor Architect on the STxP5 core family, with a particular focus on ultra low power operation, security, and functional safety."
-        ]
+        ],
+        "YouTube": "https://youtu.be/iyY8T7ev6Ms?si=m3HadGcnQAYzNPVZ"
     },
     {
         "Id": "HC7JS8",
@@ -172,7 +178,8 @@
         "Authors": "Luca Lingardo",
         "abstract_url": "",
         "Abstract": "RIVIERA core, developed within Chips-JU TRISTAN Project, is a valid alternative to State-of-Art DSP architectures used in NFC Readers downlink signal processing. Instead of relying on custom hardware, RIVIERA employs an open source RISC-V core and its ISA extension interface to implement a software defined-radio (SDR) architecture, thus moving processing to the extreme edge of an NFC communication system. The first RIVIERA prototype targets decoding of NFC Type A tags responses and is ready by-design to cover other NFC standards and rates. By replacing hardened logic functions with SW data processing supported by a general-purpose DSP accelerator, RIVIERA reduces pre-silicon engineering effort, enables continuous post silicon improvements, and facilitates portability across SoCs designs and technology nodes. This work demonstrates how application-specific custom RISC V ISA extensions can effectively and efficiently handle RF baseband workloads, paving the way for the adoption of SDR architectures in RF communications for the IoT mass market.",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/7f4p30d4vN8?si=9kTuyBIc9Y36EeIh"
     },
     {
         "Id": "HNQPKX",
@@ -205,7 +212,8 @@
         "Bios": [
             "Tor Jeremiassen is a senior staff software engineer at Google LLC working on tools supporting architectural exploration, in particular, instruction level simulation frameworks. He brings with him 30 years of experience in writing simulators and frameworks for a variety of processors and application specific accelerators, particularly in the embedded space.  Tor earned a Ph.D. in Computer Science from the University of Washington, specializing in compile time optimizations to improve cache performance on shared memory multiprocessors. Tor also holds an M.S. in Computer Science from the University of Washington, and a B.S in Computer Science from the University of Texas at Austin.",
             "Yenkai Wang is a senior software engineer at Google working on RISC-V architectural validation and system simulation. His professional experience is in the areas of HW/SW co-design, system verification, FPGA validation, and performance modeling.\u00a0Yenkai earned a Master of Computer Science from the University of California, Irvine. He also holds an M.S. in Computer Engineering from National Yang Ming Chiao Tung University."
-        ]
+        ],
+        "YouTube": "https://youtu.be/_jJNl6-G2j0?si=dfMd6R3hwBGflKXv"
     },
     {
         "Id": "KMNP8Q",
@@ -221,7 +229,8 @@
         "Bios": [
             "Nathan Egge is a Staff Software Engineer at Google working on the native tools and libraries used to build AOSP and Android applications, including the C/C++ and Rust toolchains. He serves as co-chair of the Technical Steering Committee in RISE and previously as the chair of the System Libraries WG. Nathan received the RISC-V Board of Directors Software Leadership award in 2024 for contributions to RISC-V industry adoption.",
             "Ludovic works at the intersection of open-source software and emerging hardware. He is a key contributor to the RISC-V ecosystem, focusing on the performance and stability of the AI stack. His recent work involves optimizing native dependencies like OpenBLAS and oneDNN and establishing the infrastructure for native PyTorch testing. Through his leadership at RISE, Ludovic is dedicated to making RISC-V a competitive, first-class platform for the next generation of AI development."
-        ]
+        ],
+        "YouTube": "https://youtu.be/9Ye-M12oMrk?si=kCWpEYKeHlKQbOP6"
     },
     {
         "Id": "MCBEUE",
@@ -288,7 +297,8 @@
         "Authors": "Tariq Kurd",
         "abstract_url": "",
         "Abstract": "The Cyber Resilience Act is fully enforced in for all products \"with a digital element\" sold in the EU from December 2027. It has highly stringent requirements on manufacturers, such as products being \u201csecure by design and by default\u201d and \u201chaving no known vulnerabilities\u201d at the point of going on sale. Discovered vulnerabilities in the product must be reported within 24 hours for critical exploits. All vulnerabilities must be patched within a short time frame, and support must be for 5 years or longer depending on the product. As a specific example of the effect of the CRA on consumer products, the Linux kernel had 4336 reported exploits (CVEs) in 2024 (12 per day) and 5779 in 2025 (16 per day). Linux is used in an increasingly large range of consumer devices, not least a large proportion of the world\u2019s smartphones. The able to continue to sell these products in Europe, then the industry really needs to move to a much more securely constructed systems.  CHERI systems have memory safety bult-in which resolves 70% of vulnerabilities seen in weaker non-CHERI legacy systems. Resolving such a large proportion of vulnerabilities at source will greatly reduce the support and maintenance costs, if nothing else. As a result of the CRA, there will be a large shift in the industry to make systems much more secure. We expect that much of that shift will be towards CHERI systems as manufacturers wake up to the cost savings.",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/WWxXwEEI0cc?si=tYJO0abAzWDUmJbK"
     },
     {
         "Id": "QVKCU9",
@@ -303,7 +313,8 @@
         "Abstract": "The growing complexity of RISC-V processors, driven by rapidly expanding ISA extensions and sophisticated microarchitectures, has made functional verification a dominant bottleneck. Contemporary CPU verification commonly relies on RTL co-simulation against a software reference model, but on hardware-assisted simulation platforms (e.g., FPGAs) this workflow is fundamentally limited by high-volume communication between the accelerated RTL and the host-executed reference, preventing verification throughput from scaling. This paper addresses this by eliminating the RTL-host interaction bottleneck and proposing a Synthesizable Verification Methodology (SVM). We re-architect a RISC-V reference model as synthesizable hardware and deploy it alongside the design under test on the same acceleration platform, enabling fully hardware-based co-simulation at near-native speeds (60 MHz on FPGAs) while preserving reference-model checking and debug observability.",
         "Bios": [
             "Yinan Xu is an Assistant Professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). He received his B.Eng. degree from the University of Chinese Academy of Sciences in 2019 and his Ph.D. degree from ICT, CAS in 2025. He is a core developer of the XiangShan open-source high-performance RISC-V processor, where he has pioneered several agile design and verification techniques that have been successfully integrated into the project. His work has been recognized with the CAS President\u2019s Special Award, the ICT Director\u2019s Special Award (Xia Peisu Award), and the National Scholarship. His research contributions have been published in leading venues such as MICRO, HPCA, DAC, and JCST. Notably, XiangShan and its agile design methodology were selected as one of 2022 IEEE Micro Top Picks, recognizing it as one of the year\u2019s most influential conference papers to computer architecture."
-        ]
+        ],
+        "YouTube": "https://youtu.be/bQStqo2fpIg?si=uMU1MAzad2J4jSHZ"
     },
     {
         "Id": "R7MK7D",
@@ -318,7 +329,8 @@
         "Abstract": "Driven by the need for zonal control architectures in software-defined vehicles, open-source RISC-V cores are becoming a compelling solution for automotive microprocessor units (MPUs). We introduce a 64b cache-coherent, tightly coupled cluster built upon the industry-backed OpenHW CVA6S+ core and HPDCache, capable of executing SMP Linux and RTOS kernels. A design space exploration of the core branch predictor identifies an embedded tournament configuration that reduces its area by 11.6% with no loss in accuracy. Evaluated on the Splash-3 benchmark suite, the cluster achieves a geometric mean speedup of 1.75\u00d7 over a single-core baseline, and a 1.21\u00d7 speedup over a prior implementation based on the scalar CVA6 and legacy cache subsystem. Synthesized in GlobalFoundries' 12 nm FinFET, the dual-core cluster incurs less than 1% per-core area overhead, with the coherent unit in the interconnect contributing only 35 kGE (1.5%) to the total cluster footprint.",
         "Bios": [
             "Riccardo Tedeschi received his Master's Degree in Electronic Engineering from the University of Bologna in 2023. He is now pursuing a Ph.D. in Digital Systems Design within the Department of Electrical and Information Engineering (DEI) at the same university and is currently a visiting researcher at ETH Z\u00fcrich. His research centers on RISC-V architectures tailored for embedded platforms, particularly in the areas of performance optimization and reliability."
-        ]
+        ],
+        "YouTube": "https://youtu.be/DfztgmoVQG0?si=c8AS4UKh8V06fDUt"
     },
     {
         "Id": "RRD8XA",
@@ -333,7 +345,8 @@
         "Abstract": "Lustre powers approximately 70% of TOP500 supercomputers and is essential infrastructure for high-performance computing (HPC). Our work enables RISC-V systems to access Lustre storage clusters, addressing a critical gap in the RISC-V HPC ecosystem. The port required only 8 minimal patches (19 lines changed across 9 files) to Lustre 2.17.0, demonstrating the maturity of both the RISC-V Linux ecosystem and Lustre\u2019s portable codebase. We validated functionality through QEMU-based testing with multi-client mount operations, FIO, and IOR benchmarks. The patches are being submitted upstream to the Lustre project for inclusion in future releases.",
         "Bios": [
             "Dave Cremins is a Principal Cloud Software Engineer at OPENCHIP, where he specializes in designing and building advanced cloud\u2011native systems at scale. With deep expertise in distributed architectures, automation, and infrastructure engineering, Dave plays a key role in shaping technical strategy and delivering high\u2011impact engineering solutions across the organization."
-        ]
+        ],
+        "YouTube": "https://youtu.be/27pH68ZIW8E?si=Z2vSO_hmeqkmrkp0"
     },
     {
         "Id": "TX9SGW",
@@ -363,7 +376,8 @@
         "Authors": "Michele Magno",
         "abstract_url": "",
         "Abstract": "Smart eyewear promises unobtrusive, context-aware human\u2013computer interaction by leveraging strategically placed multimodal sensors and on-device intelligence. However, integrating high-bandwidth sensing and machine learning inference within a compact and lightweight form factor remains challenging due to strict constraints in power consumption, memory footprint, and computational efficiency.This work presents RVEdge-Vision, an open hardware and software platform built on the RISC-V ecosystem that enables rapid prototyping and evaluation of next-generation smart glasses. The platform adopts a modular architecture supporting both frame-based and event-based vision sensors. To the best of our knowledge, this is the first open smart-glasses platform integrating event-based vision sensing in a glasses form factor, enabling ultra-efficient visual perception for wearable edge AI systems. The system incorporates a hardware\u2013software co-designed power management framework optimized for battery-operated edge devices and continuous sensing workloads. As a reference implementation, we present a compact smart-glasses prototype that integrates multimodal sensing and on-device ML acceleration. The device can operate for several hours on a 300 mAh battery while sustaining real-time embedded vision workloads. A YOLOv8-based hand gesture recognition runs on-board with a few ms latency without relying on cloud connectivity. By releasing the platform as open hardware, OpenEdge RV aims to accelerate innovation within the RISC-V and open-edge AI communities, providing a reproducible foundation for research in wearable sensing, neuromorphic vision, and ultra-efficient on-device intelligence.",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/vBkNV5sIe1c?si=jRBrPz8KrhXv_9XZ"
     },
     {
         "Id": "WHFNV3",
@@ -395,7 +409,8 @@
         "Abstract": "PELT (Per-Entity Load Tracking) is an exponential decay-based per-entity load tracking algorithm in the Linux kernel. It significantly enhances the scheduler\u2019s load awareness accuracy, response latency, and energy efficiency. However, there are still drawbacks in load tracking: The load metrics that are used are not CPU-frequency invariant. The advent of CPU frequency scaling causes task physical runtime to fluctuate with frequency, which, if uncorrected, distorts util_avg and leads to scheduling misjudgments. To address this, the kernel employs hardware counters (e.g., Intel APERF/MPERF, ARMv8.4-AMU) to implement frequency invariance accounting, ensuring util_avg remains anchored to the CPU\u2019s maximum capacity, thereby maintaining load statistics accuracy and scheduling optimality in dynamic frequency environments. Targeting RISC-V architectures, this proposal introduces State sensitive Counters to fill the gap in PELT frequency invariance support. Together, these counters enable the derivation of real-time operating frequency and normalized utilization without costly synchronous queries.",
         "Bios": [
             "(Fengxue Zhang). As a senior Engineer in the Firmware Team at Alibaba Damo Academy, Esther specializes in system and power management software standards, with a focus on architecting and developing power management frameworks across diverse operating systems (OS) and firmware technologies. Her work drives innovation in energy-efficient computing and system optimization, aligning with industry-leading specifications to enhance hardware-software synergy."
-        ]
+        ],
+        "YouTube": "https://youtu.be/Ay8VMMUqZOM?si=ZURCG81KQzuBdXKM"
     },
     {
         "Id": "XFYMDU",
@@ -410,7 +425,8 @@
         "Abstract": "The RISC-V SPMP for Hypervisor specification enable MMU-less virtualization through a multi-layered memory protection architecture. While this model provides strong isolation for mixed-criticality MCUs, concerns have been raised regarding the hardware overhead and timing impact of multiple PMP layers. In this work, we present an empirical evaluation of an SPMP for Hypervisor proof-of-concept implementation. We analyze FPGA resource utilization and timing behavior as a function of entry count and discuss realistic entry requirements for MCU-based virtualization workloads, providing insights for hardware designers adopting SPMP-based architectures.",
         "Bios": [
             "MANUEL RODR\u00cdGUEZ earned his M.Sc. degree in Electronic and Computer Engineering at the University of Minho, Portugal, with a focus on Embedded Systems and Micro/Nanotechnologies. He is currently pursuing a Ph.D. in Electronics and Computer Engineering at the same institution, focusing on the development of novel RISC-V ISA primitives for secure virtualization in mixed-criticality systems. Throughout his career, he has contributed to the RISC-V ecosystem providing PoC artifacts for ongoing specifications, mostly in the hardware area. His research interests encompass computer architecture, RISC-V, hardware design, embedded virtualization, and safety-critical and mixed-criticality systems."
-        ]
+        ],
+        "YouTube": "https://youtu.be/kwbHQrBVfYw?si=gb4YG9bSKKd0CdVO"
     },
     {
         "Id": "99DRJM",
@@ -436,7 +452,8 @@
         "Authors": "Greg Kroah-Hartman",
         "abstract_url": "",
         "Abstract": "Many people in the past have said \"Don't make the same mistakes that other architectures have\" when it comes to the development of Linux for RISC-V.  Despite this warning, many of the same things keep happening, directly affecting the future success of RISC-V.  This talk will go into an opinionated description of some of these issues, and why we should learn from previous mistakes in order to save millions of dollars, and not waste precious effort.",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/sJP51-gG7DI?si=_Tbt03GN6frq0pOS "
     },
     {
         "Id": "C9CTGS",
@@ -450,7 +467,8 @@
         "Abstract": "Autonomous systems' (robots, cars, satellites...)  capabilities will be driven by Physical AI,  Energy efficiency is not the only key constraint for future physical AI chips, as safety and robustness are extremely critical for autonomous operation To tackle the compound challenge, we need  to aggressively optimize efficiency, leveraging specialization across all levels of the  chip design hierarchy, pushing into domain-specific design automation tools and methodologies, while at the same time accounting  for the increasing reliability concerns in advanced IC technology.  In this talk, I will give concrete examples of how RISC-V enables deep domain specialization, for efficient and safe, reliable Physical AI, emphasizing  the strategic importance of an open-platform approach.",
         "Bios": [
             "Luca Benini holds the chair of digital Circuits and systems at ETHZ and is Full Professor at the Universit\u00e0 di Bologna. He received a PhD from Stanford University.  He is a Fellow of the IEEE, of the ACM, a member of the Academia Europaea and a funding member of the Italian Academy of Engineering and Technology. He is the recipient  of various awards, including the 2023 IEEE CS E.J. McCluskey Award, and the 2024 IEEE CS Open Source Hardware contribution Award."
-        ]
+        ],
+        "YouTube": "https://youtu.be/PFWk1S4S4BY?si=vBMM7YvCfsytGjYG"
     },
     {
         "Id": "CHMWCN",
@@ -464,7 +482,8 @@
         "Abstract": "Yiftach will introduce NextSilicon\u2019s Arbel program, which includes a few generations of RISC-V out-of-order super scalar core systems, including a silicon chip and mini computer, and the plans for the first RISC-V server-grade high-performance RISC-V CPU.",
         "Bios": [
             "Yiftach Gilad is the Senior Director of RISC-V CPU at NextSilicon, where he leads the development of advanced processor architectures designed for the next generation of AI and high-performance computing systems. With deep expertise in CPU microarchitecture, system design, and silicon development, Yiftach plays a central role in shaping the company\u2019s RISC-V strategy and the evolution of the Arbel processor.  Yiftach has over 20 years of experience in engineering, having worked at Intel for 18 years, until 2021, when he joined NextSilicon. There, he has been instrumental in transforming ambitious architectural ideas into real, production-ready silicon."
-        ]
+        ],
+        "YouTube": "https://youtu.be/fVoZD_ekz9g?si=RtPmdnbG-9y5jUQa"
     },
     {
         "Id": "EEJ8QY",
@@ -494,7 +513,8 @@
         "Abstract": "This presentation introduces Nuclei\u2019s Subsystem Architector, a game-changing automation tool for RISC-V SoC design. As a leading Chinese RISC-V IP vendor, Nuclei delivers a full lineup of self-developed cores from M0-class ultra-low-power to A78-class high-performance processors, plus a complete SoC IP portfolio. Featuring an intuitive GUI, the tool enables end-to-end subsystem configuration, auto-verification, and one-click generation of production-ready deliverables. It cuts design/verification efforts by up to 95%, slashing iteration time from months to hours. Proven in IoT, industrial, automotive and multimedia projects, it empowers efficient, differentiated SoC development.",
         "Bios": [
             "Founder & Chairman of  Nuclei System Technology. RISC-V pioneer in China; author of best-selling RISC-V Chinese book. Ex-Marvell/Synopsys CPU design expert (15+ years). Founded Nuclei (at 2018) to deliver full-spectrum RISC-V IP and automated SoC design solutions, empowering global designers with revolutionary technology."
-        ]
+        ],
+        "YouTube": "https://youtu.be/27I03rUdzkE?si=SqJQOCi97-oL0vx2"
     },
     {
         "Id": "GQYRRB",
@@ -508,7 +528,8 @@
         "Abstract": "XiangShan is an open-source high-performance RISC-V processor project launched in 2020. After six years of development, XiangShan has become the most active open-source hardware project internationally, with over 7,000 Stars and 900 Forks on GitHub. XiangShan is the highest-performance open-source RISC-V processor core in the world. The third-generation core, Kunminghu (KMH), supports RVA23 Profile and achieves a measured performance of 16.5 points/GHz on SPECCPU2006, reaching the level of ARM Neoverse\u2011N2 and meeting the requirements of data center and AI application scenarios. More importantly, XiangShan has achieved product\u2011level delivery and large\u2011scale deployment. Multiple companies have successfully taped out chips based on XiangShan and deployed them at scale, with shipments reaching 50,000 units. This talk introduces how XiangShan accelerates its iteration through agile design and achieves product\u2011level delivery quality through agile verification.",
         "Bios": [
             "Yungang Bao is a professor of Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS) and the deputy director of ICT, CAS. Prof. Bao co-founded Beijing Institute of Open Source Chip (BOSC). His research interests include computer architecture and computer systems. He is leading the XiangShan project, which aims to build an open-source high performance RISC-V core. He launched the One Student One Chip (OSOC) Initiative in 2019. His work was published on top conferences and journals such as ASPLOS, Communication of the ACM, HPCA, ISCA, MICRO etc. and was selected to IEEE Micro Top Picks. He was the winner of RISC-V International Technical Leadership Award, CCF-Intel Young Faculty Award of the year for 2013 and the winner of CCF-IEEE CS Young Computer Scientist Award and China\u2019s National Lofty Honor for Youth under 40 of the year for 2019."
-        ]
+        ],
+        "YouTube": "https://youtu.be/bhgLea6eBb8?si=agcMY6BIL5MvpVOm"
     },
     {
         "Id": "KHW8H3",
@@ -522,7 +543,8 @@
         "Abstract": "The traditional model of selecting a CPU from a datasheet and then beginning software development is outdated. Today, customers need to optimize software while being able to influence the hardware. The hardware/software co-design paradigm shift drives new requirements: system-level virtual platforms; standards-based extensible hardware; and open toolchains.   This keynote will explore how virtual platforms for software development and workload optimization bridges the gap between hardware and software, enabling early architecture exploration for a variety of processor cores. Sam will explain how MIPS Atlas Explorer supports RISC-V designs that conform to standard Profiles while still allowing for application-specific extensions. He will showcase Atlas Explorer in action through demos targeting RISC-V core models and deploying to commercially available hardware. Attendees will also get a glimpse of how Atlas Explorer is being used by industry leaders to tailor systems around real workloads, reducing cost and increasing platform confidence ahead of silicon.",
         "Bios": [
             "Samuel (Sam) Grove is the Head of Software and Tools at MIPS. He has over 20 years of experience in defining products, designing embedded software, operating systems, and leading community-driven open-source software initiatives. In his current role, Sam is responsible for defining product strategy, roadmap execution, and go-to-market activities for MIPS software solutions.\u2028\u2028Prior to joining MIPS, Sam was Director of Product Management for Software at SiFive, where he led key initiatives across compiler toolchains, development tools, and software stacks supporting high-performance RISC-V IP platforms. His work led to the realization of SiFive\u2019s next-generation development boards that have played a pivotal role in growing the RISC-V software ecosystem across embedded RTOS projects, Linux Distributions, and optimized software libraries commonly used in AI/ML runtimes."
-        ]
+        ],
+        "YouTube": "https://youtu.be/QQRzqEyKDV4?si=fIxZ4K6hUxgPL8Nh"
     },
     {
         "Id": "N9KRDZ",
@@ -536,7 +558,8 @@
         "Abstract": "In this session RISC-V\u2019s Chief Architect will give an overview of RISC-V adoption across computing markets from Embedded to AI. Krste will discuss new developments in the RISC-V ISA, including security extensions and matrix extensions for AI, as well as new profile and platform initiatives.",
         "Bios": [
             "Krste Asanovi\u0107 is Professor Emeritus and a Professor of the Graduate School in the EECS Department at UC Berkeley. He received a PhD in Computer Science from UC Berkeley in 1998, then joined the faculty at MIT, receiving tenure in 2005. He returned to Berkeley in 2007, where he co-founded the Berkeley Parallel Computing Laboratory, led the ASPIRE Lab, and co-led the ADEPT Lab and Berkeley SLICE Lab. His main research areas are computer architecture, VLSI design, parallel programming, and operating system design. He has led the RISC-V open ISA project at Berkeley from its inception in 2010 and co-founded the RISC-V Foundation in 2015, which has now become RISC-V International, where he serves as Chief Architect. He also co-founded SiFive in 2015 to commercialize RISC-V processors, serving as Chief Architect there. He is an ACM Fellow and an IEEE Fellow."
-        ]
+        ],
+        "YouTube": "https://youtu.be/J4O_EiJYPdM?si=ym4VYqOXczGIKVib"
     },
     {
         "Id": "SY39HX",
@@ -550,7 +573,8 @@
         "Abstract": "Drawing from hands-on experience building Europe's first RISC-V HPC cluster (Monte Cimone), E4 Computer Engineering argues that RISC-V's main barrier to industrial adoption is no longer hardware, but mindset. The community must evolve from an ISA-focused culture to a full ecosystem vision: industry-grade CPUs and accelerators, robust OS and tooling support, a solid certification program, application porting, and active engagement with industrial users, ISVs, ODMs and OEMs. Only by combining a developer-first with a customer-first approach and actively listening to industrial users can RISC-V make the leap to mainstream adoption.",
         "Bios": [
             "Giordano Mancini joined E4 Computer Engineering in 2023, first as R&D Manager and then as CTO from December of the same year. He leads the Tech Factory team, focusing on HPC technology scouting and the development of cluster deployment and management solutions. His background spans research in molecular physics and the management of HPC infrastructures, including a previous role as COO of the HPC Center at Scuola Normale Superiore in Pisa."
-        ]
+        ],
+        "YouTube": "https://youtu.be/rwjKVjI_zJ4?si=kwnzNyDNrh_wPFi9"
     },
     {
         "Id": "V7W33B",
@@ -580,7 +604,8 @@
         "Abstract": "Smart glasses must run multiple demanding applications\u2014speech enhancement, eye tracking, and automatic speech recognition\u2014simultaneously within tens of milliwatts of power budget. This poses a significant challenge for platforms constrained by milliampere-hour batteries and gram-scale form factors. Open hardware ecosystems, and RISC-V in particular, have proven invaluable. Rather than a contribution target, RISC-V provides a foundation to build on. Recent industrial and academic efforts have produced rigorously validated, ultra-low-power microarchitectures and extensive open knowledge that significantly lowers the barrier to custom silicon for teams whose expertise lies outside traditional semiconductor IP development. The second key challenge is on-device ML inference in a field where model architectures evolve faster than fixed-function accelerators. Hyper-specialized NPUs risk obsolescence before shipping. The solution is heterogeneous SoCs: systems where dedicated NPUs handle heavy-lifting for characterized inference workloads, tightly coupled with programmable RISC-V cores for pre/post processing and new operations. Crucially, RISC-V cores are extensible. Their ISA can be extended with custom instructions to efficiently cover emerging operators without full hardware redesigns\u2014avoiding the obsolescence problem entirely. This talk offers a high-level perspective on how a product-driven company approaches custom silicon for smart eyewear, and why RISC-V sits at the center of that strategy.",
         "Bios": [
             "After completing his Master\u2019s degree in Electronic Engineering at the University of Bologna in 2019, Marco Fariselli began his career at GreenWaves Technologies, a fabless semiconductor company developing RISC\u2011V multicore processors to enable AI on ultra\u2011low\u2011power platforms. His work focused on bridging algorithm design and hardware execution, enabling neural networks and signal\u2011processing workloads to run efficiently on battery\u2011powered devices. He is currently with Luxottica, where he advances embedded machine learning deployment and contributes to the co\u2011design of next\u2011generation AI accelerators. His interests lie at the intersection of software optimization, hardware\u2011aware machine learning, and scalable edge intelligence on emerging architectures such as RISC\u2011V."
-        ]
+        ],
+        "YouTube": "https://youtu.be/VPElsq5lBzk?si=6ZT1eqV6dbckFNyC"
     },
     {
         "Id": "X9GUED",
@@ -594,7 +619,8 @@
         "Abstract": "The RISC-V ISA and ecosystem are redefining computing, enabling new innovations in applications from the smallest, simplest embedded systems to the most demanding high performance deployments. In this session Andrea Gallo, the CEO of RISC-V International, outlines the progress of the RISC-V ecosystem in real world applications from Automotive, to Embedded, to AI and Data Center. He will outline the successes and momentum that have come from the ratification of the RVA23 profile including the latest product news from around the RISC-V ecosystem in both hardware and software enablement.",
         "Bios": [
             "Andrea Gallo is CEO of RISC-V International. Before joining  RISC-V as VP of Technology, Gallo worked in leadership roles at Linaro for over a decade as Vice President of Business Development, driving the company\u2019s membership acquisition strategy and previously managing the Linaro Datacenter and Cloud, Home, Mobile, Networking, IoT, and Embedded Segment Groups and underlying open source collaborative projects within the Arm ecosystem. Before Linaro, Gallo was a fellow at STMicroelectronics, where he led the optimization of hardware-software architectures for new smartphone and telecommunication ICs. He also served on the board of directors for CHAOSS, a Linux Foundation project focused on the health of open source communities."
-        ]
+        ],
+        "YouTube": "https://youtu.be/9KbeSe_yDmU?si=P9wARfAxQmNjAEjN"
     },
     {
         "Id": "YVHUED",
@@ -608,7 +634,8 @@
         "Abstract": "The open-standard RISC-V instruction set architecture (ISA) represents a paradigm shift in processor design and development, with its modular and customizable nature enabling a new era of processors uniquely tailored to their software workload. At RISC-V Summit 2025, AWS explored the potential of hardware / software co-design in the cloud for advanced testing and simulation, enabled by scalable, cloud-based solutions that combine high-performance FPGA instances with advanced emulation capabilities. This talk will give an update on how this democratized access is accelerating innovation cycles, reducing costs, and enabling organizations of all sizes to participate in RISC-V development, and addresses how RISC-V core developers can use AWS to monetize their designs in the cloud without the need to go to silicon.",
         "Bios": [
             "Jeremy Dahan is an Automotive Compute Sr Tech GTM Specialist at Amazon Web Services. He\u2019s helping customers / partners to tackle the most challenging problems related to automotive software leveraging cloud capabilities. He has over a decade of experience in the automotive industry specifically in embedded software and more recently in the cloud. When not building things on AWS, he\u2019s tinkering with car/IoT sensors."
-        ]
+        ],
+        "YouTube": "https://youtu.be/rfaEZJIiYwc?si=YHHhhwycUk97i_EG"
     },
     {
         "Id": "BLF3DX",
@@ -623,7 +650,8 @@
         "Abstract": "When the RISC-V matrix extensions effort was restructured into four complementary approaches at Summit Europe 2025 in Paris, it was a bold architectural bet \u2014 that the breadth of the RISC-V ecosystem demands not one rigid solution but a family of extensions spanning from lightweight vector-matrix primitives to fully independent matrix engines. One year later, that bet is paying off. This talk reports on the rapid progress across the matrix extension family as two of the four extensions \u2014 the Integrated Matrix Extensions (IME) and the Vector Matrix Extensions (VME) \u2014 converge on specification freeze. We trace the architectural decisions that brought IME and VME from concept to maturity: algebraic tile geometry that scales naturally with VLEN, the deliberate reuse of RVV state for seamless software integration, and the introduction of dedicated accumulator registers to unlock higher computational intensity where implementations demand it. Crucially, work is starting to unify IME and VME through a common LLVM-MLIR lowering path \u2014 giving compilers and AI/ML frameworks a single abstraction that targets both extensions, ensuring that the software ecosystem scales with the hardware rather than fragmenting across it. For Europe's semiconductor industry \u2014 from research institutions and startups to established design houses \u2014 standardized, open matrix extensions represent a strategic opportunity: competitive AI/ML and HPC capability on an open ISA, free from proprietary lock-in. RISC-V matrix support is no longer a roadmap item. It is arriving.",
         "Bios": [
             "Dr. Philipp Tomsich is Chief Technologist and Founder of VRULL GmbH, providing strategic R&D for semiconductor companies. He chairs the RISC-V Applications & Tools Committee, serves on the RISC-V Board of Directors, and is Vice-Chair of the Technical Steering Committee, where he champions software ecosystem growth and standards alignment, including efforts to publish RISC-V under ISO.  He instigated the standards-development matrix operations and AI/ML, serving as principal editor of the Integrated Matrix Extension and as the Vice-chair of the Attached Matrix TG."
-        ]
+        ],
+        "YouTube": "https://youtu.be/d_3QhvKMyAk?si=dWiVZuZyACDf0GFv"
     },
     {
         "Id": "GLNQVZ",
@@ -638,7 +666,8 @@
         "Abstract": "As artificial intelligence reshapes embedded systems, MCUs are evolving from simple control devices into intelligent, distributed computing nodes. This talk explores how RISC-V architecture and scalable AI frameworks are enabling a pragmatic, incremental approach to system transformation\u2014particularly critical in automotive applications where safety, reliability, and legacy integration remain paramount.",
         "Bios": [
             "Edward is the Senior Research Director, Automotive, having previously covered automotive AI and semiconductors as Senior Principal Analyst, IoT, at Omdia. He has written extensively on embedded applications processors and GPUs, edge AI, advanced connectivity, and novel semiconductor architectures such as RISC-V.  He started in the industry in 2016 when he joined Arm as a market intelligence analyst, leading market research and forecasting in the automotive and IoT division. He has also worked in financial services and media roles in London. He has a BA from Durham University and an MPhil in Linguistics from the University of Cambridge."
-        ]
+        ],
+        "YouTube": "https://youtu.be/Ky_FGILVWCI?si=cgmMuTYenPY1KHf3"
     },
     {
         "Id": "MZ9RFR",
@@ -668,7 +697,8 @@
         "Abstract": "As RISC\u2011V enters high\u2011performance computing (from traditional data\u2011center servers to edge infrastructure, telecom systems, and industrial compute platforms) a unified platform definition is essential. Without a consistent hardware and firmware contract, system\u2011software vendors face fragmented bring\u2011up, slowing ecosystem adoption.  The RISC\u2011V Server Platform Specification solves this by defining a clear baseline that supports high\u2011performance RISC\u2011V platforms. Built by composing existing standards such as the RVA23 profile, Server\u2011class SoC requirements, UEFI/ACPI boot via BRS, SBI interfaces, and modern security foundations including roots of trust, secure boot, attestation, and BMC\u2011based management, the specification enables OS and hypervisor developers to target a single portable binary.  This talk outlines the goals, structure, and key requirements of Server Platform Specification 1.0, explaining how it reduces fragmentation, accelerates system\u2011software portability, and provides a stable foundation for interoperable, production\u2011ready RISC\u2011V platforms across diverse deployment environments.",
         "Bios": [
             "Radim Kr\u010dm\u00e1\u0159 is an engineer at Qualcomm whose work spans the lower levels of the RISC-V stack, from ISA specifications to operating system design, with a current focus on security and virtualization."
-        ]
+        ],
+        "YouTube": "https://youtu.be/DAAok3PCREU?si=719bDi80Kp-CV5cr"
     },
     {
         "Id": "USADYC",
@@ -683,7 +713,8 @@
         "Abstract": "This talk surveys the RISC\u2011V isolation toolbox\u2014spanning PMP/ePMP, SPMP, privilege levels, virtualization, Risc-V Worlds, and emerging Supervisor Domains\u2014and shows how these mechanisms can be combined to build scalable, composable security and safety systems beyond traditional privilege separation.  RISC\u2011V has steadily developed a rich and diverse set of isolation mechanisms, including ePMP for physical memory protection, privilege levels for execution control, page\u2011based virtual memory for scalable address isolation, hypervisor extensions for virtualization, and Worlds for hardware\u2011enforced compartmentalization. Each of these tools addresses different isolation challenges, from resource\u2011constrained microcontrollers to full server\u2011class systems.  Modern platforms increasingly demand fine\u2011grained, composable isolation rather than coarse, monolithic privilege separation. Mixed\u2011criticality systems, safety\u2011certified embedded platforms, and confidential computing environments all require isolation techniques that can be layered, combined, and adapted to different threat models and deployment constraints.  This talk presents a toolbox\u2011oriented view of RISC\u2011V isolation.  Supervisor Domains are introduced as an emerging architectural direction within this toolbox, exploring finer\u2011grained isolation within supervisor mode itself. While still evolving, Supervisor Domains illustrate the broader move beyond privilege levels toward more modular and composable execution domains and provide a useful lens for understanding how future RISC\u2011V systems may further decompose trusted software.",
         "Bios": [
             "Andrew Dellow is a director in the technical standards group at Qualcomm and currently chair of the Security Horizontal Committee at RISC-V International. He is also a RISC-V Ambassador,  and Chair of the SoC Infrastructure Horizontal Committee. With over 25 years' experience in system on chip architecture and security, starting with the original development of robust Set Top Box SoCs for Pay TV, he is a former Chief Security Architect at HiSilicon Technologies, Distinguished Engineer and Technical Director at Broadcom Corp., and Security Architect at STMicroelectronics. His passion is driving secure architectures and implementations, holding more than 30 patents around SoC security."
-        ]
+        ],
+        "YouTube": "https://youtu.be/wG9B5agcSmM?si=Lh9PyBcq2Da4kr7S"
     },
     {
         "Id": "JJJHHY",
@@ -709,7 +740,8 @@
         "Authors": "RVI",
         "abstract_url": "",
         "Abstract": "Abstract: RISC-V provides the ability to provide organizations of all sizes with greater flexibility and more opportunity for custom compute. We are seeing rapid adoption in a wide range of markets from automotive to mobile to data center, to aeronautics and space! Companies around the world are innovating for and on RISC-V to drive the era of open compute. In this session, we will hear directly from companies who have recently launched new solutions helping to power the era of open compute and how RISC-V helps them differentiate.  These are not your ordinary product pitches. Selected companies are given tight time constraints to hit the high points and make the case for their new solution. If they go over, the audience get to clap them off stage!  Presenters:  Breker Systems CEA Epic Semi SiFive Tenstorrent TRISTAN / ISOLDE ESWIN Computing Xauntie",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/nNLpEFBkP6w?si=P1o71Ft0Z8lbAiTU"
     },
     {
         "Id": "YYCRFS",
@@ -721,7 +753,8 @@
         "Authors": "Nick Kossifidis, Teresa Cervero, and Andrea Bartolini",
         "abstract_url": "",
         "Abstract": "The welcome address to the RISC-V Summit Europe 2026 will present the novelties of the event, provide an overview of the agenda, venue and events' details.",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/ikPP2bYzr8o?si=-ycE9QZVEm9LxUBo"
     },
     {
         "Id": "DBG3FA",
@@ -733,7 +766,8 @@
         "Authors": "TBD",
         "abstract_url": "",
         "Abstract": "Across applications from low-power embedded to High Performance Computing, the success of the RISC-V ISA is directly tied to the maturity of software support and enablement. In this panel we bring experts together from across the RISC-V ecosystem and beyond, to debate the current state of the RISC-V software enablement and discuss future priorities.\r\n\r\nRISC-V already has strong compiler support, but what have been the most recent performance optimizations, and what do we need to prioritize in terms of next developments?\r\nWhat does compiler support look like for specific use cases, like safety certification for automotive, or vectorization for AI? \r\nRust is increasing in use across Linux and Zephyr. What is the status of RUST support on RISC-V\r\nHow can the RISC-V ecosystem and the Linux development team work together more efficiently? \r\nHow mature is the support for the open source software ecosystem beyond compilers?\r\nWhat software infrastructure are we missing and what should we prioritize?\r\nWhat does software support look like as we move beyond profiles to platforms?\r\nWhat does software compatibility look like for a single ISA that scales from MCU to HPC, but relies on specific profiles and extensions?\r\nHow will the use of AI in software development accelerate porting to RISC-V?\r\n\r\nModerator: \r\nTom Gall - RISC-V International\r\nPanelists: \r\nGreg Kroah-Hartman - Linux Foundation\r\nLars Bergstrom - Google\r\nPaul Carpenter - Barcelona Supercomputing Center\r\n\r\nthis panel will provide broad insight into the future of the software enablement on RISC-V!",
-        "Bio": null
+        "Bio": null,
+        "YouTube": "https://youtu.be/c5TLgW8S_kE?si=ufvPAGLnUN3Pg-GG"
     },
     {
         "Id": "S7F8CK",
@@ -745,7 +779,8 @@
         "Authors": "TBD",
         "abstract_url": "",
         "Abstract": "Europe has been a key contributor to the development of modern computing, inventing fundamental hardware and software technologies, and growing highly successful companies with worldwide reach. But in a new era of AI and Cloud computing, how can Europe redefine its approach and put itself at the forefront of computing innovation and success? \r\n\r\nThis panel will debate the European approach to computing and how RISC-V can be a powerful tool for delivering an innovative, successful, and uniquely European vision of the future of computing.\r\n\r\nWhat is the vision of European computing sovereignty, and to what extent is this becoming reality? \r\nWhat is the role of the policy makers on the European strategy and the relative influence of European organizations, national entities and venture capitals/investors?\r\nWhat are the main differences between the US, Asia, and Europe in terms of sustainability of the industrial ecosystem? \r\nHow do the laws and rules of Europe influence our success?\r\nWhat are the technologies and applications Europe needs to deliver?\r\nWhere are its strengths and high potential application spaces?\r\nHow can we close the gap regarding maximizing the technology transfer between research/academia to industry?\r\nHow can we train the highly skilled workers needed?\r\nWhat is the balance between addressing domestic needs and an international market?\r\n\r\nModerator:\r\nFlorian Wolhrab - Open Hardware Foundation\r\n\r\nPanelists:\r\nGeorgi Kuzmanov - Chips-JU\r\nSachiko Muto - Open Forum Europe\r\nEnrico Sangiorgi - Chips-IT\r\nEdward Wilford - OMDIA\r\nFabien Piuzzi - Scaleway",
-        "Bio": null
+        "Bio": null,
+        "YouTube": "https://youtu.be/lmSn6F7Y8Z0?si=QiixIjSQJ1AWZADM"
     },
     {
         "Id": "TNUMV7",
@@ -772,7 +807,8 @@
         "Time": "15h45",
         "Bios": [
             "Chloe Jian Ma is a strategic technology executive with more than 20 years of experience in AI, semiconductors, and cloud infrastructure. As Chief Business Officer at Epic Semi, she leads global growth, commercialization, and ecosystem initiatives that enable chipmakers and system innovators through agile semiconductor solutions. Prior to Epic Semi, Chloe led Edge AI and Robotics go-to-market strategy at Arm, driving strong revenue growth and expanding AI adoption across sectors including smart vision, robotics, and industrial IoT. She has also held leadership positions at SiFive, Intel, Mellanox, Juniper Networks, and Cisco Systems, where she helped build high-growth product businesses and strategic partnerships with leading cloud and AI providers. Chloe holds an MBA from the Wharton School and an MSEE from the University of Southern California. She is widely recognized for her industry leadership and commitment to advancing innovation across the global AI and semiconductor ecosystem."
-        ]
+        ],
+        "YouTube": "https://youtu.be/HfVoz5dFOTQ?si=3AKTYhEENWiVlvD7"
     },
     {
         "Id": "C39D8K",
@@ -785,7 +821,8 @@
         "Time": "13h55",
         "Bios": [
             "Troy Jones is the RISC-V CPU  IP Product Manager at Tenstorrent focused on accelerated compute and RISC-V IP. With 26+ years in embedded systems and semiconductor IP, he has led product strategy, adoption, and go-to-market efforts at Tenstorrent, Codasip, AMD, and Xilinx. He is known for translating technical depth into clear product direction, aligning roadmaps with market needs, and partnering across engineering, sales, and ecosystem teams. His experience spans RISC-V IP adoption, space-grade IP development, and Linux product leadership. A frequent industry speaker, Troy represents Tenstorrent at events such as RISC-V Summit and DAC, helping drive awareness, partnerships, and business growth."
-        ]
+        ],
+        "YouTube": "https://youtu.be/8WbgiZ31wNQ?si=KpEHFkL8zQfX8NXw"
     },
     {
         "Id": "ETKP89",
@@ -798,7 +835,8 @@
         "Time": "13h15",
         "Bios": [
             "Raffaele Montella is an Associate Professor with tenure in Computer Science at the Department of Science and Technologies (DiST), University of Naples \u201cParthenope\u201d (UNP), Italy."
-        ]
+        ],
+        "YouTube": "https://youtu.be/ZGDmAXRRR_s?si=VU-FhZbothFfEtnP"
     },
     {
         "Id": "MEXBCF",
@@ -811,7 +849,8 @@
         "Time": "13h25",
         "Bios": [
             "Adnan is the President and CTO of Breker and the inventor of its core technology.    He has over 30 years of experience in functional verification automation. Prior to Breker, he managed AMD\u2019s System Logic Division, and also led their verification team to create the first test case generator providing 100% coverage for an x86-class microprocessor. In addition, Adnan spent several years at Cadence Design Systems and served as the subject matter expert in system-level verification, developing solutions for Texas Instruments, Siemens/Infineon, Motorola/Freescale, and General Motors.   Adnan holds more than 20 patents in test case generation and synthesis. He received BS degrees in Electrical Engineering and Computer Science from Princeton University, and an MBA from the University of Texas at Austin."
-        ]
+        ],
+        "YouTube": "https://youtu.be/Rlcdo7fTvJw?si=soKoxNUfHZJLzYp3"
     },
     {
         "Id": "MUMV3G",
@@ -822,7 +861,8 @@
         "Abstract": "The EAI8800 is an automotive-grade high-performance dedicated chip for CMS electronic mirrors built on the RISC-V CPU developed by ESWIN Computing. Adopting a heterogeneous multi-core RISC-V CPU consisting of two large cores and one small core, ESWIN computing self-developed ISP and tightly-coupled video processing architecture. This single chip realizes the full-link workflow of collection, processing and display, addressing the pain points of traditional general-purpose chips such as high latency, high power consumption and high costs. It boasts outstanding core performances: the camera-to-panel latency is no more than 16.6ms with power consumption below 500mw. It supports 1920\u00d71080@60FPS as well as HDR and night vision enhancement, conforms to ASIL-B functional safety standards.",
         "Day": "10-Wed",
         "Time": "13h25",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/nC1cb_A1EZo?si=SjaTnt3-XV8pt0bv"
     },
     {
         "Id": "NUAMY9",
@@ -835,7 +875,8 @@
         "Time": "13h35",
         "Bios": [
             "Accelerating the Future Computing with RISC-V"
-        ]
+        ],
+        "YouTube": "https://youtu.be/ObbTDhUc6hY?si=WIh3vRyfue795A3d"
     },
     {
         "Id": "QUEMGA",
@@ -848,7 +889,8 @@
         "Time": "10h55",
         "Bios": [
             "Yinan Xu is an Assistant Professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). He received his B.Eng. degree from the University of Chinese Academy of Sciences in 2019 and his Ph.D. degree from ICT, CAS in 2025. He is a core developer of the XiangShan open-source high-performance RISC-V processor, where he has pioneered several agile design and verification techniques that have been successfully integrated into the project. His work has been recognized with the CAS President\u2019s Special Award, the ICT Director\u2019s Special Award (Xia Peisu Award), and the National Scholarship. His research contributions have been published in leading venues such as MICRO, HPCA, DAC, and JCST. Notably, XiangShan and its agile design methodology were selected as one of 2022 IEEE Micro Top Picks, recognizing it as one of the year\u2019s most influential conference papers to computer architecture."
-        ]
+        ],
+        "YouTube": "https://youtu.be/ldKtek2oLwY?si=se479jU4ZJkFcHM-"
     },
     {
         "Id": "RXLUGR",
@@ -859,7 +901,8 @@
         "Abstract": "In this talk, I will present a novel approach for accelerating real-time motor control applications using a MIPS defined trigonometric math custom instruction extension on RISC V. One of the most widely used algorithms in motor control is Field Oriented Control (FOC). Within the FOC loop, the Park and Inverse Park transformations require repeated sine and cosine computations, which can be a significant performance bottleneck in software-based implementations.  I will walk through a simple software implementation of the FOC loop and demonstrate the minimal code changes required to take advantage of custom trigonometric instructions. By offloading these operations to dedicated execution units integrated directly into the CPU pipeline, the solution delivers substantial performance improvements at the algorithm and system level while maintaining a software-friendly programming model.  The talk will also discuss why tightly integrated custom execution units can provide better performance, power efficiency, and area utilization compared to traditional accelerators or heterogeneous compute approaches. Using RISC V custom instructions, software developers can access application-specific hardware acceleration with minimal complexity and without rewriting core algorithms.  I will conclude by showing how accelerating motor control algorithms enables more precise, faster, lighter, and more efficient motors\u2014benefiting applications in robotics, industrial automation, electric vehicles, and emerging real-time AI systems.",
         "Day": "10-Wed",
         "Time": "10h35",
-        "Bios": null
+        "Bios": null,
+        "YouTube": "https://youtu.be/d9KnHo_L4ls?si=3tB-p1Gk06ZOFmD7"
     },
     {
         "Id": "TEUJU8",
@@ -872,7 +915,8 @@
         "Time": "10h45",
         "Bios": [
             "Stefano Di Matteo received his M.Sc. (2019) and Ph.D. (2023) respectively in Electronic Engineering and Information Engineering from the University of Pisa. He is currently a tenure-track researcher in hardware implementation of Post-Quantum Cryptography at CEA in Grenoble. His research interests include hardware implementation of PQC with countermeasures against physical attacks, RISC-V architectures, and Instruction Set Extensions for PQC"
-        ]
+        ],
+        "YouTube": "https://youtu.be/f26gqGWbxA8?si=IsR1_9xcn1UXuavZ"
     },
     {
         "Id": "U8VMUY",
@@ -885,6 +929,7 @@
         "Time": "13h15",
         "Bios": [
             "CEO of  Nuclei System Technology Ph.D. in Microelectronics, Zhejiang University; 20\u2011year CPU design & management veteran (ex\u2011Synopsys/Marvell). Co\u2011founded Nuclei (at 2018) to lead China\u2019s RISC\u2011V IP innovation, delivering full\u2011spectrum cores and ASIL\u2011D certified automotive solutions. Key community leader driving RISC\u2011V ecosystem development and domestic semiconductor advancement."
-        ]
+        ],
+        "YouTube": "https://youtu.be/ZS5W_EEIqd8?si=VvihI9sNjzIhJ7-Z"
     }
 ]
