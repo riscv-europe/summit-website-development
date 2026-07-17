@@ -179,6 +179,7 @@
         "abstract_url": "",
         "Abstract": "RIVIERA core, developed within Chips-JU TRISTAN Project, is a valid alternative to State-of-Art DSP architectures used in NFC Readers downlink signal processing. Instead of relying on custom hardware, RIVIERA employs an open source RISC-V core and its ISA extension interface to implement a software defined-radio (SDR) architecture, thus moving processing to the extreme edge of an NFC communication system. The first RIVIERA prototype targets decoding of NFC Type A tags responses and is ready by-design to cover other NFC standards and rates. By replacing hardened logic functions with SW data processing supported by a general-purpose DSP accelerator, RIVIERA reduces pre-silicon engineering effort, enables continuous post silicon improvements, and facilitates portability across SoCs designs and technology nodes. This work demonstrates how application-specific custom RISC V ISA extensions can effectively and efficiently handle RF baseband workloads, paving the way for the adoption of SDR architectures in RF communications for the IoT mass market.",
         "Bios": null,
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-12h15-LINGARDO-slides.pdf",
         "YouTube": "https://youtu.be/7f4p30d4vN8?si=9kTuyBIc9Y36EeIh"
     },
     {
@@ -213,6 +214,7 @@
             "Tor Jeremiassen is a senior staff software engineer at Google LLC working on tools supporting architectural exploration, in particular, instruction level simulation frameworks. He brings with him 30 years of experience in writing simulators and frameworks for a variety of processors and application specific accelerators, particularly in the embedded space.  Tor earned a Ph.D. in Computer Science from the University of Washington, specializing in compile time optimizations to improve cache performance on shared memory multiprocessors. Tor also holds an M.S. in Computer Science from the University of Washington, and a B.S in Computer Science from the University of Texas at Austin.",
             "Yenkai Wang is a senior software engineer at Google working on RISC-V architectural validation and system simulation. His professional experience is in the areas of HW/SW co-design, system verification, FPGA validation, and performance modeling.\u00a0Yenkai earned a Master of Computer Science from the University of California, Irvine. He also holds an M.S. in Computer Engineering from National Yang Ming Chiao Tung University."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-12h30-JEREMIASSEN-slides.pdf",
         "YouTube": "https://youtu.be/_jJNl6-G2j0?si=dfMd6R3hwBGflKXv"
     },
     {
@@ -314,6 +316,7 @@
         "Bios": [
             "Yinan Xu is an Assistant Professor at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). He received his B.Eng. degree from the University of Chinese Academy of Sciences in 2019 and his Ph.D. degree from ICT, CAS in 2025. He is a core developer of the XiangShan open-source high-performance RISC-V processor, where he has pioneered several agile design and verification techniques that have been successfully integrated into the project. His work has been recognized with the CAS President\u2019s Special Award, the ICT Director\u2019s Special Award (Xia Peisu Award), and the National Scholarship. His research contributions have been published in leading venues such as MICRO, HPCA, DAC, and JCST. Notably, XiangShan and its agile design methodology were selected as one of 2022 IEEE Micro Top Picks, recognizing it as one of the year\u2019s most influential conference papers to computer architecture."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-12h45-XU-slides.pdf",
         "YouTube": "https://youtu.be/bQStqo2fpIg?si=uMU1MAzad2J4jSHZ"
     },
     {
@@ -377,6 +380,7 @@
         "abstract_url": "",
         "Abstract": "Smart eyewear promises unobtrusive, context-aware human\u2013computer interaction by leveraging strategically placed multimodal sensors and on-device intelligence. However, integrating high-bandwidth sensing and machine learning inference within a compact and lightweight form factor remains challenging due to strict constraints in power consumption, memory footprint, and computational efficiency.This work presents RVEdge-Vision, an open hardware and software platform built on the RISC-V ecosystem that enables rapid prototyping and evaluation of next-generation smart glasses. The platform adopts a modular architecture supporting both frame-based and event-based vision sensors. To the best of our knowledge, this is the first open smart-glasses platform integrating event-based vision sensing in a glasses form factor, enabling ultra-efficient visual perception for wearable edge AI systems. The system incorporates a hardware\u2013software co-designed power management framework optimized for battery-operated edge devices and continuous sensing workloads. As a reference implementation, we present a compact smart-glasses prototype that integrates multimodal sensing and on-device ML acceleration. The device can operate for several hours on a 300 mAh battery while sustaining real-time embedded vision workloads. A YOLOv8-based hand gesture recognition runs on-board with a few ms latency without relying on cloud connectivity. By releasing the platform as open hardware, OpenEdge RV aims to accelerate innovation within the RISC-V and open-edge AI communities, providing a reproducible foundation for research in wearable sensing, neuromorphic vision, and ultra-efficient on-device intelligence.",
         "Bios": null,
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-12h00-MAGNO-slides.pdf",
         "YouTube": "https://youtu.be/vBkNV5sIe1c?si=jRBrPz8KrhXv_9XZ"
     },
     {
@@ -651,6 +655,7 @@
         "Bios": [
             "Dr. Philipp Tomsich is Chief Technologist and Founder of VRULL GmbH, providing strategic R&D for semiconductor companies. He chairs the RISC-V Applications & Tools Committee, serves on the RISC-V Board of Directors, and is Vice-Chair of the Technical Steering Committee, where he champions software ecosystem growth and standards alignment, including efforts to publish RISC-V under ISO.  He instigated the standards-development matrix operations and AI/ML, serving as principal editor of the Integrated Matrix Extension and as the Vice-chair of the Attached Matrix TG."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-14h30-TOMSICH-slides.pdf",
         "YouTube": "https://youtu.be/d_3QhvKMyAk?si=dWiVZuZyACDf0GFv"
     },
     {
