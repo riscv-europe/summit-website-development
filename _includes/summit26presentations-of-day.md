@@ -35,7 +35,7 @@
 <h3 id="P-{{ presentation['Id'] }}">{{ presentation['Title'] | strip | strip_newlines }}</h3>
 
 {%- if presentation['SlidesFileName'] %}<a href="media/proceedings/{{ presentation['SlidesFileName'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Slides&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-pdf-logo.svg" alt="PDF icon"/></a>. {% endif -%}
-
+{%- if presentation['YouTube'] %}<a href="{{ presentation['YouTube'] }}" style="display: inline-flex; align-items: center; line-height: normal;">Video&nbsp;<img style="height: 1em; width: auto; vertical-align: middle; display: inline-block;" src="media/logos/inline-youtube-logo.svg" alt="YouTube icon"/></a>. {% endif -%}
 {%- if presentation['Type'] == "talk" -%}{{ presentation['Blindness'] }} submission #{{ presentation['Id'] }} {% endif -%}
 {%- if presentation['Type'] == "keynote" -%}Keynote {% endif -%}
 {%- if presentation['Type'] == "steering" -%}Organizers' annoucement {% endif -%}
