@@ -76,7 +76,8 @@
         "Bios": [
             "Gabriele Ceccolini received his Master's degree in Computer Engineering from the University of Bologna in March 2026. He previously obtained his Bachelor's degree from the same institution in 2023. Since May 2025, Gabriele has been collaborating with CINECA, focusing on the optimization of CFD algorithms on RISC-V platforms."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-16h45-CECCOLINI-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-16h45-CECCOLINI-slides.pdf",
+        "YouTube": "https://youtu.be/FDxZaLyHKVM?si=outjztUH-wNooK_Z"
     },
     {
         "Id": "ETWPMQ",
@@ -93,7 +94,8 @@
             "Dr. Philipp Tomsich is Chief Technologist and Founder of VRULL GmbH, providing strategic R&D for semiconductor companies. He chairs the RISC-V Applications & Tools Committee, serves on the RISC-V Board of Directors, and is Vice-Chair of the Technical Steering Committee, where he champions software ecosystem growth and standards alignment, including efforts to publish RISC-V under ISO.  He instigated the standards-development matrix operations and AI/ML, serving as principal editor of the Integrated Matrix Extension and as the Vice-chair of the Attached Matrix TG.",
             "Dr. Erich Focht is a system architect and physicist currently working as a Senior Fellow at Openchip, where he leads the Accelerator-AI architecture group and focuses on the development of Artificial Intelligence (AI) and High-Performance Computing (HPC) accelerators. He holds a Ph.D. in theoretical physics from RWTH Aachen and has a professional background that spans computational physics, numeric algorithms, distributed systems software, parallel file systems and hardware-software co-design. Before his current role at Openchip, Erich spent over 25 years at NEC HPC Europe where he contributed to the system design of dozens of supercomputers, most of them present in the TOP500 list. Within the RISC-V open-source ecosystem, Dr. Focht contributes to the standardization of matrix operations as an active member of the IME TG, focusing on RISC-V matrix implementations. He also represents Openchip in the RVI Technical Steering Committee."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h00-TOMSICH-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h00-TOMSICH-slides.pdf",
+        "YouTube": "https://youtu.be/yzRYPkp5lEk?si=FfJeOVbeD35ndrdi"
     },
     {
         "Id": "EXN7PD",
@@ -124,7 +126,8 @@
         "Bios": [
             "Ms. Prachi Pandey is a Senior Compiler Engineer at C-DAC, where she works on MLIR/LLVM-based compiler development for indigenous processors, GPUs, and AI accelerators. She has nearly two decades of experience in HPC, parallel programming, compilers, and runtime systems. Her research interests include compiler optimization techniques, automatic parallelizing compilers, performance portability for heterogeneous architectures, and parallelization strategies for HPC and AI workloads."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h45-PANDEY-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h45-PANDEY-slides.pdf",
+        "YouTube": "https://youtu.be/hURiHE_0fL4?si=AOrycobD2W2bKQ4I"
     },
     {
         "Id": "G7Y79Q",
@@ -140,7 +143,8 @@
         "Bios": [
             "Flavia Guella is a Ph.D. student in Electronics and Communications Engineering at Politecnico di Torino, under the supervision of Prof. Maurizio Martina. Her research interests include RISC-V based in-cache computing, and co-design methodologies for the efficient deployment of neural networks on low-power systems."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h25-GUELLA-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h25-GUELLA-slides.pdf",
+        "YouTube": "https://youtu.be/vIekth9RvnU?si=xY4c_nMh_EX_F03D"
     },
     {
         "Id": "G7YSXG",
@@ -184,7 +188,8 @@
         "Bios": [
             "Elisabetta Boella received her M.Sc. degree in Energy and Nuclear Engineering in 2009 from Politecnico di Torino (Turin, Italy) and her Ph.D. in Computational Plasma Physics in 2014 from the same institution. She currently works as HPC product specialist at E4 Computer Engineering (Scandiano, Italy), where she leads the company effort in several European projects, including MaX, SPACE and EoCoE. Her research interests include numerical modelling, parallel programming, and co-design practices. She has a long-time experience in the development and optimisation of parallel codes using the Message Passing Interface protocol. She is one of the main developers of the massively parallel plasma code ECsim. She also has extensive experience in Graphical Processing Unit (GPU) programming and off-loading of legacy codes to GPU."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h30-BOELLA-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-12h30-BOELLA-slides.pdf",
+        "YouTube": "https://youtu.be/J_cESf0k1Jc?si=NJW28YnmKadxHC5l"
     },
     {
         "Id": "JKTENR",
@@ -232,7 +237,8 @@
         "Bios": [
             "He is a professor at the Institute of Space and Astronautical Science (ISAS) of the Japan Aerospace Exploration Agency (JAXA). He is engaged in solar system exploration, particularly research on planetary exploration rovers for celestial surfaces. As principal investigator, he developed the MINERVA and MINERVA-II rovers for the asteroid sample return missions of the Hayabusa and Hayabusa2 spacecraft. He has also been involved in multiple lunar exploration missions, including the OMOTENASHI CubeSat and the SLIM landing mission. He served as principal investigator for the LEV-1 rover for the SLIM mission."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-10h00-YOSHIMITSU-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-10h00-YOSHIMITSU-slides.pdf",
+        "YouTube": "https://youtu.be/WXWRPY5H-EQ?si=djXIU8tX7a-ho4FM"
     },
     {
         "Id": "MUFY8Z",
@@ -248,7 +254,8 @@
         "Bios": [
             "Fr\u00e9d\u00e9ric P\u00e9trot got a Ph.D. in Computer Science in 1994, and the Habilitation in 2003, both at LIP6 lab, Universit\u00e9 Pierre et Marie Curie, Paris, France.  Since 2004, he is Professor at Grenoble INP - UGA/Ensimag, teaching mainly architecture and operating system classes.  He joined the TIMA Lab, to work on various topics related to multiprocessor systems on chip.  He is currently heading the joint UGA, Inria, CNRS team MADMAX."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-16h30-P\u00c9TROT-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-16h30-P\u00c9TROT-slides.pdf",
+        "YouTube": "https://youtu.be/J_cESf0k1Jc?si=NJW28YnmKadxHC5l"
     },
     {
         "Id": "NHUVSR",
@@ -267,7 +274,8 @@
             "He received the Diploma and PhD degree in electrical engineering from the Technische Universit\u00e4t Kaiserslautern, Germany, in 2011 and 2017, respectively. From 2011 to 2017 he was a researcher at the Microelectronic Systems Design Research Group of RPTU Kaiserslautern. Since 2017 he is with the Fraunhofer Institute for Experimental Software Engineering in Kaiserslautern as Expert Engineer for virtual hardware engineering. In 2018, he received the EDAA Outstanding Dissertation Award for this work. At Fraunhofer IESE in Kaiserslautern, he has been leading many research and industrial projects in the area of embedded systems since 2017 and has published more than 100 papers in relevant journals and conference proceedings. Since 2023, he is professor at the University of W\u00fcrzburg. Matthias Jung's scientific focus is on embedded and autonomous systems, especially with a focus on memory architectures, functional safety, and virtual product development of embedded systems through virtual platforms and simulations.",
             "(Yannik Stamm). Received the Bachelor of Science in Games Engineering from the Julius-Maximilians-Universit\u00e4t, Gemany, 2025. Since 2025, he is a research assistant at the Computer Engineering group under Prof. Dr.-Ing. Matthias Jung."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-17h15-HAGER-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-17h15-HAGER-slides.pdf",
+        "YouTube": "https://youtu.be/paJKufgieY0?si=ew8NNRC9D5h4tdSq"
     },
     {
         "Id": "PC8KYU",
@@ -341,7 +349,8 @@
         "Bios": [
             "(Adeel Ahmad). I am a compiler engineer at 10xEngineers, working on enabling the compilation of LLMs and vision models for custom hardware/accelerators using IREE, an MLIR-based AI compiler. I have experience in writing optimized kernels for RISC-V Vector (RVV) and custom hardware, LLVM middle-end and backend development."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-17h00-AHMAD-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-17h00-AHMAD-slides.pdf",
+        "YouTube": "https://youtu.be/6RvU5BbWlTc?si=JP9UJlcL1fcXbWRi"
     },
     {
         "Id": "UCYLJC",
@@ -370,7 +379,8 @@
         "Bios": [
             "Senior Software Engineer at SpacemiT, specializing in system application development and customer support."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-10h15-FAN-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-10h15-FAN-slides.pdf",
+        "YouTube": "https://youtu.be/F0hTecsTevQ?si=DL9DxafOgNz__r00"
     },
     {
         "Id": "WWT8EV",
@@ -413,7 +423,8 @@
         "abstract_url": "",
         "Abstract": "Climate change and environmental degradation demand new approaches for large-scale, continuous, and intelligent sensing of natural ecosystems. The Internet of Trees proposes a distributed infrastructure where smart environmental probes deployed in forest environments become active nodes in a real-time environmental intelligence network\u2014requiring computing platforms that are low-power, secure, adaptable, and affordable.  RISC-V offers a powerful foundation for next-generation environmental sensing systems. As an open-source ISA, it enables technological flexibility, design transparency, and long-term digital sovereignty, while allowing customized processors tailored to edge AI, wireless sensor networks, secure communication, and ultra-low-power operation. These features are especially critical for climate-oriented deployments in remote, resource-constrained environments.  This keynote presents the Internet of Trees as a case study for the strategic use of open-source microprocessor technology, discussing how RISC-V supports distributed sensing, local data processing, trusted operation, and scalable integration with cloud-based environmental platforms. Beyond technical efficiency, open microprocessor ecosystems can strengthen local innovation and sustainable semiconductor capacity\u2014making RISC-V not merely a processor architecture, but an instrument for building resilient, sovereign infrastructures for planetary monitoring.  The Internet of Trees illustrates how open silicon can connect sustainability, intelligence, and environmental stewardship, a perspective particularly relevant for emerging economies seeking both climate action and technological autonomy. The convergence of open hardware and environmental intelligence may define a new class of digital infrastructure for the living world.  RISC-V can be one of its most important enabling technologies.",
         "Bios": null,
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-09h30-ZUFFO-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-09h30-ZUFFO-slides.pdf",
+        "YouTube": "https://youtu.be/VsA_stm_6cM?si=t1Xx_Zh8cf2t6s7-"
     },
     {
         "Id": "BQWHMQ",
@@ -468,7 +479,8 @@
         "Bios": [
             "Tanya is a co-founder of Ainekko: a 100% open-source company on a mission to democratize inference and fine-tuning of all popular open-weight models with a hardware/software product.  Tanya also has started AIFoundry open source ecosystem of AI projects and engineers working on different building blocks of these stacks while maintaining the common goals and compatibility.  Before that Tanya has been involved in the tech world and open source in many different roles. She is an ex-VC @Almaz Capital with OSS and RISC-V portfolio, ex-OSS policy maker, working to integrate developing countries into the global scene while building local independent infrastructure, founder of project helping tech companies affected by the wars to leverage OSS for freedom of tech from politics."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-09h00-DADASHEVA-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-09h00-DADASHEVA-slides.pdf",
+        "YouTube": "https://youtu.be/chB0BeQlHY0?si=C8hhytGvm-upWURe"
     },
     {
         "Id": "FYEFSR",
@@ -553,7 +565,8 @@
         "Bios": [
             "Kushtrim Shala is an Albanian technology entrepreneur, innovation strategist, and ecosystem builder with over 15 years of experience in ICT, digital transformation, and startup development. He holds a degree in Computing Sciences from the University of Tirana and an MBA from the University of New York Tirana. As Co-founder and Executive Director of ALBICT (Albanian ICT Association) and Co-founder of Digital Valley Albania (DiVA), an official European Digital Innovation Hub, Kushtrim has built bridges between technology, policy, and entrepreneurship across the Western Balkans. Under his leadership, ALBICT has supported more than 100 startups through eight accelerator cohorts. He is also co-founder of the Uplift Startup Accelerator, ICTSlab, and the Albanian ICT Awards. Recognized with the Golden Bee Award by the Prime Minister's Office of Albania, he currently focuses on open hardware ecosystems, RISC-V, AI infrastructure, and digital sovereignty strategies for emerging European economies."
         ],
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-11h30-SHALA-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-11h30-SHALA-slides.pdf",
+        "YouTube": "https://youtu.be/xyuelA9jcAE?si=WD0a4RiUQdotXo_E"
     },
     {
         "Id": "WLDTDU",
@@ -639,7 +652,8 @@
         "abstract_url": "",
         "Abstract": "RISC\u2011V has emerged as one of the most important new architectures in decades, achieving widespread adoption in embedded systems and shipping at massive scale. But as the industry looks beyond embedded into application processors, a new set of challenges\u2014and opportunities\u2014comes into focus.  This talk explores where RISC\u2011V stands today, what makes its next phase of growth fundamentally different, and why its future is likely to unfold unevenly across markets. It highlights key inflection points that will shape adoption and outlines where RISC\u2011V is poised to gain traction next.",
         "Bios": null,
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-14h30-HOLLAND-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-14h30-HOLLAND-slides.pdf",
+        "YouTube": "https://youtu.be/ztTDP1rxSL0?si=blPs4RqnPFK7CKUi"
     },
     {
         "Id": "SPMRUA",
@@ -682,7 +696,8 @@
         "abstract_url": "",
         "Abstract": "Some highlights about the current event and closing remarks.",
         "Bios": null,
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-17h30-KOSSIFIDIS-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-17h30-KOSSIFIDIS-slides.pdf",
+        "YouTube": "https://youtu.be/o3T1sIS237o?si=sLJ4McTdSmN52p5O"
     },
     {
         "Id": "PREGXV",
@@ -743,7 +758,8 @@
         "abstract_url": "",
         "Abstract": "The global nature of RISC-V is one of its greatest strengths. The RISC-V Instruction Set Architecture (ISA) is constantly developed and evolved by member organizations worldwide, with contributors working together on new features and capabilities across geographies and time zones. In turn, the RISC-V ISA provides the basis for the future of global computing innovation, addressing the diverse needs of countries, companies, educators and individuals.\r\n\r\nIn this session we bring together representatives of the RISC-V community from different continents to discuss the nature of a worldwide ecosystem. We will discuss the realities of RISC-V in different geographies:\r\nHow the ISA drives innovation and solves specific local problems \r\nHow RISC-V unlocks the potential of a global marketplace. \r\nThe importance of digital sovereignty, and different approaches to research, education and training a new generation of engineers. \r\nExplore the tension between collaboration and competition. \r\nHow are RISC-V members working together and supporting each other? Where does their location give them a competitive edge?\r\nOpportunities and challenges in cross-continent collaboration. Lessons learnt.  \r\n\r\nJoin us to learn the global lessons of RISC-V deployment!\r\n\r\nModerator:\r\nFlorian Wolhrab - Open Hardware Foundation\r\n\r\nPanelists:\r\nP. Hari  -  C-DAC \r\nTeresa Cervero - Barcelona Supercomputing Center\r\nMarcelo Zuffo - University of Sao Paulo\r\nJing Yang - Damo Academy",
         "Bio": null,
-        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-14h45-WOLHRAB-slides.pdf"
+        "SlidesFileName": "2026-06-11-RISC-V-Summit-Europe-14h45-WOLHRAB-slides.pdf",
+        "YouTube": "https://youtu.be/1poGjjRZz-k?si=dyKkYqnqPDIirLqm"
     },
     {
         "Id": "AUJXLA",
