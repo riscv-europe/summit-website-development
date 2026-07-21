@@ -477,6 +477,7 @@
         "Bios": [
             "Luca Benini holds the chair of digital Circuits and systems at ETHZ and is Full Professor at the Universit\u00e0 di Bologna. He received a PhD from Stanford University.  He is a Fellow of the IEEE, of the ACM, a member of the Academia Europaea and a funding member of the Italian Academy of Engineering and Technology. He is the recipient  of various awards, including the 2023 IEEE CS E.J. McCluskey Award, and the 2024 IEEE CS Open Source Hardware contribution Award."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-10h00-BENINI-slides.pdf",
         "YouTube": "https://youtu.be/PFWk1S4S4BY?si=vBMM7YvCfsytGjYG"
     },
     {
@@ -492,6 +493,7 @@
         "Bios": [
             "Yiftach Gilad is the Senior Director of RISC-V CPU at NextSilicon, where he leads the development of advanced processor architectures designed for the next generation of AI and high-performance computing systems. With deep expertise in CPU microarchitecture, system design, and silicon development, Yiftach plays a central role in shaping the company\u2019s RISC-V strategy and the evolution of the Arbel processor.  Yiftach has over 20 years of experience in engineering, having worked at Intel for 18 years, until 2021, when he joined NextSilicon. There, he has been instrumental in transforming ambitious architectural ideas into real, production-ready silicon."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-09h45-GILAD-slides.pdf",
         "YouTube": "https://youtu.be/fVoZD_ekz9g?si=RtPmdnbG-9y5jUQa"
     },
     {
@@ -523,6 +525,7 @@
         "Bios": [
             "Founder & Chairman of  Nuclei System Technology. RISC-V pioneer in China; author of best-selling RISC-V Chinese book. Ex-Marvell/Synopsys CPU design expert (15+ years). Founded Nuclei (at 2018) to deliver full-spectrum RISC-V IP and automated SoC design solutions, empowering global designers with revolutionary technology."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-09h30-HU-slides.pdf",
         "YouTube": "https://youtu.be/27I03rUdzkE?si=SqJQOCi97-oL0vx2"
     },
     {
@@ -568,6 +571,7 @@
         "Bios": [
             "Krste Asanovi\u0107 is Professor Emeritus and a Professor of the Graduate School in the EECS Department at UC Berkeley. He received a PhD in Computer Science from UC Berkeley in 1998, then joined the faculty at MIT, receiving tenure in 2005. He returned to Berkeley in 2007, where he co-founded the Berkeley Parallel Computing Laboratory, led the ASPIRE Lab, and co-led the ADEPT Lab and Berkeley SLICE Lab. His main research areas are computer architecture, VLSI design, parallel programming, and operating system design. He has led the RISC-V open ISA project at Berkeley from its inception in 2010 and co-founded the RISC-V Foundation in 2015, which has now become RISC-V International, where he serves as Chief Architect. He also co-founded SiFive in 2015 to commercialize RISC-V processors, serving as Chief Architect there. He is an ACM Fellow and an IEEE Fellow."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-09h00-ASANOVI\u0106-slides.pdf",
         "YouTube": "https://youtu.be/J4O_EiJYPdM?si=ym4VYqOXczGIKVib"
     },
     {
@@ -614,6 +618,7 @@
         "Bios": [
             "After completing his Master\u2019s degree in Electronic Engineering at the University of Bologna in 2019, Marco Fariselli began his career at GreenWaves Technologies, a fabless semiconductor company developing RISC\u2011V multicore processors to enable AI on ultra\u2011low\u2011power platforms. His work focused on bridging algorithm design and hardware execution, enabling neural networks and signal\u2011processing workloads to run efficiently on battery\u2011powered devices. He is currently with Luxottica, where he advances embedded machine learning deployment and contributes to the co\u2011design of next\u2011generation AI accelerators. His interests lie at the intersection of software optimization, hardware\u2011aware machine learning, and scalable edge intelligence on emerging architectures such as RISC\u2011V."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-11h30-FARISELLI-slides.pdf",
         "YouTube": "https://youtu.be/VPElsq5lBzk?si=6ZT1eqV6dbckFNyC"
     },
     {
