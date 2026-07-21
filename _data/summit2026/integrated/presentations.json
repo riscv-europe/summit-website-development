@@ -31,6 +31,7 @@
             "Andreas Mauderer received the diploma degree in computer science from the University of Karlsruhe, Germany, in 2009. He received his PhD in computer science at the University of Tuebingen in 2014. He is working at Bosch since 2009 in the business unit Mobility Electronics in the field of Virtual Prototyping and on-chip processors for automotive ICs. Furthermore, he is active in various publicly funded projects regarding these topics.",
             "Zdenek received the PhD degree from the Brno University of Technology, Czechia, where he played a significant role in the research related to processor development automation. It enabled the creation of the processor development tools, Codasip Studio, that he has been driving ever since at Codasip. Zdenek has continued working as the chief architect of Codasip Studio for more than 12 years. He has also been the architect of diverse processor cores, including but not limited to 16/32-bit architectures for IoT, 32/64bit DSP-oriented architectures, or Linux capable architectures. All of these architectures were developed using Codasip Studio, and many of them were based on the RISC-V ISA. Zdenek has been also involved in embedded systems design (software and hardware) and driving R&D activities for many years."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-17h00-MAUDERER-slides.pdf",
         "YouTube": "https://youtu.be/27I03rUdzkE?si=SqJQOCi97-oL0vx2"
     },
     {
@@ -165,6 +166,7 @@
         "Bios": [
             "Anne Merlande is a processor architect at STMicroelectronics in Grenoble, within the Computing and Compilers Center. As Senior Member of Technical Staff, her expertise field covers processor and system architecture, CPU microarchitecture and frontend design, low power and energy efficient subsystems, security and functional safety. She graduated from Institut Sup\u00e9rieur d\u2019\u00c9lectronique de Paris in 1995 and joined STMicroelectronics in 1999, after four years as an ASIP designer at Matra. At STMicroelectronics, she has led the design of the ST200 processor families, acted as technical lead for ARM Cortex A subsystem frontend design, and led top level integration for automotive SoCs. She currently works as Processor Architect on the STxP5 core family, with a particular focus on ultra low power operation, security, and functional safety."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-16h45-MERLANDE-slides.pdf",
         "YouTube": "https://youtu.be/iyY8T7ev6Ms?si=m3HadGcnQAYzNPVZ"
     },
     {
@@ -333,6 +335,7 @@
         "Bios": [
             "Riccardo Tedeschi received his Master's Degree in Electronic Engineering from the University of Bologna in 2023. He is now pursuing a Ph.D. in Digital Systems Design within the Department of Electrical and Information Engineering (DEI) at the same university and is currently a visiting researcher at ETH Z\u00fcrich. His research centers on RISC-V architectures tailored for embedded platforms, particularly in the areas of performance optimization and reliability."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-17h45-TEDESCHI-slides.pdf",
         "YouTube": "https://youtu.be/DfztgmoVQG0?si=c8AS4UKh8V06fDUt"
     },
     {
@@ -349,6 +352,7 @@
         "Bios": [
             "Dave Cremins is a Principal Cloud Software Engineer at OPENCHIP, where he specializes in designing and building advanced cloud\u2011native systems at scale. With deep expertise in distributed architectures, automation, and infrastructure engineering, Dave plays a key role in shaping technical strategy and delivering high\u2011impact engineering solutions across the organization."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-17h30-CREMINS-slides.pdf",
         "YouTube": "https://youtu.be/27pH68ZIW8E?si=Z2vSO_hmeqkmrkp0"
     },
     {
@@ -414,6 +418,7 @@
         "Bios": [
             "(Fengxue Zhang). As a senior Engineer in the Firmware Team at Alibaba Damo Academy, Esther specializes in system and power management software standards, with a focus on architecting and developing power management frameworks across diverse operating systems (OS) and firmware technologies. Her work drives innovation in energy-efficient computing and system optimization, aligning with industry-leading specifications to enhance hardware-software synergy."
         ],
+        "SlidesFileName": "2026-06-10-RISC-V-Europe-Summit-17h15-ZHANG-slides.pdf",
         "YouTube": "https://youtu.be/Ay8VMMUqZOM?si=ZURCG81KQzuBdXKM"
     },
     {
