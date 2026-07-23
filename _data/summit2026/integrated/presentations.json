@@ -14,6 +14,7 @@
             "Iacopo Colonnelli is an Assistant Professor in the [Department of Computer Science](https://www.cs.unito.it/do/home.pl) at the University of Turin. He serves on the Technical Committee of the [Common Workflow Language](https://www.commonwl.org/) (CWL), and is a founding coordinator of the [CWL4HPC](https://www.commonwl.org/working-groups/cwl4hpc) working group. He has co-authored over 40 peer-reviewed publications in national and international journals and conferences, and has contributed to more than 10 funded research projects. He is currently the local Principal Investigator for the [DARE European project](https://dare-riscv.eu/) (total budget: e240M). His research interests include workflow modeling and management in heterogeneous distributed architectures, high-performance computing and I/O, distributed confidential computing, and large-scale data science.",
             "Marco Edoardo Santimaria is a Ph.D. student in Modeling and Data Science at the University of Turin, where I focus on developing methods and tools to optimize the performance of file-based scientific workflows. His research centers on the CAPIO methodology (born out of a collaboration between the University of Turin and the University of Pisa), which consists of two main components: the CAPIO middleware, a scientific tool designed to enhance I/O performance by enabling transparent streaming capabilities and providing a distributed, in-memory file system without requiring modifications to the workflow\u2019s source code\u2014and CAPIO-CL, a coordination language developed to express file dependencies and annotate streaming semantics across workflow steps."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-17h45-MONTICELLI-slides.pdf",
         "YouTube": "https://youtu.be/QIo8T_I43IQ?si=EUn7AFMYS3UmqVKo"
     },
     {
@@ -49,6 +50,7 @@
             "Guodong Xu is a RISC-V International Advocate and Director of Software Engineering at RISCstar Solutions, with over 20 years of Linux kernel development experience. Previously at Motorola (mobile phone low-level software) and Linaro (Sr. Tech Lead, 10+ years), he now works on RISC-V upstream kernel enablement \u2014 including SpacemiT K1/K3 SoC support and RVA23 profile extensions.",
             "Charlie has been a contributor to the Linux kernel for the last 3 years, focusing on bringing RISC-V support to be on-par with x86 and ARM."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-12h00-XU-slides.pdf",
         "YouTube": "https://youtu.be/kDV-avIs4kU?si=dY8Dsm02SxPB4M6C "
     },
     {
@@ -65,6 +67,7 @@
         "Bios": [
             "Jon has 25 years of experience in the semiconductor and software industries and has been involved with RISC-V since 2019. He is currently product manager for RISC-V at Canonical driving product development to strengthen the RISC-V ecosystem."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-12h30-TAYLOR-slides.pdf",
         "YouTube": "https://youtu.be/iHqwGwf1YZI?si=7u6h6GyvLnbDl9BL"
     },
     {
@@ -116,6 +119,7 @@
         "Bios": [
             "Haoyuan Liu, a Digital Design Engineer at the Beijing Institute of Open Source Chip (BOSC), specializes in RISC-V security areas such as MPT, CFI, and PMP. He actively contributes to the XiangShan open-source RISC-V CPU."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-17h30-LIU-slides.pdf",
         "YouTube": "https://youtu.be/ithLOLR_Bu0?si=vYbezcXzBdz45_dL"
     },
     {
@@ -234,6 +238,7 @@
             "Nathan Egge is a Staff Software Engineer at Google working on the native tools and libraries used to build AOSP and Android applications, including the C/C++ and Rust toolchains. He serves as co-chair of the Technical Steering Committee in RISE and previously as the chair of the System Libraries WG. Nathan received the RISC-V Board of Directors Software Leadership award in 2024 for contributions to RISC-V industry adoption.",
             "Ludovic works at the intersection of open-source software and emerging hardware. He is a key contributor to the RISC-V ecosystem, focusing on the performance and stability of the AI stack. His recent work involves optimizing native dependencies like OpenBLAS and oneDNN and establishing the infrastructure for native PyTorch testing. Through his leadership at RISE, Ludovic is dedicated to making RISC-V a competitive, first-class platform for the next generation of AI development."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-12h15-EGGE-slides.pdf",
         "YouTube": "https://youtu.be/9Ye-M12oMrk?si=kCWpEYKeHlKQbOP6"
     },
     {
@@ -302,6 +307,7 @@
         "abstract_url": "",
         "Abstract": "The Cyber Resilience Act is fully enforced in for all products \"with a digital element\" sold in the EU from December 2027. It has highly stringent requirements on manufacturers, such as products being \u201csecure by design and by default\u201d and \u201chaving no known vulnerabilities\u201d at the point of going on sale. Discovered vulnerabilities in the product must be reported within 24 hours for critical exploits. All vulnerabilities must be patched within a short time frame, and support must be for 5 years or longer depending on the product. As a specific example of the effect of the CRA on consumer products, the Linux kernel had 4336 reported exploits (CVEs) in 2024 (12 per day) and 5779 in 2025 (16 per day). Linux is used in an increasingly large range of consumer devices, not least a large proportion of the world\u2019s smartphones. The able to continue to sell these products in Europe, then the industry really needs to move to a much more securely constructed systems.  CHERI systems have memory safety bult-in which resolves 70% of vulnerabilities seen in weaker non-CHERI legacy systems. Resolving such a large proportion of vulnerabilities at source will greatly reduce the support and maintenance costs, if nothing else. As a result of the CRA, there will be a large shift in the industry to make systems much more secure. We expect that much of that shift will be towards CHERI systems as manufacturers wake up to the cost savings.",
         "Bios": null,
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-17h00-KURD-slides.pdf",
         "YouTube": "https://youtu.be/WWxXwEEI0cc?si=tYJO0abAzWDUmJbK"
     },
     {
@@ -418,7 +424,7 @@
         "Bios": [
             "(Fengxue Zhang). As a senior Engineer in the Firmware Team at Alibaba Damo Academy, Esther specializes in system and power management software standards, with a focus on architecting and developing power management frameworks across diverse operating systems (OS) and firmware technologies. Her work drives innovation in energy-efficient computing and system optimization, aligning with industry-leading specifications to enhance hardware-software synergy."
         ],
-        "SlidesFileName": "2026-06-10-RISC-V-Europe-Summit-17h15-ZHANG-slides.pdf",
+        "SlidesFileName": "2026-06-10-RISC-V-Summit-Europe-17h15-ZHANG-slides.pdf",
         "YouTube": "https://youtu.be/Ay8VMMUqZOM?si=ZURCG81KQzuBdXKM"
     },
     {
@@ -435,6 +441,7 @@
         "Bios": [
             "MANUEL RODR\u00cdGUEZ earned his M.Sc. degree in Electronic and Computer Engineering at the University of Minho, Portugal, with a focus on Embedded Systems and Micro/Nanotechnologies. He is currently pursuing a Ph.D. in Electronics and Computer Engineering at the same institution, focusing on the development of novel RISC-V ISA primitives for secure virtualization in mixed-criticality systems. Throughout his career, he has contributed to the RISC-V ecosystem providing PoC artifacts for ongoing specifications, mostly in the hardware area. His research interests encompass computer architecture, RISC-V, hardware design, embedded virtualization, and safety-critical and mixed-criticality systems."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-17h15-RODR\u00cdGUEZ-slides.pdf",
         "YouTube": "https://youtu.be/kwbHQrBVfYw?si=gb4YG9bSKKd0CdVO"
     },
     {
@@ -462,6 +469,7 @@
         "abstract_url": "",
         "Abstract": "Many people in the past have said \"Don't make the same mistakes that other architectures have\" when it comes to the development of Linux for RISC-V.  Despite this warning, many of the same things keep happening, directly affecting the future success of RISC-V.  This talk will go into an opinionated description of some of these issues, and why we should learn from previous mistakes in order to save millions of dollars, and not waste precious effort.",
         "Bios": null,
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-11h30-KROAH-HARTMAN-slides.pdf",
         "YouTube": "https://youtu.be/sJP51-gG7DI?si=_Tbt03GN6frq0pOS "
     },
     {
@@ -541,6 +549,7 @@
         "Bios": [
             "Yungang Bao is a professor of Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS) and the deputy director of ICT, CAS. Prof. Bao co-founded Beijing Institute of Open Source Chip (BOSC). His research interests include computer architecture and computer systems. He is leading the XiangShan project, which aims to build an open-source high performance RISC-V core. He launched the One Student One Chip (OSOC) Initiative in 2019. His work was published on top conferences and journals such as ASPLOS, Communication of the ACM, HPCA, ISCA, MICRO etc. and was selected to IEEE Micro Top Picks. He was the winner of RISC-V International Technical Leadership Award, CCF-Intel Young Faculty Award of the year for 2013 and the winner of CCF-IEEE CS Young Computer Scientist Award and China\u2019s National Lofty Honor for Youth under 40 of the year for 2019."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-10h15-BAO-slides.pdf",
         "YouTube": "https://youtu.be/bhgLea6eBb8?si=agcMY6BIL5MvpVOm"
     },
     {
@@ -556,6 +565,7 @@
         "Bios": [
             "Samuel (Sam) Grove is the Head of Software and Tools at MIPS. He has over 20 years of experience in defining products, designing embedded software, operating systems, and leading community-driven open-source software initiatives. In his current role, Sam is responsible for defining product strategy, roadmap execution, and go-to-market activities for MIPS software solutions.\u2028\u2028Prior to joining MIPS, Sam was Director of Product Management for Software at SiFive, where he led key initiatives across compiler toolchains, development tools, and software stacks supporting high-performance RISC-V IP platforms. His work led to the realization of SiFive\u2019s next-generation development boards that have played a pivotal role in growing the RISC-V software ecosystem across embedded RTOS projects, Linux Distributions, and optimized software libraries commonly used in AI/ML runtimes."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-09h40-GROVE-slides.pdf",
         "YouTube": "https://youtu.be/QQRzqEyKDV4?si=fIxZ4K6hUxgPL8Nh"
     },
     {
@@ -587,6 +597,7 @@
         "Bios": [
             "Giordano Mancini joined E4 Computer Engineering in 2023, first as R&D Manager and then as CTO from December of the same year. He leads the Tech Factory team, focusing on HPC technology scouting and the development of cluster deployment and management solutions. His background spans research in molecular physics and the management of HPC infrastructures, including a previous role as COO of the HPC Center at Scuola Normale Superiore in Pisa."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-10h00-MANCINI-slides.pdf",
         "YouTube": "https://youtu.be/rwjKVjI_zJ4?si=kwnzNyDNrh_wPFi9"
     },
     {
@@ -634,6 +645,7 @@
         "Bios": [
             "Andrea Gallo is CEO of RISC-V International. Before joining  RISC-V as VP of Technology, Gallo worked in leadership roles at Linaro for over a decade as Vice President of Business Development, driving the company\u2019s membership acquisition strategy and previously managing the Linaro Datacenter and Cloud, Home, Mobile, Networking, IoT, and Embedded Segment Groups and underlying open source collaborative projects within the Arm ecosystem. Before Linaro, Gallo was a fellow at STMicroelectronics, where he led the optimization of hardware-software architectures for new smartphone and telecommunication ICs. He also served on the board of directors for CHAOSS, a Linux Foundation project focused on the health of open source communities."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-09h15-GALLO-slides.pdf",
         "YouTube": "https://youtu.be/9KbeSe_yDmU?si=P9wARfAxQmNjAEjN"
     },
     {
@@ -649,6 +661,7 @@
         "Bios": [
             "Jeremy Dahan is an Automotive Compute Sr Tech GTM Specialist at Amazon Web Services. He\u2019s helping customers / partners to tackle the most challenging problems related to automotive software leveraging cloud capabilities. He has over a decade of experience in the automotive industry specifically in embedded software and more recently in the cloud. When not building things on AWS, he\u2019s tinkering with car/IoT sensors."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-16h30-DAHAN-slides.pdf",
         "YouTube": "https://youtu.be/rfaEZJIiYwc?si=YHHhhwycUk97i_EG"
     },
     {
@@ -713,6 +726,7 @@
         "Bios": [
             "Radim Kr\u010dm\u00e1\u0159 is an engineer at Qualcomm whose work spans the lower levels of the RISC-V stack, from ISA specifications to operating system design, with a current focus on security and virtualization."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-14h30-KR\u010cM\u00c1\u0158-slides.pdf",
         "YouTube": "https://youtu.be/DAAok3PCREU?si=719bDi80Kp-CV5cr"
     },
     {
@@ -729,6 +743,7 @@
         "Bios": [
             "Andrew Dellow is a director in the technical standards group at Qualcomm and currently chair of the Security Horizontal Committee at RISC-V International. He is also a RISC-V Ambassador,  and Chair of the SoC Infrastructure Horizontal Committee. With over 25 years' experience in system on chip architecture and security, starting with the original development of robust Set Top Box SoCs for Pay TV, he is a former Chief Security Architect at HiSilicon Technologies, Distinguished Engineer and Technical Director at Broadcom Corp., and Security Architect at STMicroelectronics. His passion is driving secure architectures and implementations, holding more than 30 patents around SoC security."
         ],
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-16h45-DELLOW-slides.pdf",
         "YouTube": "https://youtu.be/wG9B5agcSmM?si=Lh9PyBcq2Da4kr7S"
     },
     {
@@ -769,6 +784,7 @@
         "abstract_url": "",
         "Abstract": "The welcome address to the RISC-V Summit Europe 2026 will present the novelties of the event, provide an overview of the agenda, venue and events' details.",
         "Bios": null,
+        "SlidesFileName": "2026-06-09-RISC-V-Summit-Europe-09h00-CERVERO-slides.pdf",
         "YouTube": "https://youtu.be/ikPP2bYzr8o?si=-ycE9QZVEm9LxUBo"
     },
     {
