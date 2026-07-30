@@ -12,3 +12,6 @@ _site
 
 # Ignore the CSVs file intergation log.
 /integrate.log
+
+# Ignore local Ruby stuff installed by bundle and rbenv.
+/.vendor
