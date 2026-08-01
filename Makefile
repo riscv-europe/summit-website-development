@@ -107,6 +107,10 @@ pull-proceedings:
 view-site:
 	bundle exec jekyll serve
 
+## To compile the web site in the dir '_site'.
+build-site:
+	bundle exec jekyll build
+
 ## To properly import and commit the speaker list. 
 dos2unix:
 	dos2unix $(ASIMPORTED_CSV_DIR)/sessions-config.csv
